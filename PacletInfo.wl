@@ -3,11 +3,11 @@
 PacletObject[
   <|
     "Name" -> "AntonAntonov/QuantileRegression",
-    "Description" -> "Quantile Regression functions",
+    "Description" -> "Quantile regression functions",
     "Creator" -> "Anton Antonov",
     "License" -> "Artistic-2.0",
     "PublisherID" -> "AntonAntonov",
-    "Version" -> "1.0.2",
+    "Version" -> "1.0.3",
     "WolframVersion" -> "13.0+",
     "Extensions" -> {
       {

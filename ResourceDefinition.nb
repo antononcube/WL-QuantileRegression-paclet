@@ -7,10 +7,11 @@ Cell["AntonAntonov/QuantileRegression", "Title",
  CellTags->{"Name", "TemplateCell", "Title"},
  CellID->297464623,ExpressionUUID->"0325e03d-b069-4786-9fd0-791b5a4919a1"],
 
-Cell["Quantile Regression functions", "Text",
+Cell["Quantile regression functions", "Text",
  Deletable->False,
  TaggingRules->{},
- CellChangeTimes->{{3.890817269455805*^9, 3.890817280647962*^9}},
+ CellChangeTimes->{{3.890817269455805*^9, 3.890817280647962*^9}, {
+  3.89299470176537*^9, 3.892994701842436*^9}},
  CellTags->{"Description", "TemplateCell"},
  CellID->145988545,ExpressionUUID->"1285deba-a81b-42d2-a361-33e994aa6e73"],
 
@@ -36,7 +37,7 @@ Cell["", "FileManagerTopSpacer",
  CellGroupingRules->{"SectionGrouping", 99},
  TaggingRules->{},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1248781298,ExpressionUUID->"819cbf81-a32b-4db0-aa22-90286276911c"],
+ CellID->1248781298,ExpressionUUID->"b47cf669-933c-46c7-b4d8-a27d467c5c01"],
 
 Cell[CellGroupData[{
 
@@ -65,7 +66,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"d085265f-0327-409c-9bde-01c4ff40bb24"]], \
+   "Text"}]],ExpressionUUID->"c1c31095-f544-41d6-acc0-53a6bd7eb508"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -76,7 +77,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDocumentationIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->909593355,ExpressionUUID->"2a23ff62-8dea-47d1-9954-bde279fb377e"],
+ CellID->909593355,ExpressionUUID->"ab340719-53ec-414f-b348-f0aa0eef578b"],
 
 Cell[CellGroupData[{
 
@@ -105,7 +106,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "Diagrams"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"7faadcdb-716a-4e07-863e-5b6f89844f17"]], \
+   "Text"}]],ExpressionUUID->"e9ae45e8-c1f5-4d3a-940a-1c275012915d"]], \
 "FileManagerDirectory",
  CellMargins->{{23 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 110},
@@ -116,7 +117,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->15465554,ExpressionUUID->"54215a32-318e-46ae-8a1a-fa0974821603"],
+ CellID->15465554,ExpressionUUID->"0a23e9e2-65ce-461c-97f9-937a168c4b1b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -142,7 +143,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPNGIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->84044791,ExpressionUUID->"01a784d9-d5c9-45b9-b7c6-ea02e6970522"],
+ CellID->84044791,ExpressionUUID->"818cfbc9-9e46-414f-a581-cafc29b869a5"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -168,7 +169,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPNGIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1644046258,ExpressionUUID->"9ceea6da-4d56-44cb-a7b1-51bc1a6ac99c"],
+ CellID->1644046258,ExpressionUUID->"712dc2cb-ad71-46bc-9a57-4309cdc20ed1"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -195,7 +196,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPNGIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1960855904,ExpressionUUID->"43ec7f2b-72a2-4824-813c-1ae67cd7c7e8"]
+ CellID->1960855904,ExpressionUUID->"a5fca144-a0d7-4bfb-8e70-44825a8c1b61"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -225,7 +226,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"c29926e4-db85-4bf7-97df-35f3dfd846fc"]], \
+   "Text"}]],ExpressionUUID->"41ed663a-07f6-43d1-b1a5-4eefea9a085f"]], \
 "FileManagerDirectory",
  CellMargins->{{23 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 110},
@@ -236,7 +237,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1853236181,ExpressionUUID->"f4f19fa0-4118-4b92-ad9e-f1074d60ead6"],
+ CellID->1853236181,ExpressionUUID->"db053c4e-7fc3-488d-abc1-640aae5e692e"],
 
 Cell[CellGroupData[{
 
@@ -264,7 +265,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English", "Guides"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"d925f5a2-f35b-49df-a2a8-b3df0b16f851"]], \
+   "Text"}]],ExpressionUUID->"8f1f1acd-0690-4817-9e5c-3142b7c125c2"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -275,7 +276,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->237677979,ExpressionUUID->"dd68fe6f-4244-40f4-bdce-908711e037f0"],
+ CellID->237677979,ExpressionUUID->"4c162be4-a478-4a42-8134-ea4f684a4f82"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -301,7 +302,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1151769432,ExpressionUUID->"1e4c9e41-9b5d-4f6b-a2fb-f612e515b216"]
+ CellID->1151769432,ExpressionUUID->"c0f70eae-2c35-456e-a0b4-d17835043536"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -331,7 +332,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English", "ReferencePages"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"c7c1f767-53e9-4430-b531-622c47861db8"]], \
+   "Text"}]],ExpressionUUID->"e68144da-88ed-4700-a46b-b31bf710754a"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -342,7 +343,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->334209633,ExpressionUUID->"b9fe734b-df32-49bd-9564-7292f2eed403"],
+ CellID->334209633,ExpressionUUID->"dd1e35ff-0ed7-43b1-a085-2761d730409f"],
 
 Cell[CellGroupData[{
 
@@ -372,7 +373,7 @@ Cell[TextData[Cell[BoxData[
     "Symbols"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"785835f7-2ae5-4ba4-ae07-9999e8fc5e6b"]], \
+   "Text"}]],ExpressionUUID->"c7013ce6-edbc-46a2-bcd9-2b62ec1314d1"]], \
 "FileManagerDirectory",
  CellMargins->{{69 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 130},
@@ -383,7 +384,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1391564926,ExpressionUUID->"037a06d7-bea0-426c-84ea-f1f4008e25b6"],
+ CellID->1391564926,ExpressionUUID->"919d892e-df6f-40c8-9e12-289c80f4edb2"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -409,7 +410,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1934795452,ExpressionUUID->"e440ed63-808e-4311-93ee-ee0194041997"],
+ CellID->1934795452,ExpressionUUID->"fa4e5a3f-4db6-4d35-80f4-fd1df32e4222"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -435,7 +436,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->909778890,ExpressionUUID->"c500f34a-94b2-4464-bec4-675d807173a7"],
+ CellID->909778890,ExpressionUUID->"bd52dcde-ce2d-4ca9-afca-0d9e18937b51"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -461,7 +462,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->570237590,ExpressionUUID->"129c4ace-8898-4272-bd79-11aedaa841db"],
+ CellID->570237590,ExpressionUUID->"6a71f904-8db3-4775-ade2-7701adbe3b0b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -487,7 +488,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1911142216,ExpressionUUID->"00725d0b-e74a-4b63-b8bd-713eca5b814f"],
+ CellID->1911142216,ExpressionUUID->"c0e985b3-7117-4596-905b-d6dd46499f1c"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -513,9 +514,11 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->654316133,ExpressionUUID->"7467fc8c-cd7d-40bd-b54f-3905c98ce655"]
+ CellID->654316133,ExpressionUUID->"89b965b9-5531-4803-803b-27f75de8cde7"]
 }, Open  ]]
 }, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[TextData[Cell[BoxData[
  InterpretationBox[
@@ -542,7 +545,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English", "Tutorials"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"c71cb44f-0b44-47bf-9f06-ee7a472cc4b1"]], \
+   "Text"}]],ExpressionUUID->"a6114169-1674-43f3-a645-dc2058aa7b0f"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -550,10 +553,63 @@ Cell[TextData[Cell[BoxData[
  CellFrameLabels->{{
     Cell[
      BoxData[
-      TemplateBox[{}, "FileManagerEmptyDirectoryIconTemplate"]], Background -> 
+      TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1974974691,ExpressionUUID->"708734e4-8846-43af-b735-d5f554e0d99a"]
+ CellID->1974974691,ExpressionUUID->"8a71971b-9773-4571-a182-e7971800c4b9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TemplateBox[{"\"Quantileregression3Dexamples.nb\"", 
+     FileNameJoin[{
+       NotebookDirectory[], "Documentation", "English", "Tutorials", 
+       "Quantileregression3Dexamples.nb"}]},
+    "FileManagerFileOpenerTemplate"],
+   Annotation[#, 
+    DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[3]]& ],
+  FileNameJoin[{
+    NotebookDirectory[], "Documentation", "English", "Tutorials", 
+    "Quantileregression3Dexamples.nb"}],
+  BoxID -> "FileTreePath",
+  BaseStyle->{"Text"}]], "FileManagerFile",
+ CellMargins->{{69 + Inherited, Inherited}, {Inherited, Inherited}},
+ CellGroupingRules->{"SectionGrouping", 130},
+ TaggingRules->{},
+ CellFrameLabels->{{
+    Cell[
+     BoxData[
+      TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
+    Inherited}, {Inherited, Inherited}},
+ CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
+ CellID->416342829,ExpressionUUID->"753b3e0d-14bb-4ec8-8fa0-242a95861867"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TemplateBox[{"\"Quantileregressionoverweathertimeseries.nb\"", 
+     FileNameJoin[{
+       NotebookDirectory[], "Documentation", "English", "Tutorials", 
+       "Quantileregressionoverweathertimeseries.nb"}]},
+    "FileManagerFileOpenerTemplate"],
+   Annotation[#, 
+    DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[3]]& ],
+  FileNameJoin[{
+    NotebookDirectory[], "Documentation", "English", "Tutorials", 
+    "Quantileregressionoverweathertimeseries.nb"}],
+  BoxID -> "FileTreePath",
+  BaseStyle->{"Text"}]], "FileManagerFile",
+ CellMargins->{{69 + Inherited, Inherited}, {Inherited, Inherited}},
+ CellGroupingRules->{"SectionGrouping", 130},
+ TaggingRules->{},
+ CellFrameLabels->{{
+    Cell[
+     BoxData[
+      TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
+    Inherited}, {Inherited, Inherited}},
+ CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
+ CellID->1575429005,ExpressionUUID->"5dcd4580-67d3-4248-ab85-198cf1f5160e"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
@@ -583,7 +639,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Kernel"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"2348eb72-e414-492b-a03f-95ed689b91ef"]], \
+   "Text"}]],ExpressionUUID->"e4890834-0b27-4150-9f67-eb8f8c5ba48d"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -594,7 +650,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerKernelIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1746918139,ExpressionUUID->"500f0c7f-73d4-426f-b0de-58beca7f4e15"],
+ CellID->1746918139,ExpressionUUID->"32c32037-d923-4656-9130-0d8853a1e275"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -618,7 +674,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerWLIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->56740389,ExpressionUUID->"852592cf-87cb-4177-8cdd-0ccf4122a000"]
+ CellID->56740389,ExpressionUUID->"fbfe9a52-f048-4d20-b2ef-97c6cd9ebd92"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -643,7 +699,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerUnknownIconTemplate"]], Background -> None],
      Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1892383605,ExpressionUUID->"28be6076-f016-43df-a831-86ee2bb27f5d"],
+ CellID->1892383605,ExpressionUUID->"5815cf52-f620-489a-9a09-a6e40389b814"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -667,7 +723,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPacletInfoIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->152978655,ExpressionUUID->"f4b3802b-adfc-41b5-928c-2713e458d488"],
+ CellID->152978655,ExpressionUUID->"0af9231f-adaf-420b-b8cc-137d608988d7"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -691,7 +747,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerTXTIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1058437165,ExpressionUUID->"5d36a08c-d3cd-43dc-b72c-432e2f70a9d0"],
+ CellID->1058437165,ExpressionUUID->"eb5c0603-f07a-449f-9895-50975d184979"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -715,13 +771,13 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->574329126,ExpressionUUID->"f186e2aa-1c5d-4eba-971e-4b1975d0a639"],
+ CellID->574329126,ExpressionUUID->"e468c7a4-4b54-47bf-a170-29bea1f34521"],
 
 Cell["", "FileManagerBottomSpacer",
  CellGroupingRules->{"SectionGrouping", 100},
  TaggingRules->{},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1958111064,ExpressionUUID->"a975ac09-7544-418e-8a45-c82a3454809a"]
+ CellID->1958111064,ExpressionUUID->"3ab4d5e0-8b47-4d0f-8e8e-276ff8b4c860"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2964,9 +3020,12 @@ text that users will see when visiting the main landing page of your paclet.",
  CellTags->{"Basic Description", "LongDescription", "TemplateCellGroup"},
  CellID->433339604,ExpressionUUID->"5d277044-bd42-4008-bc0e-35ec96786e63"],
 
-Cell["Various Quantile Regression functions.", "Text",
+Cell["\<\
+Various Quantile Regression (QR) functions. Multi-dimensional QR is supported.\
+\>", "Text",
  TaggingRules->{},
- CellChangeTimes->{{3.89081728896358*^9, 3.890817314881041*^9}},
+ CellChangeTimes->{{3.89081728896358*^9, 3.890817314881041*^9}, {
+  3.8930029323377438`*^9, 3.893002995239161*^9}},
  CellTags->"DefaultContent",
  CellID->441612482,ExpressionUUID->"41c97f85-dee3-4d17-8e47-ef180c160bba"]
 }, Open  ]],
@@ -7495,6 +7554,7 @@ Cell[BoxData[
          StyleBox[
           TemplateBox[{
             CheckboxBox["Scheduled", {False, "Scheduled"}], "\" \"", 
+            
             TemplateBox[{"\"Scheduled\"", "\"Scheduled task\""}, 
              "PrettyTooltipTemplate"]},
            "RowDefault"],
@@ -8351,8 +8411,7 @@ the following:\n\[FilledSmallSquare] Executes Shell or RUN commands\n\
                    FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
                    RoundingRadius -> 5, ImageSize -> {
                     Scaled[0.65], Automatic}]], "MoreInfoText", Deletable -> 
-                 True, 
-                 CellTags -> {
+                 True, CellTags -> {
                   "SectionMoreInfoDisclosuresLocalSystemInteractions"}, 
                  CellMargins -> {{66, 66}, {15, 15}}], 
                 HoldComplete[
@@ -8514,8 +8573,8 @@ Cell["Additional information about limitations, issues, etc.", "Text",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1480, 1111},
-WindowMargins->{{Automatic, 743}, {Automatic, 28}},
+WindowSize->{1487, 1319},
+WindowMargins->{{Automatic, 825}, {Automatic, 10}},
 WindowTitle->"QuantileRegression | Definition Notebook",
 DockedCells->{
   Cell[
@@ -8552,8 +8611,8 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.891783150423734`16.34272362260671*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    3.893002869652527`16.342859713010096*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
                    "System"], FontSlant -> Italic, FontColor -> 
@@ -8562,25 +8621,16 @@ DockedCells->{
                  ItemBox[
                   StyleBox[
                    TagBox[
-                    GridBox[{{
-                    TagBox[
-                    TagBox[
-                    GridBox[{{
-                    StyleBox["\"\[Checkmark]\"", FontColor -> RGBColor[0, 
-                    Rational[2, 3], 0], FontSize -> 16, FontWeight -> "Heavy",
-                     StripOnInput -> False], "\"\"", 
-                    "\"Your paclet resource is being published\""}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
-                    AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "ColumnsIndexed" -> {2 -> 0.1}, 
-                    "Rows" -> {{Automatic}}}], "Grid"], Annotation[#, 
-                    
-                    DefinitionNotebookClient`Stripes`PackagePrivate`$\
-stripeText["Your paclet resource is being published"]]& ], "\"\""}}, 
+                    GridBox[{{"\"Published to the cloud\"", 
+                    TemplateBox[{"\"  View \[RightGuillemet]\"", {
+                    URL[
+                    "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression"], None}, 
+                    "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression", "Hyperlink", {
+                    "HyperlinkActive"}, BaseStyle -> {"Hyperlink"}, 
+                    Alignment -> {Automatic, Baseline}, BaselinePosition -> 
+                    Baseline}, "HyperlinkTemplate"]}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Baseline}}}, 
                     AutoDelete -> False, 
@@ -8592,678 +8642,7 @@ stripeText["Your paclet resource is being published"]]& ], "\"\""}},
                   False], 
                  ItemBox[
                   StyleBox[
-                  "\"\"", LineBreakWithin -> Automatic, LineIndent -> 0, 
-                   StripOnInput -> False], ItemSize -> Fit, StripOnInput -> 
-                  False], 
-                 StyleBox[
-                  ActionMenuBox[
                    TemplateBox[{
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    TemplateBox[{
-                    PaneBox[
-                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
-                     ImageSize -> {12, 12}, ImageSizeAction -> "ShrinkToFit", 
-                    BaselinePosition -> Scaled[0.1]], 
-                    TemplateBox[{1}, "Spacer1"], 
-                    StyleBox[
-                    "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
-                    GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
-                    StripOnInput -> False]}, "RowDefault"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"]}},
-                     AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                    GraphicsBox[{
-                    GrayLevel[0.4], 
-                    AbsoluteThickness[2], 
-                    CapForm["Round"], 
-                    LineBox[{{-1, 0}, {0, -1}, {1, 0}}]}, {
-                    ImageSize -> {13, 9}, BaselinePosition -> Scaled[0.2], 
-                    ImagePadding -> {{3, 3}, {3, 3}}, AspectRatio -> Full}]}, 
-                    "RowDefault"], ImageSize -> {Automatic, 19}, 
-                    BaselinePosition -> Baseline, Background -> GrayLevel[1], 
-                    FrameStyle -> Dynamic[
-                    If[
-                    CurrentValue["MouseOver"], 
-                    Hue[0.55, 0.82, 0.87], 
-                    GrayLevel[0.8]]], FrameMargins -> {{4, 4}, {1, 1}}, 
-                    Alignment -> {Center, Baseline}}, "Highlighted"], {
-                   TemplateBox[{
-                    PaneBox[
-                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
-                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
-                    BaselinePosition -> Scaled[0.1]], "\" \"", 
-                    TemplateBox[{"\"Unscoped \"", 
-                    StyleBox[
-                    "Slot", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\" error: \"", 
-                    StyleBox[
-                    "Slot[1]", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L349,C51) \
-\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
-False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
-                    DefinitionNotebookClient`WithCurrentNotebook[
-                    EvaluationNotebook[], 
-                    DefinitionNotebookClient`LoadDefinitionNotebook[
-                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-                    DefinitionNotebookClient`PackageScope`setHint[
-                    "Warning", "Paclet", 
-                    DefinitionNotebookClient`$CurrentNotebook, 
-                    "8b8dec95-5552-49ca-ac60-213ffc47f0cf", 56740389, 
-                    "CodeInspectionFileIssue/UnscopedObjectError", <|
-                    "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 349, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 349, 
-                    "SourceColumnEnd" -> 52, "Message" -> 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L349,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
-False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
-                    CodeInspector`InspectionObject[
-                    "UnscopedObjectError", 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{349, 51}, {349, 52}}, 
-                    ConfidenceLevel -> 0.8, "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 2796885260389081583, 
-                    "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L349,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"|>]; 
-                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
-                    Null], TemplateBox[{
-                    PaneBox[
-                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
-                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
-                    BaselinePosition -> Scaled[0.1]], "\" \"", 
-                    TemplateBox[{"\"Unscoped \"", 
-                    StyleBox[
-                    "Slot", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\" error: \"", 
-                    StyleBox[
-                    "Slot[1]", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L401,C51) \
-\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
-False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
-                    DefinitionNotebookClient`WithCurrentNotebook[
-                    EvaluationNotebook[], 
-                    DefinitionNotebookClient`LoadDefinitionNotebook[
-                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-                    DefinitionNotebookClient`PackageScope`setHint[
-                    "Warning", "Paclet", 
-                    DefinitionNotebookClient`$CurrentNotebook, 
-                    "50077829-2600-494f-a848-96deb828f5a1", 56740389, 
-                    "CodeInspectionFileIssue/UnscopedObjectError", <|
-                    "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 401, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 401, 
-                    "SourceColumnEnd" -> 52, "Message" -> 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L401,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
-False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
-                    CodeInspector`InspectionObject[
-                    "UnscopedObjectError", 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{401, 51}, {401, 52}}, 
-                    ConfidenceLevel -> 0.8, "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 2796885260389081583, 
-                    "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L401,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"|>]; 
-                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
-                    Null]}, Appearance -> None], "BoxID" -> 
-                  "WarningCountButton", StripOnInput -> False], 
-                 TagBox[
-                  ButtonBox[
-                   TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
-                   With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
-                    EvaluationNotebook[]}, 
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells] = If[
-                    TrueQ[
-                    MemberQ[
-                    CurrentValue["ModifierKeys"], "Control"]], 
-                    DeleteCases[
-                    Flatten[{
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                    Cell[
-                    Blank[], "StripeCell", 
-                    BlankNullSequence[]]], 
-                    DeleteCases[
-                    Flatten[{
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                    Condition[
-                    Pattern[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    Blank[Cell]], 
-                    Not[
-                    FreeQ[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "3c3799fa-0010-4b33-9855-86b6586fb91f"]]]]]], Appearance -> 
-                   None, BoxID -> "3c3799fa-0010-4b33-9855-86b6586fb91f", 
-                   Evaluator -> Automatic, Method -> "Preemptive"], 
-                  MouseAppearanceTag["LinkHand"]]}}, 
-               GridBoxAlignment -> {
-                "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
-               False, GridBoxItemSize -> {
-                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-              "Grid"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-           AutoDelete -> False, 
-           GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-           GridBoxItemSize -> {
-            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-           GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-           BaselinePosition -> {1, 1}], True -> GridBox[{{
-             OpenerBox[
-              Dynamic[
-               CurrentValue[
-                EvaluationCell[], {TaggingRules, "StripeOpen"}, False]], 
-              Appearance -> Automatic, Enabled -> Automatic, AutoAction -> 
-              False, ContinuousAction -> False], 
-             TagBox[
-              GridBox[{{
-                 StyleBox[
-                  DynamicBox[
-                   ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.891783150423734`16.34272362260671*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                   "System"], FontSlant -> Italic, FontColor -> 
-                  GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                  False], "\"   \"", 
-                 ItemBox[
-                  StyleBox[
-                   TagBox[
-                    GridBox[{{
-                    TagBox[
-                    TagBox[
-                    GridBox[{{
-                    StyleBox["\"\[Checkmark]\"", FontColor -> RGBColor[0, 
-                    Rational[2, 3], 0], FontSize -> 16, FontWeight -> "Heavy",
-                     StripOnInput -> False], "\"\"", 
-                    "\"Your paclet resource is being published\""}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
-                    AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "ColumnsIndexed" -> {2 -> 0.1}, 
-                    "Rows" -> {{Automatic}}}], "Grid"], Annotation[#, 
-                    
-                    DefinitionNotebookClient`Stripes`PackagePrivate`$\
-stripeText["Your paclet resource is being published"]]& ], "\"\""}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Baseline}}}, 
-                    AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   LineBreakWithin -> Automatic, LineIndent -> 0, 
-                   StripOnInput -> False], ItemSize -> Fit, StripOnInput -> 
-                  False], 
-                 ItemBox[
-                  StyleBox[
-                  "\"\"", LineBreakWithin -> Automatic, LineIndent -> 0, 
-                   StripOnInput -> False], ItemSize -> Fit, StripOnInput -> 
-                  False], 
-                 StyleBox[
-                  ActionMenuBox[
-                   TemplateBox[{
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    TemplateBox[{
-                    PaneBox[
-                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
-                     ImageSize -> {12, 12}, ImageSizeAction -> "ShrinkToFit", 
-                    BaselinePosition -> Scaled[0.1]], 
-                    TemplateBox[{1}, "Spacer1"], 
-                    StyleBox[
-                    "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
-                    GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
-                    StripOnInput -> False]}, "RowDefault"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"]}},
-                     AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                    GraphicsBox[{
-                    GrayLevel[0.4], 
-                    AbsoluteThickness[2], 
-                    CapForm["Round"], 
-                    LineBox[{{-1, 0}, {0, -1}, {1, 0}}]}, {
-                    ImageSize -> {13, 9}, BaselinePosition -> Scaled[0.2], 
-                    ImagePadding -> {{3, 3}, {3, 3}}, AspectRatio -> Full}]}, 
-                    "RowDefault"], ImageSize -> {Automatic, 19}, 
-                    BaselinePosition -> Baseline, Background -> GrayLevel[1], 
-                    FrameStyle -> Dynamic[
-                    If[
-                    CurrentValue["MouseOver"], 
-                    Hue[0.55, 0.82, 0.87], 
-                    GrayLevel[0.8]]], FrameMargins -> {{4, 4}, {1, 1}}, 
-                    Alignment -> {Center, Baseline}}, "Highlighted"], {
-                   TemplateBox[{
-                    PaneBox[
-                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
-                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
-                    BaselinePosition -> Scaled[0.1]], "\" \"", 
-                    TemplateBox[{"\"Unscoped \"", 
-                    StyleBox[
-                    "Slot", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\" error: \"", 
-                    StyleBox[
-                    "Slot[1]", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L349,C51) \
-\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
-False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
-                    DefinitionNotebookClient`WithCurrentNotebook[
-                    EvaluationNotebook[], 
-                    DefinitionNotebookClient`LoadDefinitionNotebook[
-                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-                    DefinitionNotebookClient`PackageScope`setHint[
-                    "Warning", "Paclet", 
-                    DefinitionNotebookClient`$CurrentNotebook, 
-                    "8b8dec95-5552-49ca-ac60-213ffc47f0cf", 56740389, 
-                    "CodeInspectionFileIssue/UnscopedObjectError", <|
-                    "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 349, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 349, 
-                    "SourceColumnEnd" -> 52, "Message" -> 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L349,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
-False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
-                    CodeInspector`InspectionObject[
-                    "UnscopedObjectError", 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{349, 51}, {349, 52}}, 
-                    ConfidenceLevel -> 0.8, "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 2796885260389081583, 
-                    "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L349,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"|>]; 
-                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
-                    Null], TemplateBox[{
-                    PaneBox[
-                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
-                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
-                    BaselinePosition -> Scaled[0.1]], "\" \"", 
-                    TemplateBox[{"\"Unscoped \"", 
-                    StyleBox[
-                    "Slot", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\" error: \"", 
-                    StyleBox[
-                    "Slot[1]", "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L401,C51) \
-\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
-False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
-                    DefinitionNotebookClient`WithCurrentNotebook[
-                    EvaluationNotebook[], 
-                    DefinitionNotebookClient`LoadDefinitionNotebook[
-                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-                    DefinitionNotebookClient`PackageScope`setHint[
-                    "Warning", "Paclet", 
-                    DefinitionNotebookClient`$CurrentNotebook, 
-                    "50077829-2600-494f-a848-96deb828f5a1", 56740389, 
-                    "CodeInspectionFileIssue/UnscopedObjectError", <|
-                    "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 401, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 401, 
-                    "SourceColumnEnd" -> 52, "Message" -> 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L401,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
-Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
-False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
-                    CodeInspector`InspectionObject[
-                    "UnscopedObjectError", 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{401, 51}, {401, 52}}, 
-                    ConfidenceLevel -> 0.8, "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 2796885260389081583, 
-                    "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L401,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"|>]; 
-                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
-                    Null]}, Appearance -> None], "BoxID" -> 
-                  "WarningCountButton", StripOnInput -> False], 
-                 TagBox[
-                  ButtonBox[
-                   TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
-                   With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
-                    EvaluationNotebook[]}, 
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells] = If[
-                    TrueQ[
-                    MemberQ[
-                    CurrentValue["ModifierKeys"], "Control"]], 
-                    DeleteCases[
-                    Flatten[{
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                    Cell[
-                    Blank[], "StripeCell", 
-                    BlankNullSequence[]]], 
-                    DeleteCases[
-                    Flatten[{
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                    Condition[
-                    Pattern[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    Blank[Cell]], 
-                    Not[
-                    FreeQ[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "3c3799fa-0010-4b33-9855-86b6586fb91f"]]]]]], Appearance -> 
-                   None, BoxID -> "3c3799fa-0010-4b33-9855-86b6586fb91f", 
-                   Evaluator -> Automatic, Method -> "Preemptive"], 
-                  MouseAppearanceTag["LinkHand"]]}}, 
-               GridBoxAlignment -> {
-                "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
-               False, GridBoxItemSize -> {
-                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-              "Grid"]}, {"", 
-             PaneBox[
-              TagBox[
-               GridBox[{{"\"\"", 
-                  StyleBox[
-                   TagBox[
-                    
-                    GridBox[{{
-                    "\"\[FilledVerySmallSquare]\"", "\"Submission result:\"", 
-                    
-                    TemplateBox[{
-                    TagBox[
-                    RowBox[{
-                    TagBox["Success", "SummaryHead"], "[", 
-                    
-                    DynamicModuleBox[{
-                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-                    TemplateBox[{
-                    PaneSelectorBox[{False -> GridBox[{{
-                    PaneBox[
-                    ButtonBox[
-                    DynamicBox[
-                    FEPrivate`FrontEndResource[
-                    "FEBitmaps", "SummaryBoxOpener"]], 
-                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
-                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
-                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification])}]], 
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
-                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"Paclet\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"a95b4763-7c94-432e-9f74-e7dafb653fb3\"", 
-                    "SummaryItem"]}]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
-                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
-                     GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    BaselinePosition -> {1, 1}], True -> GridBox[{{
-                    PaneBox[
-                    ButtonBox[
-                    DynamicBox[
-                    FEPrivate`FrontEndResource[
-                    "FEBitmaps", "SummaryBoxCloser"]], 
-                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
-                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
-                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification])}]], 
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
-                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"Paclet\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"a95b4763-7c94-432e-9f74-e7dafb653fb3\"", 
-                    "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Version\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"1.0.2\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
-                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"3885\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    
-                    TemplateBox[{"\"DirectCreation\"", "\": \""}, 
-                    "RowDefault"], "SummaryItemAnnotation"], 
-                    "\[InvisibleSpace]", 
-                    TagBox["True", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"Your paclet resource is being published\"", 
-                    "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"ResourceSubmission\"", "SummaryItem"]}]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
-                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
-                     GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    BaselinePosition -> {1, 1}]}, 
-                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
-                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
-                    Short[#, 0.75]& ], 
-                    "OEM6eJztWE9vG0UUj+\
-u1HTuuG9ogBCdrFYE4uIImaRouwdnEbaSmtTxuASGkjnff2iN2Z1czs0nNd+DElQPfCs7wAfgI8Gb/\
-2VmnUnCC4OC9rLXv32/evPd+\
-T3ZLcn1AL46CtyDdinzvlCsQoQBFFQs4fnZLsjoItIJrSOM5k8q9I6tDOsYvpEYi2wYpyQaJfJ+\
-K6TOgDil965bl5vGUU5/ZZ4ETeaDN7+TmZQJKtobTECSoN0EIfHtbVnrUk5BJtzIp+\
-CNwCMKB7W1SGaD/KepsDMEPPfyYIEwcl+W9PuVAwANbBeJyTGOAMLIgFVl7Kphz2Th717QTLarK+\
-lGkVJaGRnqixO9HvZO+\
-YOcI4U1PBFydcGcAMoiEDaTeOzliyqehJJtpYtDoJZ4ThAavoRyDR6fgyFYSohdxW2f8XdkxhiKC/\
-BiNbhgCFZRj8o0XAZ9J6kdUAlFTD9y1wtnrJ+\
-fUiyhmRta7kQp8vGI7l1bPQE0ChzT6AjC3ip3POe16bMx94CpLqKxaoCsle89UT306BsJ+\
-AMxYLc1YbnUpbmXIfJBiLX6aX+\
-Zf0LBpRUKg49cIGMjdHubXouEzYOOJhlDpBxcYsyS3uiMZeJGCeX1594yOOXOZHdew9Rde93pPUD++\
-1LJcj9Ojy7di/v7zTyY6rB8zgTWjz4zywdMjK/ACIT6In18PxYP4+eNQfB0/vx1aH+YnbhIlWPiSn/\
-IwUrMqToQtC6EjsD51HMbHRXEjhhXjKdxjM5acUTFmXM6XsX5ba9Za8fe7sVRnxZ75KeXvrLfLxd4u\
-NllqSlpmVua6Qk1imF+0TdJAN8fg0shT5P205E8V+F3Og2SUkPKfP/4yNzrWzT61PVBmPju0/\
-k2QVc1Xr06Pl0f0sUkP9ka7+493Ovv2wW5nd+cRdA7c/\
-d0O7DvUHT3e23FHOwW8WeY30xQvdEqmQWpYU5HP5dwRk6YwnoM7UzMQ96LOFQ3b0J9wioCCYlndS8F\
-ohHErXhvLYpzrA8qikpDautavHdW688+\
-Dzc05ozDntsgkuNCNwMfWBIekredUMUUbLyIkFoEN9v2CrIWDHVsWJwKTeoCUZ7ccu55yRd8mTVs0/\
-ZfLoDwMwv9vAWzqO/\
-EYh34gWUpmyQWXrFKulTDZf8LAlhfIpRm4OLpXFLyi4CUouLai4Fum4BvgrZuvsYEQyPKQa+\
-bnDz97+Oj2MLVMEo18JjWsm+Syau48ebJ3e7g2zaRDLQFxvOWRxQxwi3d4hjyME295QJ+\
-a32A7tcO4G9oiba42k+0R4Mhoh9HIY3ICzu1ls2KifHnEW/\
-kImBXLajNdbaarzXSJzXS2JRWXvit2qjn3pJn2m15XveJa+eDSH2DJWpQthKT0Harn/\
-57dX2zmbrVDmvM0T6oJWXeIoTmWbF+HKTuklhIcqcQ01dGYZ+\
-xCDM0RHdK6PNqTHR2N08lKPrnmfJxVQPInHB15CxWwfuKwKwX3E5uvmJqkK5tMgPwNRBr3CQ=="}, 
-                    "ClickToCopyTemplate"]}, {
-                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
-                    TemplateBox[{
-                    TagBox[
                     RowBox[{"ResourceObject", "[", 
                     ButtonBox[
                     TagBox[
@@ -9493,127 +8872,27 @@ svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
                     ButtonFunction :> {}, Evaluator -> None, Active -> False, 
                     Alignment -> Left, 
                     Appearance -> {
-                    "Default" -> FrontEnd`FileName[{"Typeset", "SummaryBox"}, 
+                    "Default" -> 
+                    FrontEnd`FileName[{"Typeset", "SummaryBox"}, 
                     "Panel.9.png"]}, FrameMargins -> {{3, 3}, {3, 0}}, 
                     BaseStyle -> {Deployed -> False}, 
                     DefaultBaseStyle -> {Background -> None}, 
                     BaselinePosition -> Baseline, Method -> "Preemptive"], 
-                    "]"}], Short[#, 0.75]& ], 
-                    "OEM6eJztW31sFMcVv/Pd2fgTTNxUzUdzXawqreKPYIMBqbmzzz4blY+\
-rxw5JwIn39ubuFu/tLjN7Ph+\
-VkNugSmlSSgs0NG2IaUuV8kdFkCqRb9O0SquoqURpa5W2sUOIitIAqpKUoLTpzOzO3d7alAMM5I97Q\
-l7ezJt5v/fmzYffk+NuvKBfzHRpYxDHfbh+tWpApCNoiIasqaQ57sbl/\
-RoViHuxd42MjXgZLh8QE6QF1PVDrKWRBNdHN0PJANUgnUqJKNsHxRhwb4x78KLurCqmZGmtFksrkM5\
-SlpvFA6CB6wayOsTQGNZ0qDY2Yl9YVDDkvQ28F6aiMAYIKtjYCHz9ZP4skakegCldIY0mUHNiD14YE\
-VUIoEIgaahQp7efwOBKfLiiF8mxwsH8W0EnoV3luLIrbRjcG1WWRea8t4R7IkgeJRCGw0hTjR41xn0\
-CKsM9XbKREnUMFlmOIYPWEzshouAplG6oiFkYw3WminBalajjL+\
-Yd7wBKw5wZVZ26DkUkqhLE3nWamu+p7BIxBEZWgXGXw/\
-bKnlFRSYvEM7iyM21oKbLSUq63fC00kloMVEUQJL415FHbpJ2KnFBTUDW4Q3F5CNKA4d+\
-86OqUmIBA3gqJxyosj+VGFej1DcgpiJGLUU0w10IG1oTSCJGJ7yWAIagNE/+\
-GRL0PyokkheCLaBmi040bOqNYU9IGtMvj2rViQpXjssRCOfQxWdMFzCXmylX3IlFPyhKmbL3lJDeuH\
-CBtIyrEGH214ee9M1tjgVz4kL0SFiUY1lAq10Ym7e/\
-tCmmKhtDLL1E6E0CtjKYD6DOMfhugXlivi5JsZC1Lz9Fp68KyosAYgT0KbTvsqKvM53GVuVzu/L+\
-LtJU728zmWtrs9ngI5/jpYHMql5SVlzFgE3KQ/Jwu+9nyoI3f9NTDm+lX3zWpMh5lU0xOqM/\
-Qr7qlCdv5qVfvGwo658spOfbuPfZBO5WAZJ/U5RpO2pVyPgfKGp9TYp+PKKkwLXExzTv2/\
-ThrIjs6Sr+vu45g0xI/s+SjnTvUoE3+tpf2jpig3pAK+k9/0GkfXzA/UXpbGVPyCDN/R99/\
-LKGIKdTXs5V+L2z7LOObvwsYX/61maSdd7kOJe3yrmOpjoL5XptZxkD89wy2LG+\
-n33W7jxfwOZAWf59nYpOdH/\
-tF0yb7fGPVv9po17f3rW9utOMZb9ywhH5HXvgN44d7kcD0Rt9ivP8Wl2B3CucPP3mrnR/fE+\
-qQ7eO5f/j83H9cf+Tk/owd37TwTMaOn/PcPs5z+znP/cPn4/4rWK+i9/\
-nhZyjNBND39lA6FUAXPqR0ush9ftTlcXsLNu7RJR63z4za8R4G7Nt/NB17+\
-N0HmMMufCFm54M7DgwGbfLjz370YNA5vmiDGhgdD6DbGf0tgHbvonTy6g0aPzEVtxvEeQ542rt9yG4\
-Q57nBBeOLNujD85T+EUA//AGldwLoQUZnrt6giRMrWKhNnH+KnQvT4TYG8NwD77FQ5v3jv+\
-6DbEXAzX1z9bPxRRt0M6O3A+gPxyi9OY8hN34mOEwBTf5lJs0MOng/W6mfjD+K7fyi/S+y05nLP/\
-3FZVuCzvFFG7TvSUok0j7N6M/zGXJn/\
-67bDeI8BzwhHJDtBnGeG1wwvmiDNjH6ZwA99yyl0wG0jdE8hNx0/\
-GO2AsEXXh1jgOsfYwAbo1vYlcb776y51WAGHHx7eK5+Nr5og5YxOmUzaCmjN+\
-dhhfa0sTt2eot5fUSi+8yVeT4Ys/Ouff9ihwKXn6xa9VDQOb5og8yz4EQAAUYnA9au+\
-tPVGxTM9I7aDeI8B3zojS5kN4jz3OCC8UUbtJEROdzuYUQenk98n9J83EP7z7EVCN50gJ1yO1e8z/\
-aSa8htPsms/smfDrFTbnrx1Mhc/Wz8dQ05T94gao2XWjM5arp3/PHzDF3rI9uZ+4+\
-8368Fbf07Q8e3BJ3yNxx9Lvr929nNETmyiaGMxH4P7LvB9XBfOOiUv66PmjnR1z5qvky+9DhDO/\
-mN35kX+mPdzJqnv/4a4yefeN18ydjlbzj6aXHmforGf7bZjJRXfsRQtvZOsUjyHz/I+\
-DH8CluTAvnrervPhX5iWwfz5eTUabp7J061tzH+0OB3zPO2dsM6+p3664vs5iuQv/\
-HoP4AM5bCxi3731lUmGK//+x12Fu1+70727dNfNtHb5eMVjrxHdSfWoWT002xAyJ1r9naOkd/\
-1c1knK7HSJUojCaSl1ZgjseILIzHlzLZUscYBWRrBzjzMJzEPMge42YhCS3JytSFRSkKeLnH6qgYYS\
-NbXq6tVPW3wzvJ8Zs2TXwcrmng+Md/D84kLhHXEkav8AviUlTBbbcBUp6pqZj4SeM5+\
-ayIv78wAWhOCzwmdqqGp7Ic22vKVtKgasgL7YQKRtSbzCMAj+AXncAsh8Aq/\
-fF4AQ0nD0PGqlhZk5fNwc0ZT4mSlJUVLx5olLdUSESUFGv1Q17BsaCibl225BAJQ05fVIVJkdWSwfw\
-2oIi7phnExreSTqNR0m2/KBMHZVYxDaQKxaIcSedOkQlVEasdzRelbKHRDLJF4oJMXr/\
-YOgXvIn3eRP24lQ/FF0LDwW2TF2azcJJcAFeSUSqdUnMvxWl/\
-yE8bzYl5i1GyZOVKkVbSpGxIvQedeWGiBYTBt++\
-rSWGbrKR4Q1wroSasmcNFaQ2WXr8yWWfY6TtgGkNQy9DRQE6GkiESJZoadLqpel05FIVoropFZfXUR\
-MtaIICjJNABCnvwqs6mzqiGOMd2zhl7jMPAMaPonNwAW0TUhRwmM0HPILB+YC+\
-y233SsdnBDah4hRcNXXPNw3s2lokep6FEqepSKHqWiR6noUSp6lIoeV7ZCpaJHqehRKnqUih6lokep\
-6FEqepSKHqWiR6noMX9Fj8pS0aNU9LgmRY9LoqkRvgyzGQ3F8OWE1EWCy2dFh/\
-suEjx3CcAnhGXipwZhjaxCEfl1pCVIcKRkNUF05Q1CtqirJ1A3yEYSQF1ELAWLfSCpocJFB66irKsX\
-ujUpTdOx4mV5+2Jh/5BwTSP+Ou+oK3Bog7AeyQlZFRUShQoU8WVsnFrh7hX+\
-Th35l7YubROubDnXkAXBhn9Qj5H/XE/\
-V1cK9EOHL2rEVwt3Nrc2tV6RugTA4uLq7eF2fF8SVy6LtHcvbmjqkle1N7W1LYdPKeEd7E+\
-yIifHo8mVt8eiclpfKoqWyaKksesmyaP5p6qw4zvFWtE0PaqwdR2ulStxR07yp4O/\
-dzLcor0YC9xDR6vibuc7yJuClD0BwxyXOeiJHjxDQWMzB0ARquB5qHCg375gmUGGdesDHzrImUG17v\
-IDb/++TpAkszl9SazTzbU1M8tC7p4NfdJlMZvYVp0U352+1LCZx0CLqcgvBkI8f8y/\
-2xKgyK34W9MTkOTsWm2Po8yJEfkEgAY7NOvf/AGctvUU="}, "ClickToCopyTemplate"]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {Automatic, Automatic, Fit}, 
-                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
-                   GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
-                GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                False, GridBoxDividers -> {
-                 "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
-                    Rational[239, 255]]}}, 
-                GridBoxItemSize -> {
-                 "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
-                GridBoxSpacings -> {
-                 "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
-              ImageMargins -> 0]}}, 
-           GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False, 
-           GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-           GridBoxItemSize -> {
-            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-           GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-           BaselinePosition -> {1, 1}]}, 
-        Dynamic[
-         CurrentValue[
-          EvaluationCell[], {TaggingRules, "StripeOpen"}, False]], Alignment -> 
-        Automatic, ImageSize -> Automatic, ImageMargins -> 0, BaseStyle -> {},
-         DefaultBaseStyle -> "OpenerView", BaselinePosition -> Baseline], 
-       Deployed -> False, StripOnInput -> False], 
-      OpenerView[{
-        Grid[{{
-           Style[
-            Dynamic[
-             DateString[
-              TimeZoneConvert[
-               DateObject[
-               3.891783150423734`16.34272362260671*^9, TimeZone -> 0]], {
-              "MonthName", " ", "DayShort", ", ", "Year", " ", "Hour12Short", 
-               ":", "Minute", " ", "AMPMLowerCase"}], SingleEvaluation -> 
-             True, Evaluator -> "System"], FontSlant -> Italic, FontColor -> 
-            GrayLevel[0.5], FontSize -> 0.9 Inherited], "   ", 
-           Item[
-            Style[
-             Grid[{{
-                Annotation[
-                 Grid[{{
-                    Style["\[Checkmark]", FontColor -> RGBColor[0, 
-                    Rational[2, 3], 0], FontSize -> 16, FontWeight -> 
-                    "Heavy"], "", "Your paclet resource is being published"}},
-                   Alignment -> {Left, Baseline}, 
-                  Spacings -> {{0.25, 2 -> 0.1}, Automatic}], 
-                 DefinitionNotebookClient`Stripes`PackagePrivate`$stripeText[
-                 "Your paclet resource is being published"]], ""}}, Spacings -> 
-              0.25, Alignment -> {Automatic, Baseline}], LineBreakWithin -> 
-             Automatic, LineIndent -> 0], ItemSize -> Fit], 
-           Item[
-            Style["", LineBreakWithin -> Automatic, LineIndent -> 0], 
-            ItemSize -> Fit], 
-           Style[
-            ActionMenu[
-             Highlighted[
-              Row[{
-                Grid[{{
-                   RawBoxes[
+                    "]"}], "OEM6eJy9kcFKQzEQRXn1IUJF0E/\
+oBzR7d1oXCgU1qbgQF3nppE3Ny4TMxNi/NxFFxH03wyzOYS53bEcnUpdr/\
+ACyHR1LbLvtqV86YnUmgTAnA/fDDgyr7sUe0fldYEgxAWt2GBr/\
+35wuPOb1rzah6QrG6DVDwybf2Ga2ZY50KUQpZV7Q26RH09S5wVHgsBM6MAYMJg8gbiB63MP6JxaJB2\
+08sLhq0NfAd/GYq+M8SNgkIKoZZwoOcked3u4jJO/\
+C25Ncqu61NvOnicPEaPXK7IEuFPh69tnxdoH1a4GJ+lXKUKN9AhuIu8o="}, 
+                    "ClickToCopyTemplate"], LineBreakWithin -> Automatic, 
+                   LineIndent -> 0, StripOnInput -> False], ItemSize -> Fit, 
+                  StripOnInput -> False], 
+                 StyleBox[
+                  ActionMenuBox[
+                   TemplateBox[{
+                    TemplateBox[{
+                    TagBox[
+                    GridBox[{{
                     TemplateBox[{
                     TemplateBox[{
                     PaneBox[
@@ -9626,366 +8905,259 @@ IDb/++TpAkszl9SazTzbU1M8tC7p4NfdJlMZvYVp0U352+1LCZx0CLqcgvBkI8f8y/\
                     "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
                     GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
                     StripOnInput -> False]}, "RowDefault"], 
-                    "\"Potential issues found\""}, 
-                    "PrettyTooltipTemplate"]]}}], 
-                Graphics[{
-                  GrayLevel[0.4], 
-                  AbsoluteThickness[2], 
-                  CapForm["Round"], 
-                  Line[{{-1, 0}, {0, -1}, {1, 0}}]}, {
-                 ImageSize -> {13, 9}, BaselinePosition -> Scaled[0.2], 
-                  ImagePadding -> {{3, 3}, {3, 3}}, AspectRatio -> Full}]}], 
-              ImageSize -> {Automatic, 19}, BaselinePosition -> Baseline, 
-              Background -> GrayLevel[1], Frame -> True, FrameStyle -> Dynamic[
-                If[
-                 CurrentValue["MouseOver"], 
-                 Hue[0.55, 0.82, 0.87], 
-                 GrayLevel[0.8]]], FrameMargins -> {{4, 4}, {1, 1}}, 
-              Alignment -> {Center, Baseline}], {Row[{
-                 Pane[
-                  RawBoxes[
+                    "\"Potential issues found\""}, "PrettyTooltipTemplate"]}},
+                     AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], 
+                    GraphicsBox[{
+                    GrayLevel[0.4], 
+                    AbsoluteThickness[2], 
+                    CapForm["Round"], 
+                    LineBox[{{-1, 0}, {0, -1}, {1, 0}}]}, {
+                    ImageSize -> {13, 9}, BaselinePosition -> Scaled[0.2], 
+                    ImagePadding -> {{3, 3}, {3, 3}}, AspectRatio -> Full}]}, 
+                    "RowDefault"], ImageSize -> {Automatic, 19}, 
+                    BaselinePosition -> Baseline, Background -> GrayLevel[1], 
+                    FrameStyle -> Dynamic[
+                    If[
+                    CurrentValue["MouseOver"], 
+                    Hue[0.55, 0.82, 0.87], 
+                    GrayLevel[0.8]]], FrameMargins -> {{4, 4}, {1, 1}}, 
+                    Alignment -> {Center, Baseline}}, "Highlighted"], {
                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, 
-                    "HintPodIconHint"]], ImageSize -> {10, 10}, 
-                  ImageSizeAction -> "ShrinkToFit", BaselinePosition -> 
-                  Scaled[0.1]], " ", 
-                 Row[{"Unscoped ", 
-                   Style[
-                    RawBoxes["Slot"], "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True], " error: ", 
-                   Style[
-                    RawBoxes["Slot[1]"], "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True], 
-                   ".\!\(\*StyleBox[\"\\\" (L349,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"}]}] :> 
-              DefinitionNotebookClient`WithCurrentNotebook[
-                EvaluationNotebook[], 
-                DefinitionNotebookClient`LoadDefinitionNotebook[
-                 "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-                DefinitionNotebookClient`PackageScope`setHint[
-                 "Warning", "Paclet", 
-                  DefinitionNotebookClient`$CurrentNotebook, 
-                  "8b8dec95-5552-49ca-ac60-213ffc47f0cf", 56740389, 
-                  "CodeInspectionFileIssue/UnscopedObjectError", <|
-                  "File" -> 
-                   "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                   "Editor" -> Automatic, "SourceLineStart" -> 349, 
-                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 349, 
-                   "SourceColumnEnd" -> 52, "Message" -> 
-                   "Unscoped ``Slot`` error: \
-``Slot[1]``.\!\(\*StyleBox[\"\\\" (L349,C51) \\\"\", Rule[FontOpacity, \
-0.65`], Rule[FontSize, Times[0.9`, Inherited]], Rule[PrivateFontOptions, \
-List[Rule[\"OperatorSubstitution\", False]]], Rule[StripOnInput, False]]\)", 
-                   "SourceInformation" -> 
-                   CodeInspector`InspectionObject[
-                    "UnscopedObjectError", 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{349, 51}, {349, 52}}, 
-                    ConfidenceLevel -> 0.8, "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 2796885260389081583, 
-                   "Position" -> 
-                   "\!\(\*StyleBox[\"\\\" (L349,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"|>]; 
-                DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
-                Null], Row[{
-                 Pane[
-                  RawBoxes[
-                   TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.]}, 
-                    "HintPodIconHint"]], ImageSize -> {10, 10}, 
-                  ImageSizeAction -> "ShrinkToFit", BaselinePosition -> 
-                  Scaled[0.1]], " ", 
-                 Row[{"Unscoped ", 
-                   Style[
-                    RawBoxes["Slot"], "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True], " error: ", 
-                   Style[
-                    RawBoxes["Slot[1]"], "Program", FontWeight -> Medium, 
-                    ShowStringCharacters -> True], 
-                   ".\!\(\*StyleBox[\"\\\" (L401,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"}]}] :> 
-              DefinitionNotebookClient`WithCurrentNotebook[
-                EvaluationNotebook[], 
-                DefinitionNotebookClient`LoadDefinitionNotebook[
-                 "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-                DefinitionNotebookClient`PackageScope`setHint[
-                 "Warning", "Paclet", 
-                  DefinitionNotebookClient`$CurrentNotebook, 
-                  "50077829-2600-494f-a848-96deb828f5a1", 56740389, 
-                  "CodeInspectionFileIssue/UnscopedObjectError", <|
-                  "File" -> 
-                   "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                   "Editor" -> Automatic, "SourceLineStart" -> 401, 
-                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 401, 
-                   "SourceColumnEnd" -> 52, "Message" -> 
-                   "Unscoped ``Slot`` error: \
-``Slot[1]``.\!\(\*StyleBox[\"\\\" (L401,C51) \\\"\", Rule[FontOpacity, \
-0.65`], Rule[FontSize, Times[0.9`, Inherited]], Rule[PrivateFontOptions, \
-List[Rule[\"OperatorSubstitution\", False]]], Rule[StripOnInput, False]]\)", 
-                   "SourceInformation" -> 
-                   CodeInspector`InspectionObject[
-                    "UnscopedObjectError", 
-                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{401, 51}, {401, 52}}, 
-                    ConfidenceLevel -> 0.8, "File" -> 
-                    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 2796885260389081583, 
-                   "Position" -> 
-                   "\!\(\*StyleBox[\"\\\" (L401,C51) \\\"\", \
-Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
-Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
-Rule[StripOnInput, False]]\)"|>]; 
-                DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
-                Null]}, Appearance -> None], "BoxID" -> "WarningCountButton"], 
-           MouseAppearance[
-            Button[
-             MouseAppearance[
-              Mouseover[
-               Graphics[{
-                 GrayLevel[
-                  Rational[64, 85]], 
-                 
-                 Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                  0.42426406871192845`}, {0.42426406871192845`, 
-                  0.282842712474619}}], 
-                 
-                 Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                  0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                  0.42426406871192845`}}]}, ImageSize -> 18, PlotRangePadding -> 
-                0, PlotRange -> 0.7, Background -> None], 
-               Graphics[{
-                 GrayLevel[
-                  Rational[128, 255]], 
-                 
-                 Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                  0.42426406871192845`}, {0.42426406871192845`, 
-                  0.282842712474619}}], 
-                 
-                 Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                  
-                  0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                  0.42426406871192845`}}]}, ImageSize -> 18, PlotRangePadding -> 
-                0, PlotRange -> 0.7, Background -> None]], "LinkHand"], 
-             
-             With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
-               EvaluationNotebook[]}, 
-              CurrentValue[
-               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                DockedCells] = If[
-                TrueQ[
-                 MemberQ[
-                  CurrentValue["ModifierKeys"], "Control"]], 
-                DeleteCases[
-                 Flatten[{
-                   CurrentValue[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                 Cell[
-                  Blank[], "StripeCell", 
-                  BlankNullSequence[]]], 
-                DeleteCases[
-                 Flatten[{
-                   CurrentValue[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                 Condition[
-                  Pattern[
-                  DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                   Blank[Cell]], 
-                  Not[
-                   FreeQ[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "3c3799fa-0010-4b33-9855-86b6586fb91f"]]]]]], Appearance -> 
-             None, BoxID -> "3c3799fa-0010-4b33-9855-86b6586fb91f"], 
-            "LinkHand"]}}, Alignment -> {Left, Baseline}], 
-        Grid[{{"", 
-           Style[
-            Grid[{{"\[FilledVerySmallSquare]", "Submission result:", 
-               RawBoxes[
-                TemplateBox[{
-                  TagBox[
-                   RowBox[{
-                    TagBox["Success", "SummaryHead"], "[", 
-                    
-                    DynamicModuleBox[{
-                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    PaneBox[
                     TemplateBox[{
-                    PaneSelectorBox[{False -> GridBox[{{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], "\" \"", 
+                    TemplateBox[{"\"Unscoped \"", 
+                    StyleBox[
+                    "Slot", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\" error: \"", 
+                    StyleBox[
+                    "Slot[1]", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L367,C51) \
+\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
+False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
+                    DefinitionNotebookClient`WithCurrentNotebook[
+                    EvaluationNotebook[], 
+                    DefinitionNotebookClient`LoadDefinitionNotebook[
+                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                    DefinitionNotebookClient`PackageScope`setHint[
+                    "Warning", "Paclet", 
+                    DefinitionNotebookClient`$CurrentNotebook, 
+                    "4b4510ba-6be7-4013-9f68-c0e0e3314936", 56740389, 
+                    "CodeInspectionFileIssue/UnscopedObjectError", <|
+                    "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic, "SourceLineStart" -> 367, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 367, 
+                    "SourceColumnEnd" -> 52, "Message" -> 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
+\" (L367,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
+False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
+                    CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
+                    CodeParser`Source -> {{367, 51}, {367, 52}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Position" -> 
+                    "\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                    Null], TemplateBox[{
                     PaneBox[
-                    ButtonBox[
-                    DynamicBox[
-                    FEPrivate`FrontEndResource[
-                    "FEBitmaps", "SummaryBoxOpener"]], 
-                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
-                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
-                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 
-                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                    Magnification])}]], 
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], "\" \"", 
+                    TemplateBox[{"\"Unscoped \"", 
+                    StyleBox[
+                    "Slot", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\" error: \"", 
+                    StyleBox[
+                    "Slot[1]", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L419,C51) \
+\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
+False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
+                    DefinitionNotebookClient`WithCurrentNotebook[
+                    EvaluationNotebook[], 
+                    DefinitionNotebookClient`LoadDefinitionNotebook[
+                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                    DefinitionNotebookClient`PackageScope`setHint[
+                    "Warning", "Paclet", 
+                    DefinitionNotebookClient`$CurrentNotebook, 
+                    "7d682032-797c-447e-b2be-6230c47080cf", 56740389, 
+                    "CodeInspectionFileIssue/UnscopedObjectError", <|
+                    "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic, "SourceLineStart" -> 419, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 419, 
+                    "SourceColumnEnd" -> 52, "Message" -> 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
+\" (L419,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
+False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
+                    CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
+                    CodeParser`Source -> {{419, 51}, {419, 52}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Position" -> 
+                    "\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                    Null]}, Appearance -> None], "BoxID" -> 
+                  "WarningCountButton", StripOnInput -> False], 
+                 TagBox[
+                  ButtonBox[
+                   TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
                     
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
-                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"Paclet\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"a95b4763-7c94-432e-9f74-e7dafb653fb3\"", 
-                    "SummaryItem"]}]}}, 
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+                   With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+                    EvaluationNotebook[]}, 
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells] = If[
+                    TrueQ[
+                    MemberQ[
+                    CurrentValue["ModifierKeys"], "Control"]], 
+                    DeleteCases[
+                    Flatten[{
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                    Cell[
+                    Blank[], "StripeCell", 
+                    BlankNullSequence[]]], 
+                    DeleteCases[
+                    Flatten[{
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                    Condition[
+                    Pattern[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    Blank[Cell]], 
+                    Not[
+                    FreeQ[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "a71fa453-035d-4f4f-bd58-387a1ab312ba"]]]]]], Appearance -> 
+                   None, BoxID -> "a71fa453-035d-4f4f-bd58-387a1ab312ba", 
+                   Evaluator -> Automatic, Method -> "Preemptive"], 
+                  MouseAppearanceTag["LinkHand"]]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+              "Grid"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+           AutoDelete -> False, 
+           GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+           GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+           BaselinePosition -> {1, 1}], True -> GridBox[{{
+             OpenerBox[
+              Dynamic[
+               CurrentValue[
+                EvaluationCell[], {TaggingRules, "StripeOpen"}, False]], 
+              Appearance -> Automatic, Enabled -> Automatic, AutoAction -> 
+              False, ContinuousAction -> False], 
+             TagBox[
+              GridBox[{{
+                 StyleBox[
+                  DynamicBox[
+                   ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.893002869652527`16.342859713010096*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                   "System"], FontSlant -> Italic, FontColor -> 
+                  GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                  False], "\"   \"", 
+                 ItemBox[
+                  StyleBox[
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    TemplateBox[{"\"  View \[RightGuillemet]\"", {
+                    URL[
+                    "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression"], None}, 
+                    "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression", "Hyperlink", {
+                    "HyperlinkActive"}, BaseStyle -> {"Hyperlink"}, 
+                    Alignment -> {Automatic, Baseline}, BaselinePosition -> 
+                    Baseline}, "HyperlinkTemplate"]}}, 
                     GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Baseline}}}, 
                     AutoDelete -> False, 
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {
-                    ShowStringCharacters -> False, NumberMarks -> False, 
-                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    BaselinePosition -> {1, 1}], True -> GridBox[{{
-                    PaneBox[
-                    ButtonBox[
-                    DynamicBox[
-                    FEPrivate`FrontEndResource[
-                    "FEBitmaps", "SummaryBoxCloser"]], 
-                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
-                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
-                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 
-                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                    Magnification])}]], 
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
-                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"Paclet\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"a95b4763-7c94-432e-9f74-e7dafb653fb3\"", 
-                    "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Version\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"1.0.2\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
-                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"3885\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    
-                    TemplateBox[{"\"DirectCreation\"", "\": \""}, 
-                    "RowDefault"], "SummaryItemAnnotation"], 
-                    "\[InvisibleSpace]", 
-                    TagBox["True", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"Your paclet resource is being published\"", 
-                    "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"ResourceSubmission\"", "SummaryItem"]}]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {
-                    ShowStringCharacters -> False, NumberMarks -> False, 
-                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    BaselinePosition -> {1, 1}]}, 
-                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
-                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
-                   Short[#, 0.75]& ], 
-                  "OEM6eJztWE9vG0UUj+\
-u1HTuuG9ogBCdrFYE4uIImaRouwdnEbaSmtTxuASGkjnff2iN2Z1czs0nNd+DElQPfCs7wAfgI8Gb/\
-2VmnUnCC4OC9rLXv32/evPd+\
-T3ZLcn1AL46CtyDdinzvlCsQoQBFFQs4fnZLsjoItIJrSOM5k8q9I6tDOsYvpEYi2wYpyQaJfJ+\
-K6TOgDil965bl5vGUU5/ZZ4ETeaDN7+TmZQJKtobTECSoN0EIfHtbVnrUk5BJtzIp+\
-CNwCMKB7W1SGaD/KepsDMEPPfyYIEwcl+W9PuVAwANbBeJyTGOAMLIgFVl7Kphz2Th717QTLarK+\
-lGkVJaGRnqixO9HvZO+\
-YOcI4U1PBFydcGcAMoiEDaTeOzliyqehJJtpYtDoJZ4ThAavoRyDR6fgyFYSohdxW2f8XdkxhiKC/\
-BiNbhgCFZRj8o0XAZ9J6kdUAlFTD9y1wtnrJ+\
-fUiyhmRta7kQp8vGI7l1bPQE0ChzT6AjC3ip3POe16bMx94CpLqKxaoCsle89UT306BsJ+\
-AMxYLc1YbnUpbmXIfJBiLX6aX+\
-Zf0LBpRUKg49cIGMjdHubXouEzYOOJhlDpBxcYsyS3uiMZeJGCeX1594yOOXOZHdew9Rde93pPUD++\
-1LJcj9Ojy7di/v7zTyY6rB8zgTWjz4zywdMjK/ACIT6In18PxYP4+eNQfB0/vx1aH+YnbhIlWPiSn/\
-IwUrMqToQtC6EjsD51HMbHRXEjhhXjKdxjM5acUTFmXM6XsX5ba9Za8fe7sVRnxZ75KeXvrLfLxd4u\
-NllqSlpmVua6Qk1imF+0TdJAN8fg0shT5P205E8V+F3Og2SUkPKfP/4yNzrWzT61PVBmPju0/\
-k2QVc1Xr06Pl0f0sUkP9ka7+493Ovv2wW5nd+cRdA7c/\
-d0O7DvUHT3e23FHOwW8WeY30xQvdEqmQWpYU5HP5dwRk6YwnoM7UzMQ96LOFQ3b0J9wioCCYlndS8F\
-ohHErXhvLYpzrA8qikpDautavHdW688+\
-Dzc05ozDntsgkuNCNwMfWBIekredUMUUbLyIkFoEN9v2CrIWDHVsWJwKTeoCUZ7ccu55yRd8mTVs0/\
-ZfLoDwMwv9vAWzqO/\
-EYh34gWUpmyQWXrFKulTDZf8LAlhfIpRm4OLpXFLyi4CUouLai4Fum4BvgrZuvsYEQyPKQa+\
-bnDz97+Oj2MLVMEo18JjWsm+Syau48ebJ3e7g2zaRDLQFxvOWRxQxwi3d4hjyME295QJ+\
-a32A7tcO4G9oiba42k+0R4Mhoh9HIY3ICzu1ls2KifHnEW/\
-kImBXLajNdbaarzXSJzXS2JRWXvit2qjn3pJn2m15XveJa+eDSH2DJWpQthKT0Harn/\
-57dX2zmbrVDmvM0T6oJWXeIoTmWbF+HKTuklhIcqcQ01dGYZ+\
-xCDM0RHdK6PNqTHR2N08lKPrnmfJxVQPInHB15CxWwfuKwKwX3E5uvmJqkK5tMgPwNRBr3CQ=="}, 
-                 "ClickToCopyTemplate"]]}, {
-              "\[FilledVerySmallSquare]", "Resource object:", 
-               RawBoxes[
-                TemplateBox[{
-                  TagBox[
-                   RowBox[{"ResourceObject", "[", 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   LineBreakWithin -> Automatic, LineIndent -> 0, 
+                   StripOnInput -> False], ItemSize -> Fit, StripOnInput -> 
+                  False], 
+                 ItemBox[
+                  StyleBox[
+                   TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
                     ButtonBox[
                     TagBox[
                     GridBox[{{
@@ -10157,6 +9329,7 @@ svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
                     0.5529411764705883, 0.6745098039215687, 
                     0.8117647058823529], 
                     Opacity[1.]}], 
+                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
                     122.17269897460938`, 78.36309814453125}, {
                     182.42269897460938`, 113.07109832763672`}, {
@@ -10219,62 +9392,1278 @@ svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
                     BaseStyle -> {Deployed -> False}, 
                     DefaultBaseStyle -> {Background -> None}, 
                     BaselinePosition -> Baseline, Method -> "Preemptive"], 
-                    "]"}], Short[#, 0.75]& ], 
-                  "OEM6eJztW31sFMcVv/Pd2fgTTNxUzUdzXawqreKPYIMBqbmzzz4blY+\
-rxw5JwIn39ubuFu/tLjN7Ph+\
-VkNugSmlSSgs0NG2IaUuV8kdFkCqRb9O0SquoqURpa5W2sUOIitIAqpKUoLTpzOzO3d7alAMM5I97Q\
-l7ezJt5v/fmzYffk+NuvKBfzHRpYxDHfbh+tWpApCNoiIasqaQ57sbl/\
-RoViHuxd42MjXgZLh8QE6QF1PVDrKWRBNdHN0PJANUgnUqJKNsHxRhwb4x78KLurCqmZGmtFksrkM5\
-SlpvFA6CB6wayOsTQGNZ0qDY2Yl9YVDDkvQ28F6aiMAYIKtjYCHz9ZP4skakegCldIY0mUHNiD14YE\
-VUIoEIgaahQp7efwOBKfLiiF8mxwsH8W0EnoV3luLIrbRjcG1WWRea8t4R7IkgeJRCGw0hTjR41xn0\
-CKsM9XbKREnUMFlmOIYPWEzshouAplG6oiFkYw3WminBalajjL+\
-Yd7wBKw5wZVZ26DkUkqhLE3nWamu+p7BIxBEZWgXGXw/\
-bKnlFRSYvEM7iyM21oKbLSUq63fC00kloMVEUQJL415FHbpJ2KnFBTUDW4Q3F5CNKA4d+\
-86OqUmIBA3gqJxyosj+VGFej1DcgpiJGLUU0w10IG1oTSCJGJ7yWAIagNE/+\
-GRL0PyokkheCLaBmi040bOqNYU9IGtMvj2rViQpXjssRCOfQxWdMFzCXmylX3IlFPyhKmbL3lJDeuH\
-CBtIyrEGH214ee9M1tjgVz4kL0SFiUY1lAq10Ym7e/\
-tCmmKhtDLL1E6E0CtjKYD6DOMfhugXlivi5JsZC1Lz9Fp68KyosAYgT0KbTvsqKvM53GVuVzu/L+\
-LtJU728zmWtrs9ngI5/jpYHMql5SVlzFgE3KQ/Jwu+9nyoI3f9NTDm+lX3zWpMh5lU0xOqM/\
-Qr7qlCdv5qVfvGwo658spOfbuPfZBO5WAZJ/U5RpO2pVyPgfKGp9TYp+PKKkwLXExzTv2/\
-ThrIjs6Sr+vu45g0xI/s+SjnTvUoE3+tpf2jpig3pAK+k9/0GkfXzA/UXpbGVPyCDN/R99/\
-LKGIKdTXs5V+L2z7LOObvwsYX/61maSdd7kOJe3yrmOpjoL5XptZxkD89wy2LG+\
-n33W7jxfwOZAWf59nYpOdH/\
-tF0yb7fGPVv9po17f3rW9utOMZb9ywhH5HXvgN44d7kcD0Rt9ivP8Wl2B3CucPP3mrnR/fE+\
-qQ7eO5f/j83H9cf+Tk/owd37TwTMaOn/PcPs5z+znP/cPn4/4rWK+i9/\
-nhZyjNBND39lA6FUAXPqR0ush9ftTlcXsLNu7RJR63z4za8R4G7Nt/NB17+\
-N0HmMMufCFm54M7DgwGbfLjz370YNA5vmiDGhgdD6DbGf0tgHbvonTy6g0aPzEVtxvEeQ542rt9yG4\
-Q57nBBeOLNujD85T+EUA//AGldwLoQUZnrt6giRMrWKhNnH+KnQvT4TYG8NwD77FQ5v3jv+\
-6DbEXAzX1z9bPxRRt0M6O3A+gPxyi9OY8hN34mOEwBTf5lJs0MOng/W6mfjD+K7fyi/S+y05nLP/\
-3FZVuCzvFFG7TvSUok0j7N6M/zGXJn/\
-67bDeI8BzwhHJDtBnGeG1wwvmiDNjH6ZwA99yyl0wG0jdE8hNx0/\
-GO2AsEXXh1jgOsfYwAbo1vYlcb776y51WAGHHx7eK5+Nr5og5YxOmUzaCmjN+\
-dhhfa0sTt2eot5fUSi+8yVeT4Ys/Ouff9ihwKXn6xa9VDQOb5og8yz4EQAAUYnA9au+\
-tPVGxTM9I7aDeI8B3zojS5kN4jz3OCC8UUbtJEROdzuYUQenk98n9J83EP7z7EVCN50gJ1yO1e8z/\
-aSa8htPsms/smfDrFTbnrx1Mhc/Wz8dQ05T94gao2XWjM5arp3/PHzDF3rI9uZ+4+\
-8368Fbf07Q8e3BJ3yNxx9Lvr929nNETmyiaGMxH4P7LvB9XBfOOiUv66PmjnR1z5qvky+9DhDO/\
-mN35kX+mPdzJqnv/4a4yefeN18ydjlbzj6aXHmforGf7bZjJRXfsRQtvZOsUjyHz/I+\
-DH8CluTAvnrervPhX5iWwfz5eTUabp7J061tzH+0OB3zPO2dsM6+p3664vs5iuQv/\
-HoP4AM5bCxi3731lUmGK//+x12Fu1+70727dNfNtHb5eMVjrxHdSfWoWT002xAyJ1r9naOkd/\
-1c1knK7HSJUojCaSl1ZgjseILIzHlzLZUscYBWRrBzjzMJzEPMge42YhCS3JytSFRSkKeLnH6qgYYS\
-NbXq6tVPW3wzvJ8Zs2TXwcrmng+Md/D84kLhHXEkav8AviUlTBbbcBUp6pqZj4SeM5+\
-ayIv78wAWhOCzwmdqqGp7Ic22vKVtKgasgL7YQKRtSbzCMAj+AXncAsh8Aq/\
-fF4AQ0nD0PGqlhZk5fNwc0ZT4mSlJUVLx5olLdUSESUFGv1Q17BsaCibl225BAJQ05fVIVJkdWSwfw\
-2oIi7phnExreSTqNR0m2/KBMHZVYxDaQKxaIcSedOkQlVEasdzRelbKHRDLJF4oJMXr/\
-YOgXvIn3eRP24lQ/FF0LDwW2TF2azcJJcAFeSUSqdUnMvxWl/\
-yE8bzYl5i1GyZOVKkVbSpGxIvQedeWGiBYTBt++\
-rSWGbrKR4Q1wroSasmcNFaQ2WXr8yWWfY6TtgGkNQy9DRQE6GkiESJZoadLqpel05FIVoropFZfXUR\
-MtaIICjJNABCnvwqs6mzqiGOMd2zhl7jMPAMaPonNwAW0TUhRwmM0HPILB+YC+\
-y233SsdnBDah4hRcNXXPNw3s2lokep6FEqepSKHqWiR6noUSp6lIoeV7ZCpaJHqehRKnqUih6lokep\
-6FEqepSKHqWiR6noMX9Fj8pS0aNU9LgmRY9LoqkRvgyzGQ3F8OWE1EWCy2dFh/\
-suEjx3CcAnhGXipwZhjaxCEfl1pCVIcKRkNUF05Q1CtqirJ1A3yEYSQF1ELAWLfSCpocJFB66irKsX\
-ujUpTdOx4mV5+2Jh/5BwTSP+Ou+oK3Bog7AeyQlZFRUShQoU8WVsnFrh7hX+\
-Th35l7YubROubDnXkAXBhn9Qj5H/XE/\
-V1cK9EOHL2rEVwt3Nrc2tV6RugTA4uLq7eF2fF8SVy6LtHcvbmjqkle1N7W1LYdPKeEd7E+\
-yIifHo8mVt8eiclpfKoqWyaKksesmyaP5p6qw4zvFWtE0PaqwdR2ulStxR07yp4O/\
-dzLcor0YC9xDR6vibuc7yJuClD0BwxyXOeiJHjxDQWMzB0ARquB5qHCg375gmUGGdesDHzrImUG17v\
-IDb/++TpAkszl9SazTzbU1M8tC7p4NfdJlMZvYVp0U352+1LCZx0CLqcgvBkI8f8y/\
-2xKgyK34W9MTkOTsWm2Po8yJEfkEgAY7NOvf/AGctvUU="}, "ClickToCopyTemplate"]]}}, 
-             Alignment -> Left, 
+                    "]"}], "OEM6eJy9kcFKQzEQRXn1IUJF0E/\
+oBzR7d1oXCgU1qbgQF3nppE3Ny4TMxNi/NxFFxH03wyzOYS53bEcnUpdr/\
+ACyHR1LbLvtqV86YnUmgTAnA/fDDgyr7sUe0fldYEgxAWt2GBr/\
+35wuPOb1rzah6QrG6DVDwybf2Ga2ZY50KUQpZV7Q26RH09S5wVHgsBM6MAYMJg8gbiB63MP6JxaJB2\
+08sLhq0NfAd/GYq+M8SNgkIKoZZwoOcked3u4jJO/\
+C25Ncqu61NvOnicPEaPXK7IEuFPh69tnxdoH1a4GJ+lXKUKN9AhuIu8o="}, 
+                    "ClickToCopyTemplate"], LineBreakWithin -> Automatic, 
+                   LineIndent -> 0, StripOnInput -> False], ItemSize -> Fit, 
+                  StripOnInput -> False], 
+                 StyleBox[
+                  ActionMenuBox[
+                   TemplateBox[{
+                    TemplateBox[{
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    TemplateBox[{
+                    PaneBox[
+                    TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {12, 12}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], 
+                    TemplateBox[{1}, "Spacer1"], 
+                    StyleBox[
+                    "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
+                    GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
+                    StripOnInput -> False]}, "RowDefault"], 
+                    "\"Potential issues found\""}, "PrettyTooltipTemplate"]}},
+                     AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], 
+                    GraphicsBox[{
+                    GrayLevel[0.4], 
+                    AbsoluteThickness[2], 
+                    CapForm["Round"], 
+                    LineBox[{{-1, 0}, {0, -1}, {1, 0}}]}, {
+                    ImageSize -> {13, 9}, BaselinePosition -> Scaled[0.2], 
+                    ImagePadding -> {{3, 3}, {3, 3}}, AspectRatio -> Full}]}, 
+                    "RowDefault"], ImageSize -> {Automatic, 19}, 
+                    BaselinePosition -> Baseline, Background -> GrayLevel[1], 
+                    FrameStyle -> Dynamic[
+                    If[
+                    CurrentValue["MouseOver"], 
+                    Hue[0.55, 0.82, 0.87], 
+                    GrayLevel[0.8]]], FrameMargins -> {{4, 4}, {1, 1}}, 
+                    Alignment -> {Center, Baseline}}, "Highlighted"], {
+                   TemplateBox[{
+                    PaneBox[
+                    TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], "\" \"", 
+                    TemplateBox[{"\"Unscoped \"", 
+                    StyleBox[
+                    "Slot", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\" error: \"", 
+                    StyleBox[
+                    "Slot[1]", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L367,C51) \
+\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
+False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
+                    DefinitionNotebookClient`WithCurrentNotebook[
+                    EvaluationNotebook[], 
+                    DefinitionNotebookClient`LoadDefinitionNotebook[
+                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                    DefinitionNotebookClient`PackageScope`setHint[
+                    "Warning", "Paclet", 
+                    DefinitionNotebookClient`$CurrentNotebook, 
+                    "4b4510ba-6be7-4013-9f68-c0e0e3314936", 56740389, 
+                    "CodeInspectionFileIssue/UnscopedObjectError", <|
+                    "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic, "SourceLineStart" -> 367, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 367, 
+                    "SourceColumnEnd" -> 52, "Message" -> 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
+\" (L367,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
+False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
+                    CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
+                    CodeParser`Source -> {{367, 51}, {367, 52}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Position" -> 
+                    "\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                    Null], TemplateBox[{
+                    PaneBox[
+                    TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], "\" \"", 
+                    TemplateBox[{"\"Unscoped \"", 
+                    StyleBox[
+                    "Slot", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\" error: \"", 
+                    StyleBox[
+                    "Slot[1]", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L419,C51) \
+\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
+False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
+                    DefinitionNotebookClient`WithCurrentNotebook[
+                    EvaluationNotebook[], 
+                    DefinitionNotebookClient`LoadDefinitionNotebook[
+                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                    DefinitionNotebookClient`PackageScope`setHint[
+                    "Warning", "Paclet", 
+                    DefinitionNotebookClient`$CurrentNotebook, 
+                    "7d682032-797c-447e-b2be-6230c47080cf", 56740389, 
+                    "CodeInspectionFileIssue/UnscopedObjectError", <|
+                    "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic, "SourceLineStart" -> 419, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 419, 
+                    "SourceColumnEnd" -> 52, "Message" -> 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
+\" (L419,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
+False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
+                    CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
+                    CodeParser`Source -> {{419, 51}, {419, 52}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Position" -> 
+                    "\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                    Null]}, Appearance -> None], "BoxID" -> 
+                  "WarningCountButton", StripOnInput -> False], 
+                 TagBox[
+                  ButtonBox[
+                   TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+                   With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+                    EvaluationNotebook[]}, 
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells] = If[
+                    TrueQ[
+                    MemberQ[
+                    CurrentValue["ModifierKeys"], "Control"]], 
+                    DeleteCases[
+                    Flatten[{
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                    Cell[
+                    Blank[], "StripeCell", 
+                    BlankNullSequence[]]], 
+                    DeleteCases[
+                    Flatten[{
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                    Condition[
+                    Pattern[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    Blank[Cell]], 
+                    Not[
+                    FreeQ[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "a71fa453-035d-4f4f-bd58-387a1ab312ba"]]]]]], Appearance -> 
+                   None, BoxID -> "a71fa453-035d-4f4f-bd58-387a1ab312ba", 
+                   Evaluator -> Automatic, Method -> "Preemptive"], 
+                  MouseAppearanceTag["LinkHand"]]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+              "Grid"]}, {"", 
+             PaneBox[
+              TagBox[
+               GridBox[{{"\"\"", 
+                  StyleBox[
+                   TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Cloud object:\"", 
+                    TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/antononcube/DeployedResources/\
+Paclet/AntonAntonov/QuantileRegression\"", 
+                    "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression"}, "HyperlinkURL"], 
+                    "]"}], "OEM6eJy9kbFOAzEQRHXhhJBCA5+\
+QD4h7OggFSJEAO4gCUficceLg8568a478PT5Eww+k2WL1RjOa8Q1faDve0TfYn/\
+HVYxLkIUOsBEr17Rs+1zQBvuV2HVjMfBWpbJ+\
+6A5yY5t3PeL5BP0QrmLDZH7Zb7EUGvlFqHMflSNFn27tJunTUK+\
+oOyiahRMmVDuoeQ6QjthpMJTuwerYuQtTtBP0e+lIvpWpChMYug7lmXBicxMdcPhwH5BjS56tem+\
+ajNvOvidPEmOrVJYKvDWK1fQuyX1FdLQlzu8kFP1dtrqw="}, "ClickToCopyTemplate"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Visit web page:\"", 
+                    TemplateBox[{
+                    TagBox[
+                    
+                    RowBox[{
+                    "\"https://www.wolframcloud.com/obj\"", "\[Ellipsis]", 
+                    "\"t/AntonAntonov/QuantileRegression\""}], 
+                    Short[#, 0.75]& ], 
+                    "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression"}, 
+                    "HyperlinkURL"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
+                    TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    ButtonBox[
+                    TagBox[
+                    GridBox[{{
+                    GraphicsBox[{
+                    Thickness[0.0025], {
+                    FaceForm[{
+                    RGBColor[
+                    0.9607843137254902, 0.5058823529411764, 
+                    0.19607843137254902`], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}}}, {{{205., 22.660200119018555`}, {205., 
+                    212.11320304870605`}, {246.01799774169922`, 
+                    235.79520988464355`}, {369.0710144042969, 
+                    306.8401927947998}, {369.0710144042969, 
+                    117.38719749450684`}, {205., 22.660200119018555`}}, {{
+                    30.928985595703125`, 306.8401927947998}, {
+                    153.98200225830078`, 235.79520988464355`}, {195., 
+                    212.11320304870605`}, {195., 22.660200119018555`}, {
+                    30.928985595703125`, 117.38719749450684`}, {
+                    30.928985595703125`, 306.8401927947998}}, {{200., 
+                    410.22620964050293`}, {364.0710144042969, 
+                    315.5001964569092}, {241.01799774169922`, 
+                    244.45519828796387`}, {200., 220.77320671081543`}, {
+                    158.98200225830078`, 244.45519828796387`}, {
+                    35.928985595703125`, 315.5001964569092}, {200., 
+                    410.22620964050293`}}, CompressedData["
+1:eJxTTMoPSmViYGCQAWIQDQQPlDrLHYB0n8ffYgewSEAmhO9aBaJ/1cmB+XqT
+gsF8tsaHGch8BoYNGcjqGS7lmqOYd/qhKYg+9+8dhH/prQmI9ptyBYV/jmEH
+Cj+CeUEMMr9iq24MsnkV3Eeike2b8aQrGtk9DSrhyiA6e88JMD/BvUgJbG/S
+EzBfQYpBCaKeIROZv2muNDK/YaqzeSayflj4wMyHhR/M/oDHC8uR3fdAaWM5
+svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
+                    "]}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{43., 198.67381286621094`}, {107.71399688720703`, 
+                    161.3118133544922}, {107.71399688720703`, 
+                    86.58680725097656}, {43., 123.94882202148438`}, {43., 
+                    198.67381286621094`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.3137254901960784, 0.4549019607843137, 
+                    0.611764705882353], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{182.77679443359375`, 198.67381286621094`}, {
+                    182.77679443359375`, 123.94882202148438`}, {
+                    118.06279754638672`, 86.58680725097656}, {
+                    118.06279754638672`, 161.3118133544922}, {
+                    182.77679443359375`, 198.67381286621094`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.7803921568627451, 0.8627450980392157, 
+                    0.9490196078431372], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{112.8884048461914, 244.9990997314453}, {
+                    177.60240173339844`, 207.63610076904297`}, {
+                    112.8884048461914, 170.27410888671875`}, {
+                    48.174407958984375`, 207.63610076904297`}, {
+                    112.8884048461914, 244.9990997314453}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{130.02911376953125`, 350.11590576171875`}, {
+                    194.80210876464844`, 312.7189064025879}, {
+                    194.80210876464844`, 237.92591094970703`}, {
+                    130.02911376953125`, 275.32291412353516`}, {
+                    130.02911376953125`, 350.11590576171875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.4627450980392157, 0.3607843137254902, 
+                    0.611764705882353], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{269.9334716796875, 350.11590576171875`}, {
+                    269.9334716796875, 275.32291412353516`}, {
+                    205.1604766845703, 237.92591094970703`}, {
+                    205.1604766845703, 312.7189064025879}, {269.9334716796875,
+                     350.11590576171875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.8862745098039215, 0.803921568627451, 
+                    0.9529411764705882], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{199.98130798339844`, 396.48345947265625`}, {
+                    264.7543029785156, 359.0864601135254}, {
+                    199.98130798339844`, 321.69046783447266`}, {
+                    135.20831298828125`, 359.0864601135254}, {
+                    199.98130798339844`, 396.48345947265625`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{217.61199951171875`, 199.13890075683594`}, {
+                    281.8990020751953, 162.0229034423828}, {281.8990020751953,
+                     87.7908935546875}, {217.61199951171875`, 
+                    124.90690612792969`}, {217.61199951171875`, 
+                    199.13890075683594`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.43137254901960786`, 0.6039215686274509, 
+                    0.34509803921568627`], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{356.46661376953125`, 199.13890075683594`}, {
+                    356.46661376953125`, 124.90690612792969`}, {
+                    292.1796112060547, 87.7908935546875}, {292.1796112060547, 
+                    162.0229034423828}, {356.46661376953125`, 
+                    199.13890075683594`}}}]}, {
+                    FaceForm[{
+                    RGBColor[0.8549019607843137, 0.9450980392156862, 0.8], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{287.039306640625, 245.15859985351562`}, {
+                    351.32630920410156`, 208.0426025390625}, {
+                    287.039306640625, 170.92660522460938`}, {
+                    222.75230407714844`, 208.0426025390625}, {
+                    287.039306640625, 245.15859985351562`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    356.46649169921875`, 215.76849365234375`}, {
+                    296.2834930419922, 250.5924949645996}, {
+                    356.46649169921875`, 285.26649475097656`}, {
+                    356.46649169921875`, 215.76849365234375`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    217.61199951171875`, 114.06449890136719`}, {
+                    277.7949981689453, 79.24049758911133}, {
+                    217.61199951171875`, 44.566497802734375`}, {
+                    217.61199951171875`, 114.06449890136719`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    122.17269897460938`, 78.36309814453125}, {
+                    182.42269897460938`, 113.07109832763672`}, {
+                    182.35969924926758`, 43.614097595214844`}, {
+                    122.17269897460938`, 78.36309814453125}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    103.52159881591797`, 249.46669006347656`}, {
+                    43.27159881591797, 214.7586898803711}, {
+                    43.334598541259766`, 284.21569061279297`}, {
+                    103.52159881591797`, 249.46669006347656`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    120.86710357666016`, 350.61541748046875`}, {
+                    120.80010357499123`, 281.0834197998047}, {
+                    60.68010330200195, 315.86641693115234`}, {
+                    120.86710357666016`, 350.61541748046875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    278.3727111816406, 281.2159118652344}, {
+                    278.43971118330956`, 350.74790954589844`}, {
+                    338.5597114562988, 315.9649124145508}, {278.3727111816406,
+                     281.2159118652344}}}]}}, {
+                    ImageSize -> 12, BaselinePosition -> Scaled[0.1], 
+                    ImageSize -> {Automatic, 35}}], 
+                    StyleBox[
+                    "\"AntonAntonov/QuantileRegression\"", FontFamily -> 
+                    Dynamic[
+                    CurrentValue["PanelFontFamily"]], FontSize -> 
+                    0.8 Inherited, ShowStringCharacters -> False, 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Baseline}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {{0}}}], "Grid"], 
+                    ButtonFunction :> {}, Evaluator -> None, Active -> False, 
+                    Alignment -> Left, 
+                    Appearance -> {
+                    "Default" -> FrontEnd`FileName[{"Typeset", "SummaryBox"}, 
+                    "Panel.9.png"]}, FrameMargins -> {{3, 3}, {3, 0}}, 
+                    BaseStyle -> {Deployed -> False}, 
+                    DefaultBaseStyle -> {Background -> None}, 
+                    BaselinePosition -> Baseline, Method -> "Preemptive"], 
+                    "]"}], "OEM6eJy9kcFKQzEQRXn1IUJF0E/\
+oBzR7d1oXCgU1qbgQF3nppE3Ny4TMxNi/NxFFxH03wyzOYS53bEcnUpdr/\
+ACyHR1LbLvtqV86YnUmgTAnA/fDDgyr7sUe0fldYEgxAWt2GBr/\
+35wuPOb1rzah6QrG6DVDwybf2Ga2ZY50KUQpZV7Q26RH09S5wVHgsBM6MAYMJg8gbiB63MP6JxaJB2\
+08sLhq0NfAd/GYq+M8SNgkIKoZZwoOcked3u4jJO/\
+C25Ncqu61NvOnicPEaPXK7IEuFPh69tnxdoH1a4GJ+lXKUKN9AhuIu8o="}, 
+                    "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                   GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                False, GridBoxDividers -> {
+                 "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                GridBoxItemSize -> {
+                 "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                GridBoxSpacings -> {
+                 "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+              ImageMargins -> 0]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False, 
+           GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+           GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+           BaselinePosition -> {1, 1}]}, 
+        Dynamic[
+         CurrentValue[
+          EvaluationCell[], {TaggingRules, "StripeOpen"}, False]], Alignment -> 
+        Automatic, ImageSize -> Automatic, ImageMargins -> 0, BaseStyle -> {},
+         DefaultBaseStyle -> "OpenerView", BaselinePosition -> Baseline], 
+       Deployed -> False, StripOnInput -> False], 
+      OpenerView[{
+        Grid[{{
+           Style[
+            Dynamic[
+             DateString[
+              TimeZoneConvert[
+               DateObject[
+               3.893002869652527`16.342859713010096*^9, TimeZone -> 0]], {
+              "MonthName", " ", "DayShort", ", ", "Year", " ", "Hour12Short", 
+               ":", "Minute", " ", "AMPMLowerCase"}], SingleEvaluation -> 
+             True, Evaluator -> "System"], FontSlant -> Italic, FontColor -> 
+            GrayLevel[0.5], FontSize -> 0.9 Inherited], "   ", 
+           Item[
+            Style[
+             Grid[{{"Published to the cloud", 
+                Hyperlink[
+                "  View \[RightGuillemet]", 
+                 "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression", 
+                 Alignment -> {Automatic, Baseline}, BaselinePosition -> 
+                 Baseline]}}, Spacings -> 0.25, 
+              Alignment -> {Automatic, Baseline}], LineBreakWithin -> 
+             Automatic, LineIndent -> 0], ItemSize -> Fit], 
+           Item[
+            Style[
+             RawBoxes[
+              TemplateBox[{
+                RowBox[{"ResourceObject", "[", 
+                  ButtonBox[
+                   TagBox[
+                    GridBox[{{
+                    GraphicsBox[{
+                    Thickness[0.0025], {
+                    FaceForm[{
+                    RGBColor[
+                    0.9607843137254902, 0.5058823529411764, 
+                    0.19607843137254902`], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}}}, {{{205., 22.660200119018555`}, {205., 
+                    212.11320304870605`}, {246.01799774169922`, 
+                    235.79520988464355`}, {369.0710144042969, 
+                    306.8401927947998}, {369.0710144042969, 
+                    117.38719749450684`}, {205., 22.660200119018555`}}, {{
+                    30.928985595703125`, 306.8401927947998}, {
+                    153.98200225830078`, 235.79520988464355`}, {195., 
+                    212.11320304870605`}, {195., 22.660200119018555`}, {
+                    30.928985595703125`, 117.38719749450684`}, {
+                    30.928985595703125`, 306.8401927947998}}, {{200., 
+                    410.22620964050293`}, {364.0710144042969, 
+                    315.5001964569092}, {241.01799774169922`, 
+                    244.45519828796387`}, {200., 220.77320671081543`}, {
+                    158.98200225830078`, 244.45519828796387`}, {
+                    35.928985595703125`, 315.5001964569092}, {200., 
+                    410.22620964050293`}}, CompressedData["
+1:eJxTTMoPSmViYGCQAWIQDQQPlDrLHYB0n8ffYgewSEAmhO9aBaJ/1cmB+XqT
+gsF8tsaHGch8BoYNGcjqGS7lmqOYd/qhKYg+9+8dhH/prQmI9ptyBYV/jmEH
+Cj+CeUEMMr9iq24MsnkV3Eeike2b8aQrGtk9DSrhyiA6e88JMD/BvUgJbG/S
+EzBfQYpBCaKeIROZv2muNDK/YaqzeSayflj4wMyHhR/M/oDHC8uR3fdAaWM5
+svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
+                    "]}]}, {
+                    FaceForm[{
+                    RGBColor[0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{43., 198.67381286621094`}, {107.71399688720703`, 
+                    161.3118133544922}, {107.71399688720703`, 
+                    86.58680725097656}, {43., 123.94882202148438`}, {43., 
+                    198.67381286621094`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.3137254901960784, 0.4549019607843137, 
+                    0.611764705882353], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{182.77679443359375`, 198.67381286621094`}, {
+                    182.77679443359375`, 123.94882202148438`}, {
+                    118.06279754638672`, 86.58680725097656}, {
+                    118.06279754638672`, 161.3118133544922}, {
+                    182.77679443359375`, 198.67381286621094`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.7803921568627451, 0.8627450980392157, 
+                    0.9490196078431372], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{112.8884048461914, 244.9990997314453}, {
+                    177.60240173339844`, 207.63610076904297`}, {
+                    112.8884048461914, 170.27410888671875`}, {
+                    48.174407958984375`, 207.63610076904297`}, {
+                    112.8884048461914, 244.9990997314453}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{130.02911376953125`, 350.11590576171875`}, {
+                    194.80210876464844`, 312.7189064025879}, {
+                    194.80210876464844`, 237.92591094970703`}, {
+                    130.02911376953125`, 275.32291412353516`}, {
+                    130.02911376953125`, 350.11590576171875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.4627450980392157, 0.3607843137254902, 
+                    0.611764705882353], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{269.9334716796875, 350.11590576171875`}, {
+                    269.9334716796875, 275.32291412353516`}, {
+                    205.1604766845703, 237.92591094970703`}, {
+                    205.1604766845703, 312.7189064025879}, {269.9334716796875,
+                     350.11590576171875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.8862745098039215, 0.803921568627451, 
+                    0.9529411764705882], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{199.98130798339844`, 396.48345947265625`}, {
+                    264.7543029785156, 359.0864601135254}, {
+                    199.98130798339844`, 321.69046783447266`}, {
+                    135.20831298828125`, 359.0864601135254}, {
+                    199.98130798339844`, 396.48345947265625`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{217.61199951171875`, 199.13890075683594`}, {
+                    281.8990020751953, 162.0229034423828}, {281.8990020751953,
+                     87.7908935546875}, {217.61199951171875`, 
+                    124.90690612792969`}, {217.61199951171875`, 
+                    199.13890075683594`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.43137254901960786`, 0.6039215686274509, 
+                    0.34509803921568627`], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{356.46661376953125`, 199.13890075683594`}, {
+                    356.46661376953125`, 124.90690612792969`}, {
+                    292.1796112060547, 87.7908935546875}, {292.1796112060547, 
+                    162.0229034423828}, {356.46661376953125`, 
+                    199.13890075683594`}}}]}, {
+                    FaceForm[{
+                    RGBColor[0.8549019607843137, 0.9450980392156862, 0.8], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{287.039306640625, 245.15859985351562`}, {
+                    351.32630920410156`, 208.0426025390625}, {
+                    287.039306640625, 170.92660522460938`}, {
+                    222.75230407714844`, 208.0426025390625}, {
+                    287.039306640625, 245.15859985351562`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    356.46649169921875`, 215.76849365234375`}, {
+                    296.2834930419922, 250.5924949645996}, {
+                    356.46649169921875`, 285.26649475097656`}, {
+                    356.46649169921875`, 215.76849365234375`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    217.61199951171875`, 114.06449890136719`}, {
+                    277.7949981689453, 79.24049758911133}, {
+                    217.61199951171875`, 44.566497802734375`}, {
+                    217.61199951171875`, 114.06449890136719`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    122.17269897460938`, 78.36309814453125}, {
+                    182.42269897460938`, 113.07109832763672`}, {
+                    182.35969924926758`, 43.614097595214844`}, {
+                    122.17269897460938`, 78.36309814453125}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    103.52159881591797`, 249.46669006347656`}, {
+                    43.27159881591797, 214.7586898803711}, {
+                    43.334598541259766`, 284.21569061279297`}, {
+                    103.52159881591797`, 249.46669006347656`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    120.86710357666016`, 350.61541748046875`}, {
+                    120.80010357499123`, 281.0834197998047}, {
+                    60.68010330200195, 315.86641693115234`}, {
+                    120.86710357666016`, 350.61541748046875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    278.3727111816406, 281.2159118652344}, {
+                    278.43971118330956`, 350.74790954589844`}, {
+                    338.5597114562988, 315.9649124145508}, {278.3727111816406,
+                     281.2159118652344}}}]}}, {
+                    ImageSize -> 12, BaselinePosition -> Scaled[0.1], 
+                    ImageSize -> {Automatic, 35}}], 
+                    StyleBox[
+                    "\"AntonAntonov/QuantileRegression\"", FontFamily -> 
+                    Dynamic[
+                    CurrentValue["PanelFontFamily"]], FontSize -> 
+                    0.8 Inherited, ShowStringCharacters -> False, 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Baseline}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {{0}}}], "Grid"], 
+                   ButtonFunction :> {}, Evaluator -> None, Active -> False, 
+                   Alignment -> Left, 
+                   Appearance -> {
+                    "Default" -> 
+                    FrontEnd`FileName[{"Typeset", "SummaryBox"}, 
+                    "Panel.9.png"]}, FrameMargins -> {{3, 3}, {3, 0}}, 
+                   BaseStyle -> {Deployed -> False}, 
+                   DefaultBaseStyle -> {Background -> None}, BaselinePosition -> 
+                   Baseline, Method -> "Preemptive"], "]"}], 
+                "OEM6eJy9kcFKQzEQRXn1IUJF0E/oBzR7d1oXCgU1qbgQF3nppE3Ny4TMxNi/\
+NxFFxH03wyzOYS53bEcnUpdr/ACyHR1LbLvtqV86YnUmgTAnA/fDDgyr7sUe0fldYEgxAWt2GBr/\
+35wuPOb1rzah6QrG6DVDwybf2Ga2ZY50KUQpZV7Q26RH09S5wVHgsBM6MAYMJg8gbiB63MP6JxaJB2\
+08sLhq0NfAd/GYq+M8SNgkIKoZZwoOcked3u4jJO/\
+C25Ncqu61NvOnicPEaPXK7IEuFPh69tnxdoH1a4GJ+lXKUKN9AhuIu8o="}, 
+               "ClickToCopyTemplate"]], LineBreakWithin -> Automatic, 
+             LineIndent -> 0], ItemSize -> Fit], 
+           Style[
+            ActionMenu[
+             Highlighted[
+              Row[{
+                Grid[{{
+                   RawBoxes[
+                    TemplateBox[{
+                    TemplateBox[{
+                    PaneBox[
+                    TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {12, 12}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], 
+                    TemplateBox[{1}, "Spacer1"], 
+                    StyleBox[
+                    "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
+                    GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
+                    StripOnInput -> False]}, "RowDefault"], 
+                    "\"Potential issues found\""}, 
+                    "PrettyTooltipTemplate"]]}}], 
+                Graphics[{
+                  GrayLevel[0.4], 
+                  AbsoluteThickness[2], 
+                  CapForm["Round"], 
+                  Line[{{-1, 0}, {0, -1}, {1, 0}}]}, {
+                 ImageSize -> {13, 9}, BaselinePosition -> Scaled[0.2], 
+                  ImagePadding -> {{3, 3}, {3, 3}}, AspectRatio -> Full}]}], 
+              ImageSize -> {Automatic, 19}, BaselinePosition -> Baseline, 
+              Background -> GrayLevel[1], Frame -> True, FrameStyle -> Dynamic[
+                If[
+                 CurrentValue["MouseOver"], 
+                 Hue[0.55, 0.82, 0.87], 
+                 GrayLevel[0.8]]], FrameMargins -> {{4, 4}, {1, 1}}, 
+              Alignment -> {Center, Baseline}], {Row[{
+                 Pane[
+                  RawBoxes[
+                   TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, 
+                    "HintPodIconHint"]], ImageSize -> {10, 10}, 
+                  ImageSizeAction -> "ShrinkToFit", BaselinePosition -> 
+                  Scaled[0.1]], " ", 
+                 Row[{"Unscoped ", 
+                   Style[
+                    RawBoxes["Slot"], "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True], " error: ", 
+                   Style[
+                    RawBoxes["Slot[1]"], "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True], 
+                   ".\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"}]}] :> 
+              DefinitionNotebookClient`WithCurrentNotebook[
+                EvaluationNotebook[], 
+                DefinitionNotebookClient`LoadDefinitionNotebook[
+                 "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                DefinitionNotebookClient`PackageScope`setHint[
+                 "Warning", "Paclet", 
+                  DefinitionNotebookClient`$CurrentNotebook, 
+                  "4b4510ba-6be7-4013-9f68-c0e0e3314936", 56740389, 
+                  "CodeInspectionFileIssue/UnscopedObjectError", <|
+                  "File" -> 
+                   "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                   "Editor" -> Automatic, "SourceLineStart" -> 367, 
+                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 367, 
+                   "SourceColumnEnd" -> 52, "Message" -> 
+                   "Unscoped ``Slot`` error: \
+``Slot[1]``.\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", Rule[FontOpacity, \
+0.65`], Rule[FontSize, Times[0.9`, Inherited]], Rule[PrivateFontOptions, \
+List[Rule[\"OperatorSubstitution\", False]]], Rule[StripOnInput, False]]\)", 
+                   "SourceInformation" -> 
+                   CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
+                    CodeParser`Source -> {{367, 51}, {367, 52}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                   "Position" -> 
+                   "\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                Null], Row[{
+                 Pane[
+                  RawBoxes[
+                   TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, 
+                    "HintPodIconHint"]], ImageSize -> {10, 10}, 
+                  ImageSizeAction -> "ShrinkToFit", BaselinePosition -> 
+                  Scaled[0.1]], " ", 
+                 Row[{"Unscoped ", 
+                   Style[
+                    RawBoxes["Slot"], "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True], " error: ", 
+                   Style[
+                    RawBoxes["Slot[1]"], "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True], 
+                   ".\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"}]}] :> 
+              DefinitionNotebookClient`WithCurrentNotebook[
+                EvaluationNotebook[], 
+                DefinitionNotebookClient`LoadDefinitionNotebook[
+                 "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                DefinitionNotebookClient`PackageScope`setHint[
+                 "Warning", "Paclet", 
+                  DefinitionNotebookClient`$CurrentNotebook, 
+                  "7d682032-797c-447e-b2be-6230c47080cf", 56740389, 
+                  "CodeInspectionFileIssue/UnscopedObjectError", <|
+                  "File" -> 
+                   "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                   "Editor" -> Automatic, "SourceLineStart" -> 419, 
+                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 419, 
+                   "SourceColumnEnd" -> 52, "Message" -> 
+                   "Unscoped ``Slot`` error: \
+``Slot[1]``.\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", Rule[FontOpacity, \
+0.65`], Rule[FontSize, Times[0.9`, Inherited]], Rule[PrivateFontOptions, \
+List[Rule[\"OperatorSubstitution\", False]]], Rule[StripOnInput, False]]\)", 
+                   "SourceInformation" -> 
+                   CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
+                    CodeParser`Source -> {{419, 51}, {419, 52}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                   "Position" -> 
+                   "\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                Null]}, Appearance -> None], "BoxID" -> "WarningCountButton"], 
+           MouseAppearance[
+            Button[
+             MouseAppearance[
+              Mouseover[
+               Graphics[{
+                 GrayLevel[
+                  Rational[64, 85]], 
+                 
+                 Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                  0.42426406871192845`}, {0.42426406871192845`, 
+                  0.282842712474619}}], 
+                 
+                 Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                  0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                  0.42426406871192845`}}]}, ImageSize -> 18, PlotRangePadding -> 
+                0, PlotRange -> 0.7, Background -> None], 
+               Graphics[{
+                 GrayLevel[
+                  Rational[128, 255]], 
+                 
+                 Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                  0.42426406871192845`}, {0.42426406871192845`, 
+                  0.282842712474619}}], 
+                 
+                 Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                  0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                  0.42426406871192845`}}]}, ImageSize -> 18, PlotRangePadding -> 
+                0, PlotRange -> 0.7, Background -> None]], "LinkHand"], 
+             
+             With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+               EvaluationNotebook[]}, 
+              CurrentValue[
+               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                DockedCells] = If[
+                TrueQ[
+                 MemberQ[
+                  CurrentValue["ModifierKeys"], "Control"]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Cell[
+                  Blank[], "StripeCell", 
+                  BlankNullSequence[]]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Condition[
+                  Pattern[
+                  DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                   Blank[Cell]], 
+                  Not[
+                   FreeQ[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "a71fa453-035d-4f4f-bd58-387a1ab312ba"]]]]]], Appearance -> 
+             None, BoxID -> "a71fa453-035d-4f4f-bd58-387a1ab312ba"], 
+            "LinkHand"]}}, Alignment -> {Left, Baseline}], 
+        Grid[{{"", 
+           Style[
+            Grid[{{"\[FilledVerySmallSquare]", "Cloud object:", 
+               RawBoxes[
+                TemplateBox[{
+                  RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/antononcube/DeployedResources/\
+Paclet/AntonAntonov/QuantileRegression\"", 
+                    "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression"}, "HyperlinkURL"], 
+                    "]"}], "OEM6eJy9kbFOAzEQRHXhhJBCA5+\
+QD4h7OggFSJEAO4gCUficceLg8568a478PT5Eww+k2WL1RjOa8Q1faDve0TfYn/\
+HVYxLkIUOsBEr17Rs+1zQBvuV2HVjMfBWpbJ+\
+6A5yY5t3PeL5BP0QrmLDZH7Zb7EUGvlFqHMflSNFn27tJunTUK+\
+oOyiahRMmVDuoeQ6QjthpMJTuwerYuQtTtBP0e+lIvpWpChMYug7lmXBicxMdcPhwH5BjS56tem+\
+ajNvOvidPEmOrVJYKvDWK1fQuyX1FdLQlzu8kFP1dtrqw="}, "ClickToCopyTemplate"]]}, {
+              "\[FilledVerySmallSquare]", "Visit web page:", 
+               Hyperlink[
+                RawBoxes[
+                 TagBox[
+                  
+                  RowBox[{
+                   "\"https://www.wolframcloud.com/obj\"", "\[Ellipsis]", 
+                    "\"t/AntonAntonov/QuantileRegression\""}], 
+                  Short[#, 0.75]& ]], 
+                "https://www.wolframcloud.com/obj/antononcube/\
+DeployedResources/Paclet/AntonAntonov/QuantileRegression"]}, {
+              "\[FilledVerySmallSquare]", "Resource object:", 
+               RawBoxes[
+                TemplateBox[{
+                  RowBox[{"ResourceObject", "[", 
+                    ButtonBox[
+                    TagBox[
+                    GridBox[{{
+                    GraphicsBox[{
+                    Thickness[0.0025], {
+                    FaceForm[{
+                    RGBColor[
+                    0.9607843137254902, 0.5058823529411764, 
+                    0.19607843137254902`], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}}}, {{{205., 22.660200119018555`}, {205., 
+                    212.11320304870605`}, {246.01799774169922`, 
+                    235.79520988464355`}, {369.0710144042969, 
+                    306.8401927947998}, {369.0710144042969, 
+                    117.38719749450684`}, {205., 22.660200119018555`}}, {{
+                    30.928985595703125`, 306.8401927947998}, {
+                    153.98200225830078`, 235.79520988464355`}, {195., 
+                    212.11320304870605`}, {195., 22.660200119018555`}, {
+                    30.928985595703125`, 117.38719749450684`}, {
+                    30.928985595703125`, 306.8401927947998}}, {{200., 
+                    410.22620964050293`}, {364.0710144042969, 
+                    315.5001964569092}, {241.01799774169922`, 
+                    244.45519828796387`}, {200., 220.77320671081543`}, {
+                    158.98200225830078`, 244.45519828796387`}, {
+                    35.928985595703125`, 315.5001964569092}, {200., 
+                    410.22620964050293`}}, CompressedData["
+1:eJxTTMoPSmViYGCQAWIQDQQPlDrLHYB0n8ffYgewSEAmhO9aBaJ/1cmB+XqT
+gsF8tsaHGch8BoYNGcjqGS7lmqOYd/qhKYg+9+8dhH/prQmI9ptyBYV/jmEH
+Cj+CeUEMMr9iq24MsnkV3Eeike2b8aQrGtk9DSrhyiA6e88JMD/BvUgJbG/S
+EzBfQYpBCaKeIROZv2muNDK/YaqzeSayflj4wMyHhR/M/oDHC8uR3fdAaWM5
+svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
+                    "]}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{43., 198.67381286621094`}, {107.71399688720703`, 
+                    161.3118133544922}, {107.71399688720703`, 
+                    86.58680725097656}, {43., 123.94882202148438`}, {43., 
+                    198.67381286621094`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.3137254901960784, 0.4549019607843137, 
+                    0.611764705882353], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{182.77679443359375`, 198.67381286621094`}, {
+                    182.77679443359375`, 123.94882202148438`}, {
+                    118.06279754638672`, 86.58680725097656}, {
+                    118.06279754638672`, 161.3118133544922}, {
+                    182.77679443359375`, 198.67381286621094`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.7803921568627451, 0.8627450980392157, 
+                    0.9490196078431372], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{112.8884048461914, 244.9990997314453}, {
+                    177.60240173339844`, 207.63610076904297`}, {
+                    112.8884048461914, 170.27410888671875`}, {
+                    48.174407958984375`, 207.63610076904297`}, {
+                    112.8884048461914, 244.9990997314453}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{130.02911376953125`, 350.11590576171875`}, {
+                    194.80210876464844`, 312.7189064025879}, {
+                    194.80210876464844`, 237.92591094970703`}, {
+                    130.02911376953125`, 275.32291412353516`}, {
+                    130.02911376953125`, 350.11590576171875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.4627450980392157, 0.3607843137254902, 
+                    0.611764705882353], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{269.9334716796875, 350.11590576171875`}, {
+                    269.9334716796875, 275.32291412353516`}, {
+                    205.1604766845703, 237.92591094970703`}, {
+                    205.1604766845703, 312.7189064025879}, {269.9334716796875,
+                     350.11590576171875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.8862745098039215, 0.803921568627451, 
+                    0.9529411764705882], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{199.98130798339844`, 396.48345947265625`}, {
+                    264.7543029785156, 359.0864601135254}, {
+                    199.98130798339844`, 321.69046783447266`}, {
+                    135.20831298828125`, 359.0864601135254}, {
+                    199.98130798339844`, 396.48345947265625`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{217.61199951171875`, 199.13890075683594`}, {
+                    281.8990020751953, 162.0229034423828}, {281.8990020751953,
+                     87.7908935546875}, {217.61199951171875`, 
+                    124.90690612792969`}, {217.61199951171875`, 
+                    199.13890075683594`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.43137254901960786`, 0.6039215686274509, 
+                    0.34509803921568627`], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{356.46661376953125`, 199.13890075683594`}, {
+                    356.46661376953125`, 124.90690612792969`}, {
+                    292.1796112060547, 87.7908935546875}, {292.1796112060547, 
+                    162.0229034423828}, {356.46661376953125`, 
+                    199.13890075683594`}}}]}, {
+                    FaceForm[{
+                    RGBColor[0.8549019607843137, 0.9450980392156862, 0.8], 
+                    Opacity[1.]}], 
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{287.039306640625, 245.15859985351562`}, {
+                    351.32630920410156`, 208.0426025390625}, {
+                    287.039306640625, 170.92660522460938`}, {
+                    222.75230407714844`, 208.0426025390625}, {
+                    287.039306640625, 245.15859985351562`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    356.46649169921875`, 215.76849365234375`}, {
+                    296.2834930419922, 250.5924949645996}, {
+                    356.46649169921875`, 285.26649475097656`}, {
+                    356.46649169921875`, 215.76849365234375`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6627450980392157, 0.803921568627451, 
+                    0.5686274509803921], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    217.61199951171875`, 114.06449890136719`}, {
+                    277.7949981689453, 79.24049758911133}, {
+                    217.61199951171875`, 44.566497802734375`}, {
+                    217.61199951171875`, 114.06449890136719`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    122.17269897460938`, 78.36309814453125}, {
+                    182.42269897460938`, 113.07109832763672`}, {
+                    182.35969924926758`, 43.614097595214844`}, {
+                    122.17269897460938`, 78.36309814453125}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.5529411764705883, 0.6745098039215687, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    103.52159881591797`, 249.46669006347656`}, {
+                    43.27159881591797, 214.7586898803711}, {
+                    43.334598541259766`, 284.21569061279297`}, {
+                    103.52159881591797`, 249.46669006347656`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    120.86710357666016`, 350.61541748046875`}, {
+                    120.80010357499123`, 281.0834197998047}, {
+                    60.68010330200195, 315.86641693115234`}, {
+                    120.86710357666016`, 350.61541748046875`}}}]}, {
+                    FaceForm[{
+                    RGBColor[
+                    0.6901960784313725, 0.5882352941176471, 
+                    0.8117647058823529], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    278.3727111816406, 281.2159118652344}, {
+                    278.43971118330956`, 350.74790954589844`}, {
+                    338.5597114562988, 315.9649124145508}, {278.3727111816406,
+                     281.2159118652344}}}]}}, {
+                    ImageSize -> 12, BaselinePosition -> Scaled[0.1], 
+                    ImageSize -> {Automatic, 35}}], 
+                    StyleBox[
+                    "\"AntonAntonov/QuantileRegression\"", FontFamily -> 
+                    Dynamic[
+                    CurrentValue["PanelFontFamily"]], FontSize -> 
+                    0.8 Inherited, ShowStringCharacters -> False, 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Baseline}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {{0}}}], "Grid"], 
+                    ButtonFunction :> {}, Evaluator -> None, Active -> False, 
+                    Alignment -> Left, 
+                    Appearance -> {
+                    "Default" -> 
+                    FrontEnd`FileName[{"Typeset", "SummaryBox"}, 
+                    "Panel.9.png"]}, FrameMargins -> {{3, 3}, {3, 0}}, 
+                    BaseStyle -> {Deployed -> False}, 
+                    DefaultBaseStyle -> {Background -> None}, 
+                    BaselinePosition -> Baseline, Method -> "Preemptive"], 
+                    "]"}], "OEM6eJy9kcFKQzEQRXn1IUJF0E/\
+oBzR7d1oXCgU1qbgQF3nppE3Ny4TMxNi/NxFFxH03wyzOYS53bEcnUpdr/\
+ACyHR1LbLvtqV86YnUmgTAnA/fDDgyr7sUe0fldYEgxAWt2GBr/\
+35wuPOb1rzah6QrG6DVDwybf2Ga2ZY50KUQpZV7Q26RH09S5wVHgsBM6MAYMJg8gbiB63MP6JxaJB2\
+08sLhq0NfAd/GYq+M8SNgkIKoZZwoOcked3u4jJO/\
+C25Ncqu61NvOnicPEaPXK7IEuFPh69tnxdoH1a4GJ+lXKUKN9AhuIu8o="}, 
+                 "ClickToCopyTemplate"]]}}, Alignment -> Left, 
              ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], FontColor -> 
             GrayLevel[0.5], FontSize -> 12]}}, 
          ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
@@ -10327,30 +10716,7 @@ Fu6DuJJG2H9mK2QZ3X1Y8rjKVdsLU11Qbnfn/Mae/TiO1RZHs2bny+6Vwq5Sfi8TnHKi+1+K4NOh"]\
     "Paclet", "PacletName" -> "PacletResource", "SourceID" -> 
     "92ce7a395baccd06b35bc67811577346991d7e35"}, "ToolsOpen" -> True, 
   "StatusMessage" -> "", "SubmissionReviewData" -> {"Review" -> False}, 
-  "AutoUpdate" -> True, 
-  "PacletBuildData" -> {
-   "LastBuiltArchive" -> 
-    "/Volumes/Macintosh \
-HD/Users/antonov/WL-QuantileRegression-paclet/build/AntonAntonov__\
-QuantileRegression-1.0.2.paclet", "FileHashes" -> ByteArray[CompressedData["
-1:eJwB0QIu/SFib1JiAQAAAMQCAAA4Qzp4nHOU0g02cslPLs1NzStJLMnMz9N3
-zUvPySzO0HcvzUxJLdYPLE3MK8nMSS1KTS9KLS4GqtDLS3Jk0g1mC84vLUpO
-9WE7oqxTv7IIaBBbSGJRemqJz6cf+osuVDkr6AYrYTfaMy8ltUI/3kAvOa0Y
-yahiFr/8vFSEOV5fFd6n7xIM0Q1Ww2dOcWo6SKo43hiPWeYHuQ4kxFXW6gZr
-EGOWXnpqHh7TBH0fNC6peG6pG2yF3bSg1DRgiOUlpwYkpgMDMbgyNyk/p1jf
-LzTIKdgpsTizGC0QP3cuP+QrGBmIsCKDx8yueHuNrG6wA0lWwOLLNa8sNSe/
-IBXNorsb72RUHTochLDoUOT5nSwnVlvoBrtRZFFQajpm4jj2NHTBFYFLMgjr
-Nu7rueelKqGvG+xKlnVB8HTollmCZttiPz6dRxwLfRG2uV601KpgL7DRDXai
-0DY0q5Y+ikqrF85XRFi1Wjtxbrf+YkPdYC3sVgWnJhYlZ0DSmSkk9afiSWMX
-j2k1lpu7RpNiHr7cFPBil1th02xl3WBNIs0rzsRj3M8ZK7K/tb4COk+XGOPS
-MlNzUor1ynPwGLlC3/Jk7P03MbrBJsQYmQmifVNLElMSSxLxm5x4a85j/Y0a
-xbrBesSYDC9RjPCYeTrU4L/s8TW2RJpZXpRZkqqXk5+cjcfMzFB/pYhHod66
-weo4zCxIzckhsvh0e73qwYpO0yCiDDMhYNi9ul19EpE9TEQZZkrAMBnthNPt
-K0OAEa1N0DCiSne5b2H2G4qSBEgyMAmPge4+MYf3nTlsQZKBKXgMTD+vejvD
-ycEEd3bBNJBAJbQziGePQPdRoKdlvFOL8lJzsJVaKNnCJ6q5WzR72W9zhCEI
-Ed6AxOSc1BLPvLR8NF2d9oKeCoyn6hC6ECKCEF2+iXmZaanFJfizoT1L5Pwn
-aj8FALb/FTXU7E1F
-      "]]}, "TryRealOnly" -> False, 
+  "AutoUpdate" -> True, "TryRealOnly" -> False, 
   "Openers" -> {
    "ExampleSection" -> {
      "1" -> Closed, "2" -> Closed, "3" -> Closed, "4" -> Closed, "5" -> 
@@ -10358,7 +10724,31 @@ aj8FALb/FTXU7E1F
     "ExampleSubsection" -> {
      "0" -> Closed, "1" -> Closed, "2" -> Closed, "3" -> Closed, "4" -> 
       Closed, "5" -> Closed, "6" -> Closed, "7" -> Closed, "8" -> Closed, "9" -> 
-      Closed, "10" -> Closed}}, "Paclet" -> "None"},
+      Closed, "10" -> Closed}}, "Paclet" -> "None", 
+  "PacletBuildData" -> {
+   "LastBuiltArchive" -> 
+    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/build/AntonAntonov__\
+QuantileRegression-1.0.3.paclet", "FileHashes" -> ByteArray[CompressedData["
+1:eJwB+wIE/SFib1JiAQAAAO4CAAA4Qzp4nHOU0A02cslPLs1NzStJLMnMz9N3
+zUvPySzO0HcvzUxJLdYPLE3MK8nMSS1KTS9KLS4GqtDLS3Jk0g1mC84vLUpO
+9WE7oqxTv7JICigSkliUnlris+K0086ATeZuusFK2I32zEtJrdCPN9BLTitG
+MqqYxS8/LxVhDtcDufiXt2aG6Aar4TOnODUdJFUcb4zHrJf2gU/SuD2cdIM1
+iDFLLz01D49pgr4PGpdUPLfUDbbCblpQahowxPKSUwMS04GBGFyZm5SfU6zv
+FxrkFOyUWJxZjBaIP90rrrCmLLVCWJG2X/hBg8xqSd1gB5KsgMWXa15Zak5+
+QSqaRXc33smoOnQ4CGHRrSMV98L41Ap1g90osigoNR0zcRx7GrrgisAlGaSI
+uP331iXdHSa6wa5kWRcET4dumSVotp06fSCJU3MDF8K2ZvFyaSPtSw66wU4U
+2oZm1dJHUWn1wvmKCKtMb+VfUD33D5gmtLBbFZyaWJScAUlnppDUn4onjb1I
+VPzav0hEnhTz8OWm3Qpv7G4+ygQGvCaR5hVn4jFO6/1fe//je3N1g3WJMS4t
+MzUnpVivPAePkc9Sehf3nT/lohtsQoyRmSDaN7UkMSWxJBG/ydVrrllLGM6O
+0w3WI8ZkeIlihMdMT8/XMS3PBYqINLO8KLMkVS8nPzkbj5mZof5KEY9CvXWD
+1XGYWZCakwMtPs0IRPhySTtpkYXiObrB2gQNg/s4DY+BIrbxSwXdtLVwRzmm
+gQQK0sT8nZycm+Zm6QbbYzcypLQkvygzMQdbRWTsklqRmFuQk4pemrowbhU6
+M+lxKcKemsubUvRPN1XoBnuRbk9+WWpReWpiSUZqUUlmbmpxalEmhpWLL8b/
+YXzyyAdhpS9jVNj3fhVd3WAZ79SivNQcbIUKSqr1ecjYwie9l0kUYQhChDcg
+MTkntcQzLy0fTZfi01vNkyM6dRG6ECKCEF2+iXmZaanFJfhzybXmDXzXQq1t
+AG/E+S+Tl2Iy
+      "]]}},
 CreateCellID->True,
 DynamicEvaluationTimeout->60,
 FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
@@ -11428,6 +11818,7 @@ AsyncronousResourceInformationUpdates = False,
                 StripOnInput -> False], ButtonFunction :> 
                With[{RSNB`nb$ = ButtonNotebook[], RSNB`$cp$ = $ContextPath}, 
                  Quiet[
+                  
                   Block[{$ContextPath = RSNB`$cp$, 
                     ResourceSystemClient`$\
 AsyncronousResourceInformationUpdates = False, 
@@ -11698,6 +12089,7 @@ h/Fh4QMzDxZ+6PEFAOibv7E=
                    FaceForm[{
                     RGBColor[0.66275, 0.80392, 0.56863], 
                     Opacity[1.]}], 
+                   
                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
                     356.47, 215.77}, {296.28, 250.59}, {356.47, 285.27}, {
                     356.47, 215.77}}}]}, {
@@ -12313,7 +12705,6 @@ p2HmwdTp4FCHTvOhqYfZrw2lhdDk0fno6tHcD1PPwOSAnY+uns8BAE8cGz4=
 Hw4apk4Uap8aDr4QDhqqDu4uVRx8URw0TJ001D5lHHwJHDRUHYMclFbCwZfG
 QUPVNSjgp+HmIWgAG/wcEg==
                     "]], 
-                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1,
@@ -12448,6 +12839,7 @@ Repository\"", True}, "OrangeButtonTemplate"]]], StandardForm], Evaluator ->
                 FaceForm[{
                   RGBColor[0.96078, 0.50588, 0.19608], 
                   Opacity[1.]}], 
+                
                 FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
                   0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
                   1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
@@ -14067,7 +14459,6 @@ Mn8D1T+bLHr4qqKuQ8bv8LBZfwwdhGSmFwY76zqghzcABAZ3MA==
           FaceForm[
            GrayLevel[1.]]], 
          StyleBox[{
-           
            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3,
               3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 
              3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {
@@ -15875,8 +16266,7 @@ FpG1n6WfSeLb27c2Volz+/dhBxtxrIPL2Ar/oQtZg16JsQ879Gyxx3vEuygx
              0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 255}, {255, 255, 
              255, 255}}}], "Byte", ColorSpace -> "RGB", 
             ImageResolution -> {72, 72}, Interleaving -> True], "Hover" -> 
-          Image[
-           RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 0, 0, 
+          Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 0, 0, 
              255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 0, 0}, {0, 
              0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 255}, {255, 255, 
              255, 255}}}], "Byte", ColorSpace -> "RGB", 
@@ -15958,8 +16348,8 @@ FpG1n6WfSeLb27c2Volz+/dhBxtxrIPL2Ar/oQtZg16JsQ879Gyxx3vEuygx
          FaceForm[
           GrayLevel[0.4]], 
          FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {1, 3, 
-          3}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}
-          , {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, CompressedData["
+          3}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+          0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, CompressedData["
 1:eJxTTMoPSmVmYGBgBGIlIGYC4h1yra8Dd6g4rHN/WCWip+KwRiYqxXq+isNk
 CZYwvlwEDROHqYPpKwUrUHFgAIEDKg5nzwDBG2VU/hlluPogMEMCzm9kOdpv
 aC6OJi/mINR84NRCVwQfIq8M519wufHhi5Yymn4lNPOVHNLAQBHO/6YR03/o
@@ -16777,7 +17167,6 @@ directory.\""}, "PacletDirectoryChooserErrorTemplate"]], "AttachedMessage"],
                     If[
                     And[RSNB`nbDir =!= RSNB`oldDir, 
                     MemberQ[$Packages, "PacletResource`DefinitionNotebook`"]], 
-                    
                     With[{RSNB`nb$ = EvaluationNotebook[], 
                     RSNB`$cp$ = $ContextPath}, 
                     Quiet[
@@ -17309,6 +17698,7 @@ directory.\""}, "PacletDirectoryChooserErrorTemplate"]], "AttachedMessage"],
                     If[
                     And[RSNB`nbDir =!= RSNB`oldDir, 
                     MemberQ[$Packages, "PacletResource`DefinitionNotebook`"]], 
+                    
                     With[{RSNB`nb$ = EvaluationNotebook[], 
                     RSNB`$cp$ = $ContextPath}, 
                     Quiet[
@@ -17788,8 +18178,7 @@ RefreshNotebookPacletFiles[RSNB`nbo, RSNB`cell]]]],
                     "RowDefault"], ItemSize -> Fit, StripOnInput -> False]}}, 
                  GridBoxAlignment -> {
                   "Columns" -> {Left, Right}, "Rows" -> {{Top}}}, AutoDelete -> 
-                 False, 
-                 GridBoxItemSize -> {
+                 False, GridBoxItemSize -> {
                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
                 "Grid"]}, {
                TagBox[
@@ -18143,8 +18532,9 @@ GRPf1sw3cDj8VSOm/5G9w5vAHXKt3IZQ/0HDoQHBFwFFwBcEHxR9zQlGcP3o
                  RSNB`initial$ = SelectFirst[{
                     FileNameJoin[{
                     With[{RSNB`cell$ = First[
-                    Cells[RSNB`nbo, CellStyle -> "PacletDirectoryChooser", 
-                    CellTags -> "PacletManifestPanel"], $Failed]}, 
+                    Cells[
+                    RSNB`nbo, CellStyle -> "PacletDirectoryChooser", CellTags -> 
+                    "PacletManifestPanel"], $Failed]}, 
                     Replace[{
                     CurrentValue[
                     RSNB`cell$, {TaggingRules, "PacletDirectoryType"}], 

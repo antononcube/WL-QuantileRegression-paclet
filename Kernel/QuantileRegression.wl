@@ -182,7 +182,7 @@ Clear[NURBSBasis];
 Options[NURBSBasis] = {
   SplineClosed -> False,
   "RelativeMargin" -> 0.05,
-  "FilterDistance" -> Automatic
+  "MaxNearestDistance" -> Automatic
 };
 
 NURBSBasis[data_?MatrixQ, n_Integer, opts : OptionsPattern[]] :=
@@ -190,11 +190,11 @@ NURBSBasis[data_?MatrixQ, n_Integer, opts : OptionsPattern[]] :=
 
 NURBSBasis[data_?MatrixQ, nsArg : { _Integer .. }, opts : OptionsPattern[]] :=
     Module[{ns = nsArg, dim = Dimensions[data][[2]],
-      lsMinMaxes, relMargin, filterDistance, cpts0, inds, inds01, cpts, aBasis, nf},
+      lsMinMaxes, relMargin, maxNearestDistance, cpts0, inds, inds01, cpts, aBasis, nf},
 
       (* Process options *)
       relMargin = OptionValue[NURBSBasis, "RelativeMargin"];
-      filterDistance = OptionValue[NURBSBasis, "FilterDistance"];
+      maxNearestDistance = OptionValue[NURBSBasis, "MaxNearestDistance"];
 
       (* Extend number of points per side spec *)
       Which[
@@ -234,16 +234,16 @@ NURBSBasis[data_?MatrixQ, nsArg : { _Integer .. }, opts : OptionsPattern[]] :=
           ];
 
       (* Filter basis *)
-      If[ TrueQ[filterDistance === Automatic] || NumericQ[filterDistance],
+      If[ TrueQ[maxNearestDistance === Automatic] || NumericQ[maxNearestDistance],
 
-        If[TrueQ[filterDistance === Automatic],
-          filterDistance = Min @ MapThread[Abs[#1[[2]] - #1[[1]]] / #2&, {lsMinMaxes, ns}];
-          filterDistance = filterDistance * 1.5;
+        If[TrueQ[maxNearestDistance === Automatic],
+          maxNearestDistance = Min @ MapThread[Abs[#1[[2]] - #1[[1]]] / #2&, {lsMinMaxes, ns}];
+          maxNearestDistance = maxNearestDistance * 1.5;
         ];
 
         nf = Nearest[data -> "Distance"];
 
-        aBasis = Association@KeyValueMap[If[First[nf[#1, 1]] < filterDistance, #1 -> #2, Nothing] &, aBasis];
+        aBasis = Association@KeyValueMap[If[First[nf[#1, 1]] < maxNearestDistance, #1 -> #2, Nothing] &, aBasis];
       ];
 
       (* Result *)

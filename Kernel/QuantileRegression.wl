@@ -179,18 +179,23 @@ MinimizeQuantileRegressionFit[methodFunc_, data_?MatrixQ, funcs_, var_Symbol, pr
 
 Clear[NURBSBasis];
 
-Options[NURBSBasis] = {SplineClosed -> False, "RelativeMargin" -> 0.05};
+Options[NURBSBasis] = {
+  SplineClosed -> False,
+  "RelativeMargin" -> 0.05,
+  "FilterDistance" -> Automatic
+};
 
 NURBSBasis[data_?MatrixQ, n_Integer, opts : OptionsPattern[]] :=
-    NURBSBasis[data, Table[n, Length @ data[[1]]] ];
+    NURBSBasis[data, Table[n, Length @ data[[1]]], opts];
 
 NURBSBasis[data_?MatrixQ, nsArg : { _Integer .. }, opts : OptionsPattern[]] :=
     Module[{ns = nsArg, dim = Dimensions[data][[2]],
-      lsMinMaxes, relMargin, cpts0, inds, inds01, cpts, aBasis},
+      lsMinMaxes, relMargin, filterDistance, cpts0, inds, inds01, cpts, aBasis, nf},
 
       (* Process options *)
       relMargin = OptionValue[NURBSBasis, "RelativeMargin"];
-
+      filterDistance = OptionValue[NURBSBasis, "FilterDistance"];
+      Echo[filterDistance, "filterDistance : "];
       (* Extend number of points per side spec *)
       Which[
         dim < Length[ns],
@@ -227,6 +232,19 @@ NURBSBasis[data_?MatrixQ, nsArg : { _Integer .. }, opts : OptionsPattern[]] :=
             )&,
             {inds, inds01}
           ];
+
+      (* Filter basis *)
+      If[ TrueQ[filterDistance === Automatic] || NumericQ[filterDistance],
+
+        If[TrueQ[filterDistance === Automatic],
+          filterDistance = Min @ MapThread[Abs[#1[[2]] - #1[[1]]] / #2&, {lsMinMaxes, ns}];
+          filterDistance = filterDistance * 1.5;
+        ];
+        Echo[filterDistance, "filterDistance : "];
+        nf = Nearest[data -> "Distance"];
+
+        aBasis = Association@KeyValueMap[If[First[nf[#1, 1]] < filterDistance, #1 -> #2, Nothing] &, aBasis];
+      ];
 
       (* Result *)
       aBasis
@@ -365,7 +383,7 @@ LPSplineQuantileRegression[dataArg_?MatrixQ, knotsArg : {_?NumberQ ..}, order_In
       If[yMedian == 0 && yFactor == 1,
         Table[ With[{f = pfuncs[[All, 1]] . qrSolutions[[i, 1 ;; Length[pfuncs]]]}, f &], {i, 1, Length[probs]}],
         (*ELSE*)
-        Map[Function[{ws}, With[{f = yFactor*((pfuncs[[All, 1]] . ws) - yShift) + yMedian}, f &]], qrSolutions[[All, 1 ;; Length[pfuncs]]]]
+        Map[Function[{ws}, With[{f = yFactor * ((pfuncs[[All, 1]] . ws) - yShift) + yMedian}, f &]], qrSolutions[[All, 1 ;; Length[pfuncs]]]]
       ]
     ];
 

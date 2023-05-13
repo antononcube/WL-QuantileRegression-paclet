@@ -195,7 +195,7 @@ NURBSBasis[data_?MatrixQ, nsArg : { _Integer .. }, opts : OptionsPattern[]] :=
       (* Process options *)
       relMargin = OptionValue[NURBSBasis, "RelativeMargin"];
       filterDistance = OptionValue[NURBSBasis, "FilterDistance"];
-      Echo[filterDistance, "filterDistance : "];
+
       (* Extend number of points per side spec *)
       Which[
         dim < Length[ns],
@@ -240,7 +240,7 @@ NURBSBasis[data_?MatrixQ, nsArg : { _Integer .. }, opts : OptionsPattern[]] :=
           filterDistance = Min @ MapThread[Abs[#1[[2]] - #1[[1]]] / #2&, {lsMinMaxes, ns}];
           filterDistance = filterDistance * 1.5;
         ];
-        Echo[filterDistance, "filterDistance : "];
+
         nf = Nearest[data -> "Distance"];
 
         aBasis = Association@KeyValueMap[If[First[nf[#1, 1]] < filterDistance, #1 -> #2, Nothing] &, aBasis];

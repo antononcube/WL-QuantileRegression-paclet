@@ -1,0 +1,354 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13330,        346]
+NotebookOptionsPosition[      8688,        246]
+NotebookOutlinePosition[      9259,        265]
+CellTagsIndexPosition[      9216,        262]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Quantile regression", "GuideTitle",
+ CellID->39793765,ExpressionUUID->"60c074d3-f7d0-4a6f-913e-1393b9a1e01c"],
+
+Cell["\<\
+The curves found with Quantile Regression (QR) are called \"regression \
+quantiles.\"\
+\>", "GuideAbstract",
+ CellChangeTimes->{{3.891769919241147*^9, 3.891769957311119*^9}, {
+  3.891782898465899*^9, 3.891782901030077*^9}},
+ CellID->946394138,ExpressionUUID->"af4de3df-2b96-43fa-8540-a31e679d22c9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "GuideFunctionsSection",
+ CellID->1782387684,ExpressionUUID->"dfc1a184-483a-4b01-ae83-6f0079a4c74d"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["QuantileRegression",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegression"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "f5454323-f49d-4cfe-9895-6c9421f28ab3"],
+ " \[LongDash] find regression quantiles using B-splines"
+}], "GuideText",
+ CellChangeTimes->{{3.891769907858068*^9, 3.891769916607772*^9}, {
+  3.891769960529522*^9, 3.891769999408909*^9}, {3.891770147389368*^9, 
+  3.891770147389388*^9}},
+ CellID->1340412985,ExpressionUUID->"c19b6463-7c8c-409e-aeeb-d3653e79e7fd"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["QuantileRegressionFit",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegressionFit"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "25b4420c-492a-4aef-b7fb-0da9a72195bc"],
+ " \[LongDash] find regression quantiles using Chebyshev functions or custom \
+basis functions"
+}], "GuideText",
+ CellChangeTimes->{{3.8917699860249*^9, 3.8917700422950087`*^9}, {
+  3.891770152558275*^9, 3.891770152558292*^9}},
+ CellID->1217581865,ExpressionUUID->"1e1dd5e4-b634-461b-aa64-0c63a0de38de"],
+
+Cell[CellGroupData[{
+
+Cell["\t", "GuideDelimiter",
+ CellID->526732792,ExpressionUUID->"a76af508-16c1-4fd2-b8be-99115c72326f"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["QuantileEnvelope",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:AntonAntonov/QuantileRegression/ref/QuantileEnvelope"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c47faf62-94ef-4fe5-be4e-5caa6b5fdaf7",ExpressionUUID->
+  "7e418221-fbd6-43ed-b3b4-42b48aac7816"],
+ " \[LongDash] find quantile envelope for multi-dimensional data"
+}], "GuideText",
+ CellChangeTimes->{{3.8917700605868273`*^9, 3.891770101016735*^9}, {
+  3.8917701628746843`*^9, 3.891770162874702*^9}},
+ CellID->507279799,ExpressionUUID->"233d3ef0-0c06-4a01-b5aa-8d6ddbfed37e"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["QuantileEnvelopeRegion",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:AntonAntonov/QuantileRegression/ref/QuantileEnvelopeRegion"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c47faf62-94ef-4fe5-be4e-5caa6b5fdaf7",ExpressionUUID->
+  "c6bb0383-201e-46fa-b5e3-a778c83a9644"],
+ " \[LongDash] find quantile envelope region for 2D and 3D data"
+}], "GuideText",
+ CellChangeTimes->{{3.891770107521385*^9, 3.8917701364646873`*^9}, {
+  3.8917701696772957`*^9, 3.891770169677313*^9}},
+ CellID->829212907,ExpressionUUID->"d33d2758-b253-46da-b9df-72f674fbb4d7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\t", "GuideDelimiter",
+ CellID->1939317580,ExpressionUUID->"56d3a6ec-6605-4cd0-aa5c-807c5e3a3ee2"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["NURBSBasis",
+   BaseStyle->"Link",
+   ButtonData->"paclet:AntonAntonov/QuantileRegression/ref/NURBSBasis"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"e4c6786f-0537-41a0-b123-e55e1f36cfa0",ExpressionUUID->
+  "fb3b66b2-34b5-45cd-8282-aa1301386fa7"],
+ " \[LongDash] gives a basis of NURBS functions"
+}], "GuideText",
+ CellChangeTimes->{{3.8917828510361023`*^9, 3.891782889102153*^9}},
+ CellID->1751256541,ExpressionUUID->"9870b450-37f1-47ff-91cc-fb069cefebf7"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tech Notes", "GuideTutorialsSection",
+ CellID->863620106,ExpressionUUID->"c3786d8f-0102-46ef-ae39-cf0908ba4d79"],
+
+Cell["XXXX", "GuideTutorial",
+ CellID->21151469,ExpressionUUID->"3adefd12-0558-4f54-b732-2ec3c68e4a2a"],
+
+Cell["XXXX", "GuideTutorial",
+ CellID->1157937728,ExpressionUUID->"0a0eb9e8-098a-4a50-baeb-554b6084190d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "GuideMoreAboutSection",
+ CellChangeTimes->{{3.8430423939366693`*^9, 3.843042395176153*^9}},
+ CellID->962585382,ExpressionUUID->"10ef5256-d08a-4d1d-a3fe-fcb30aacc868"],
+
+Cell["XXXX", "GuideMoreAbout",
+ CellID->1178202423,ExpressionUUID->"54ad275b-3811-4f83-a560-4aafb4d4ecdf"],
+
+Cell["XXXX", "GuideMoreAbout",
+ CellID->101414374,ExpressionUUID->"f4f9e759-86a1-4fd8-9894-82c94dc1ae76"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Links", "GuideRelatedLinksSection",
+ CellID->1516851747,ExpressionUUID->"a818ac46-7307-47a4-bdbe-b4353505f2ca"],
+
+Cell[TextData[ButtonBox["Quantile regression | Wikipedia",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://en.wikipedia.org/wiki/Quantile_regression"], None},
+ ButtonNote->
+  "https://en.wikipedia.org/wiki/Quantile_regression"]], "GuideRelatedLinks",
+ CellChangeTimes->{{3.89177024970936*^9, 3.891770276171976*^9}},
+ CellID->895457808,ExpressionUUID->"759c8856-30d3-40e3-9061-6abda1882175"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Metadata", "MetadataSection",
+ CellID->948938292,ExpressionUUID->"6ab7fe02-9148-4f60-b99d-71c4c35bfc8d"],
+
+Cell[TextData[{
+ "New in: ",
+ Cell["1.0.1", "HistoryData",
+  CellTags->"New",ExpressionUUID->"cf20dc06-ce78-471e-afcb-039145fe0236"],
+ " | Modified in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Modified",ExpressionUUID->"26f5464f-17b7-4304-a807-1d9ddb081ae7"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete",ExpressionUUID->
+  "9b55088d-2048-4d0f-bfc3-0fba04c2a1bf"]
+}], "History",
+ CellChangeTimes->{{3.891770195656646*^9, 3.891770198690728*^9}},
+ CellID->1592311022,ExpressionUUID->"2e5d93a9-171e-48c3-abc2-94bf8217480f"],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->30137840,ExpressionUUID->"67bb491a-4221-4dd9-928a-7c21e4e07b0d"],
+
+Cell["Guide", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->1868019835,ExpressionUUID->"97b6c554-deb8-499d-92ff-139cda53af21"],
+
+Cell["AntonAntonov/QuantileRegression", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->1745931352,ExpressionUUID->"3d49c584-c90c-477d-9a52-5e876f7b4f18"],
+
+Cell["AntonAntonov`QuantileRegression`", "Categorization",
+ CellLabel->"Context",
+ CellID->651680456,ExpressionUUID->"efffce94-8ad6-4b87-bf25-1008403b3a97"],
+
+Cell["AntonAntonov/QuantileRegression/guide/Quantileregression", \
+"Categorization",
+ CellLabel->"URI",
+ CellID->626824292,ExpressionUUID->"4913055d-22dc-415a-b81b-9b41e0fcdb1b"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->1628587109,ExpressionUUID->"a988a0d3-a68e-4235-b713-6ad9c64595e4"],
+
+Cell["Quantile regression", "Keywords",
+ CellChangeTimes->{{3.891769554673748*^9, 3.8917695804123573`*^9}},
+ CellID->1314434244,ExpressionUUID->"1ffb74f0-c349-471f-ac25-4b5425cc7584"],
+
+Cell["Regression", "Keywords",
+ CellChangeTimes->{{3.891769554673748*^9, 3.8917695844453993`*^9}},
+ CellID->1996144308,ExpressionUUID->"45325073-d76c-4594-aab1-0acad06fa88c"],
+
+Cell["Regression quantiles", "Keywords",
+ CellChangeTimes->{{3.891769554673748*^9, 3.891769608741269*^9}},
+ CellID->313924205,ExpressionUUID->"303b434a-a413-41ef-974d-44735809aa7b"],
+
+Cell["Quantile", "Keywords",
+ CellChangeTimes->{{3.891769554673748*^9, 3.891769587231035*^9}},
+ CellID->1873645749,ExpressionUUID->"81d11898-86e0-4e68-9e89-103657f2b0ac"],
+
+Cell["Quantiles", "Keywords",
+ CellChangeTimes->{{3.891769554673748*^9, 3.891769590662137*^9}},
+ CellID->1867294590,ExpressionUUID->"f524f3d1-8095-49d4-87ad-8b186c26fa6e"],
+
+Cell["Fitting", "Keywords",
+ CellChangeTimes->{{3.891769554673748*^9, 3.891769599752061*^9}},
+ CellID->519172585,ExpressionUUID->"42e0e028-25c2-4d04-9661-dff8586fc83b"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1150, 1017},
+WindowMargins->{{Automatic, 974}, {Automatic, 54}},
+TaggingRules-><|"Paclet" -> "AntonAntonov/QuantileRegression"|>,
+Magnification:>1.25 Inherited,
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "GuidePageStylesExt.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"71dfeb76-6470-445b-96af-fc1fc1742dad"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 115, 1, 109, "GuideTitle",ExpressionUUID->"60c074d3-f7d0-4a6f-913e-1393b9a1e01c",
+ CellID->39793765],
+Cell[698, 25, 308, 6, 37, "GuideAbstract",ExpressionUUID->"af4de3df-2b96-43fa-8540-a31e679d22c9",
+ CellID->946394138]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1043, 36, 109, 1, 91, "GuideFunctionsSection",ExpressionUUID->"dfc1a184-483a-4b01-ae83-6f0079a4c74d",
+ CellID->1782387684],
+Cell[1155, 39, 669, 15, 34, "GuideText",ExpressionUUID->"c19b6463-7c8c-409e-aeeb-d3653e79e7fd",
+ CellID->1340412985],
+Cell[1827, 56, 664, 15, 56, "GuideText",ExpressionUUID->"1e1dd5e4-b634-461b-aa64-0c63a0de38de",
+ CellID->1217581865],
+Cell[CellGroupData[{
+Cell[2516, 75, 103, 1, 35, "GuideDelimiter",ExpressionUUID->"a76af508-16c1-4fd2-b8be-99115c72326f",
+ CellID->526732792],
+Cell[2622, 78, 627, 14, 34, "GuideText",ExpressionUUID->"233d3ef0-0c06-4a01-b5aa-8d6ddbfed37e",
+ CellID->507279799],
+Cell[3252, 94, 638, 14, 34, "GuideText",ExpressionUUID->"d33d2758-b253-46da-b9df-72f674fbb4d7",
+ CellID->829212907]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3927, 113, 104, 1, 35, "GuideDelimiter",ExpressionUUID->"56d3a6ec-6605-4cd0-aa5c-807c5e3a3ee2",
+ CellID->1939317580],
+Cell[4034, 116, 543, 12, 34, "GuideText",ExpressionUUID->"9870b450-37f1-47ff-91cc-fb069cefebf7",
+ CellID->1751256541]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4626, 134, 118, 1, 93, "GuideTutorialsSection",ExpressionUUID->"c3786d8f-0102-46ef-ae39-cf0908ba4d79",
+ CellID->863620106],
+Cell[4747, 137, 103, 1, 30, "GuideTutorial",ExpressionUUID->"3adefd12-0558-4f54-b732-2ec3c68e4a2a",
+ CellID->21151469],
+Cell[4853, 140, 105, 1, 30, "GuideTutorial",ExpressionUUID->"0a0eb9e8-098a-4a50-baeb-554b6084190d",
+ CellID->1157937728]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4995, 146, 190, 2, 93, "GuideMoreAboutSection",ExpressionUUID->"10ef5256-d08a-4d1d-a3fe-fcb30aacc868",
+ CellID->962585382],
+Cell[5188, 150, 106, 1, 30, "GuideMoreAbout",ExpressionUUID->"54ad275b-3811-4f83-a560-4aafb4d4ecdf",
+ CellID->1178202423],
+Cell[5297, 153, 105, 1, 30, "GuideMoreAbout",ExpressionUUID->"f4f9e759-86a1-4fd8-9894-82c94dc1ae76",
+ CellID->101414374]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5439, 159, 125, 1, 93, "GuideRelatedLinksSection",ExpressionUUID->"a818ac46-7307-47a4-bdbe-b4353505f2ca",
+ CellID->1516851747],
+Cell[5567, 162, 398, 7, 30, "GuideRelatedLinks",ExpressionUUID->"759c8856-30d3-40e3-9061-6abda1882175",
+ CellID->895457808]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6002, 174, 110, 1, 90, "MetadataSection",ExpressionUUID->"6ab7fe02-9148-4f60-b99d-71c4c35bfc8d",
+ CellID->948938292],
+Cell[6115, 177, 546, 13, 33, "History",ExpressionUUID->"2e5d93a9-171e-48c3-abc2-94bf8217480f",
+ CellID->1592311022],
+Cell[CellGroupData[{
+Cell[6686, 194, 121, 1, 27, "CategorizationSection",ExpressionUUID->"67bb491a-4221-4dd9-928a-7c21e4e07b0d",
+ CellID->30137840],
+Cell[6810, 197, 134, 2, 87, "Categorization",ExpressionUUID->"97b6c554-deb8-499d-92ff-139cda53af21",
+ CellID->1868019835],
+Cell[6947, 201, 160, 2, 87, "Categorization",ExpressionUUID->"3d49c584-c90c-477d-9a52-5e876f7b4f18",
+ CellID->1745931352],
+Cell[7110, 205, 156, 2, 87, "Categorization",ExpressionUUID->"efffce94-8ad6-4b87-bf25-1008403b3a97",
+ CellID->651680456],
+Cell[7269, 209, 178, 3, 87, "Categorization",ExpressionUUID->"4913055d-22dc-415a-b81b-9b41e0fcdb1b",
+ CellID->626824292]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7484, 217, 111, 1, 26, "KeywordsSection",ExpressionUUID->"a988a0d3-a68e-4235-b713-6ad9c64595e4",
+ CellID->1628587109],
+Cell[7598, 220, 183, 2, 27, "Keywords",ExpressionUUID->"1ffb74f0-c349-471f-ac25-4b5425cc7584",
+ CellID->1314434244],
+Cell[7784, 224, 174, 2, 27, "Keywords",ExpressionUUID->"45325073-d76c-4594-aab1-0acad06fa88c",
+ CellID->1996144308],
+Cell[7961, 228, 181, 2, 27, "Keywords",ExpressionUUID->"303b434a-a413-41ef-974d-44735809aa7b",
+ CellID->313924205],
+Cell[8145, 232, 170, 2, 27, "Keywords",ExpressionUUID->"81d11898-86e0-4e68-9e89-103657f2b0ac",
+ CellID->1873645749],
+Cell[8318, 236, 171, 2, 27, "Keywords",ExpressionUUID->"f524f3d1-8095-49d4-87ad-8b186c26fa6e",
+ CellID->1867294590],
+Cell[8492, 240, 168, 2, 27, "Keywords",ExpressionUUID->"42e0e028-25c2-4d04-9661-dff8586fc83b",
+ CellID->519172585]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,972 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     48558,        964]
+NotebookOptionsPosition[     44444,        868]
+NotebookOutlinePosition[     45018,        887]
+CellTagsIndexPosition[     44975,        884]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Unit tests", "Title",
+ CellID->679881418,ExpressionUUID->"ca727961-7c06-4873-bd9e-90be3b38ebe1"],
+
+Cell["\<\
+In this notebook we show how to run the unit tests provided in the paclet.\
+\>", "Text",
+ CellChangeTimes->{{3.89228825335641*^9, 3.8922882878812437`*^9}, {
+  3.892288650124155*^9, 3.892288652137376*^9}},
+ CellID->2022257941,ExpressionUUID->"f4495eca-78db-453e-a627-49ecd646083c"],
+
+Cell[CellGroupData[{
+
+Cell["Test file name", "MathCaption",
+ CellChangeTimes->{{3.8922882901974077`*^9, 3.89228832109087*^9}},
+ CellID->747095208,ExpressionUUID->"b1e0683b-950d-4d10-8eb9-dd1b735b534a"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"dirName", "=", 
+   RowBox[{
+    RowBox[{"First", "[", 
+     RowBox[{
+     "PacletFind", "[", "\"\<AntonAntonov/QuantileRegression\>\"", "]"}], 
+     "]"}], "[", "\"\<Location\>\"", "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"fileName", "=", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "dirName", ",", "\"\<Kernel\>\"", ",", 
+      "\"\<QuantileRegression-Unit-Tests.wlt\>\""}], "}"}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.892546880240656*^9, 3.8925469079352922`*^9}, {
+  3.8932992503378763`*^9, 3.893299261880279*^9}},
+ CellLabel->"In[159]:=",
+ CellID->109456294,ExpressionUUID->"be0d5fbc-d050-4f94-915a-c1c08ce1cfbc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Run test report", "MathCaption",
+ CellChangeTimes->{{3.892288406478712*^9, 3.892288411395359*^9}},
+ CellID->1890805132,ExpressionUUID->"34c76bf9-622a-49c6-b77a-eac837001a4f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"trObj", "=", 
+  RowBox[{"TestReport", "[", "fileName", "]"}]}]], "Input",
+ CellChangeTimes->{{3.89228842015949*^9, 3.892288422321677*^9}},
+ CellLabel->"In[161]:=",
+ CellID->497050671,ExpressionUUID->"df6ed9da-9c5b-4f04-aa59-785a2d4f7dd9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["TestReportObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              InsetBox[
+               BoxData[
+                FormBox[
+                 PaneBox[
+                  DynamicBox[
+                   FEPrivate`FrontEndResource[
+                   "MUnitExpressions", "SuccessIcon"]], Alignment -> Center, 
+                  ImageSize -> 
+                  Dynamic[{
+                    Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], TraditionalForm]]]}, 
+             PlotRange -> {{0, 1}, {0, 1}}, Background -> GrayLevel[0.93], 
+             Axes -> False, AspectRatio -> 1, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], Frame -> True, FrameTicks -> None, 
+             FrameStyle -> Directive[
+               Thickness[Tiny], 
+               GrayLevel[0.55]]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Title: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"Test Report: QuantileRegression-Unit-Tests.wlt\"", 
+                  "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"Success rate: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   InterpretationBox[
+                    StyleBox["\"100%\"", ShowStringCharacters -> False], 1., 
+                    AutoDelete -> True], PercentForm], "SummaryItem"]}], 
+               RowBox[{
+                 TagBox["\"Tests run: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["20", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              InsetBox[
+               BoxData[
+                FormBox[
+                 PaneBox[
+                  DynamicBox[
+                   FEPrivate`FrontEndResource[
+                   "MUnitExpressions", "SuccessIcon"]], Alignment -> Center, 
+                  ImageSize -> 
+                  Dynamic[{
+                    Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], TraditionalForm]]]}, 
+             PlotRange -> {{0, 1}, {0, 1}}, Background -> GrayLevel[0.93], 
+             Axes -> False, AspectRatio -> 1, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], Frame -> True, FrameTicks -> None, 
+             FrameStyle -> Directive[
+               Thickness[Tiny], 
+               GrayLevel[0.55]]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Title: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"Test Report: QuantileRegression-Unit-Tests.wlt\"", 
+                  "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"Success rate: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   InterpretationBox[
+                    StyleBox["\"100%\"", ShowStringCharacters -> False], 1., 
+                    AutoDelete -> True], PercentForm], "SummaryItem"]}], 
+               RowBox[{
+                 TagBox["\"Tests run: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["20", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Succeeded: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["20", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"Failed: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["0", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox[
+                 "\"Failed with wrong results: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["0", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox[
+                 "\"Failed with messages: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["0", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"Failed with errors: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["0", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"Time elapsed: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "1.052949`", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "Quantity", SyntaxForm -> Mod], "SummaryItem"]}], 
+               "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  TestReportObject[<|
+   "Title" -> "Test Report: QuantileRegression-Unit-Tests.wlt", "Aborted" -> 
+    False, "TestResults" -> <|
+     7145362735730455815 -> 
+      TestResultObject[<|
+        "TestKey" -> 7145362735730455815, "TestID" -> "PacletPresent", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[Length[
+             PacletFind["AntonAntonov/QuantileRegression"]] > 0], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301730957332*^9, "AbsoluteTimeUsed" -> 
+         0.002635`3.5712956173805552, "CPUTimeUsed" -> 0.00263599999999542, 
+         "MemoryUsed" -> 1904|>], 3940325926344808906 -> 
+      TestResultObject[<|
+        "TestKey" -> 3940325926344808906, "TestID" -> "GenerateData", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`distData = 
+            Table[{$CellContext`x, Exp[-$CellContext`x^2] + RandomVariate[
+                 NormalDistribution[0, 0.15]]}, {$CellContext`x, -3, 3, 
+               0.2}]; $CellContext`distData2 = 
+            Table[{$CellContext`x, Exp[-$CellContext`x^2] + RandomVariate[
+                 NormalDistribution[0, 0.15]]}, {$CellContext`x, -3, 3, 
+               0.02}]; And[
+             MatrixQ[$CellContext`distData, NumberQ], 
+             MatrixQ[$CellContext`distData2, NumberQ]]], "ExpectedOutput" -> 
+         HoldForm[True], "ActualOutput" -> HoldForm[True], "ExpectedMessages" -> 
+         HoldForm[{}], "ActualMessages" -> {}, "AbsoluteTime" -> 
+         3.8933017309612617`*^9, "AbsoluteTimeUsed" -> 
+         0.000349`2.693340424791174, "CPUTimeUsed" -> 0.00034999999999740794`,
+          "MemoryUsed" -> 14616|>], 1611459685031456765 -> 
+      TestResultObject[<|
+        "TestKey" -> 1611459685031456765, "TestID" -> "FinancialData", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`finData = TemporalData[TimeSeries, {{
+                StructuredArray[QuantityArray, {22}, 
+                 StructuredArray`StructuredData[
+                 QuantityArray, {16.170000076293945`, 14.109999656677246`, 
+                  13.479999542236328`, 14.069999694824219`, 
+                  14.079999923706055`, 13.609999656677246`, 
+                  13.630000114440918`, 12.9399995803833, 11.289999961853027`, 
+                  10.100000381469727`, 7.5, 7.570000171661377, 
+                  10.15999984741211, 10.390000343322754`, 9.989999771118164, 
+                  10.170000076293945`, 9.4399995803833, 10.5, 
+                  10.449999809265137`, 8.25, 8.9399995803833, 
+                  8.890000343322754}, "USDollars", {{1}}]]}, {{{3726345600, 
+               3728764800, 3731270400, 3734035200, 3736713600, 3739219200, 
+               3741984000, 3744662400, 3747081600, 3749932800, 3752524800, 
+               3755203200, 3757881600, 3760300800, 3762806400, 3765571200, 
+               3768249600, 3770668800, 3773520000, 3776112000, 3778790400, 
+               3780086400}}}, 1, {"Discrete", 1}, {"Discrete", 1}, 1, {
+               ValueDimensions -> 1, DateFunction -> Automatic, 
+                MetaInformation -> {"FinancialProperty" -> "Close"}, 
+                ResamplingMethod -> {
+                 "Interpolation", "InterpolationOrder" -> 0}, 
+                TemporalRegularity -> Automatic}}, True, 12.]; 
+           TrueQ[Head[$CellContext`finData] === TemporalData]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301730961971*^9, "AbsoluteTimeUsed" -> 
+         0.001033`3.1646153193516104, "CPUTimeUsed" -> 0.0010329999999925121`,
+          "MemoryUsed" -> 62576|>], 9200151035600893264 -> 
+      TestResultObject[<|
+        "TestKey" -> 9200151035600893264, "TestID" -> "QuantileRegression-1", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`probs = 
+            Range[0.2, 0.8, 0.2]; $CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData, 12, $CellContext`probs]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301730963303*^9, "AbsoluteTimeUsed" -> 
+         0.010836`4.185383994193121, "CPUTimeUsed" -> 0.011296000000001527`, 
+         "MemoryUsed" -> 38880|>], 6099477995636680647 -> 
+      TestResultObject[<|
+        "TestKey" -> 6099477995636680647, "TestID" -> "QuantileRegression-2", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> HoldForm[
+           VectorQ[
+            Through[
+             $CellContext`qFuncs[0]], NumberQ]], "ExpectedOutput" -> 
+         HoldForm[True], "ActualOutput" -> HoldForm[True], "ExpectedMessages" -> 
+         HoldForm[{}], "ActualMessages" -> {}, "AbsoluteTime" -> 
+         3.893301730974391*^9, "AbsoluteTimeUsed" -> 
+         0.000188`2.4246728470956698, "CPUTimeUsed" -> 
+         0.00018900000000598993`, "MemoryUsed" -> 2808|>], 
+      3317446210672784589 -> 
+      TestResultObject[<|
+        "TestKey" -> 3317446210672784589, "TestID" -> "QuantileRegression-3", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData, {-3, -2, 1, 0, 1, 1.5, 2.5, 3}, $CellContext`probs]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301730974817*^9, "AbsoluteTimeUsed" -> 
+         0.006688`3.9758112622629516, "CPUTimeUsed" -> 0.006933999999986895, 
+         "MemoryUsed" -> -12296|>], 3139286661905016006 -> 
+      TestResultObject[<|
+        "TestKey" -> 3139286661905016006, "TestID" -> "QuantileRegression-4", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData, {-3, -2, 1, 0, 1, 1.5, 2.5, 3}, 0.5]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 1, 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301730981746*^9, "AbsoluteTimeUsed" -> 
+         0.004973`3.847133457064219, "CPUTimeUsed" -> 0.005195000000000505, 
+         "MemoryUsed" -> -5112|>], 1793713552669487114 -> 
+      TestResultObject[<|
+        "TestKey" -> 1793713552669487114, "TestID" -> "QuantileRegression-5", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[
+              Part[$CellContext`distData, All, 2], 12, $CellContext`probs]; 
+           And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301730986953*^9, "AbsoluteTimeUsed" -> 
+         0.013066`4.266657651685786, "CPUTimeUsed" -> 0.013414999999994848`, 
+         "MemoryUsed" -> 29680|>], 7383616622006426952 -> 
+      TestResultObject[<|
+        "TestKey" -> 7383616622006426952, "TestID" -> "QuantileRegression-6", 
+         "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+finData, 12, $CellContext`probs]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301731000253*^9, "AbsoluteTimeUsed" -> 
+         0.012833`4.258843192098176, "CPUTimeUsed" -> 0.01316500000000076, 
+         "MemoryUsed" -> 178512|>], 6416929365729553177 -> 
+      TestResultObject[<|
+        "TestKey" -> 6416929365729553177, "TestID" -> 
+         "QuantileRegressionFit-1", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegressionFit[$\
+CellContext`distData, {1, $CellContext`x, 
+               Exp[-$CellContext`x^2]}, $CellContext`x, $CellContext`probs]; 
+           And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             VectorQ[
+              ReplaceAll[$CellContext`qFuncs, $CellContext`x -> 12], 
+              NumberQ]]], "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> 
+         HoldForm[True], "ExpectedMessages" -> HoldForm[{}], 
+         "ActualMessages" -> {}, "AbsoluteTime" -> 3.893301731013348*^9, 
+         "AbsoluteTimeUsed" -> 0.0013380000000000001`3.2769711112637983, 
+         "CPUTimeUsed" -> 0.001347000000009757, "MemoryUsed" -> -55504|>], 
+      5188859861985888787 -> 
+      TestResultObject[<|
+        "TestKey" -> 5188859861985888787, "TestID" -> 
+         "QuantileRegressionFit-2", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegressionFit[
+              Part[$CellContext`distData, All, 2], {
+              1, $CellContext`x, $CellContext`x^2}, $CellContext`x, \
+$CellContext`probs]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             VectorQ[
+              ReplaceAll[$CellContext`qFuncs, $CellContext`x -> 12], 
+              NumberQ]]], "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> 
+         HoldForm[True], "ExpectedMessages" -> HoldForm[{}], 
+         "ActualMessages" -> {}, "AbsoluteTime" -> 3.8933017310149*^9, 
+         "AbsoluteTimeUsed" -> 0.001198`3.2289718158852843, "CPUTimeUsed" -> 
+         0.001197999999988042, "MemoryUsed" -> 1480|>], 4957462985296483579 -> 
+      TestResultObject[<|
+        "TestKey" -> 4957462985296483579, "TestID" -> 
+         "QuantileRegressionFit-3", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegressionFit[$\
+CellContext`finData, {
+              1, $CellContext`x, $CellContext`x^2}, $CellContext`x, \
+$CellContext`probs]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             VectorQ[
+              ReplaceAll[$CellContext`qFuncs, $CellContext`x -> 12], 
+              NumberQ]]], "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> 
+         HoldForm[True], "ExpectedMessages" -> HoldForm[{}], 
+         "ActualMessages" -> {}, "AbsoluteTime" -> 3.893301731016293*^9, 
+         "AbsoluteTimeUsed" -> 0.000813`3.0606055434260617, "CPUTimeUsed" -> 
+         0.0008130000000079463, "MemoryUsed" -> 4904|>], 6131690892251723691 -> 
+      TestResultObject[<|
+        "TestKey" -> 6131690892251723691, "TestID" -> 
+         "QuantileRegression-Method-1", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData, 12, $CellContext`probs, Method -> LinearProgramming]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301731017289*^9, "AbsoluteTimeUsed" -> 
+         0.007651`4.034233199795951, "CPUTimeUsed" -> 0.007849999999990587, 
+         "MemoryUsed" -> 37784|>], 6392575652689160743 -> 
+      TestResultObject[<|
+        "TestKey" -> 6392575652689160743, "TestID" -> 
+         "QuantileRegression-Method-2", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData, 6, $CellContext`probs, Method -> {LinearProgramming}]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301731025139*^9, "AbsoluteTimeUsed" -> 
+         0.004644`3.817407208898528, "CPUTimeUsed" -> 0.004747999999992203, 
+         "MemoryUsed" -> -12352|>], 2209013095960135866 -> 
+      TestResultObject[<|
+        "TestKey" -> 2209013095960135866, "TestID" -> 
+         "QuantileRegression-Method-3", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData, 6, $CellContext`probs, 
+              Method -> {
+               LinearProgramming, Method -> "CLP", Tolerance -> 10^(-4)}]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301731029981*^9, "AbsoluteTimeUsed" -> 
+         0.008952`4.102435071352288, "CPUTimeUsed" -> 0.009058999999979278, 
+         "MemoryUsed" -> 1752|>], 5878851529988264598 -> 
+      TestResultObject[<|
+        "TestKey" -> 5878851529988264598, "TestID" -> 
+         "QuantileRegression-Method-4", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData, 6, $CellContext`probs, Method -> NMinimize]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs], 
+             Apply[And, 
+              Map[TrueQ[Head[#] === Function]& , $CellContext`qFuncs]]]], 
+         "ExpectedOutput" -> HoldForm[True], "ActualOutput" -> HoldForm[True],
+          "ExpectedMessages" -> HoldForm[{}], "ActualMessages" -> {}, 
+         "AbsoluteTime" -> 3.893301731039155*^9, "AbsoluteTimeUsed" -> 
+         0.741058`6.020367197841273, "CPUTimeUsed" -> 0.7484070000000145, 
+         "MemoryUsed" -> -2941184|>], 8059172138577805772 -> 
+      TestResultObject[<|
+        "TestKey" -> 8059172138577805772, "TestID" -> 
+         "QuantileRegression-Separation-1", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegression[$CellContext`\
+distData2, 6, $CellContext`probs]; $CellContext`sepPointsFractions = Map[
+              Function[{$CellContext`f}, 
+               N[Length[
+                  Select[$CellContext`distData2, Part[#, 2] < $CellContext`f[
+                    Part[#, 1]]& ]]/
+                Length[$CellContext`distData2]]], $CellContext`qFuncs]; 
+           Norm[$CellContext`sepPointsFractions - $CellContext`probs, 
+              Infinity] <= 0.03], "ExpectedOutput" -> HoldForm[True], 
+         "ActualOutput" -> HoldForm[True], "ExpectedMessages" -> HoldForm[{}],
+          "ActualMessages" -> {}, "AbsoluteTime" -> 3.893301731780601*^9, 
+         "AbsoluteTimeUsed" -> 0.078561`5.045722000764116, "CPUTimeUsed" -> 
+         0.3255450000000053, "MemoryUsed" -> -1592|>], 5043125132616294575 -> 
+      TestResultObject[<|
+        "TestKey" -> 5043125132616294575, "TestID" -> 
+         "QuantileRegressionFit-Separation-1", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegressionFit[$\
+CellContext`distData2, 
+              Table[
+               
+               Cos[$CellContext`x $CellContext`i], {$CellContext`i, 0, 
+                16}], $CellContext`x, $CellContext`probs]; \
+$CellContext`sepPointsFractions = Map[
+              Function[{$CellContext`f}, 
+               N[Length[
+                  
+                  Select[$CellContext`distData2, Part[#, 2] < 
+                   ReplaceAll[$CellContext`f, $CellContext`x -> 
+                    Part[#, 1]]& ]]/
+                Length[$CellContext`distData2]]], $CellContext`qFuncs]; 
+           Norm[$CellContext`sepPointsFractions - $CellContext`probs, 
+              Infinity] <= 0.03], "ExpectedOutput" -> HoldForm[True], 
+         "ActualOutput" -> HoldForm[True], "ExpectedMessages" -> HoldForm[{}],
+          "ActualMessages" -> {}, "AbsoluteTime" -> 3.893301731859668*^9, 
+         "AbsoluteTimeUsed" -> 0.106061`5.176070715395174, "CPUTimeUsed" -> 
+         0.6627279999999871, "MemoryUsed" -> -9112|>], 6469192529870511311 -> 
+      TestResultObject[<|
+        "TestKey" -> 6469192529870511311, "TestID" -> 
+         "QuantileRegressionFit-3D-1", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`c = 10; $CellContext`lsData = 
+            RandomReal[{0, $CellContext`c}, {300, 2}]; $CellContext`matData = 
+            Map[Append[#, Sqrt[4 Part[#, 1]] + 
+               2 Sin[Part[#, 1] + Part[#, 2]/5] + RandomVariate[
+                 NormalDistribution[
+                 0, 0.6]]]& , $CellContext`lsData]; $CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegressionFit[$\
+CellContext`matData, {
+              1, $CellContext`x, $CellContext`y, $CellContext`x + \
+$CellContext`y, $CellContext`x^2, $CellContext`y^2, $CellContext`x \
+$CellContext`y}, {$CellContext`x, $CellContext`y}, $CellContext`probs, 
+              Method -> {LinearProgramming, Method -> "CLP"}]; And[
+             ListQ[$CellContext`qFuncs], Length[$CellContext`qFuncs] == 
+             Length[$CellContext`probs]]], "ExpectedOutput" -> HoldForm[True],
+          "ActualOutput" -> HoldForm[True], "ExpectedMessages" -> 
+         HoldForm[{}], "ActualMessages" -> {}, "AbsoluteTime" -> 
+         3.893301731966064*^9, "AbsoluteTimeUsed" -> 
+         0.023556`4.522616543479625, "CPUTimeUsed" -> 0.030953999999994153`, 
+         "MemoryUsed" -> 19536|>], 1366254089592665587 -> 
+      TestResultObject[<|
+        "TestKey" -> 1366254089592665587, "TestID" -> 
+         "QuantileRegressionFit-3D-2", "TestFileName" -> 
+         "/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt", 
+         "SameTest" -> SameQ, "SameMessages" -> Testing`MessageMatchQ, 
+         "MemoryConstraint" -> DirectedInfinity[1], "TimeConstraint" -> 
+         DirectedInfinity[1], "Outcome" -> "Success", "Input" -> 
+         HoldForm[$CellContext`c = 10; $CellContext`lsData = 
+            RandomReal[{0, $CellContext`c}, {300, 2}]; $CellContext`matData = 
+            Map[Append[#, Sqrt[4 Part[#, 1]] + 
+               2 Sin[Part[#, 1] + Part[#, 2]/5] + RandomVariate[
+                 NormalDistribution[
+                 0, 0.6]]]& , $CellContext`lsData]; $CellContext`qFuncs = 
+            AntonAntonov`QuantileRegression`QuantileRegressionFit[$\
+CellContext`matData, {
+              1, $CellContext`x, $CellContext`y, $CellContext`x + \
+$CellContext`y, $CellContext`x^2, $CellContext`y^2, $CellContext`x \
+$CellContext`y}, {$CellContext`x, $CellContext`y}, $CellContext`probs, 
+              Method -> {
+               LinearProgramming, Method -> 
+                "CLP"}]; $CellContext`sepPointsFractions = Map[
+              Function[{$CellContext`f}, 
+               N[Length[
+                  
+                  Select[$CellContext`matData, Part[#, -1] < 
+                   ReplaceAll[$CellContext`f, {$CellContext`x -> 
+                    Part[#, 1], $CellContext`y -> Part[#, 2]}]& ]]/
+                Length[$CellContext`matData]]], $CellContext`qFuncs]; 
+           Norm[$CellContext`sepPointsFractions - $CellContext`probs, 
+              Infinity] <= 0.03], "ExpectedOutput" -> HoldForm[True], 
+         "ActualOutput" -> HoldForm[True], "ExpectedMessages" -> HoldForm[{}],
+          "ActualMessages" -> {}, "AbsoluteTime" -> 3.893301731989939*^9, 
+         "AbsoluteTimeUsed" -> 0.026516`4.574023008177482, "CPUTimeUsed" -> 
+         0.033774000000008186`, "MemoryUsed" -> 3920|>]|>, 
+    "TestsSucceededKeys" -> {7145362735730455815, 3940325926344808906, 
+     1611459685031456765, 9200151035600893264, 6099477995636680647, 
+     3317446210672784589, 3139286661905016006, 1793713552669487114, 
+     7383616622006426952, 6416929365729553177, 5188859861985888787, 
+     4957462985296483579, 6131690892251723691, 6392575652689160743, 
+     2209013095960135866, 5878851529988264598, 8059172138577805772, 
+     5043125132616294575, 6469192529870511311, 1366254089592665587}, 
+    "TestsFailedWrongResultsKeys" -> {}, "TestsFailedWithMessagesKeys" -> {}, 
+    "TestsFailedWithErrorsKeys" -> {}|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.89254691133558*^9, 3.8925471133036613`*^9, 
+  3.893299267994216*^9, 3.8932994731435947`*^9, 3.8933017320249157`*^9},
+ CellLabel->"Out[161]=",
+ CellID->1016431347,ExpressionUUID->"1a9acd2d-56e9-4965-b780-fc7418d20571"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Failed tests (if any)", "MathCaption",
+ CellChangeTimes->{{3.892288545226383*^9, 3.89228855069459*^9}},
+ CellID->1518812869,ExpressionUUID->"747d8103-1e6f-4115-acb5-d051f21975ac"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"trObj", "[", "\"\<TestsFailed\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.892287271707075*^9, 3.8922873013840647`*^9}},
+ CellLabel->"In[162]:=",
+ CellID->211805466,ExpressionUUID->"0574f7ea-83bc-4107-860e-091251b14640"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"TestsFailedWrongResults\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"TestsFailedWithMessages\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"TestsFailedWithErrors\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.892288552044718*^9, 3.892546912542692*^9, 
+  3.892547116157814*^9, 3.8932995036005697`*^9, 3.893301734577944*^9},
+ CellLabel->"Out[162]=",
+ CellID->1535202201,ExpressionUUID->"c7441065-06af-437d-bd24-04e7ef05848e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["See the unit tests", "MathCaption",
+ CellChangeTimes->{{3.892288437012497*^9, 3.892288442164316*^9}, {
+  3.892288526629485*^9, 3.892288527406782*^9}},
+ CellID->1579604952,ExpressionUUID->"05301ed8-686a-4e38-b6a8-a1613261f12e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NotebookOpen", "[", "fileName", "]"}]], "Input",
+ CellChangeTimes->{{3.892288443045827*^9, 3.8922884636520147`*^9}},
+ CellLabel->"In[163]:=",
+ CellID->759331245,ExpressionUUID->"5696e633-9717-4dee-b954-7b49a270f4f1"],
+
+Cell[BoxData[
+ TemplateBox[<|
+  "obj" -> NotebookObject[
+    "de12db84-c0aa-40a0-999b-b9f43c73bf1a", 
+     "30f08704-f02a-4912-9df7-bc5cf574bc9a"], "label" -> 
+   "\"QuantileRegression-Unit-Tests.wlt\"", "tooltip" -> 
+   "\"/Users/antonov/Library/Mathematica/Paclets/Repository/AntonAntonov__\
+QuantileRegression-1.0.5/Kernel/QuantileRegression-Unit-Tests.wlt\""|>,
+  "NotebookObjectUUIDs"]], "Output",
+ CellChangeTimes->{3.893301737276277*^9},
+ CellLabel->"Out[163]=",
+ CellID->798340484,ExpressionUUID->"5250182a-f661-41e5-854a-26386ba0b69a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "TutorialMoreAboutSection",
+ CellChangeTimes->{{3.843042384656711*^9, 3.843042386024461*^9}},
+ CellID->818557672,ExpressionUUID->"f796dd30-635d-403e-87e3-64530c987880"],
+
+Cell[TextData[ButtonBox["Quantile regression",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:AntonAntonov/QuantileRegression/guide/Quantileregression"]], \
+"TutorialMoreAbout",
+ CellChangeTimes->{{3.893299396722411*^9, 3.893299407724015*^9}},
+ CellID->718550622,ExpressionUUID->"87b5a55f-6340-4fd3-9343-d8162e727678"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Tech Notes", "RelatedTutorialsSection",
+ CellID->1379756873,ExpressionUUID->"b5d3bdaa-a66c-4bf9-9fa5-4d52215eda85"],
+
+Cell["XXXX", "RelatedTutorials",
+ CellID->1045344205,ExpressionUUID->"9ef5226d-7e6f-4c66-a0bf-b73283819284"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Metadata", "MetadataSection",
+ CellID->536337328,ExpressionUUID->"b818d487-8e9a-4235-b3ce-d364488fa575"],
+
+Cell[TextData[{
+ "New in: ",
+ Cell["1.0.5", "HistoryData",
+  CellTags->"New",ExpressionUUID->"7299dae0-9529-43c6-9e06-c695fd91fe1e"],
+ " | Modified in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Modified",ExpressionUUID->"98ac6b63-ea00-445b-96be-06c16a2214ce"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete",ExpressionUUID->
+  "9b9df449-6574-456d-868d-c7a7ed6501a4"]
+}], "History",
+ CellChangeTimes->{{3.89329942660494*^9, 3.893299428717729*^9}, {
+  3.893299554225217*^9, 3.893299555956119*^9}},
+ CellID->1232605237,ExpressionUUID->"ce7b270d-5c67-4dd3-89eb-b722ee50b1db"],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->1768959297,ExpressionUUID->"91d7b089-e62d-488c-a084-76024dbe8709"],
+
+Cell["Tech Note", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->1135295611,ExpressionUUID->"8247de92-e2d4-438d-a697-45b29f56954c"],
+
+Cell["AntonAntonov/QuantileRegression", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->521130482,ExpressionUUID->"c570dcfb-9e12-46c7-bd09-567e23cd36eb"],
+
+Cell["AntonAntonov`QuantileRegression`", "Categorization",
+ CellLabel->"Context",
+ CellID->1201698508,ExpressionUUID->"4487c70c-85c5-4384-bfcc-ed0cb83347d2"],
+
+Cell["AntonAntonov/QuantileRegression/tutorial/Unittests", "Categorization",
+ CellLabel->"URI",
+ CellID->2010607568,ExpressionUUID->"e52b3041-3a13-42df-86e6-b53718c1739c"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->1626209831,ExpressionUUID->"38e2a13c-8082-46fb-9c12-9667c182e0da"],
+
+Cell["Quantile regression", "Keywords",
+ CellChangeTimes->{{3.893299431812684*^9, 3.893299438824461*^9}},
+ CellID->684254248,ExpressionUUID->"c6d78de4-36c6-4f41-9ec6-7c7c4b2a18ac"],
+
+Cell["Unit tests", "Keywords",
+ CellChangeTimes->{{3.893299431812684*^9, 3.893299441814939*^9}},
+ CellID->1079004632,ExpressionUUID->"e6148858-f775-4920-8d8e-b136d05b4a87"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1284, 1135},
+WindowMargins->{{Automatic, 1028}, {Automatic, 0}},
+TaggingRules-><|"Paclet" -> "AntonAntonov/QuantileRegression"|>,
+Magnification:>1.25 Inherited,
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "TechNotePageStylesExt.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"49969b1c-ddfe-4137-8ed6-36ebe96cf568"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 102, 1, 141, "Title",ExpressionUUID->"ca727961-7c06-4873-bd9e-90be3b38ebe1",
+ CellID->679881418],
+Cell[685, 25, 290, 5, 31, "Text",ExpressionUUID->"f4495eca-78db-453e-a627-49ecd646083c",
+ CellID->2022257941],
+Cell[CellGroupData[{
+Cell[1000, 34, 179, 2, 47, "MathCaption",ExpressionUUID->"b1e0683b-950d-4d10-8eb9-dd1b735b534a",
+ CellID->747095208],
+Cell[1182, 38, 696, 19, 82, "Input",ExpressionUUID->"be0d5fbc-d050-4f94-915a-c1c08ce1cfbc",
+ CellID->109456294]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1915, 62, 180, 2, 52, "MathCaption",ExpressionUUID->"34c76bf9-622a-49c6-b77a-eac837001a4f",
+ CellID->1890805132],
+Cell[CellGroupData[{
+Cell[2120, 68, 262, 5, 33, "Input",ExpressionUUID->"df6ed9da-9c5b-4f04-aa59-785a2d4f7dd9",
+ CellID->497050671],
+Cell[2385, 75, 36850, 645, 65, "Output",ExpressionUUID->"1a9acd2d-56e9-4965-b780-fc7418d20571",
+ CellID->1016431347]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39284, 726, 185, 2, 52, "MathCaption",ExpressionUUID->"747d8103-1e6f-4115-acb5-d051f21975ac",
+ CellID->1518812869],
+Cell[CellGroupData[{
+Cell[39494, 732, 244, 4, 33, "Input",ExpressionUUID->"0574f7ea-83bc-4107-860e-091251b14640",
+ CellID->211805466],
+Cell[39741, 738, 700, 13, 57, "Output",ExpressionUUID->"c7441065-06af-437d-bd24-04e7ef05848e",
+ CellID->1535202201]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40490, 757, 232, 3, 52, "MathCaption",ExpressionUUID->"05301ed8-686a-4e38-b6a8-a1613261f12e",
+ CellID->1579604952],
+Cell[CellGroupData[{
+Cell[40747, 764, 240, 4, 33, "Input",ExpressionUUID->"5696e633-9717-4dee-b954-7b49a270f4f1",
+ CellID->759331245],
+Cell[40990, 770, 544, 11, 44, "Output",ExpressionUUID->"5250182a-f661-41e5-854a-26386ba0b69a",
+ CellID->798340484]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41583, 787, 191, 2, 93, "TutorialMoreAboutSection",ExpressionUUID->"f796dd30-635d-403e-87e3-64530c987880",
+ CellID->818557672],
+Cell[41777, 791, 315, 6, 30, "TutorialMoreAbout",ExpressionUUID->"87b5a55f-6340-4fd3-9343-d8162e727678",
+ CellID->718550622]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42129, 802, 129, 1, 93, "RelatedTutorialsSection",ExpressionUUID->"b5d3bdaa-a66c-4bf9-9fa5-4d52215eda85",
+ CellID->1379756873],
+Cell[42261, 805, 108, 1, 30, "RelatedTutorials",ExpressionUUID->"9ef5226d-7e6f-4c66-a0bf-b73283819284",
+ CellID->1045344205]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42418, 812, 110, 1, 90, "MetadataSection",ExpressionUUID->"b818d487-8e9a-4235-b3ce-d364488fa575",
+ CellID->536337328],
+Cell[42531, 815, 594, 14, 33, "History",ExpressionUUID->"ce7b270d-5c67-4dd3-89eb-b722ee50b1db",
+ CellID->1232605237],
+Cell[CellGroupData[{
+Cell[43150, 833, 123, 1, 27, "CategorizationSection",ExpressionUUID->"91d7b089-e62d-488c-a084-76024dbe8709",
+ CellID->1768959297],
+Cell[43276, 836, 138, 2, 87, "Categorization",ExpressionUUID->"8247de92-e2d4-438d-a697-45b29f56954c",
+ CellID->1135295611],
+Cell[43417, 840, 159, 2, 87, "Categorization",ExpressionUUID->"c570dcfb-9e12-46c7-bd09-567e23cd36eb",
+ CellID->521130482],
+Cell[43579, 844, 157, 2, 87, "Categorization",ExpressionUUID->"4487c70c-85c5-4384-bfcc-ed0cb83347d2",
+ CellID->1201698508],
+Cell[43739, 848, 171, 2, 87, "Categorization",ExpressionUUID->"e52b3041-3a13-42df-86e6-b53718c1739c",
+ CellID->2010607568]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[43947, 855, 111, 1, 26, "KeywordsSection",ExpressionUUID->"38e2a13c-8082-46fb-9c12-9667c182e0da",
+ CellID->1626209831],
+Cell[44061, 858, 180, 2, 26, "Keywords",ExpressionUUID->"c6d78de4-36c6-4f41-9ec6-7c7c4b2a18ac",
+ CellID->684254248],
+Cell[44244, 862, 172, 2, 26, "Keywords",ExpressionUUID->"e6148858-f775-4920-8d8e-b136d05b4a87",
+ CellID->1079004632]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

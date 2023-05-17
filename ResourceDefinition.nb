@@ -5,7 +5,7 @@ Cell["AntonAntonov/QuantileRegression", "Title",
  Deletable->False,
  TaggingRules->{},
  CellTags->{"Name", "TemplateCell", "Title"},
- CellID->297464623,ExpressionUUID->"0325e03d-b069-4786-9fd0-791b5a4919a1"],
+ CellID->297464623,ExpressionUUID->"8a345995-f891-4f20-84a6-e04df86d8dac"],
 
 Cell["Quantile regression functions", "Text",
  Deletable->False,
@@ -13,7 +13,7 @@ Cell["Quantile regression functions", "Text",
  CellChangeTimes->{{3.890817269455805*^9, 3.890817280647962*^9}, {
   3.89299470176537*^9, 3.892994701842436*^9}},
  CellTags->{"Description", "TemplateCell"},
- CellID->145988545,ExpressionUUID->"1285deba-a81b-42d2-a361-33e994aa6e73"],
+ CellID->145988545,ExpressionUUID->"3730214d-2e24-47c2-9ccd-2d03fefebfdf"],
 
 Cell[CellGroupData[{
 
@@ -22,14 +22,17 @@ Cell["Paclet Manifest", "Section",
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "PacletManifest"},
  CellTags->{"Paclet Manifest", "PacletManifest", "TemplateCellGroup"},
- CellID->196832285,ExpressionUUID->"fcd8c38f-2755-477a-bd17-b85a1e0d514b"],
+ CellID->196832285,ExpressionUUID->"6e03180f-865d-4212-b1e1-042848c613c6"],
 
 Cell[BoxData[
  TemplateBox[{},
   "PacletDirectoryChooserTemplate"]], "PacletDirectoryChooser",
- TaggingRules->{"PacletDirectoryType" -> "Notebook", "Refreshing" -> False},
+ TaggingRules->{
+  "PacletDirectoryType" -> "Notebook", "PacletDirectory" -> 
+   "/Volumes/Macintosh HD/Users/antonov/WL-QuantileRegression-paclet", 
+   "Refreshing" -> False},
  CellTags->"PacletManifestPanel",
- CellID->115408480,ExpressionUUID->"67876e2b-9e5c-4260-a6fb-64f17208d495"],
+ CellID->115408480,ExpressionUUID->"d3b90bde-82a0-4f1e-a40a-e2c1e319e1ea"],
 
 Cell[CellGroupData[{
 
@@ -37,7 +40,7 @@ Cell["", "FileManagerTopSpacer",
  CellGroupingRules->{"SectionGrouping", 99},
  TaggingRules->{},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1248781298,ExpressionUUID->"1b4a2923-3ee8-4e0f-95ad-0e16efe85783"],
+ CellID->1248781298,ExpressionUUID->"68bb3c85-3f02-4f3c-935c-161681315ba0"],
 
 Cell[CellGroupData[{
 
@@ -66,7 +69,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"88a8f18d-81fd-420c-8510-b947e01d853a"]], \
+   "Text"}]],ExpressionUUID->"6f5436ff-cc79-4cd4-b991-feeb1f0d7e29"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -77,7 +80,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDocumentationIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->909593355,ExpressionUUID->"a00322c2-455e-4c27-a5b2-45e55cac585c"],
+ CellID->909593355,ExpressionUUID->"18b2ff82-361e-42bd-b0f0-a1a9abf56039"],
 
 Cell[CellGroupData[{
 
@@ -106,7 +109,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "Diagrams"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"4ace6329-d0cc-4b1b-a388-9c2b1a091103"]], \
+   "Text"}]],ExpressionUUID->"f20d39b3-c24e-43e6-a039-0883882a7bb0"]], \
 "FileManagerDirectory",
  CellMargins->{{23 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 110},
@@ -117,7 +120,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->15465554,ExpressionUUID->"14384e27-af65-4706-8910-a2b111f37012"],
+ CellID->15465554,ExpressionUUID->"0f894d7a-2ef3-47c0-b9da-2b2001d0ef21"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -143,7 +146,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPNGIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->84044791,ExpressionUUID->"0989fdeb-dabf-46b7-93f6-30bf68b69509"],
+ CellID->84044791,ExpressionUUID->"82a1fd60-1c1b-4349-bbaa-5cfa411858b7"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -169,7 +172,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPNGIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1644046258,ExpressionUUID->"14b05867-f088-48e9-b0fd-952d5b4b6a03"],
+ CellID->1644046258,ExpressionUUID->"0e63bd32-0a94-4f04-b2a9-4f821bc1442f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -196,8 +199,8 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPNGIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1960855904,ExpressionUUID->"152e7e8a-85fe-4db0-b63e-cea73b2011f1"]
-}, Closed]],
+ CellID->1960855904,ExpressionUUID->"7234115b-a332-43d5-abbf-3d1334d36f5a"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -226,7 +229,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"45468e94-7675-4653-8b9a-494a10d24c50"]], \
+   "Text"}]],ExpressionUUID->"ada868c0-4aa4-40a5-a08d-81426eb749ee"]], \
 "FileManagerDirectory",
  CellMargins->{{23 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 110},
@@ -237,7 +240,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1853236181,ExpressionUUID->"ab4491cb-115c-4719-9bb4-08ecf3d9aae6"],
+ CellID->1853236181,ExpressionUUID->"04f9ca88-31a4-405c-add8-ac3b5ac81a0d"],
 
 Cell[CellGroupData[{
 
@@ -265,7 +268,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English", "Guides"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"d89566fe-3e52-461a-a8b4-637bcd92d8d6"]], \
+   "Text"}]],ExpressionUUID->"0c5009a7-8a44-424c-8ac2-01fa5ed390ad"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -276,7 +279,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->237677979,ExpressionUUID->"bd34c977-a3db-4c07-8779-cc2bdd5c7173"],
+ CellID->237677979,ExpressionUUID->"2ea9d367-887c-4ce7-881a-eb314957cc81"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -302,7 +305,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1151769432,ExpressionUUID->"70623a75-ad19-4666-8755-12b0e8bfaa8c"]
+ CellID->1151769432,ExpressionUUID->"f064c087-3f3f-4cc0-b9d0-c0c6a290652a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -332,7 +335,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English", "ReferencePages"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"fab6f315-dcf1-4397-a4e9-57493d495e5d"]], \
+   "Text"}]],ExpressionUUID->"a6071f3d-0e3e-4691-87a5-1082e0935d8b"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -343,7 +346,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->334209633,ExpressionUUID->"3cc5f359-12a3-4d53-b27f-e06bdf59f012"],
+ CellID->334209633,ExpressionUUID->"0121755b-ab19-4bcf-9062-1723b0df59be"],
 
 Cell[CellGroupData[{
 
@@ -373,7 +376,7 @@ Cell[TextData[Cell[BoxData[
     "Symbols"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"7f807a72-94f8-49d9-9d96-6356855cfef2"]], \
+   "Text"}]],ExpressionUUID->"0241e0d9-a35d-4609-8b32-9301a50eade1"]], \
 "FileManagerDirectory",
  CellMargins->{{69 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 130},
@@ -384,7 +387,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1391564926,ExpressionUUID->"3812adf6-9a1b-4791-8cd2-a8261a3d73c9"],
+ CellID->1391564926,ExpressionUUID->"2424957d-548e-44b1-b44c-919316099691"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -410,7 +413,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1934795452,ExpressionUUID->"12e39028-6ae3-40d3-b009-8b7fd99d39c0"],
+ CellID->1934795452,ExpressionUUID->"677ab320-2a94-4a6c-b2bd-ed6128ae90fb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -436,7 +439,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->909778890,ExpressionUUID->"aee9f94a-769c-4bad-b4b9-fc8953a61836"],
+ CellID->909778890,ExpressionUUID->"f04f7c97-1061-4b65-9fb7-a20ce213ea40"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -462,7 +465,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->570237590,ExpressionUUID->"7e927f53-610d-486c-b33b-58fbbe70b8af"],
+ CellID->570237590,ExpressionUUID->"ac30d38f-ee4d-451f-a236-df857edf5b0b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -488,7 +491,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1911142216,ExpressionUUID->"702f38e2-c6a9-41d7-8591-740dcaaf6db4"],
+ CellID->1911142216,ExpressionUUID->"91da993b-10fd-470c-9903-f8672f6fc69a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -514,7 +517,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->654316133,ExpressionUUID->"21db30ed-34fe-409c-af2f-8bcf7b10479f"]
+ CellID->654316133,ExpressionUUID->"b0ba8fb0-1262-4e8c-86cb-8b430ff8a345"]
 }, Open  ]]
 }, Open  ]],
 
@@ -545,7 +548,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Documentation", "English", "Tutorials"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"f29e0e3a-fe91-43a5-a727-db5f5fbb258b"]], \
+   "Text"}]],ExpressionUUID->"1700218a-7ba0-43a9-86ff-a1a0ffa790d5"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -556,7 +559,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1974974691,ExpressionUUID->"f00b82a6-0301-411a-8fd0-1150937385c1"],
+ CellID->1974974691,ExpressionUUID->"dc28bdd3-c10e-460f-8437-ab96516c71ec"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -582,7 +585,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->416342829,ExpressionUUID->"7a31fa16-3af2-4fa5-ab5d-6c25c896b3c9"],
+ CellID->416342829,ExpressionUUID->"e3b4c692-98df-4118-a547-73b1531eaf74"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -608,7 +611,33 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1575429005,ExpressionUUID->"b684f5af-4187-4cbb-aa76-c20597ea70d1"]
+ CellID->1575429005,ExpressionUUID->"5eb08b11-c4ae-40a7-98e8-01e3f01501c2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TemplateBox[{"\"Unittests.nb\"", 
+     FileNameJoin[{
+       NotebookDirectory[], "Documentation", "English", "Tutorials", 
+       "Unittests.nb"}]},
+    "FileManagerFileOpenerTemplate"],
+   Annotation[#, 
+    DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[3]]& ],
+  FileNameJoin[{
+    NotebookDirectory[], "Documentation", "English", "Tutorials", 
+    "Unittests.nb"}],
+  BoxID -> "FileTreePath",
+  BaseStyle->{"Text"}]], "FileManagerFile",
+ CellMargins->{{69 + Inherited, Inherited}, {Inherited, Inherited}},
+ CellGroupingRules->{"SectionGrouping", 130},
+ TaggingRules->{},
+ CellFrameLabels->{{
+    Cell[
+     BoxData[
+      TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
+    Inherited}, {Inherited, Inherited}},
+ CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
+ CellID->1124008162,ExpressionUUID->"95dc4cf4-41e2-4024-bd83-c624abf6a5de"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -639,7 +668,7 @@ Cell[TextData[Cell[BoxData[
     NotebookDirectory[], "Kernel"}],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"ceb13de2-20e1-48c9-af7f-5d8819ca8b97"]], \
+   "Text"}]],ExpressionUUID->"17f3c13c-fed1-4b18-89e9-83931ea8ac24"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -650,7 +679,31 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerKernelIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1746918139,ExpressionUUID->"39004db6-bf60-4dce-87c7-95268ba4070d"],
+ CellID->1746918139,ExpressionUUID->"2698fdbf-8873-4fd6-bc55-3851b1203e28"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TemplateBox[{"\"QuantileRegression-Unit-Tests.wlt\"", 
+     FileNameJoin[{
+       NotebookDirectory[], "Kernel", "QuantileRegression-Unit-Tests.wlt"}]},
+    "FileManagerFileOpenerTemplate"],
+   Annotation[#, 
+    DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[1]]& ],
+  FileNameJoin[{
+    NotebookDirectory[], "Kernel", "QuantileRegression-Unit-Tests.wlt"}],
+  BoxID -> "FileTreePath",
+  BaseStyle->{"Text"}]], "FileManagerFile",
+ CellMargins->{{23 + Inherited, Inherited}, {Inherited, Inherited}},
+ CellGroupingRules->{"SectionGrouping", 110},
+ TaggingRules->{},
+ CellFrameLabels->{{
+    Cell[
+     BoxData[
+      TemplateBox[{}, "FileManagerWLIconTemplate"]], Background -> None], 
+    Inherited}, {Inherited, Inherited}},
+ CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
+ CellID->1939019722,ExpressionUUID->"d96da776-7a34-40fe-8171-28d0b4798f8c"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -674,7 +727,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerWLIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->56740389,ExpressionUUID->"000f2fe2-0216-4cc0-bfa9-7a0def5090d8"]
+ CellID->56740389,ExpressionUUID->"80ddbb76-bad7-488b-a179-3d113754e941"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -699,7 +752,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerUnknownIconTemplate"]], Background -> None],
      Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1892383605,ExpressionUUID->"949fdb0d-5dc4-4074-b8a2-a2f84a74a1fe"],
+ CellID->1892383605,ExpressionUUID->"9f88591f-d5c1-41cc-ac17-51b804dd5dc9"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -723,7 +776,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPacletInfoIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->152978655,ExpressionUUID->"91aadf0b-b154-486e-a79b-eec9196243bf"],
+ CellID->152978655,ExpressionUUID->"bc948293-2bec-4b0f-a702-69eceda86707"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -747,7 +800,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerTXTIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1058437165,ExpressionUUID->"ed8e585d-8a3f-42b4-985d-93c07692edc5"],
+ CellID->1058437165,ExpressionUUID->"75e53e18-8577-4bcd-8add-a99de20b7f24"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -771,13 +824,13 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->574329126,ExpressionUUID->"c6e68bfa-9f30-4319-b901-d00dd3d3e6ad"],
+ CellID->574329126,ExpressionUUID->"dec0ccbb-e041-4e42-be5d-eea61aa0a25b"],
 
 Cell["", "FileManagerBottomSpacer",
  CellGroupingRules->{"SectionGrouping", 100},
  TaggingRules->{},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1958111064,ExpressionUUID->"346246d0-7baf-47c7-a118-5ee01289861d"]
+ CellID->1958111064,ExpressionUUID->"e5c1c692-a7e7-4d5a-a99e-93590ad41f3a"]
 }, Open  ]]
 }, Open  ]],
 
@@ -803,13 +856,13 @@ for your paclet.", "MoreInfoText"], Background -> GrayLevel[0.95],
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "d61e3179-4d01-40c2-8603-05c028ca1ffe"]
+  "7ab59b3c-e7eb-457c-a5e2-d3dd05609cd7"]
 }], "Section",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "WebContent"},
  CellTags->{"TemplateSection", "Web Content", "WebContent"},
- CellID->184208365,ExpressionUUID->"09c6a46e-8f09-4ab4-ac81-9f125ae2305c"],
+ CellID->184208365,ExpressionUUID->"b5598a38-be03-47c3-a528-cf1272f17219"],
 
 Cell[CellGroupData[{
 
@@ -883,13 +936,13 @@ image from a local file, use notebook-relative paths when possible (e.g. ",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "ee60ba17-a045-4296-884f-17ae6f7bae7a"]
+  "8f78f471-759b-490b-bf4d-2fd6ba7a575b"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "HeroImage"},
  CellTags->{"Headline Image", "HeroImage", "TemplateCellGroup"},
- CellID->509724307,ExpressionUUID->"6d65b79d-81b2-4c65-b2c8-81d836eee027"],
+ CellID->509724307,ExpressionUUID->"276a694f-5b28-43c8-801d-e9014033e51c"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -2986,7 +3039,7 @@ H7eWVStb1scJ0HEPnFc/AWygcd0=
   ImageSizeRaw->{987., 600.},
   PlotRange->{{0, 987.}, {0, 600.}}]], "Input",
  TaggingRules->{},
- CellID->308090263,ExpressionUUID->"d448a499-21e0-46e5-9019-00736cc5fa14"]
+ CellID->308090263,ExpressionUUID->"0a095d73-03bd-41aa-a9b9-c992c5093f2d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3011,14 +3064,14 @@ text that users will see when visiting the main landing page of your paclet.",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "774f14c7-24e3-4506-8c97-ad90900864ec"]
+  "62d92f06-dd6c-4434-aff9-a1d2b27bff11"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "LongDescription"},
  DefaultNewCellStyle->"Text",
  CellTags->{"Basic Description", "LongDescription", "TemplateCellGroup"},
- CellID->433339604,ExpressionUUID->"5d277044-bd42-4008-bc0e-35ec96786e63"],
+ CellID->433339604,ExpressionUUID->"0b067a89-15ea-4186-92e8-9b7d7b676547"],
 
 Cell["\<\
 Various Quantile Regression (QR) functions. Multi-dimensional QR is supported.\
@@ -3027,7 +3080,7 @@ Various Quantile Regression (QR) functions. Multi-dimensional QR is supported.\
  CellChangeTimes->{{3.89081728896358*^9, 3.890817314881041*^9}, {
   3.8930029323377438`*^9, 3.893002995239161*^9}},
  CellTags->"DefaultContent",
- CellID->441612482,ExpressionUUID->"41c97f85-dee3-4d17-8e47-ef180c160bba"]
+ CellID->441612482,ExpressionUUID->"9e2a2043-21fb-4833-b30f-5785a6e790e3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3054,14 +3107,14 @@ examples on the webpage for the resource.", "MoreInfoText"], Background ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "6992f8d7-1dd6-4804-9a1b-6548418fc447"]
+  "17273d50-f0b0-47d5-8766-cb1ec0b1fb3d"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Details"},
  DefaultNewCellStyle->"Notes",
  CellTags->{"Details", "TemplateCellGroup"},
- CellID->484110581,ExpressionUUID->"287a3fad-3585-456b-8f52-05f4ce5ae24c"],
+ CellID->484110581,ExpressionUUID->"28e60d66-3df0-429a-8b3d-a5e239579eb0"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -3069,14 +3122,16 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegression"]], 
-  "InlineFormula",ExpressionUUID->"79f631ce-8dfa-4b4f-9f70-2850bfc4febb"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "1f8a464b-bddb-4dc9-9fea-b1eb2f614cbc"],
  " works on time series, lists of numbers and lists of numeric pairs."
 }], "Notes",
  TaggingRules->{},
  CellChangeTimes->{{3.890817318648435*^9, 3.890817325499969*^9}, {
   3.890818443718192*^9, 3.890818472663101*^9}},
  CellTags->"DefaultContent",
- CellID->889292814,ExpressionUUID->"b9af097e-73fa-41db-8c9f-97f7082097e7"],
+ CellID->889292814,ExpressionUUID->"de02bc38-3556-44f6-963a-31eaf32f8c36"],
 
 Cell["\<\
 The curves computed with quantile regression are called regression quantiles.\
@@ -3084,14 +3139,14 @@ The curves computed with quantile regression are called regression quantiles.\
 \>", "Notes",
  TaggingRules->{},
  CellChangeTimes->{{3.8908184740839443`*^9, 3.890818475505722*^9}},
- CellID->1995895068,ExpressionUUID->"0413c22e-3b5c-4546-a3bb-ee1f6411f0dc"],
+ CellID->1995895068,ExpressionUUID->"5c7f01cc-6ffc-4c6c-a330-5f031dc77f9a"],
 
 Cell["\<\
 The regression quantiles corresponding to the specified probabilities are \
 linear combinations of B-splines generated over the specified knots.\
 \>", "Notes",
  TaggingRules->{},
- CellID->256453902,ExpressionUUID->"ed8903c5-9de2-4bdb-bc44-68635538dae1"],
+ CellID->256453902,ExpressionUUID->"630a6d3f-5670-48d0-9d14-d2a04b0d8fe4"],
 
 Cell[TextData[{
  "In other words, ",
@@ -3100,18 +3155,31 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegression"]], 
-  "InlineFormula",ExpressionUUID->"2738a266-21b8-480c-992c-85816c4e6221"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "c7a5837c-3846-4f0e-b7b6-4b0fa7627cd2"],
  " computes fits using a B-spline functions basis. The basis is specified \
 with the knots argument and the option ",
  Cell[BoxData[
-  ButtonBox["InterpolationOrder",
-   BaseStyle->"Link"]], "InlineFormula",ExpressionUUID->
-  "755ebe55-1666-4894-8b5d-c920c5d99331"],
+  TagBox[
+   ButtonBox[
+    StyleBox["InterpolationOrder", "SymbolsRefLink",
+     ShowStringCharacters->True,
+     FontFamily->"Source Sans Pro"],
+    BaseStyle->Dynamic[
+      FEPrivate`If[
+       CurrentValue["MouseOver"], {
+       "Link", FontColor -> RGBColor[0.8549, 0.39608, 0.1451]}, {"Link"}]],
+    ButtonData->"paclet:ref/InterpolationOrder",
+    ContentPadding->False],
+   MouseAppearanceTag["LinkHand"]]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "15d6d507-8cb2-4f66-b4d4-5fa045a11d93"],
  "."
 }], "Notes",
  TaggingRules->{},
  CellChangeTimes->{{3.890818491469035*^9, 3.890818504283354*^9}},
- CellID->63918385,ExpressionUUID->"d4ec5c03-25df-402e-8f67-53b5bf363886"],
+ CellID->63918385,ExpressionUUID->"d304de5d-4afe-42cc-98b2-4b051dbda876"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -3119,38 +3187,64 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegression"]], 
-  "InlineFormula",ExpressionUUID->"7ef20a01-83ec-448f-9e24-290f80d54a52"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "243396ca-7af1-4a37-9fe4-3f60f61187f3"],
  " takes the following options:"
 }], "Notes",
  TaggingRules->{},
  CellChangeTimes->{{3.890818516803643*^9, 3.8908185247637243`*^9}},
- CellID->386497477,ExpressionUUID->"b4bde0b7-45e4-4e3d-844a-629d3478b70a"],
+ CellID->386497477,ExpressionUUID->"0e714ceb-3df6-4011-8b35-57cc1c92b07f"],
 
 Cell[BoxData[GridBox[{
    {Cell[TextData[Cell[BoxData[
-     ButtonBox["InterpolationOrder",
-      BaseStyle->"Link"]], "InlineFormula",ExpressionUUID->
-     "f8c1247e-5ab4-4898-ae67-0cbebd69589c"]], "TableText",ExpressionUUID->
-     "64cb61f6-8bd9-4bff-a25d-34787866570d"], Cell[
-    "3", "TableText",ExpressionUUID->"f4f3a03c-40ee-4409-b02c-2f03290091af"], 
+     TagBox[
+      ButtonBox[
+       StyleBox["InterpolationOrder", "SymbolsRefLink",
+        ShowStringCharacters->True,
+        FontFamily->"Source Sans Pro"],
+       BaseStyle->Dynamic[
+         FEPrivate`If[
+          CurrentValue["MouseOver"], {
+          "Link", FontColor -> RGBColor[0.8549, 0.39608, 0.1451]}, {"Link"}]],
+       
+       ButtonData->"paclet:ref/InterpolationOrder",
+       ContentPadding->False],
+      MouseAppearanceTag["LinkHand"]]], "InlineFormula",
+     FontFamily->"Source Sans Pro",ExpressionUUID->
+     "14d95563-888e-4b80-8b8e-f3990a06e02b"]], "TableText",ExpressionUUID->
+     "ba395332-b584-43c2-8503-0012f3a6c93b"], Cell[
+    "3", "TableText",ExpressionUUID->"b2c902ef-633f-4271-a1d6-c30c53236c81"], 
     Cell["interpolation order", "TableText",ExpressionUUID->
-     "3c561186-19ea-477d-84f6-3cc6977fb9bf"]},
+     "69f17c79-2f11-456c-8604-dca5791eabb1"]},
    {Cell[TextData[Cell[BoxData[
-     ButtonBox["Method",
-      BaseStyle->"Link"]], "InlineFormula",ExpressionUUID->
-     "9cdc3b73-5584-4391-b00a-75915d52b59b"]], "TableText",ExpressionUUID->
-     "2d9db2f9-41e6-4764-9ddc-91a9a3de7d88"], Cell[TextData[Cell[BoxData[
-     ButtonBox["LinearProgramming",
-      BaseStyle->"Link"]], "InlineFormula",ExpressionUUID->
-     "294cbee6-b4d8-4047-bd51-cb9f5097589a"]], "TableText",ExpressionUUID->
-     "f53c1b77-997d-4772-980d-23e83169746a"], Cell[
+     TagBox[
+      ButtonBox[
+       StyleBox["Method", "SymbolsRefLink",
+        ShowStringCharacters->True,
+        FontFamily->"Source Sans Pro"],
+       BaseStyle->Dynamic[
+         FEPrivate`If[
+          CurrentValue["MouseOver"], {
+          "Link", FontColor -> RGBColor[0.8549, 0.39608, 0.1451]}, {"Link"}]],
+       
+       ButtonData->"paclet:ref/Method",
+       ContentPadding->False],
+      MouseAppearanceTag["LinkHand"]]], "InlineFormula",
+     FontFamily->"Source Sans Pro",ExpressionUUID->
+     "6ea507fb-7d03-4269-9900-ab5589303fae"]], "TableText",ExpressionUUID->
+     "8e26d085-f97e-408f-b60f-9ecf41bf78d3"], Cell[TextData[Cell[BoxData[
+    "LinearProgramming"], "InlineFormula",
+     FontFamily->"Source Sans Pro",ExpressionUUID->
+     "8270a3f0-fd3e-4d6a-896a-a9f38b399df5"]], "TableText",ExpressionUUID->
+     "eb5fad17-383f-4bd0-9536-aee0b9a0b31c"], Cell[
     "method for the quantile regression computations", "TableText",
-     ExpressionUUID->"cc506be2-7e3b-4c99-9b09-0f0a5689c3c9"]}
+     ExpressionUUID->"014e3ab4-c949-47a2-87e5-a50c41232b3c"]}
   }]], "TableNotes",
  TaggingRules->{},
  CellChangeTimes->{{3.890818535324017*^9, 3.890818583882633*^9}, {
   3.8917825513830433`*^9, 3.891782551383065*^9}},
- CellID->1741241606,ExpressionUUID->"ea0da1ba-cb20-4ab0-9082-5f82d3845701"],
+ CellID->1741241606,ExpressionUUID->"05a89865-a9cb-4999-95de-60c0b597fa31"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -3158,21 +3252,25 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegressionFit"]], 
-  "InlineFormula",ExpressionUUID->"d683a628-bba4-4fa9-801d-911186b06838"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "2dc4794a-7f55-4df5-9fd2-239ca256efa6"],
  " is very similar to ",
  Cell[BoxData[
   ButtonBox["QuantileRegression",
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegression"]], 
-  "InlineFormula",ExpressionUUID->"75d1e203-dd4d-4815-92f8-518fe31643b8"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "455f85f6-a945-49f6-8626-c56b64a1ab72"],
  " but uses a given list of basis functions."
 }], "Notes",
  TaggingRules->{},
  CellChangeTimes->{{3.890817327907414*^9, 3.8908173371996937`*^9}, {
    3.890818593461753*^9, 3.890818708380178*^9}, 3.890818808091001*^9, 
    3.890819136992959*^9, 3.891782561401672*^9},
- CellID->527279402,ExpressionUUID->"ba43cc1b-ff8b-4048-8cb0-d8854e52a2df"],
+ CellID->527279402,ExpressionUUID->"9d07c5d2-bb74-470c-b7b2-b1a11b415d7f"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -3180,14 +3278,16 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileEnvelope"]], 
-  "InlineFormula",ExpressionUUID->"29feab80-9805-46e9-b0a6-3a6a7bfb3b2b"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "6b8b2ab9-a332-4a13-8b40-04a81cae80fc"],
  " provides experimental implementation of quantile envelopes points \
 finding."
 }], "Notes",
  TaggingRules->{},
  CellChangeTimes->{{3.8908173382817717`*^9, 3.890817380132086*^9}, {
   3.890818710192616*^9, 3.8908187955365343`*^9}},
- CellID->246265926,ExpressionUUID->"75f54d8d-9281-418a-83b7-71611cb80af6"],
+ CellID->246265926,ExpressionUUID->"f5fc52f4-b6ab-445c-8bb6-5970242162e0"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -3195,14 +3295,16 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileEnvelopeRegion"]], 
-  "InlineFormula",ExpressionUUID->"27b9f509-e92e-4e97-b08e-e1192581e05c"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "48ec198c-7f80-424f-83a9-601d3c3a6b59"],
  " provides experimental implementation of 2D or 3D quantile envelope region \
 finding."
 }], "Notes",
  TaggingRules->{},
  CellChangeTimes->{{3.89081735108679*^9, 3.8908173781153517`*^9}, {
   3.8908187723604593`*^9, 3.890818803609097*^9}},
- CellID->253153335,ExpressionUUID->"dba8d6d3-649c-44a9-b98f-04c0908f180b"]
+ CellID->253153335,ExpressionUUID->"cb799232-dc30-4ce9-b14c-022829e11799"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3228,22 +3330,23 @@ general overview of your paclet.", "MoreInfoText"], Background ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "8d596512-1135-4d7a-a18f-91c301fe5fe9"]
+  "a3ce85ec-1ec0-4ba4-8d8e-ae1d1b713772"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "MainGuidePage"},
  CellTags->{"Main Guide Page", "MainGuidePage", "TemplateCellGroup"},
- CellID->587602718,ExpressionUUID->"1ac48df0-822f-4a7a-9890-e603929532d5"],
+ CellID->587602718,ExpressionUUID->"8891dd59-9d9e-4aeb-9dd7-55027e9ff5a6"],
 
 Cell[BoxData[
  TemplateBox[{},
   "MainGuideChooserTemplate"]], "MainGuideChooser",
  TaggingRules->{
-  "Refreshing" -> False, "Relative" -> True, "MainGuidePageString" -> 
-   "Documentation/English/Guides/Quantileregression.nb"},
+  "MainGuidePageString" -> 
+   "Documentation/English/Guides/Quantileregression.nb", "Refreshing" -> 
+   False, "Relative" -> True},
  CellTags->"MainGuidePagePanel",
- CellID->614786987,ExpressionUUID->"957b1fdf-900d-42bf-b92e-4d7a298de7e1"]
+ CellID->614786987,ExpressionUUID->"61beb06e-aebf-4db3-8ef2-6867b636c413"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3276,13 +3379,13 @@ changed as desired. Use additional cells and cell styles as needed.",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "7e1b456a-0fd9-4d77-946b-8039e7440a3a"]
+  "192fe0e2-be36-4c33-a71f-04f2e89d20a7"]
 }], "Section",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "ExampleNotebook"},
  CellTags->{"ExampleNotebook", "Examples", "TemplateCellGroup"},
- CellID->365974185,ExpressionUUID->"7f06e403-fdfd-4772-b825-b7f9234c8549"],
+ CellID->365974185,ExpressionUUID->"9b1549b1-700a-470c-a7ce-3de1b9cd9e1a"],
 
 Cell[CellGroupData[{
 
@@ -3322,14 +3425,14 @@ excluded using ",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "5120b930-2183-4e11-a65a-942928b53fda"]
+  "2f81daaf-7c29-4e1d-a8dd-75d9805819c0"]
 }], "Subsection", "Excluded",
  Editable->False,
  Deletable->True,
  TaggingRules->{"TemplateGroupName" -> "ExampleInitialization"},
  CellTags->{
   "ExampleInitialization", "Initialization for Examples", "TemplateCellGroup"},
- CellID->468286435,ExpressionUUID->"c76bc324-d895-4eba-ab6c-11c397f1956d"],
+ CellID->468286435,ExpressionUUID->"2d2652bb-ff90-475e-94ca-685e1eb23e2b"],
 
 Cell[BoxData[
  RowBox[{
@@ -3338,7 +3441,7 @@ Cell[BoxData[
  TaggingRules->{},
  InitializationCell->True,
  CellLabel->"In[1]:=",
- CellID->996717066,ExpressionUUID->"1fea745f-f893-44fd-8418-45676fcfdb26"],
+ CellID->996717066,ExpressionUUID->"c5178da4-de28-4ff1-8126-5f9f984f20cc"],
 
 Cell[BoxData[
  RowBox[{
@@ -3347,7 +3450,7 @@ Cell[BoxData[
  TaggingRules->{},
  InitializationCell->True,
  CellLabel->"In[2]:=",
- CellID->172764492,ExpressionUUID->"7a8cdb6a-b7ce-43a9-b518-673440051801"]
+ CellID->172764492,ExpressionUUID->"ceaebcda-754d-4450-b7e2-79464fdeb1be"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3355,13 +3458,13 @@ Cell[CellGroupData[{
 Cell["Basic Examples", "Subsection",
  TaggingRules->{},
  CellLabel->"In[5]:=",
- CellID->462042388,ExpressionUUID->"e84bd76d-db3e-45f9-bdab-426b87cecf96"],
+ CellID->462042388,ExpressionUUID->"d181be62-369b-4b10-8e96-d937fc3980f3"],
 
 Cell["Make a random signal:", "Text",
  TaggingRules->{},
  CellChangeTimes->{3.8908181488742228`*^9},
  CellTags->"DefaultContent",
- CellID->319073343,ExpressionUUID->"802e15f8-c394-4f8a-88ef-d05670f16091"],
+ CellID->319073343,ExpressionUUID->"3b3bc78f-b659-4c1a-b0c1-1c7ac6103739"],
 
 Cell[BoxData[{
  RowBox[{
@@ -3382,7 +3485,7 @@ Cell[BoxData[{
  TaggingRules->{},
  CellChangeTimes->{{3.890818091252893*^9, 3.890818091256044*^9}},
  CellLabel->"In[3]:=",
- CellID->1114022618,ExpressionUUID->"bf35bfde-9a4c-4961-8d8f-4fd359f2a09a"],
+ CellID->1114022618,ExpressionUUID->"5ba29f58-983f-4d63-882a-410cf252dc1e"],
 
 Cell[TextData[{
  "Compute ",
@@ -3391,13 +3494,15 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegression"]], 
-  "InlineFormula",ExpressionUUID->"322b716c-bfa0-44a7-8d05-0392e3dd4454"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "c4a371d8-2755-4a83-bd22-0e6bf0b31bcf"],
  " with five knots for the probabilities 0.25 and 0.75:"
 }], "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.890818156176484*^9, 3.890818157659329*^9}, 
    3.890818224382739*^9},
- CellID->77613691,ExpressionUUID->"c02f20b8-bec6-40be-96d1-cf959c9a9827"],
+ CellID->77613691,ExpressionUUID->"e553380e-99d9-49b5-bde0-90d8577cb5a5"],
 
 Cell[BoxData[
  RowBox[{
@@ -3411,12 +3516,12 @@ Cell[BoxData[
   3.89081810010452*^9, 3.890818108902546*^9}, {3.8908181655573597`*^9, 
   3.8908181664574213`*^9}},
  CellLabel->"In[4]:=",
- CellID->1615706180,ExpressionUUID->"f36865e0-3881-4ad9-b11a-9d6e1a75655b"],
+ CellID->1615706180,ExpressionUUID->"eef05442-c23c-4662-bc9c-d71d49a0ab15"],
 
 Cell["Here are the formulas of the obtained regression quantiles:", "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.890818167835226*^9, 3.890818168773204*^9}},
- CellID->1650371708,ExpressionUUID->"cb682e39-6bd8-4f8e-b5c6-7416202ec3ff"],
+ CellID->1650371708,ExpressionUUID->"7ba780b1-bda1-4a86-9718-1b9f1501bdc0"],
 
 Cell[CellGroupData[{
 
@@ -3427,7 +3532,7 @@ Cell[BoxData[
  TaggingRules->{},
  CellChangeTimes->{{3.8908181139234867`*^9, 3.89081811545722*^9}},
  CellLabel->"In[5]:=",
- CellID->243050945,ExpressionUUID->"edc121bd-7011-452b-940c-db6bbfad13ba"],
+ CellID->243050945,ExpressionUUID->"e6795779-f5c2-42a8-8572-62f506e88b17"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -3612,7 +3717,7 @@ Cell[BoxData[
  TaggingRules->{},
  CellChangeTimes->{3.8908181157996407`*^9, 3.891768839176691*^9},
  CellLabel->"Out[5]=",
- CellID->1344781057,ExpressionUUID->"0f98bb8a-bd87-4a52-b89a-0f38b72877c5"]
+ CellID->1344781057,ExpressionUUID->"c07fd9da-bf41-41da-8811-3c97c5ea90c0"]
 }, Open  ]],
 
 Cell["\<\
@@ -3620,7 +3725,7 @@ Here is a plot of the original data and the obtained regression quantiles:\
 \>", "Text",
  TaggingRules->{},
  CellChangeTimes->{3.890818179355254*^9},
- CellID->285515825,ExpressionUUID->"5cc51fae-1886-4e81-bf0d-6348a25eb4d0"],
+ CellID->285515825,ExpressionUUID->"b7e7ca0c-f266-4b57-8dcf-c7d3d5c520d2"],
 
 Cell[CellGroupData[{
 
@@ -3651,7 +3756,7 @@ Cell[BoxData[
  TaggingRules->{},
  CellChangeTimes->{{3.8908181213162746`*^9, 3.890818121321208*^9}},
  CellLabel->"In[6]:=",
- CellID->1527733504,ExpressionUUID->"5f0f75f5-4dc6-43ef-94bd-6ba43dadd3f9"],
+ CellID->1527733504,ExpressionUUID->"257ae6e2-815c-4481-8eff-f8653b5ca4a8"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -4077,7 +4182,7 @@ K3yD/g3D59cKlB4p3HVnaB7/B7bNfu4=
  TaggingRules->{},
  CellChangeTimes->{3.890818122653352*^9, 3.891768839458707*^9},
  CellLabel->"Out[6]=",
- CellID->1095611129,ExpressionUUID->"14df22bf-2656-4915-9473-08dee94b0a41"]
+ CellID->1095611129,ExpressionUUID->"763d00dc-1585-4ca2-9fdb-da33869e9c4a"]
 }, Open  ]],
 
 Cell["\<\
@@ -4086,7 +4191,7 @@ quantile:\
 \>", "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.8908181906538563`*^9, 3.8908181915439672`*^9}},
- CellID->1395028652,ExpressionUUID->"79301a57-70a5-4604-874d-ac4ed3404742"],
+ CellID->1395028652,ExpressionUUID->"fb4fa6cb-e182-4fd9-8f8c-4dceb774a422"],
 
 Cell[CellGroupData[{
 
@@ -4109,13 +4214,13 @@ Cell[BoxData[
  TaggingRules->{},
  CellChangeTimes->{{3.890818195948132*^9, 3.890818195951415*^9}},
  CellLabel->"In[7]:=",
- CellID->429235138,ExpressionUUID->"42b1c82c-0f29-4c6e-a5dd-f531be36c6a1"],
+ CellID->429235138,ExpressionUUID->"8afeeaad-3b40-4a66-a39f-a309379e5fe8"],
 
 Cell[BoxData["0.75`"], "Output",
  TaggingRules->{},
  CellChangeTimes->{3.890818200908637*^9, 3.8917688394867573`*^9},
  CellLabel->"Out[7]=",
- CellID->2126029575,ExpressionUUID->"8c2bcc03-719c-4383-8774-877fc600a606"]
+ CellID->2126029575,ExpressionUUID->"63ff2f9e-61fe-4339-a1bf-25ea05233cb1"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -4125,19 +4230,21 @@ Cell[TextData[{
    BaseStyle->"Link",
    ButtonData->
     "paclet:AntonAntonov/QuantileRegression/ref/QuantileRegression"]], 
-  "InlineFormula",ExpressionUUID->"b5186c07-1507-4fcd-9b5f-7ebdd9fd1dbb"],
+  "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "d6dcac86-a3bf-4733-97f0-f76d3619fbdd"],
  "."
 }], "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.8908182071460133`*^9, 3.890818216468309*^9}},
- CellID->715073378,ExpressionUUID->"a6ed840c-1104-4134-b4d3-54734d00dd6e"]
+ CellID->715073378,ExpressionUUID->"e4a84f73-7975-4128-858b-c8ff57876044"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Scope", "Subsection",
  TaggingRules->{},
- CellID->964056545,ExpressionUUID->"4916f767-b835-425d-ae9e-c8721d54af32"],
+ CellID->964056545,ExpressionUUID->"723db330-ef4f-481e-802d-c915f3459fcb"],
 
 Cell["\<\
 Here is a quantile regression computation over a numerical vector:\
@@ -4145,7 +4252,7 @@ Here is a quantile regression computation over a numerical vector:\
  TaggingRules->{},
  CellChangeTimes->{{3.890818240589551*^9, 3.890818241741453*^9}},
  CellTags->"DefaultContent",
- CellID->217390316,ExpressionUUID->"4da23cc3-4814-439d-93b5-ad4c0c4b33bc"],
+ CellID->217390316,ExpressionUUID->"6ffd9203-e69f-4d7b-92d4-666a031aac64"],
 
 Cell[CellGroupData[{
 
@@ -4186,7 +4293,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.890818246352283*^9, 3.890818246355695*^9}, {
   3.890818294664632*^9, 3.8908182968789883`*^9}},
  CellLabel->"In[23]:=",
- CellID->298557994,ExpressionUUID->"7eb01f53-b004-4a51-bd0b-d9c81c539616"],
+ CellID->298557994,ExpressionUUID->"29971041-b372-4ee8-8ea3-36d4be0cc9d1"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -4519,7 +4626,7 @@ yA/L/w/+rgbe
  TaggingRules->{},
  CellChangeTimes->{3.890818248530895*^9, 3.890818297382698*^9},
  CellLabel->"Out[25]=",
- CellID->405615426,ExpressionUUID->"2b7f4dc6-3e13-4f61-b2e0-0383c40cd5ae"]
+ CellID->405615426,ExpressionUUID->"1606b044-c8ff-4dac-9d82-44d604e1db4d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4527,17 +4634,17 @@ Cell[CellGroupData[{
 Cell[BoxData[
  InterpretationBox[Cell[
   "\t", "ExampleDelimiter",ExpressionUUID->
-   "279ec132-1420-4b6f-9e09-e16231e1dd22"],
+   "42df474a-bd85-4d49-b741-efb213b3f0c6"],
   $Line = 0; Null]], "ExampleDelimiter",
  TaggingRules->{},
- CellID->1630424945,ExpressionUUID->"7a55dced-017e-4074-98b0-e43195f79c24"],
+ CellID->1630424945,ExpressionUUID->"f37ca2b5-7b52-49f4-979e-95b2876f6329"],
 
 Cell["\<\
 Here is a quantile regression computation over a time series object:\
 \>", "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.890818259005459*^9, 3.890818260192226*^9}},
- CellID->660714895,ExpressionUUID->"d10e6031-3f0b-4398-b813-c9a2a4439981"],
+ CellID->660714895,ExpressionUUID->"c522e355-e6d2-478e-8374-f637b5ae1d5c"],
 
 Cell[CellGroupData[{
 
@@ -4578,7 +4685,7 @@ Cell[BoxData[{
  TaggingRules->{},
  CellChangeTimes->{{3.890818264749895*^9, 3.890818291681471*^9}},
  CellLabel->"In[20]:=",
- CellID->248104258,ExpressionUUID->"e7a96296-66a6-401e-acb0-c569bc6d7b0e"],
+ CellID->248104258,ExpressionUUID->"3cc42159-82b5-40f2-99b9-31c8d1b63a16"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -5040,7 +5147,7 @@ zn+3pvRfs4bxCsna3Rl99P8HWdthjA==
  TaggingRules->{},
  CellChangeTimes->{{3.8908182753971863`*^9, 3.89081829346192*^9}},
  CellLabel->"Out[22]=",
- CellID->1682939067,ExpressionUUID->"6c082e4d-7c33-4a52-8696-280aa31daf4e"]
+ CellID->1682939067,ExpressionUUID->"3711d14e-369b-4839-8690-ac7428b75c7b"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5049,16 +5156,16 @@ Cell[CellGroupData[{
 Cell[BoxData[
  InterpretationBox[Cell[
   "\t", "ExampleDelimiter",ExpressionUUID->
-   "b9bf0eb9-a04e-43b0-a1d9-30882e374204"],
+   "0bf6d12e-0dcf-4f71-b9af-3caa18afba63"],
   $Line = 0; Null]], "ExampleDelimiter",
  TaggingRules->{},
- CellID->2121444122,ExpressionUUID->"59990115-3836-479a-8c3d-00ab7b8a4af3"],
+ CellID->2121444122,ExpressionUUID->"b505d043-2bc1-4d9d-9f00-64ecc6692829"],
 
 Cell["Here we find are some randomly generated 2D points:", "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.8917776621206303`*^9, 3.891777667306809*^9}, {
   3.891777711306601*^9, 3.891777754259618*^9}},
- CellID->274689577,ExpressionUUID->"94f6b8d7-e831-4a2e-9c50-0167f46a31be"],
+ CellID->274689577,ExpressionUUID->"8720f367-f8b6-460a-998c-618514191c73"],
 
 Cell[BoxData[
  RowBox[{
@@ -5503,12 +5610,12 @@ aQcxZBJYJr76fBzTK5SxRAIwLtdKaL4uhiupe84delSL/wNuuh7e
  TaggingRules->{},
  CellChangeTimes->{{3.891777692923832*^9, 3.89177770696253*^9}},
  CellLabel->"In[31]:=",
- CellID->1104053783,ExpressionUUID->"93aefa56-ee1b-4487-8cf4-3de14480d306"],
+ CellID->1104053783,ExpressionUUID->"f8ee7c39-be2f-4f2e-b8c7-8d1dba426e5b"],
 
 Cell["Here 2D quantile envelopes are computed of the points:", "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.891777742919674*^9, 3.891777767174932*^9}},
- CellID->1983452841,ExpressionUUID->"00632f2a-3d9d-41f6-96a7-4f306bd1b849"],
+ CellID->1983452841,ExpressionUUID->"8b50baed-610f-43f7-8676-dbf11939981c"],
 
 Cell[BoxData[{
  RowBox[{
@@ -5528,12 +5635,12 @@ Cell[BoxData[{
   3.8917777392380238`*^9}, {3.89177779712265*^9, 3.8917777972806587`*^9}, {
   3.891777839400907*^9, 3.891777864352797*^9}},
  CellLabel->"In[48]:=",
- CellID->1453308365,ExpressionUUID->"81909b59-31b8-4445-be67-357cf5d05b99"],
+ CellID->1453308365,ExpressionUUID->"fc04393c-5b5a-4580-a5a1-3cb6a1d0d113"],
 
 Cell["Here the envelopes are plotted together with the data:", "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.891777769942738*^9, 3.89177778973153*^9}},
- CellID->1080902560,ExpressionUUID->"56b3557e-a2f0-4f81-b039-979b32b8d9ea"],
+ CellID->1080902560,ExpressionUUID->"b38f2ecb-36d1-4869-9b48-bf0b28c14839"],
 
 Cell[CellGroupData[{
 
@@ -5613,7 +5720,7 @@ Cell[BoxData[
   3.891772936748719*^9, 3.891772986045404*^9}, {3.891777734193613*^9, 
   3.8917777392380238`*^9}, {3.891777806463632*^9, 3.891777823630721*^9}},
  CellLabel->"In[50]:=",
- CellID->2105987669,ExpressionUUID->"a11797e1-b600-450b-ab44-d7c942e815da"],
+ CellID->2105987669,ExpressionUUID->"fe9ec181-210f-4082-bd10-cd1fca08675f"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -6463,7 +6570,7 @@ r30Lx+3FH0R+7p/z8NMpIRlGB9XQiVzW6x/vnwXlAwB61qJU
  TaggingRules->{},
  CellChangeTimes->{{3.891777826546502*^9, 3.891777866180709*^9}},
  CellLabel->"Out[50]=",
- CellID->1920997218,ExpressionUUID->"33208858-015d-4eb3-935b-042722f35332"]
+ CellID->1920997218,ExpressionUUID->"d43bd368-9b84-43ea-b8a0-914c17d58bdb"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -6476,7 +6583,7 @@ Cell["Source & Additional Information", "Section",
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Source & Additional Information"},
  CellTags->{"Source & Additional Information", "TemplateSection"},
- CellID->871630328,ExpressionUUID->"140ba3f4-835b-4e93-8340-fd482c311e3a"],
+ CellID->871630328,ExpressionUUID->"c9f60e59-f9a0-43e1-9eb6-b8c6be1767e2"],
 
 Cell[CellGroupData[{
 
@@ -6500,7 +6607,7 @@ publicly credited with contributing this paclet.", "MoreInfoText"],
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "64476a04-4488-4003-8f2a-5e4c1e6bac06"]
+  "202add12-605e-49a5-b802-02263cb2b045"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
@@ -6509,11 +6616,11 @@ publicly credited with contributing this paclet.", "MoreInfoText"],
  CellTags->{
   "Contributed By", "ContributorInformation", "Creator", "TemplateCellGroup"},
  
- CellID->57534933,ExpressionUUID->"95d1aaff-2ba2-4d57-a74a-8ad94abcdd3c"],
+ CellID->57534933,ExpressionUUID->"1cdfa0d1-8f27-4684-b5a7-b07052ba96d8"],
 
 Cell["Anton Antonov", "Text",
  TaggingRules->{},
- CellID->1203150941,ExpressionUUID->"6e31ad17-bdee-4e9f-a1e8-4cb73d3fed4d"]
+ CellID->1203150941,ExpressionUUID->"0d377e00-efc1-4110-bf1d-72e64f5f87f2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6538,7 +6645,7 @@ GitHub), you can provide the URL here.", "MoreInfoText"], Background ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "820ac0f5-1a7f-4a14-ad03-c0f655164d03"]
+  "6f2bfeb2-6eb4-4080-921c-9d11d08e8bfc"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
@@ -6546,7 +6653,7 @@ GitHub), you can provide the URL here.", "MoreInfoText"], Background ->
  DefaultNewCellStyle->"Text",
  CellTags->{
   "Source Control Repository", "SourceControlURL", "TemplateCellGroup"},
- CellID->221376991,ExpressionUUID->"c8573da8-c474-4645-ba36-a1975ab67c95"],
+ CellID->221376991,ExpressionUUID->"435c2ef6-afe6-40ee-ac14-6fb3e8997211"],
 
 Cell["https://github.com/antononcube/WL-QuantileRegression-paclet", "Text",
  TaggingRules->{},
@@ -6558,7 +6665,7 @@ Cell["https://github.com/antononcube/WL-QuantileRegression-paclet", "Text",
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{3.890817935323278*^9},
  CellTags->{"DefaultContent", "TabNext"},
- CellID->75689085,ExpressionUUID->"bdd26776-fa01-4146-9f6d-328a58d2fcbc"]
+ CellID->75689085,ExpressionUUID->"265d58dc-0414-487f-b6ed-2d3a88563e8d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6610,14 +6717,14 @@ agreement"],
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "e73d1502-3659-4897-86f6-ee0af553c91b"]
+  "e269ec7e-7c02-4182-be91-30b700541f46"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "LicensingInformation"},
  DefaultNewCellStyle->"Text",
  CellTags->{"License", "LicensingInformation", "TemplateCellGroup"},
- CellID->279656547,ExpressionUUID->"d23eb2fc-e240-440c-82a3-4020729884eb"],
+ CellID->279656547,ExpressionUUID->"dce83859-1831-48d5-b1a6-39b32f6f50b7"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -6747,10 +6854,8 @@ jYfkVrRonXCLMaxoAef+xnQdS/k7/UWnJdZVRSdcl8k/\
 RB5BwJ8uGlnpXe3tDOmt8IZXtFi1Ytc0PWi1dqtCvd4bKgiFL2kIMttlXOXNXCH4gT7P9QXGPUfmR/\
 SvDB1PzHwi2RtOxM6apxJrlpOmwevHbWrA9/gKDZjDH", "RadioButtonValue" -> "Other", 
    "SpecifiedLicenseID" -> "Artistic License 2.0"},
- CellTags->{
-  "LicensingInformation", "LicensingInformation-RadioButtons", 
-   "RadioButtonsCell"},
- CellID->42282576,ExpressionUUID->"ea9357bf-59a7-4f7b-abdf-3641924b8a13"]
+ CellTags->{"LicensingInformation-RadioButtons", "RadioButtonsCell"},
+ CellID->42282576,ExpressionUUID->"33f69574-d7a9-467a-94ea-8e9bb8bca32f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6775,14 +6880,14 @@ concepts) that should be used to include the paclet in search results.",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "78b178ee-0ff6-404b-9047-1eaf2100064b"]
+  "8032c22a-a00a-408e-a1a5-6c433bf5a79a"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Keywords"},
  DefaultNewCellStyle->"Item",
  CellTags->{"Keywords", "TemplateCellGroup"},
- CellID->913860664,ExpressionUUID->"e5eace0f-be25-403e-998b-0ac8b25b5eac"],
+ CellID->913860664,ExpressionUUID->"c4d10cac-2413-4e0c-ad67-f889927e9010"],
 
 Cell["Fit", "Item",
  TaggingRules->{},
@@ -6793,7 +6898,7 @@ Cell["Fit", "Item",
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{{3.890817413273525*^9, 3.890817421646319*^9}},
- CellID->593017738,ExpressionUUID->"b144878f-3e9d-475c-9650-10412876967d"],
+ CellID->593017738,ExpressionUUID->"153c024c-dd59-4270-a666-6f4f8d0eac36"],
 
 Cell["Linear programming", "Item",
  TaggingRules->{},
@@ -6804,7 +6909,7 @@ Cell["Linear programming", "Item",
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{{3.890817413273525*^9, 3.890817426952573*^9}},
- CellID->838817129,ExpressionUUID->"0d5c0e0c-4f29-44d3-af47-6441bbbfcbb3"],
+ CellID->838817129,ExpressionUUID->"5a1a33b5-9cf3-4403-b07f-20b37b28b3f4"],
 
 Cell["Quantile regression", "Item",
  TaggingRules->{},
@@ -6816,7 +6921,7 @@ Cell["Quantile regression", "Item",
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{{3.890817413273525*^9, 3.890817420320039*^9}},
  CellTags->{"DefaultContent", "TabNext"},
- CellID->560424104,ExpressionUUID->"212c5cf3-1c1a-4ea9-9490-a86180710898"]
+ CellID->560424104,ExpressionUUID->"9fd8d041-6a3b-477e-8dd1-b3026356f9b3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6841,14 +6946,14 @@ repository.", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "50cb5b9f-e7bd-4df0-afa6-103c68486892"]
+  "000c0984-17f8-49f6-a087-a7d64dbe5ffe"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Categories"},
  DefaultNewCellStyle->"Item",
  CellTags->{"Categories", "TemplateCellGroup"},
- CellID->651640710,ExpressionUUID->"4e938442-b04f-4cfb-b97a-75972432ab21"],
+ CellID->651640710,ExpressionUUID->"86da7b51-329f-4d3d-912b-ba6561a3d78d"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7064,18 +7169,14 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
    GridBoxSpacings->{"Columns" -> {{2}}}],
   "Grid"]], "Output",
- Editable->False,
- Deletable->False,
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJxVT9EKwjAMFHG6ifgn+4gxFQbCxuIPdF3mil1bmvShf2+\
-HIPqUI3eXu1R5CRlw1Aj7NrALXMKhnlG+\
-cJw2tLsrSpusYVyIiiqwXQQrWULeeevQc4RjLRif1iuk5G0dK2to2n686+\
-yDRsqvo2IxJJTdhCb8EsUFNf4yawGrw2L+A8+NYfTOJ+\
-2aAEVlIoSBMPU79Ug2eImP6NIjnZDp5Bu0Gkuz"},
- CellChangeTimes->{{3.890817430279396*^9, 3.890817450203475*^9}},
+   "OEM6eJxdj01OAkEQhReAgDEeAWflbg4xGU2cRIFQXqBpHjMd+y/d1Yu+\
+vQVhge4qX30vea9btbQgrhb0sCscC7e07CfoH5zOszz/NJlpQ9UdgzW6eW22xSHJ1QcnsmITPG3e/\
+Wg8hPuxeVOsxLv/v3yYcUJqvhRPcMK0sveCVBgYLud1VzhchZZW+xQiEld67BVjDMkgS7ldvET+\
+uss+2OL+wefBM1JMuLVYd75SOWbIxKcDcihJ47tGWb5X2oJ/AT0UX4s="},
  CellTags->{"Categories", "Categories-Checkboxes", "CheckboxCell"},
- CellID->969880382,ExpressionUUID->"1472ef39-c9ef-449c-a54f-6dabd7ac68b4"]
+ CellID->294575725,ExpressionUUID->"999bd1b3-7882-4a99-91e3-2a203aa05d81"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7100,14 +7201,14 @@ repository that are related to this paclet.", "MoreInfoText"], Background ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "418d4c5c-93fd-4ec4-a4da-5a45cf287acf"]
+  "1f44c604-7d18-4923-86dc-5cfc790baa8d"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Related Resource Objects"},
  DefaultNewCellStyle->"Item",
  CellTags->{"Related Resource Objects", "TemplateCellGroup"},
- CellID->280622473,ExpressionUUID->"beff53c2-2686-41bf-85e6-c7beebf3beaf"],
+ CellID->280622473,ExpressionUUID->"92885b21-f120-4539-b4aa-74ab03378560"],
 
 Cell["QuantileRegression", "Item",
  TaggingRules->{},
@@ -7119,7 +7220,7 @@ Cell["QuantileRegression", "Item",
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{{3.890817457666074*^9, 3.8908174615018463`*^9}},
  CellTags->{"DefaultContent", "TabNext"},
- CellID->694609509,ExpressionUUID->"7bd8f814-efc1-4d55-9062-d4c108f71545"]
+ CellID->694609509,ExpressionUUID->"c4e9c2fe-df23-4030-a8bc-3d201a434952"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7144,7 +7245,7 @@ repository).", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "0efc344a-7093-4d4f-86e2-aa35feca6192"]
+  "d7781644-31a7-450d-8d5e-a6c571139cfe"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
@@ -7153,7 +7254,7 @@ repository).", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins ->
  CellTags->{
   "Original Source References and Attributions", "Source/Reference Citation", 
    "TemplateCellGroup"},
- CellID->687116677,ExpressionUUID->"8aaa68c9-5794-4b9a-bc05-453ad8f8de10"],
+ CellID->687116677,ExpressionUUID->"827007a4-5aaa-487c-b63f-ed05913466d8"],
 
 Cell[TextData[ButtonBox["Quantile regression through linear programming | \
 Mathematica for prediction algorithms",
@@ -7173,7 +7274,7 @@ regression-through-linear-programming/"]], "Item",
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{3.890817529830513*^9},
  CellTags->{"DefaultContent", "TabNext"},
- CellID->702019342,ExpressionUUID->"d82f017a-8fb1-4909-8334-b30985c34746"],
+ CellID->702019342,ExpressionUUID->"17609def-b216-4225-9019-9a1544fbc31e"],
 
 Cell[TextData[ButtonBox["Quantile regression with B-splines | Mathematica for \
 prediction algorithms",
@@ -7186,7 +7287,7 @@ regression-with-b-splines/"], None},
 regression-with-b-splines/"]], "Item",
  TaggingRules->{},
  CellChangeTimes->{{3.890817531813669*^9, 3.890817539441539*^9}},
- CellID->1283017768,ExpressionUUID->"a1e162c4-8594-4ccd-855c-9651fb7715a9"],
+ CellID->1283017768,ExpressionUUID->"2a8dfc39-3b93-4a6b-9517-a0ce798a0bbb"],
 
 Cell[TextData[{
  "Video: ",
@@ -7200,7 +7301,7 @@ Applications\" presentation at WTC-2014",
  TaggingRules->{},
  CellChangeTimes->{
   3.890817587456644*^9, {3.89081799344018*^9, 3.890818048894319*^9}},
- CellID->796327249,ExpressionUUID->"6c9f5c8b-fa61-49dc-a609-0df646000537"]
+ CellID->796327249,ExpressionUUID->"454eb7f6-4af4-4b8a-9cf4-45da43243689"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7224,14 +7325,14 @@ to the paclet.", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "1e197bd0-4161-4bfd-a0cf-fa0888470168"]
+  "e6aac4ee-17b6-4632-8f1e-c1193a548711"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Links"},
  DefaultNewCellStyle->"Item",
  CellTags->{"Links", "TemplateCellGroup"},
- CellID->179193585,ExpressionUUID->"aa14b25f-5441-4202-b300-780a2aa58cd1"],
+ CellID->179193585,ExpressionUUID->"13d08cf3-1937-42c1-832a-94578ec18016"],
 
 Cell[TextData[ButtonBox["MathematicaForPrediction/QuantileRegression.m at \
 master \[CenterDot] antononcube/MathematicaForPrediction \[CenterDot] GitHub",
@@ -7244,7 +7345,7 @@ QuantileRegression.m"], None},
   "https://github.com/antononcube/MathematicaForPrediction/blob/master/\
 QuantileRegression.m"]], "Item",
  TaggingRules->{},
- CellID->602415003,ExpressionUUID->"d8b48b65-bae3-4782-9430-a0a6dcbd72db"]
+ CellID->602415003,ExpressionUUID->"89cb9bd7-285e-4ac6-b2be-52372e10ea3c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7269,13 +7370,13 @@ discoverable on the correct platforms.", "MoreInfoText"], Background ->
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "2ba289cb-6c2e-4ccc-9f70-2e8bf82563ff"]
+  "8ddfa569-6fe1-430e-9d34-3711e4540541"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Compatibility"},
  CellTags->{"Compatibility", "TemplateCellGroup"},
- CellID->31633819,ExpressionUUID->"59830b5f-23ec-4203-9096-798ad5fe0e88"],
+ CellID->31633819,ExpressionUUID->"ba75c4ff-02d8-49ac-aad6-13712babf1f2"],
 
 Cell[CellGroupData[{
 
@@ -7299,7 +7400,7 @@ Cell[TextData[{
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "3232dc2e-8bac-404a-b534-cdbb3b0afe9b"]
+  "55a71d8f-8321-45ce-a52b-ba3684b56894"]
 }], "Subsubsection",
  Editable->False,
  Deletable->False,
@@ -7311,12 +7412,12 @@ Cell[TextData[{
  CellTags->{
   "CompatibilityWolframLanguageVersionRequired", "TemplateCellGroup", 
    "Wolfram Language Version"},
- CellID->267876551,ExpressionUUID->"4b63307b-87a4-4258-9680-f2750b7de7c6"],
+ CellID->267876551,ExpressionUUID->"16fc686a-0e96-475b-a5c9-df07f6d51e5d"],
 
 Cell["13.0+", "Text",
  TaggingRules->{},
  CellChangeTimes->{{3.89081747762514*^9, 3.890817477988216*^9}},
- CellID->651845235,ExpressionUUID->"07b8f284-9c82-41ce-b9a6-8c19ce733e4c"]
+ CellID->651845235,ExpressionUUID->"95c9d805-04c0-4c2c-9f6b-32171a7b2a84"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7341,7 +7442,7 @@ function properly.", "MoreInfoText"], Background -> GrayLevel[0.95],
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "d77ec6f9-90f2-4491-8b94-23403712cc0d"]
+  "2290907b-4a9f-4c99-a6b2-bdb842dbbe58"]
 }], "Subsubsection",
  Editable->False,
  Deletable->False,
@@ -7351,7 +7452,7 @@ function properly.", "MoreInfoText"], Background -> GrayLevel[0.95],
  FontSize->16,
  CellTags->{
   "CompatibilityOperatingSystem", "Operating System", "TemplateCellGroup"},
- CellID->54346056,ExpressionUUID->"dbc27cfe-babf-41c9-bdbf-17c8cf3d7289"],
+ CellID->54346056,ExpressionUUID->"869bf3fb-a3bd-4612-b373-3ae471337a34"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7403,19 +7504,17 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
    GridBoxSpacings->{"Columns" -> {{2}}}],
   "Grid"]], "Output",
- Editable->False,
- Deletable->False,
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJxNkN1qwzAMhWFJ2hTKnmCvkIco2QaFjpRqY7t1EnUTdWxjyax++\
-6mDhN5JOkeffnZ1AxVItgirLklI0sC6/cHhguO54PJALLD+JDf6X4bVmxk6+ILyw9FVG/eCE8+\
-28wOXp6SgxT4Hi1Jo/wxZitWBXLrOzPoYfcAoGZ5aPwUj1JMlyZ0WNXHfkFmn6pZdEPLuH34/\
-nuuXkcT0GlWvxjIuwuYZLd4rt1O9TZPjtmjgce8EY4hquYFhs3MZUs+\
-oL9mekH2KA77noJ86mkFJfw1ma4c="},
+   "OEM6eJw9T0sOgkAMTQQUE+\
+MJvAKHIKxINBCq0S2OVSfCzGTaicztrQvYtX2fvlfmBWTAcUBYN4Fd4AI21RvVBx/\
+PhNKjJobNVZuH/RKsT71q4AbpxehJhDXjSDPtuaK0C2K00OdhQRLRzybLMTtqE6bZM2+\
+9deg5wqGyo+tZ3/WgOTZylMW8IJJ8lZSNY20N0bYMbEfB1D+6HcJoqEoK2NeG0TuP3P+\
+JsC1NhHAnlIq7DskGr/AcnTRvezUg/wDD31vo"},
  CellTags->{
   "CheckboxCell", "CompatibilityOperatingSystem", 
    "CompatibilityOperatingSystem-Checkboxes"},
- CellID->82653162,ExpressionUUID->"6a9d72b7-2252-4a87-a435-5c0590376685"]
+ CellID->984403740,ExpressionUUID->"c1bc499e-15cf-47db-8a19-145949535fde"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -7457,7 +7556,7 @@ to be compatible. See ",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "dfdb22c3-0ded-4d92-a9c8-b3d92f02b20a"]
+  "85bdd13d-594c-44e3-b7c9-fde37f5f8637"]
 }], "Subsubsection",
  Editable->False,
  Deletable->False,
@@ -7467,7 +7566,7 @@ to be compatible. See ",
  FontSize->16,
  CellTags->{
   "CompatibilityEvaluationEnvironment", "Environments", "TemplateCellGroup"},
- CellID->701114648,ExpressionUUID->"bf314ba7-ddd3-4546-acb0-f61640bd4c2d"],
+ CellID->701114648,ExpressionUUID->"64095f39-a1fb-4e62-92a9-de98e026f0c6"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7573,20 +7672,18 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
    GridBoxSpacings->{"Columns" -> {{2}}}],
   "Grid"]], "Output",
- Editable->False,
- Deletable->False,
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJxdUdFqwzAMhK1tEtj2EXvPR3RZBhmDhmqwZydRialjG0su5O/\
-nlMTJ9uSTTtzp5GOawx54VAiHk2frOYek6LG9YndJaPcliSEBJJJGwwFaJy1DBr65otOo4PkHm/\
-ImlBd8nwjlsa7CRNtj5xV2kL4JbvtP0wSninGgRffyQLtzGFn1FxCZxXB+Y3+zwAoj+2+nv+\
-WqPa86vxvtuPoKIxvTbHOltTMWHY/wWpjBBp9GKsnj6lrqm3RGD6inA5/\
-s1KNJdHsISstOsmgC2n8IRRiJ7B0Vbpnpl4zyg6biMYeXSjM668LIPXF21GM4C2EwezojGe9a/\
-B5tCF2LNij9AojVrVE="},
+   "OEM6eJxdUNtqwzAMha3LBbZ9xN7zEVnoQ8agoRrsOXFUYurYxpIL/\
+vs5tHHaPelIRzrSUV1U8AIcFEJ28Gw9V5A3E4ozjqecdt+SGHJAImk0vP3isL/\
+0yve8pMVnz2L6MgNkIJy0DFlsqLsWSvDDGZ1GFaGYcPQKx7ipZZxp1T090e4YiU1/BYlJuteY6g/\
+6K0zsvzMf0037dust3mmvB9/BxG6eE6qg6Jyx6DjAR2NmG/\
+cMUkkO29a9vkhn9Ix6efDBLjWisvZs5tgglq8b5WdNzXMF761mdNYhXx2UtQ7RJmEcfj0iGe8E/\
+gQbTXS9UMh/4fadsg=="},
  CellTags->{
   "CheckboxCell", "CompatibilityEvaluationEnvironment", 
    "CompatibilityEvaluationEnvironment-Checkboxes"},
- CellID->991332972,ExpressionUUID->"11f00bbf-9434-4219-96f8-6b94ae39f506"]
+ CellID->659641692,ExpressionUUID->"ea502c43-b25d-49b9-b431-412cc268bca5"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -7610,7 +7707,7 @@ cloud.", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins -> 20,
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "3d7cacb8-f871-49a4-94f0-f5d393c36359"]
+  "d963f320-2da0-49d6-9054-56ec66c7fdc2"]
 }], "Subsubsection",
  Editable->False,
  Deletable->False,
@@ -7619,7 +7716,7 @@ cloud.", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins -> 20,
  DefaultNewCellStyle->"Text",
  FontSize->16,
  CellTags->{"Cloud Support", "CompatibilityCloudSupport", "TemplateCellGroup"},
- CellID->677592290,ExpressionUUID->"23e50940-6e5b-4b3a-8d7c-6efdfc556d11"],
+ CellID->677592290,ExpressionUUID->"96bbb805-db01-4fc8-8148-32506e2c0d01"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7645,20 +7742,16 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
    GridBoxSpacings->{"Columns" -> {{2}}}],
   "Grid"]], "Output",
- Editable->False,
- Deletable->False,
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJxNj0EKwkAMRVFarSAu3LnzAj2EVoWC0NJ4gbFNcXA6GSaZRW/vFKy4C/n/v/\
-ycshxSkNEgrKogLkgO6+\
-KF7Ru7fsHJXbNw8vABo68UHHje9ktOmhBzewjOkRfsjtoeW0OhmxNZ7cmhlxEOBQ1OiX5qo2UsJtM3\
-Fu9VTjRZnoj/\
-ZM6unRb1jFN6U4bxJ2wuaPBfmUqTCYPlYpHDrrSC3vlomcCwPhMZVDaHbYNMwbf4GF38uFZt5HwA7D\
-xZoQ=="},
+   "OEM6eJw1j00KwjAQhanUPxAX7tz1Aj2EZlUQFMcLxHTEYJoJmZlFbm8Kun18H++\
+906aHJUgJCKurSlLpYW3e6D44vhpuL56F20dWrNwgOPE/\
+fS24vWv1DqApURYcOx87F0jHv7G5ZUqYpcDR0JSs+KcPXoqZoZ9W+\
+65JPEXm7UmFpkq5eQQFnSKbpof9EAVzyih2BmF9JgpoYw+7OzJpdvgoqT64WRdQvvLvSgI="},
  CellTags->{
   "CheckboxCell", "CompatibilityCloudSupport", 
    "CompatibilityCloudSupport-Checkboxes"},
- CellID->92922911,ExpressionUUID->"e86c0d51-74c8-4e89-be98-13a9e168dcff"]
+ CellID->1287331630,ExpressionUUID->"ea704d29-d49e-4871-80bf-f5a5aa8de52e"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -7688,7 +7781,7 @@ Cell[TextData[{
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "919ad37e-431c-40aa-b9b2-7916b14fc029"]
+  "48eab648-77f8-4ad1-9c92-0d8c4254fe2a"]
 }], "Subsubsection",
  Editable->False,
  Deletable->False,
@@ -7697,7 +7790,7 @@ Cell[TextData[{
  DefaultNewCellStyle->"Item",
  FontSize->16,
  CellTags->{"CompatibilityFeatures", "Required Features", "TemplateCellGroup"},
- CellID->666988317,ExpressionUUID->"48fcd170-9462-4e67-b1f8-6da6d7ad2093"],
+ CellID->666988317,ExpressionUUID->"69f690c2-94cc-444c-a88f-ef6fad509798"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7751,18 +7844,15 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
    GridBoxSpacings->{"Columns" -> {{2}}}],
   "Grid"]], "Output",
- Editable->False,
- Deletable->False,
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJxlUMtqwzAQLE3c2BBKL73nB/wRxm0gtDQm6g/\
-I8piKrCWhXR3891VaMC697Tx22J2mrFWhZCaoh3OSkKRWu/YL5ophvOPtu+XMFCfBxOPmF4/\
-3vL2kvFF9eEHv/ZVX46I+dTpqItDhDdGB+D+zePct+TQcGmPA/BfVquyiD4gyq+fWT0GL7S1ZmY/\
-QkiKyY3cOYr37yVtfyOXrYEX3eSqOmhiLUL2AsFZub3tKk+\
-N2U6vHkxPEELPlFqyqxs0q9Yxcxv4C9ikafM4ht9Zpk5O+AVJDcOo="},
+   "OEM6eJxlkMFqAzEMREuTNFkIpZfe8wP7EctCITQkS9Qf8DpaYqK1jCUd/\
+Pd1KISW3mZGbw6jbtPCCrQQwsvJNJm2sO6v6G94mZ5keQhSk9VecZZp8eOnZ1merTaaIyuOzDf5JR/\
+Xt8FlR4S0+8QckeR/8mC3PbFddp33KPLXtbAZMifMWuC95zk5DWOgoOUDnVrGSqxPSQNHkaYz5bkS/\
+j6DyeYo/aKF131UzCmjujsITRcL2ChYx23PKGzZ41dJ9QuD84T6DQYsYUs="},
  CellTags->{
   "CheckboxCell", "CompatibilityFeatures", "CompatibilityFeatures-Checkboxes"},
- CellID->716444359,ExpressionUUID->"3ab57fc7-a518-4a0c-93cf-c984576ff0f5"]
+ CellID->284961885,ExpressionUUID->"d830b427-4f24-4a96-95aa-54fc9d722d7d"]
 }, Closed]]
 }, Open  ]],
 
@@ -7812,14 +7902,14 @@ $UserBaseDirectory/ApplicationData/MyPublisherID/MyPaclet/Cache\"", "Text",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "40d3d140-94c1-43ca-8ec1-0f0666b14ab3"]
+  "0370f735-6f73-44d3-97c8-5536091e2aa9"]
 }], "Subsection",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Disclosures"},
  DefaultNewCellStyle->{"Text", "DisclosureDetails"},
  CellTags->{"Disclosures", "TemplateCellGroup"},
- CellID->376414000,ExpressionUUID->"e8a982ba-a447-4e83-9d38-15bf3369ca35"],
+ CellID->376414000,ExpressionUUID->"e134c067-a877-4e91-9ff9-7c9420819b8f"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7868,24 +7958,25 @@ excepted.", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins ->
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJyNVM1uEzEQhpC0SRu1F+DAyUIcCQ/\
-ApWq2LURq1SrOC7jr2cSq17PyT5vtlYfgZXgEeAnEEfEMjJ3spqmKxF5sj2fG33zzzR73R7zHfa2B7\
-1wGXwU/4rvZAvIbkMUz1z1Xjiy9iYfSFc9X56LjutOggc4vpngXj9HM988xF5oVSkP07U/F3RiXtO+\
-4/RmUlRYeyFB01/6vTpTLNbpgwaXQsxTZc90MtKYMu+R9Irwodlz/zIoyRXdW1/xLJ1sgOmB+\
-oRzDyis0TBWsxmBZJXINnkllIfe6ZhLBMWFqhgX5AytQa7xTZs5ksHHRKGRc0TKDtqQyghNz+Lj38+\
-s3llkg6O49k0BZKRN5lShVoWivN0Un50lZofWOSQLOCovllkcskcCCFRGvYxYiK5J5bN5dQ1fGeaF1\
-ciPkskUoLDBY5lBR2Ac+vEALE1PgDJZtY9zeWOQ3c4vBSKJx8MmK+hxuQdsifX+\
-OWs9h4vVC2Dk9mL3cZEj2JIztDD++x+/\
-3JsPBND5DyKaEL7is194MJiVRyNU9NBKhVDucyAC5zvPryA2Og8eS6sz/UczgJLIurmnbndkA7UU/\
-6mAm5q0w+TtO7SbCmjxPC6yJ34/x69JbhOs1G2fjdn+YHdITw8+\
-oZYakY9IAzcbB6a3QITUoCfJNplV+\
-Q9KK4qAmKQJgy3TP306MVgYaXJcVGLDj4D2aZjL43gbiiPevbFSJr7fNu5dJ566Zof+\
-qhRphFmAVCebBtq2u98i44vZUqhXnvTOhHTzVjUc3bTv46we8j7bgZ6hDadyDpo/\
-4wcR4sJWlrImrwbGpebh2QD+e4RQczXMOs7qiP9RVmo2/3+2uwg=="},
+   "OEM6eJyNVM1uEzEQhpC0SRO1F+DAyUIcCQ/\
+ApWq2LURq1SrOC7jr2cSq17PyT9vtlYfgZXgEeAnEEfEMjJ3sJq2KxF48nj9/M/\
+PNHvXHvMd9rYHvXARfBT/\
+mu9kS8muQxTPXPVOONL2ph9IVz1f3ouO6s6CB7i9meBuvUc2HZ5gLzQqlIfr2Z+\
+J2gnckd9xwDmWlhQdSFN21/6tj5XKNLlhwKfQ0RfZcNwOtKcMueR8LL4od1z+1okzRnZWZf+\
+lkS0QHzC+VY1h5hYapgtUYLKtErsEzqSzkXtdMIjgmTM2wIH9gBWqNt8osmAw2HhqFjCdaZtCWVEZw\
+YgEf935+/cYyCwTdvWcSKCtlIq8SpSoUyXpTdHKelhVa75gk4KywWD7wiCUSWLAi4nXMQuyKZB6bd9\
+fQlXFeaJ3cCLlsEQoLDO5yqCjsAx+do4WpKXAOd+1g3N5E5NcLi8FIauPgkxX1GdyAtkX6/\
+hy2nqPU13NhF/Rg9nKTIekTMR5m+\
+PE9fr83GfZn8RlCNiN8wWW91jKYltRCru6hoQil2uHUDJDrPL8O3eAoeCypzvwfxQyOY9fFFYnduQ3\
+QGvqRB3OxaInJ33EaNzWsyfM0wZr4YYxfl94iXJ/ZJJu08kF2QE+MPqOWGRKPiQO0G/\
+snN0KHNKBEyDeZVvk1USuSg4akCIAtk52/nRqtDDS4LiowYCfBezTNZvC9DcQx71/ayBJf8+\
+FWEbSbF4norlmi/yqGJmGWYBUxZktsy+\
+s9Uq6aeyLVqum9U6EdPDWOR5Z2Hvz1NubtsnYz1KE0bmvqY74/\
+NR5sZSlratbgyNQ8XDmgP89oBo4WOod5XdEv6jItx1/s7691"},
  CellTags->{
-  "CheckboxCell", "Disclosures-LocalFiles", "LocalFiles", 
-   "LocalFiles-Checkboxes"},
- CellID->457873603,ExpressionUUID->"ca2b4683-2290-4c3c-96d5-e6121d9a518a"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-LocalFiles"},
+ CellID->465868385,ExpressionUUID->"e7c3be1f-0e4c-4dbd-bb0c-9acd49693311"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7939,25 +8030,25 @@ WolframAlpha calls", "MoreInfoText"], Background -> GrayLevel[0.95],
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJyNVE1uEzEUhjZpkzZKN2zoymLFglyATZVMWojUqlUcxNq13yQmznjws5sOK26BWHERjg\
-CXqFgizsAbJzNNWyoxi8R+P9/7+577rR5vcl8Y4DvnwefB9/huMgM5B5U+\
-wcapRpI0Rx4WmD5d3dMtbIyDAbpvj+2yvJZifvDemtSJBRNS2pB50rfGYjmw14BktD+\
-BRW6EBxKkjbXP86FGaSwGB7h276+9m9hIwBhC2SWPofAi3cHWCVlEhK2Vmn/bTmbWIjA/\
-08hs7rXNmE5ZYYNjuZAGPFPagfSmYMoCMpEVzKZkDyy1xtilzqav926+fGdj+BjIFF+\
-xgOWvdYwcrVMrJ52l1i1EjOCgLEUxb0tbd/P5K7Kq/tEwoo0yD05Ij2yp/\
-SzGq00TY4OqGlXGude7CJA4oBiUhwKqgjInu4VVOtV0vgMnI5y9/\
-EBl4qZv6QLXIEN5XlkpyI0tKHWUM1A0RypC4Hzl9g5rO+lAaU/RKciVllAJNrNdi6LrmZhD3YO+\
-yWeCSWEM8s6ZdTCi3k3guiYP7g2EnE8dFatoxO03ThSncAXGpfH7c1RbduLMz4Sb6gyTZ7cIUR7Jex\
-fh54/y+32L0B2XYWjMY6F0wKRZa9qjhZgC15+\
-gojFB7XBKHNQa59cRtvvB23Lw8pFi2sNyQuKSjo2JC1ArWiVHJ2JaLw9/yWlGxKAK5/EFqDD2S4x1+\
-XWW6/9kkAzq80FyQGE6b61RiaVdI87QDnePr4QJkbVxYQ4To+WcqF+SycEmq/\
-mLUWZ0BlVu5zlk4AbBe5tV28u7d9Ps8daFszk4XzxU7Z7HfcRq3/+rJhpKNgOnab02jnWVzXvCVZ+\
-PiYex/80TYRD+NZl7mno0/\
-HBjBr0HJSTWhEWGGyTo8W7c7dwRcuxbu58VPFwikENnDEhvj4RJkdOrehGfoL+70fkG"},
+   "OEM6eJyNVM1uEzEQhjZpkzZKL1zoyeLEgbwAlyrZtBCpVas4iLPrnU1MnPXisZsuJ94CceJFeA\
+R4iYoj4hkYO9ltGlGJPSTj8cw3f9+43+rxJnelBr536V3hXY/\
+vJzOQc0izJ9g4V0ia5sjBArOnq3O2g42x10Dn3bFZhmNQ86P3RmdWLJiQ0vjc0X1rLJYDcwtIRocTW\
+BRaOCBF1lj7PB8qlNqgt4Br9/\
+7au4mNBLQmlH3yGAonsj1snZFFRNhZXfNvu8nMGATmZgqZKZwyOVMZK423rBBSg2OpsiCdLllqAJnI\
+S2YysgeWGa3NUuXT1wd3X76zMXz0ZIqvmMfwaywjR2PTlZPKM2MXIkawEEpJmTPB1t59/\
+oqsqn80jGij3IEV0iFbKjeL8WrTRBufVo0KcbZ6FwESCxSD8kiBqqDMyW5hUpUpkh/\
+AyQhnrj9QmbjpG1zgFqQP8soqhUKbklJHOYOU5khFCJyv3N5hbSctpMpRdApyoyRUis1s16roeiHmU\
+Pegr4uZYFJojbxzYSyMqHcTuK3JgwcDIedTS8WmNOL2GyvKc7gBbbP4/\
+TmpLTtx5hfCTlWOybN7hKiP5H2I8PNH+\
+H7fI3THIQyNeSxS5TFp1jft0UJMgatPUNGYoPY4JQ7pGufXCbb73pkwePlIMe1hmJC4JrExsR7qi1b\
+g6ERM6+XhLznNiBhU4Ty+ABXGYcBYl19nuf5PBsmglo+SIwrTeWt0mhjaNeIM7XD39EZoH1kbF+\
+Y40UrOifqBTBY2Wc1fjHKtcqhyuywgBzvwzpm82l7efZhmj7eurCnAupIfbhRD78hlXEaslv2/\
+CqKJ5DOwinZrQ6xLbG4pV00+JRLG5jfPhEb411i2buq58OPNnLdL20+\
+M9oscNxjQ49242IUl5Ni0dj8vub9GIIfOGJAeHgmTsqAn9Sq+P38Bxkb37g=="},
  CellTags->{
-  "CheckboxCell", "Disclosures-WolframAccount", "WolframAccount", 
-   "WolframAccount-Checkboxes"},
- CellID->243056593,ExpressionUUID->"e8f9e674-5f24-4517-aea0-942a2df7cd51"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-WolframAccount"},
+ CellID->124569733,ExpressionUUID->"315d11d2-e083-4b8b-8671-73ee42fd4b77"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -8006,25 +8097,23 @@ connection\n\[FilledSmallSquare] Send emails", "MoreInfoText"], Background ->
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJyNVF1u00AQpiVOkzZqi8QT8LDiCVBzAV6qxG0hUqNU3lxga4/\
-jVda7Zmc3rbkId0EcAS6BeEScgbETuyUqCD/YuzM73/x833rUG/\
-KAu1IB7868K7wb8r0wg3gJSfoIO5cSyRJMHOSY7qz36S52Iq+A9o8jc1NtKzN/\
-cn7rwGqhGIJdyRiqiF4kbsbmlta7eDCHvFDCARnSzibq+\
-ZnEWBn0FrAB4E18gJ0QlCKcPYo5E06kXexdWJHXGLtrN/+\
-8E2bGIDCXSWSmcNJoJlNWGm9ZIWIFjiXSQuxUyRIDyIQumUnpPLDUKGVupF683f/+\
-6QubiiX5LXzwgA6ZMwy222KvMueKE5ZWL8TshIGLX9fRoQXqj2qwzCN9NyEsNlpTeqqrPsZBJwxyIR\
-XywdRYmOjUzClRM1vcH4t4ubDG64S677+zoryEFSib1s+v0/bkoB7HVNiF1Bg+vUOo7TW3fyJ8+\
-1o9P+8QDqMqDU0gEon0GAatpz/JxQK4/AgNywTV5bFQkGxwfpxif+SdyYWT8V+a6Z8BUSCuadmZWw+\
-to1fRNxeLVlv8DV+\
-PqcH5lzoalIMKZTOAts7NNxyH43Z9FB5RosF7o5LQkBTBAYn88HwllBdV1lpNz0Il4yXpwrKcqmCSy\
-rB57ecvJ1pJDU11swI02LF3zuhG3Px4u9Ah711ZU4B15UPOvVktWGyuxH/\
-1RdToDKx0kNxbtp0GW8b1tM8TuWYhuBAK4SF+\
-tjwtQfzFPSaGDzQRGuVzjffEMOSHE03nCkvY9fT6I11yf41A/5RBBEjXM4Z5WdDP56q+\
-pb8Bk6mkSA=="},
+   "OEM6eJyNVN1u0zAUZqPp2q3ahsQVcGFxBWh9AW6mNuug0qpNcV/\
+AS04aq44dfOxt4UV4F8QjwEsgLhHPwEnaZKX8CF8k9vn5zt9nj3pDHnBXKuDdS+\
+8K74Z8L8wgXkKSPsDOhUSSBFMHOaY7q3O6i53IK6Dzw8jcVsdKzB9N7hxYLRRDsDcyhsqjF4nbsbmj\
+/S4ezCEvlHBAgrSz9np6JjFWBr0FbAB44x9gJwSlCGePfM6EE2kXe+dW5DXG7krNP+\
+6EmTEIzGUSmSmcNJrJlJXGW1aIWIFjibQQO1WyxAAyoUtmUrIHlhqlzK3Ui9f7Xz98YjOxJL2Fdx7Q\
+IXOGwXZZ7EXmXHHC0uqDmJ0wcPHL2ju0QPVRDpZ5pP/ahcVGawpPedVmHHTCIBdSIR/\
+MjIWpTs2cAjW9xf2xiJcLa7xOqPr+GyvKC7gBZdN6/ThtLQd1O2bCLqTG8PE9Qi2vZ/srwpfP1fp+\
+j3AYVWGoA5FIpMcwaDX9aS4WwOV7aKZMUF0eCwXJGufbKfZH3plcOBn/pZj+\
+GdAIxDVtO3ProVX0qvHNxaLlFn/FV21qcP7FjgbloEJZN6DNc/0Px+G43R+\
+FRxRo8NaoJDRERXBAJD+c3AjlRRW1ZtOTUMl4SbywLKcsmKQ0bF7r+\
+fOpVlJDk91lARrs2DtndENufryd6JD3rqwpwLqSH2wURFftsuYqNrfhv0qiqegMrHSQbGzbIoMt4ar\
+Rk0SuBhCcC4Xwp9FsadrZ8GebOf9e3F5olM81bvBgyA+nmuwKS9h14/ojXXJ/\
+jUDPySACpJsZw7ws6N25qi/oTyONokw="},
  CellTags->{
-  "CheckboxCell", "Disclosures-ExternalServices", "ExternalServices", 
-   "ExternalServices-Checkboxes"},
- CellID->105278940,ExpressionUUID->"692e8e73-8ef3-4821-a5c4-80abb9c100c7"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-ExternalServices"},
+ CellID->1994430353,ExpressionUUID->"af837cbb-fa0d-4b6d-9d03-53e9a5e6526b"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -8127,32 +8216,32 @@ modifications\n\[FilledSmallSquare] Internal handlers"}], "MoreInfoText"],
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJztVr1uG0cQjmRSImWBCgwZ+ak2QRCkMOEuhYsQ4lG0CUigwCUiBCmc1d0cueHe7mFnj/\
-L5MdLkAQKkSZEXSJU6eYC0Qbr8PENml+SJJCwkhQoXZsP9mft25vtmZ+\
-ek0eZ17koFfG9YuLxwbb4fTSGeQZK+hbUzibRSHzjIMN1ZzNNdrI0KBTS/NzLXfuqX+\
-TuXZwxLJFMWG53KSWGFkzTawcZIXHfNC0Ayvj+\
-GLFfCAS2kteW3rCcxVgYLC3h5xgNKtAFSx1oEShHYPn3YE06ke9joW5EFoN1quzGGFy7s7y/\
-Bf9yJpsYgMDeVyEzu8ZhMWWkKy3IRK3AskRZip0qWGEAmdMlMSvbAUqOUuZZ68uTg929/\
-YpEFch1ZDhYJG7RjysRCMYynkBArCXMCZxiMz00iU0nWN8wYy0DPpTU6898iOEfYW+\
-ae6e1g72Ej6LQIdm8sJgv+mt3COaMXk8qE1z+\
-6EG7KW7zMrozCEaRnUs9W0uExn5pr7iydHU2FFbGjeLA2tgVUNgd9o11fZFKV/\
-IgTVzEwLjSyC2sqo2ZXIIRTvbO9UpN9TM4e9k8vrJwTV18NUto6jAprKeLPhSqAN89NgTCcg62yp7b\
-hX9OfHRllrA989LQbxvblpz98dvnlnx37ifj+7+df/Nax737M699983NnlZxbOAcLdjyD/\
-O2F1E8spI8DO5VVi1LNS3khksSrUe8LhT6gB8HPkzwH4kjHQKzzhj/gmdDJnZHJdx/\
-dheTNXshhY8s3sq/Jfrwme8XQayP980e+\
-JKCkXWFDFRhodEIpKkLkkS9VVFwWIaA3TSAHnYCOqVBsVCTak1luLJlpo9t5caVkfBd51RoBBq+\
-HV18Te2+Say253ltLrk2aXpsM6/jX2DuweGPEjHKlT++\
-PO9UJy8KTE4cnFpfpRwf4nJuSF4rO4ofnxsJAp8Y/rGssiHg2saYgX3ew+\
-dSK8gzmoGwafv90KsvD8EifCzuRGqPjNa/9+krnNYRff/G/v24QWiN/\
-DDEwEoksMKrfaDrIxAS4fAkr0Qlqj9ODDMkS548ONk8KZzIKMr4lmGYPSEVxRcNNZhv+\
-7pAwVfPDH3MSl9ha4fxn47KCuu+hlixUzi7/o27UrcZH0ZFP7mdGJZGhVgkcUCvWOp1TmgdID8Tfj+\
-h6z6g9sSSiBSbJF5uFff7hQCupYeXikCoG2EXWrpov/vCV3rZ5g3KGmhtX3mqxPwwdFK6at/\
-8VISmlp2Clg2RtWMVc31pckH9KBTCIsrwzr5Bra6fSi3+\
-wJkz7tkioAhSZxrUEafNWuAG5pQMCmc0TXfLiijq1Nj9c3fFxmVPHfBEu/78U+Qce"},
+   "OEM6eJztVr1uG0cQjmRSIiWCCgwZ+ak2QRCkMOEuhYsQ4km0CVAQwRUiBCmc5d0cueHe7mFnT/\
+L5MdLkAQKkSZEXSJU6eYC0Qbr8PENml+TpJNhIChUuzIb7M/ftzPfNzs5Rq8eb3JUK+\
+M5Z4fLC9fhutIB4CUn6FjbGEmmlOXKQYbq1mqfb2JgWCmh+b2qu/\
+NQv83cuxgxLJFMWG53KeWGFkzTawtZUXA3Mc0Ay3j+\
+HLFfCAS2kjfW37FhirAwWFvBizANKdAOkiY0IlCKwXfrwWDiR7mBraEUWgLar7dY5PHdhf3cN/\
+uNWtDAGgbmFRGZyj8dkykpTWJaLWIFjibQQO1WyxAAyoUtmUrIHlhqlzJXU88d7v3/\
+7E4sskOvIcrBI2KAdUyYWimG8gIRYSZgTuMRgfGoSmUqyvmbGWAb6UlqjM/\
+8tgnOEfcvcM3072HvYCjqtgt05F/MVf+\
+1B4ZzRq0llwpsfTYRb8C4vs5lROIV0LPVyIx0e8oW54s7S2dFCWBE7igcb57aAymZvaLQbikyqkh9w\
+4ioGxoVGNrGmMmoPBEI41Tt7XGqyj8nZzvBkYuUlcfXVKKWtTlRYSxF/LlQBvH1qCoSzS7BV9jRu+\
+Nf2Z0dGGesDnz4ZhLF98ekPn118+WfffiK+//vZF7/17bsf8+Z33/\
+zc3yTnLZy9FTueQf72SurHFtJHgZ3Kqkup5qWciCTxajSHQqEP6H7w8yjPgTjSMRDrvOUPeCp0cmdk\
+8u2HdyF5+zjksLHlG9lrsh/WZK8Yem2kf/\
+bQlwSUtCtsqAIjjU4oRUWIPPKliorLKgT0pgnkoBPQMRWKGxWJ9mSWG0tm2uheXsyUjO8ir7pTwOD1\
+2exrYu9NctWS671act2k6bXJsL5/jb0DqzdGLClXhvT+\
+uBOdsCw8OXF4YnGdfnSAz7kFeaHoLN45NRZGOjX+Ya2xIOLl3JqCfN3C9hMryjFcgrJp+\
+P3Tryw74ZE+FXYuNUaHNa/9+kbnGsKvv/jfX9cI3ak/hhiYikQWGDWvNR1lYg5cvoCN6AS1w+\
+lBhmSN80cf20eFMxkFGb8imPYxkIpiRsObzLb83SFhquaHP+IkLrG1wfnPxmUDte+h1ixUzq7/\
+o0E0qMYH0YFP7qdGJZGhVgkcUCvWPbmkNA+QHoi/H9H1XlJ7YklEC0ySLzYL+/\
+zDkVZSw8bFM6oYYFdZu2m++\
+IOXetvjLcoZam5cyfdroVFXeBb6Jty0bP8rLtJHL8BKB0ltWEXavLW4ovyEyl6QYn1TXiLSrZ1KJf5\
+B3edXRLhL977INNbSose7Ie9zSwcECttHuuTFjPqzHu9sbvZ5mVOfPAlX/l9i1gMk"},
  CellTags->{
-  "CheckboxCell", "Disclosures-WLSystemConfiguration", 
-   "WLSystemConfiguration", "WLSystemConfiguration-Checkboxes"},
- CellID->423568193,ExpressionUUID->"408b570e-38bc-4960-8139-0a4216347bc6"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-WLSystemConfiguration"},
+ CellID->318696848,ExpressionUUID->"a02f1a95-211f-41d2-bd39-d236450fe4c2"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -8200,23 +8289,23 @@ contexts.", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins ->
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJyNVM1y0zAQpiW/\
-NJMc4FQuGm4czCt0EqeFzKSTjpWZXlHsdaKJLHm0UlvzBDwcvAVHhmdg7cRuSAuDL17taj/\
-t7vdJ417A29wVCnhn4V3uXcC74QbiLSTpC2zNJZKnPXOQYXqyW6en2Iq8Alq/jMx9uSzd/\
-PXtnK28VC6QmmGRrYwqc3qRuJ+\
-YB0DaeLaELFfCATnS1j7vfCoxVga9Bbyd8wLpML5Pb2MrBKUIpkspU+FE2sHelRVZBXG6C/OvJ+\
-HGGATmNhKZyZ00msmUFcZblotYgWOJtBA7VbDMJDKVgCyBVGpZ7qWc9EntDH28YQIJtISmwK62z8xY\
-ZtwGLPkcWC0Uiw1ZDw4/8MG1sTDTqVnSuh4VvpqIeLu2xuuEeul/\
-tKKYwx0om1bfr4tm56Bq7lrYtdQYvnlEqPwVVX8ifP9Wfj8fEYZReYzU60gk0mPYbiL9WSbWwOUXqE\
-kjqA6PhYJkj/PjAvtj70wmnIz/0kx/CjRQsSKztbQemkCvJGMp1o1U+HtOM6cB1zj/\
-oLoGOStB9v03Ze7/4SScNPYoHNE5g09GJaEhWYEDkuzw8k4oL8pDK2mch0rGW5YSZxkVQZSRmVVx/\
-m6mldRQF7fIQYOdeOeMroXKR0d1Brx3Y00O1hXPxLqLSntYi/u/uiJeNKlJOkgOzKbP9pFzN+\
-rLRO4oaF8JhfAcOUeRhh3+9oCG4GkPoVE+\
-03gghIAPZ6XUc0vQ1ej6Y11wv0Kg52EQAdJFi2FZ5PSO3FT37TdcdY6p"},
+   "OEM6eJyNVMFy0zAQpSVuEpJJDnAqFw03DuEXOonTlsykk46VmV5R7HWiiSx5tFJb8wV8HPwFR4\
+ZvYO3EbkiBwRevdrVPu/ueNO6MeMBdoYCfLbzLvRvxdriBeAtJ+\
+gJbc4nkCWYOMkxPduv0FFuRV0Drl5F5KJelm7++\
+m7OVl8qNpGZYZCujypxOJB4m5hGQNvaWkOVKOCBH2trnnU8lxsqgt4B3c14gHcb36QG2QlCKYNqUMh\
+VOpGfYubIiqyBOd2H+\
+5STcGIPA3EYiM7mTRjOZssJ4y3IRK3AskRZipwqWmUSmEpAlkEoty72Ukz6rnaGPN0wggZbQFNjV9o\
+kZy4zbgCWfA6uFYrEh69HhB96/MRZmOjVLWtejwlcTEW/X1nidUC/dayuKOdyDsmn1/\
+bxodvar5m6EXUuN4ZsnhMpfUfU7wrev5ffjCWEQlcdIvY5EIj2GQRPpzjKxBi4/\
+Q00aQZ3xWChI9jjfL7A79s5kwsn4L810p0ADFSsyW0vroQl0SjKWYt1Ihb/\
+nNHMacI3zD6prkF4Jsu+/KXP/DyfhpLGH4ZDO6X80KgkNyQockGQHl/\
+dCeVEeWknjPFQy3rKUOMuoCKKMzKyK83czraSGurhFDhrsxDtndC1UPjyqc8Q7t9bkYF3Bewft0L1Z\
+VLrDWtj/1RFxoklJ0kFyYDY9BkfO3ZgvE7kbf3AlFMKfiDmKNMzwt4c1P+\
+utHRrlM40HIhjxwayUeW4Juhpbd6wL7lcI9DT0I0C6ZDEsi5zekNvqrv0CBTKNJA=="},
  CellTags->{
-  "CheckboxCell", "Disclosures-WLSystemSymbols", "WLSystemSymbols", 
-   "WLSystemSymbols-Checkboxes"},
- CellID->349939228,ExpressionUUID->"731503cc-1cb6-43cc-b997-fce6823a9104"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-WLSystemSymbols"},
+ CellID->513708718,ExpressionUUID->"b841f11b-ca82-4bde-ba6f-863364211bbc"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -8264,22 +8353,23 @@ system do not require a disclosure.", "MoreInfoText"], Background ->
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJyNVM1u00AQpiVpExq1EnBCAq04k75ClTgtRGrVKhuJ89Q7TlZZ75qd3bbmfXgbeAuOiG\
-dg7MRuKAXhi2dnPN/8fN961BvKrgylQbl3GUMRw1DuJ0tMV6iyJ9Q518Se7jRgTtnO+\
-pztUmcWDfL56czdVsfKLV9cQWowCIUFWoU21Vjl9GZwO3Z3bO/\
-SwRzzwkBAdmSdTd7riabUOIoeaQ0x2UboUidBYxhpn7MmECDbo96Zh7xG2V2H5ZedZOkcoQhLTcIVQ\
-TsrdCZKF70oNp1pj2kwpdCWAhjD33kRC8UNkQBbClBKV4lgNil0LNYtEeNCEOCRk1MTFSpxq8OS3Sg\
-+OpNxP4JK4kUJ5YR1QXj8FLmgAK7bDHgsBxfO49Rmbo537Srp2RjS1cK7aBUP2n/voTzHGzQ+q5+\
-fJ+2Xg3ryC/ALHiJ5eY9Q+2sqf0f49rV6ftwjHM6qMtouZqB0pKTbRvrTHBYo9WdsSGWoPZmCQbXB+\
-X5C/VEMLoeg078M058gbwyu2ezMfcQ20KuYmsOilZJ8J5kQXniD828pNDgHFc5mBW2nm3cyTsatfZQ\
-ccanBB2dU4lh5GJBVfXh6AyZCVbeWzqvE6HQlMhZD7mqC2czruHw7tUZbbPq75G7Qj2MIzjZals//\
-bHUoe1feFehD+Xh4/7JWKDW34L9mY4LsEr0OqLbMdtruA+\
-d656cs6ZqL7hkYwsdYehBpaZJvtvgYPjpG4kzMLW2JYigPpzagLzyj1zvsj2wp4zUh/0oGMyS+\
-kSnOy4L/OWvMX7ZnntY="},
+   "OEM6eJyNVMFu00AQpSVpExK1EnBCAq04k/5C1TgtRGqVKhuJ89Q7TlZd75qd3bbmf/gb+\
+AuOiG9g7MRuKAXhi2dnPG/\
+mzbz1SW8kuzKUBuXeLIYihpHcT1aYXqPKnlDnXBN7utOAOWU763O2S515NMjnp3N3Wx0rt3xxCanBI\
+BQWaBXaVGOV05vD7djdsb1LgwXmhYGA7Mg6m7zXE02pcRQ90hpiso3QpU6CxjDSPmdNIEC2R70zD3m\
+NsrsOyy87yco5QhFWmoQrgnZW6EyULnpRbDrTHtNgSqEtBTCGv/\
+MiFoobIgG2FKCUrhLBbFLoSKxbIsaFIMAjJ6cmKlTiVocVu1F8dCbjfgSVxIMSygnrgvD4KXJBAVy3\
+IXgkhxfO49RmboF37Sjp2RjS66V30Som2n/voTzHGzQ+q5+fx+2Xw5r5Bfglk0he3iPU/nqVvyN8+\
+1o9P+4RDuZVGW2Xc1A6UtJtI/1pDkuU+jM2S2WoPZmCQbXB+X5M/\
+ZMYXA5Bp38h058gTwyu2OwsfMQ20Ks2tYBlKyX5TvJCeOANzr+l0OAMKpzNCNpON+9knIxb+\
+zA55FLDD86oxLHyMCCr+uD0BkyEqm4tnVeJ0em1yFgMuasXzGZex+\
+XbqTXaYtPfjLtBP44hONtoWT7/s9WR7F16V6APpRxskeLbNaulSY38/\
+4sUb8au0OuAastsaXYfONfDPmUt10vonoEhfGw9DyLtfuSb7Z4fo7efOBNzS1tqGMmDqQ3oC8/\
+o9fD6J7aU8YqQ/yHDORJfxRQXZcE/mzXmL0JanD8="},
  CellTags->{
-  "CheckboxCell", "Disclosures-PacletDependencies", "PacletDependencies", 
-   "PacletDependencies-Checkboxes"},
- CellID->175258687,ExpressionUUID->"b3383453-983b-4dab-bbdb-5ed19218a443"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-PacletDependencies"},
+ CellID->1018162486,ExpressionUUID->"eb72fa17-dc43-457b-9023-48d48b470185"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -8346,28 +8436,28 @@ the following:\n\[FilledSmallSquare] Modifies OS settings\n\
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJytVb1uE0EQJsFO7GA5CFGgpDlRICgsOooUWPElJpYSOfJYIEQBm7s5e+\
-W93dPuXsLxGDQ8ABINr0BFDQ9Ai+j4eQZm73wXx/yIgmu8uzM7+\
-833zYx3Gx2og80EwtowtUlqO7DuTzGYYRhdMrVDbuikPrAYm2il2EerpjZKBdL+\
-8kidua07hqtD8AIlIz5JNbOcViumMWJnPfUcDXldGWOcCGaRDqLa/\
-NLWHjeBUCbVaIbgX7heNzUfhaAw63Rlj1kWrZlGX7M4D7FamRtjfG5ze4nF+\
-lOlDHp2yo2nEhfO45GXqVR7CQsEWi/kGgMrMi9UaDwmM09F5I9epIRQZ1xOdjY+\
-v3rnHamQR5xcKD2D1pLBFAY2m19M6SW67AhaBnzZNHJ6C8BrYzYpsm/\
-2UmuVLDaVC1yFzBDXvsYQpeVMQBuy+EQJM8LokMtZSb65DlN1BlYTHH/\
-KNAssamNqY51i5bPRV9L2WcxFBptAuQfoAZPGO9aqcmr2mMEcgMO9l0nyDwh3q79/\
-rPkp6fVsEJGp5adaE6iHTKQIzSNFWQ9PUVec1y7ga7q3fSWUdhyMHvTytX5x7+39R0++\
-dvVt9ub708efuvrGLai/fvm+\
-W5bXUpyNgihHJmwX0u1ojO4uE1VdaFMRWTo7ZmHotKr3mTAut2s55N0kQaJLBkhaQMO9dcBk+\
-N94hdaR0jiQkXJFuZAGC2YTrVJ6asU0H2iWHeIpCh3l349u5dnKC/yI6QmXxr++8Kg7L4VaiPDxg/\
-u+nUdoj9wzlMCIhTw1fv1clEHMJgj8BZaqUag1CJjAcB7nS9c0d1OrYurB4A/\
-JNPeQZGAntLxITMOVP/FazQq4A9Rk1H1lnL+0exnkigsyz7+COf/1e36vWm/\
-6m64uD5QIfUWjBS3SzGrvn1KF5iFdINjyBQ9m1NXaiwmExwmFjnM73BxIwSWW4IYJStRFwZXDCjaXc\
-HagQTInqG32G9v6MB82phxw/5QV6SKnqLnFcGFZ5VlfOiyo3g95IcG8wH8jzpKlUge2F2To/\
-JoDtWoaS7NQCB1oD6irdKIpdE5dc1dmkJ7QROxAa4Qm74JxltAfyXHepT8BfMZDMg=="},
+   "OEM6eJytVb1uE0EQJmAndmI5EUqBkuZEgaCw6CgosOJLDJYSOfJYIEQBm7s5e+\
+W93dPuXpLjMWh4ACQaXoGKGh6AFtHx8wzM3vkOx/yIgmu8uzP77Tff/Hiv0YE62EwgrA5Tm6S2A2v+\
+FIMZhtElUzvkhk7qA4uxiVaKfXTZ1EapQNpfGakzt3XHsDUEL1Ay4pNUM8tptWIaI3bWU+\
+doyGtjjHEimEU6iGrzSzv73ARCmVSjGYJ/4Xrd1HwUgmDW6Mo+syxaNY2+\
+ZnEOcbkyN8Z4bnN7ycX6U6UMenbKjacSB+\
+fxyMtUqr2EBQKtF3KNgRWZFyo0HpOZpyLyRy9SQqgzLid31z+\
+9fOsdqZBHnFwoPIPWksEUBjabX0zpJbrsBFomfMU0cnkLwqtjNimib/\
+ZSa5UsNpULbEFmSGtfY4jSciagDVl8ooQZYXTI5awU32zDVJ2B1UTHnzLNAovamNpYp1j5rPeVtH0W\
+c5HBJlDsAXrApPGOtaqcmj1mMCfgeO9nkvwD4t3qHxxrfkr5ejaIyNTyU62J1EMmUoTmkaKoh6eoK8\
+1rF/g13du+Eko7DUb3e/laP7/z5t6jJ1+6+iZ7/e3p449dfe0G1F+\
+9eNcty2sJZ70QyokJu0Xq7mqMbi8LVV1oUxFZOjtmYehyVe8zYVxsV3PKe0mCJJcMkHIBDffWAybD/\
+6YrtI6UxoGMlCvKhTBYMJtoldJTK6Z5X7PsEE9R6Cj/vncrz1Ze4EdMT7g0/vbCo+\
+68TNQCwof37vv6E6E9cs9QACMW8tT49Z9JGcRsgsCfY5k1glqFgAkM5zifu6a5l1oVUw8GfwimuY+\
+UBnZCy4vCNFz5k67VrIBbQE1G3Vfi/KXdS5ANBzKPv6I5//V7fq9ab/\
+qbri4fKBH6ikYLWqSZ1T44pQrNIR0Q7PiCBzPqau3FRMLjxELHuR2uD6TgEktywwQl6qLgymEFm0s8\
+O9CgNCeobQYbC+HQ4Bzmg8aUw+2fIqKcyClqbjFcWFYx1pcOC5kPQl7IPy/\
+u3yRmyVJlBnYXOf8S2xq1aRpLs1AEHWgPqKN0ogk6l625JzNIT2gadqA1QpN3wDhL6E/kOO/\
+QH2w4QcQ="},
  CellTags->{
-  "CheckboxCell", "Disclosures-OSConfiguration", "OSConfiguration", 
-   "OSConfiguration-Checkboxes"},
- CellID->147266719,ExpressionUUID->"f6bd7d7a-0d11-46fb-984c-480d4285a2d1"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-OSConfiguration"},
+ CellID->1107202906,ExpressionUUID->"3edf1610-a9ee-4c19-aecd-e02898e9620b"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -8437,31 +8527,30 @@ the following:\n\[FilledSmallSquare] Executes Shell or RUN commands\n\
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJytVT2PI0UQvb21d+\
-09y4vQSRyQtA4JEWAhEoILsNaz9p4lL2u5vSBEAO2ZGrvlnu5RV4+9c+GFhCT8ACQS/\
-gIRMfwAUkTGx2+gesae9VrsiQAn7o/q169eva45a3R4nbtcAT+6ylyauQ4/\
-DhYQLiGKH2BtJJFW6kMHCcYH5Tx+iLVJpoDmhxOz9lO/\
-zN8cmVAohjlSNJPagRWhk0b7k42JWPfMDSCFP5pCkirhgBbi2ub003OJoTKYWcACiBc4w12YOtYCUI\
-rgjunouXAiPsLGwIqkgHpYbTemcOOK/cMN/\
-NcHwcIYBOYWEplJPSCTMctNZlkqQgWORdJC6FTOIgPIhM6ZiSkeWGyUMmup589Ofvv2R9a/\
-gTBzFMIXdB0zlk2uP2GhSRKhIyxCrpG2iQNYTZLASqhMOGORraRgXsj9PA6xUZShzONoKualOM1e5p\
-zR5aQK4a/1N9j9Ehp4m+\
-fJzCicQDySerktEj7mC7PmzhL7YCG8lGARa1ObQRVzMjDaDUQiVc5POSkSAuNCIxtbUwU1ewKhIOB5\
-n+ea4kPi3Rr0x1auiMNXw5i2WkFmLWj3KRED3rw0GcLVCmzlk9odfk1/d2CUsV6DyUWvGNsXH/\
-3w8Wdf/NG174nv//ry81+79sm7vP7dNz91tzbcwzkphfJi8rfLgj6zEH+\
-wL1R1oB3QxcRzLKKIxMH6QCj0ub1eUD5LUyC5dAhUC97wdz2n8v5vuvKXB4VTtgZHtpZucesZJWdWW\
-AmlnyYgIvROW1vpnecMQ2dBJMUiGnqvrowciUyHCwpJiZRSoNiSAEHh+\
-wyz2WbsD12Mr5G3Lo2FoY6NfzA7WopwObcmo3wPsHlhRT6CFSgbF7+/\
-u1Vkq3h8l8LOpcbg8U7mfn3rlh2EX372vz9vEdoTfw2pOBGRzDCo3zpjmIg5cPkCttYhqCNOrQGiDc\
-7vXWyeZc4kwsnwnmSa50BeEDMa3q1Ow79BKm7V2PiHHIpOs8X5Dy1pC/bIg210qOhu/\
-oNe0KvGp8GpfyTPjYoCQ20QyJIPsL2xJ2F6IP5WoGS4pMZjWUJkqJvSMCn2+\
-dOhVlLDluRVChps6f5tY+Vv3MO3wxvkvRSsy18Rc3yVltnV7nb8V2ZJ9dIL8PaMdoZV3vW9xbIE/\
-UiWpdm8vn8p2t5OVTX+\
-zk55OvfnQv0kSzTuGKXD20VMaumKQtLmmc55NkOgj11rAlg81Wme0ldxXLSSfwBBkJQ9"},
+   "OEM6eJytVT1vK0UUfXmxEzuxHISexFczekiIggi9huIVWPHGzrPkEGvHASEKmOzetUeenVnNnb\
+Wzr6SkpOEHINHwF6io4QfQIjo+fgN3du2NYxFEgRvPx50z55575u5Z65Q3uSsU8IOr3GW5O+\
+WHwRyiBcTJI2yMJdJKc+QgxWSvmiePsRHmCmi+H5qVn/pl/\
+sbYREIxLJCimdQOrIicNNqfbIVi1Te3gBR+\
+PIU0U8IBLSSN9emn5xIjZTC3gCUQL3FG2zBNbASgFMEd0tFz4URygK2hFWkJ9bjebk3h1pX7+2v4r/\
+aCuTEIzM0lMpN5QCYTVpjcskxEChyLpYXIqYLFBpAJXTCTUDywxChlVlLPnh/9+s0PbHALUe4ohM/\
+pOmYsC68/YpFJU6FjLEOukbaJA1hNksBSqFw4Y5EtpWBeyN089rFVlqHK42AqZpU47X7unNHVpA7hr\
+wzW2IMKGniXF+mNURhCMpZ6sSkSPuFzs+\
+LOEvtgLryUYBEbU5tDHXM0NNoNRSpVwU84KRIB40Ijm1hTB7X7AqEk4HmfF5riI+\
+LdGQ4mVi6JwxejhLY6QW4taPcxEQPevjQ5wtUSbO2Txj1+bX93YJSxXoPwol+O7csPvv/wk89+\
+79l3xXd/fv7pLz37+ju8+e3XP/\
+Y2NtzBOaqE8mLyt6qCPreQvL8rVH2gG9DFxHMi4pjEweZQKPS5vVpSPssyILl0BFQL3vJ3vaDy/m+\
+68i/3SqdsDI5sJd38zjNK3lhhJVR+\
+CkHE6J22stI7zxmGzoJIy0U09F5dFTkWuY7mFJIRKaVAsQUBgsL3GOY367E/dDG5Rt65NBZGOjH+\
+wWxpKaLFzJqc8t3D9oUVxRiWoGxS/v7q1ZGd8vFdCjuTGoMnW5n79Y1bthB+/sn//rhD6Ib+\
+GlIxFLHMMWjeOWOUihlw+RI21iGoA06tAeI1zm89bJ/\
+lzqTCyeiBZNrnQF4QNzS8X52Wf4NU3Lqx8Wccyk6zwfkPLWkDduzB1jrUdNf/QT/o1+OT4MQ/\
+khdGxYGhNghkyUfYXduTMD0QfzNQMlpQ47EsJTLUTWmYlvv86UgrqWFD8ioDDbZy/6ax8tce4HvKW+\
+S9DKwr+PFWetT1r7Iqo8b9Lv+vmVGN9By8JeOtYZ1rc2exkn0Qy6oc6xf3D4Xa2akrxd/\
+e5vxgjofUQ/JU45Y5Tnm3jMksXVHK2D7TBc9vEOgD1wkBy+c5LTL6Ek7K9vE3t9qPXg=="},
  CellTags->{
-  "CheckboxCell", "Disclosures-LocalSystemInteractions", 
-   "LocalSystemInteractions", "LocalSystemInteractions-Checkboxes"},
- CellID->890059680,ExpressionUUID->"1e9c491f-8491-45d1-9e40-1d92f2ce923e"],
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-LocalSystemInteractions"},
+ CellID->813439887,ExpressionUUID->"c6b76548-c7b2-4fc3-92c4-ca5399027417"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -8508,22 +8597,22 @@ document any additional disclosures that are not listed above.",
  CellMargins->{{Inherited, Inherited}, {5, Inherited}},
  TaggingRules->{
   "CheckboxData" -> 
-   "OEM6eJyNU9uO0zAQhaXpha26IPHECxbv5RdWbboLlXbVVdwfmMaT1qpjR760m/1G+AseEd/\
-AJG3SsoCEXzyey5mZM+NJf8wj7kuFvLsIvgh+\
-zHvxBtMtiuyF69xJR5po7jF32cvDO7twnSQopPerxOyrZ6Xm0cJv0JK2n8B+\
-ah7RkelyiXmhwCMpss7R881MulQZFyy6Q1DkOjEqRcE9cpyBh6zr+\
-rcW8jrw4mDmbiIEAyGkl0aDYh4fPQPHNKJAwaRmQPKepeTMVqjMnnnDhElDjpo8dXkeLU5VML8Bslt\
-k2nimqEiCg5XZ4Sc+\
-vDcW5zozS8rWNO9eTyHdrq0JWlDVg88WyjvcobJZfX5et57Duo17sGupXfzuhFDra/J/R/j2tTo/\
-TgijpEoj9ToBIYOLo9YymOewRi6fsBkDQXV5CgrFEef7tRtMgjc5eJn+\
-o5nBDBV6WJHYWdqAraFf0b6EdTt8/\
-oFjWvHX4Pwxyib0sgo9dt0Wd7zjaTxt5av4itCHX4wSsaFlQY+\
-0eqObHagAVap69O9jJdMty4xlOaWmWZOY13b+ca6V1NiUtChQo50G741u1u+\
-4nWPef7CmQOvLVtNbFBWKa9bzvzog5jVFS9qTM7HtKXqmPJB5Q6tXkxzdgnL4N/qfWVr++\
-dszosdN5bFRIdfubMBjPpprj7awBFiTM5jokoeVQ/rIwwSdCTbFZVnQj3+AlPL+AvvNa/8="},
- CellTags->{"CheckboxCell", "Disclosures-Other", "Other", "Other-Checkboxes"},
- 
- CellID->635776107,ExpressionUUID->"c1ce20c6-3ca8-4f5b-b752-0ab17dafc05e"]
+   "OEM6eJyNU91u0zAUhtGsLa06kLjiBov78gpTm25QaVOnui9wGp+0Vh078k+\
+77BnhLbhEPAMnaZKWARK+8fH5+c7f50lvzCPuC4X8chF8HvyYd+MtJjsU6QvXuZOONNHcY+\
+bSl8d3euE6y6CQ3q+W5lA+\
+SzWPFn6LlrS9JRym5hEdmQYrzHIFHkmRdmrPNzPpEmVcsOiOQZHrxKgUBXfJcQYe0kvXu7WQVYEXRz\
+N3EyEYCCG9NBoU8/joGTimEQUKJjUDkg8sIWe2RmUOzBsmTBIy1OSpi/NocaqC+\
+S2Q3SLTxjNFRRIcrM0eP/HhvbE416lZUbamefd6CsluY03Qgqruf7ZQ3OEelU2r8/\
+O69RxWbdyD3Ujt4ncnhEpfDf93hG9fy/PjhDBalmmk3ixByODiqLX05xlskMsnbNZAUJc8AYWixvl+\
+7fqT4E0GXib/aKY/Q4Ue1iR2VjZga+iVY1/Bpl0+/\
+8AxKefX4PyxyiZ0UIbWXbfF1Xc8jaetfBVfEfrwi1EiNkQW9EjUG93sQQUoU1Wrfx8rmexYaizLKDX\
+tmsSssvOPc62kxqakRY4a7TR4b3RDv5qdY957sCZH6ws+OCudWL/ISyzXkPS/+\
+qD5a0KVxJYzse0seqY8jvSGCFiNOroF5fBvS3hmabfA357XXHfUjY0KmXZnax7z0Vx7tLklwGpE/\
+YkueFg7pO88XKIzwSa4KnL69w+QUN5fC7dukw=="},
+ CellTags->{
+  "CheckboxCell", "Disclosures", "Disclosures-Checkboxes", 
+   "Disclosures-Other"},
+ CellID->603284007,ExpressionUUID->"77d9930d-0ab6-4b16-a4f7-79661009326e"]
 }, Open  ]]
 }, Open  ]],
 
@@ -8551,14 +8640,14 @@ that are otherwise beyond the scope of the paclet documentation.",
     CurrentValue[
      EvaluationNotebook[], {TaggingRules, "ResourceCreateNotebook"}]],
    ImageSize->Automatic]],ExpressionUUID->
-  "4058107d-60ea-4fe1-9fe1-68a3b77aac0c"]
+  "fd32648b-31b2-4986-b718-a3439e56b856"]
 }], "Section",
  Editable->False,
  Deletable->False,
  TaggingRules->{"TemplateGroupName" -> "Author Notes"},
  DefaultNewCellStyle->"Text",
  CellTags->{"Author Notes", "TemplateCellGroup"},
- CellID->951557313,ExpressionUUID->"d07bfb82-5a8a-4cc3-9d53-6b3320445916"],
+ CellID->951557313,ExpressionUUID->"caefeca2-4507-4f58-9ec7-b21957f878b8"],
 
 Cell["Additional information about limitations, issues, etc.", "Text",
  TaggingRules->{},
@@ -8569,13 +8658,12 @@ Cell["Additional information about limitations, issues, etc.", "Text",
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
  CellTags->{"DefaultContent", "TabNext"},
- CellID->908162033,ExpressionUUID->"b50cad73-7703-4f39-9517-6c1e4d3553ab"]
+ CellID->908162033,ExpressionUUID->"37bc340b-5dbf-463e-b0e6-7348dcc542fd"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1487, 1319},
-WindowMargins->{{Automatic, 825}, {Automatic, 10}},
-WindowTitle->"QuantileRegression | Definition Notebook",
+WindowSize->{1400, 1325},
+WindowMargins->{{Automatic, 912}, {Automatic, 3}},
 DockedCells->{
   Cell[
    BoxData[
@@ -8611,8 +8699,8 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.893243550500545`16.342886561984194*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    3.893302772174083`16.34289316815976*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
                    "System"], FontSlant -> Italic, FontColor -> 
@@ -8669,7 +8757,7 @@ stripeText["Your paclet resource is being published"]]& ], "\"\""}},
                     BaselinePosition -> Scaled[0.1]], 
                     TemplateBox[{1}, "Spacer1"], 
                     StyleBox[
-                    "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
+                    "3", FontSize -> 14, FontWeight -> Plain, FontColor -> 
                     GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
                     StripOnInput -> False]}, "RowDefault"], 
                     "\"Potential issues found\""}, "PrettyTooltipTemplate"]}},
@@ -8706,7 +8794,7 @@ stripeText["Your paclet resource is being published"]]& ], "\"\""}},
                     StyleBox[
                     "Slot[1]", "Program", FontWeight -> Medium, 
                     ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L367,C51) \
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L384,C51) \
 \\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
 False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
@@ -8717,28 +8805,28 @@ False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :>
                     DefinitionNotebookClient`PackageScope`setHint[
                     "Warning", "Paclet", 
                     DefinitionNotebookClient`$CurrentNotebook, 
-                    "f15c85fd-031b-41dd-949c-204bc71e647a", 56740389, 
+                    "9e8757a0-d7fc-4e11-97f9-313ea0fc5af4", 56740389, 
                     "CodeInspectionFileIssue/UnscopedObjectError", <|
                     "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 367, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 367, 
+                    "Editor" -> Automatic, "SourceLineStart" -> 384, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 384, 
                     "SourceColumnEnd" -> 52, "Message" -> 
                     "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L367,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+\" (L384,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
 False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
                     CodeInspector`InspectionObject[
                     "UnscopedObjectError", 
                     "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{367, 51}, {367, 52}}, 
+                    CodeParser`Source -> {{384, 51}, {384, 52}}, 
                     ConfidenceLevel -> 0.8, "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
                     "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+                    "\!\(\*StyleBox[\"\\\" (L384,C51) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"|>]; 
@@ -8757,7 +8845,7 @@ Rule[StripOnInput, False]]\)"|>];
                     StyleBox[
                     "Slot[1]", "Program", FontWeight -> Medium, 
                     ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L419,C51) \
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L436,C51) \
 \\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
 False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
@@ -8768,28 +8856,79 @@ False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :>
                     DefinitionNotebookClient`PackageScope`setHint[
                     "Warning", "Paclet", 
                     DefinitionNotebookClient`$CurrentNotebook, 
-                    "5308fbee-3e39-4ef7-802f-3b72c7c40bb8", 56740389, 
+                    "379bc90d-a563-4aea-805f-bbd6c65b1bc7", 56740389, 
                     "CodeInspectionFileIssue/UnscopedObjectError", <|
                     "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 419, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 419, 
+                    "Editor" -> Automatic, "SourceLineStart" -> 436, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 436, 
                     "SourceColumnEnd" -> 52, "Message" -> 
                     "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L419,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+\" (L436,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
 False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
                     CodeInspector`InspectionObject[
                     "UnscopedObjectError", 
                     "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{419, 51}, {419, 52}}, 
+                    CodeParser`Source -> {{436, 51}, {436, 52}}, 
                     ConfidenceLevel -> 0.8, "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
                     "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+                    "\!\(\*StyleBox[\"\\\" (L436,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                    Null], TemplateBox[{
+                    PaneBox[
+                    TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], "\" \"", 
+                    TemplateBox[{"\"Unscoped \"", 
+                    StyleBox[
+                    "Slot", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\" error: \"", 
+                    StyleBox[
+                    "Slot[i]", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L462,C49) \
+\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
+False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
+                    DefinitionNotebookClient`WithCurrentNotebook[
+                    EvaluationNotebook[], 
+                    DefinitionNotebookClient`LoadDefinitionNotebook[
+                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                    DefinitionNotebookClient`PackageScope`setHint[
+                    "Warning", "Paclet", 
+                    DefinitionNotebookClient`$CurrentNotebook, 
+                    "a375cc07-06d3-4806-aeea-c379fedfc274", 56740389, 
+                    "CodeInspectionFileIssue/UnscopedObjectError", <|
+                    "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic, "SourceLineStart" -> 462, 
+                    "SourceColumnStart" -> 49, "SourceLineEnd" -> 462, 
+                    "SourceColumnEnd" -> 56, "Message" -> 
+                    "Unscoped ``Slot`` error: ``Slot[i]``.\!\(\*StyleBox[\"\\\
+\" (L462,C49) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
+False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
+                    CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[i]``.", "Error", <|
+                    CodeParser`Source -> {{462, 49}, {462, 56}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
+                    "Position" -> 
+                    "\!\(\*StyleBox[\"\\\" (L462,C49) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"|>]; 
@@ -8862,8 +9001,8 @@ Rule[StripOnInput, False]]\)"|>];
                     Not[
                     FreeQ[
                     DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "074e497e-4541-4279-a2fe-4c62e4392922"]]]]]], Appearance -> 
-                   None, BoxID -> "074e497e-4541-4279-a2fe-4c62e4392922", 
+                    "3cb9abe1-62c3-4106-a820-166ef783587b"]]]]]], Appearance -> 
+                   None, BoxID -> "3cb9abe1-62c3-4106-a820-166ef783587b", 
                    Evaluator -> Automatic, Method -> "Preemptive"], 
                   MouseAppearanceTag["LinkHand"]]}}, 
                GridBoxAlignment -> {
@@ -8891,8 +9030,8 @@ Rule[StripOnInput, False]]\)"|>];
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.893243550500545`16.342886561984194*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    3.893302772174083`16.34289316815976*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
                    "System"], FontSlant -> Italic, FontColor -> 
@@ -8949,7 +9088,7 @@ stripeText["Your paclet resource is being published"]]& ], "\"\""}},
                     BaselinePosition -> Scaled[0.1]], 
                     TemplateBox[{1}, "Spacer1"], 
                     StyleBox[
-                    "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
+                    "3", FontSize -> 14, FontWeight -> Plain, FontColor -> 
                     GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
                     StripOnInput -> False]}, "RowDefault"], 
                     "\"Potential issues found\""}, "PrettyTooltipTemplate"]}},
@@ -8986,7 +9125,7 @@ stripeText["Your paclet resource is being published"]]& ], "\"\""}},
                     StyleBox[
                     "Slot[1]", "Program", FontWeight -> Medium, 
                     ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L367,C51) \
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L384,C51) \
 \\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
 False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
@@ -8997,28 +9136,28 @@ False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :>
                     DefinitionNotebookClient`PackageScope`setHint[
                     "Warning", "Paclet", 
                     DefinitionNotebookClient`$CurrentNotebook, 
-                    "f15c85fd-031b-41dd-949c-204bc71e647a", 56740389, 
+                    "9e8757a0-d7fc-4e11-97f9-313ea0fc5af4", 56740389, 
                     "CodeInspectionFileIssue/UnscopedObjectError", <|
                     "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 367, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 367, 
+                    "Editor" -> Automatic, "SourceLineStart" -> 384, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 384, 
                     "SourceColumnEnd" -> 52, "Message" -> 
                     "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L367,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+\" (L384,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
 False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
                     CodeInspector`InspectionObject[
                     "UnscopedObjectError", 
                     "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{367, 51}, {367, 52}}, 
+                    CodeParser`Source -> {{384, 51}, {384, 52}}, 
                     ConfidenceLevel -> 0.8, "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
                     "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+                    "\!\(\*StyleBox[\"\\\" (L384,C51) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"|>]; 
@@ -9037,7 +9176,7 @@ Rule[StripOnInput, False]]\)"|>];
                     StyleBox[
                     "Slot[1]", "Program", FontWeight -> Medium, 
                     ShowStringCharacters -> True, StripOnInput -> False], 
-                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L419,C51) \
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L436,C51) \
 \\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
 False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
@@ -9048,28 +9187,79 @@ False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :>
                     DefinitionNotebookClient`PackageScope`setHint[
                     "Warning", "Paclet", 
                     DefinitionNotebookClient`$CurrentNotebook, 
-                    "5308fbee-3e39-4ef7-802f-3b72c7c40bb8", 56740389, 
+                    "379bc90d-a563-4aea-805f-bbd6c65b1bc7", 56740389, 
                     "CodeInspectionFileIssue/UnscopedObjectError", <|
                     "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic, "SourceLineStart" -> 419, 
-                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 419, 
+                    "Editor" -> Automatic, "SourceLineStart" -> 436, 
+                    "SourceColumnStart" -> 51, "SourceLineEnd" -> 436, 
                     "SourceColumnEnd" -> 52, "Message" -> 
                     "Unscoped ``Slot`` error: ``Slot[1]``.\!\(\*StyleBox[\"\\\
-\" (L419,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+\" (L436,C51) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
 Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
 False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
                     CodeInspector`InspectionObject[
                     "UnscopedObjectError", 
                     "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{419, 51}, {419, 52}}, 
+                    CodeParser`Source -> {{436, 51}, {436, 52}}, 
                     ConfidenceLevel -> 0.8, "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
                     "Position" -> 
-                    "\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+                    "\!\(\*StyleBox[\"\\\" (L436,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                    DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                    Null], TemplateBox[{
+                    PaneBox[
+                    TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, "HintPodIconHint"],
+                     ImageSize -> {10, 10}, ImageSizeAction -> "ShrinkToFit", 
+                    BaselinePosition -> Scaled[0.1]], "\" \"", 
+                    TemplateBox[{"\"Unscoped \"", 
+                    StyleBox[
+                    "Slot", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\" error: \"", 
+                    StyleBox[
+                    "Slot[i]", "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True, StripOnInput -> False], 
+                    "\".\\!\\(\\*StyleBox[\\\"\\\\\\\" (L462,C49) \
+\\\\\\\"\\\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\\\"OperatorSubstitution\\\", \
+False]]], Rule[StripOnInput, False]]\\)\""}, "RowDefault"]}, "RowDefault"] :> 
+                    DefinitionNotebookClient`WithCurrentNotebook[
+                    EvaluationNotebook[], 
+                    DefinitionNotebookClient`LoadDefinitionNotebook[
+                    "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                    DefinitionNotebookClient`PackageScope`setHint[
+                    "Warning", "Paclet", 
+                    DefinitionNotebookClient`$CurrentNotebook, 
+                    "a375cc07-06d3-4806-aeea-c379fedfc274", 56740389, 
+                    "CodeInspectionFileIssue/UnscopedObjectError", <|
+                    "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic, "SourceLineStart" -> 462, 
+                    "SourceColumnStart" -> 49, "SourceLineEnd" -> 462, 
+                    "SourceColumnEnd" -> 56, "Message" -> 
+                    "Unscoped ``Slot`` error: ``Slot[i]``.\!\(\*StyleBox[\"\\\
+\" (L462,C49) \\\"\", Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, \
+Inherited]], Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", \
+False]]], Rule[StripOnInput, False]]\)", "SourceInformation" -> 
+                    CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[i]``.", "Error", <|
+                    CodeParser`Source -> {{462, 49}, {462, 56}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
+                    "Position" -> 
+                    "\!\(\*StyleBox[\"\\\" (L462,C49) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"|>]; 
@@ -9142,8 +9332,8 @@ Rule[StripOnInput, False]]\)"|>];
                     Not[
                     FreeQ[
                     DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "074e497e-4541-4279-a2fe-4c62e4392922"]]]]]], Appearance -> 
-                   None, BoxID -> "074e497e-4541-4279-a2fe-4c62e4392922", 
+                    "3cb9abe1-62c3-4106-a820-166ef783587b"]]]]]], Appearance -> 
+                   None, BoxID -> "3cb9abe1-62c3-4106-a820-166ef783587b", 
                    Evaluator -> Automatic, Method -> "Preemptive"], 
                   MouseAppearanceTag["LinkHand"]]}}, 
                GridBoxAlignment -> {
@@ -9198,8 +9388,7 @@ Rule[StripOnInput, False]]\)"|>];
                     TagBox[
                     TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"a95b4763-7c94-432e-9f74-e7dafb653fb3\"", 
+                    TagBox["\"a95b4763-7c94-432e-9f74-e7dafb653fb3\"", 
                     "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
@@ -9251,12 +9440,12 @@ Rule[StripOnInput, False]]\)"|>];
                     TagBox[
                     TemplateBox[{"\"Version\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"1.0.4\"", "SummaryItem"]}]}, {
+                    TagBox["\"1.0.5\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
                      "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"3892\"", "SummaryItem"]}]}, {
+                    TagBox["\"6961\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -9293,31 +9482,31 @@ Rule[StripOnInput, False]]\)"|>];
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                     Short[#, 0.75]& ], 
-                    "OEM6eJztWE9vG0UUj+\
-O1HTuuG9ogBCdrFYE4uIImbQiX4GziNlLTWh63gBBSx7tv7RG7s6uZ2aTmO3DiyoFvBWf4AHwEeLP/\
-7KxTKThB9OC9rLXv32/evPd+\
-T3ZLcmNAL46CNyDdinzvlCsQoQBFFQs4fnZLsjoItIJrSOMZk8pdl9UhHeMXUiORbYOUZJNEvk/\
-F9ClQh5S+c8ty63jKqc/ss8CJPNDm67l5mYCSreE0BAnqdRAC39mRlR71JGTS7UwK/\
-ggcgnBgZ4dUBuh/ijqbQ/\
-BDDz8mCBPHZXm3TzkQ8MBWgbgc0xggjCxIRdaeCOZcNs7eNe1Ei6qyfhQplaWhkZ4o8ftR76Qv2DlC\
-eN0TAVcn3BmADCJhA6n3To6Y8mkoyVaaGDR6gecEocFrKMfg0Sk4spWE6EXc1hl/\
-W3aMoYggP0ajG4ZABeWYfON5wGeS+hGVQNTUA3etcPb6yTn1IoqZkfVupAIfr9jOpdUzUJPAIY2+\
-AMytYudzTrseG3MfuMoSKqsW6ErJ3jPVU5+OgbAfATNWSzOWW12KWxkyH6RYi5/mV/kXNGxakRDo+\
-BUCBnKnh/m1aPgU2HiiIVT6wQXGLMnt7kgGXqRgXl/eOaNjzlxmxzVs/\
-Y3XvdET1I8vtSw34vTo8q2Yf/zys4kO68dMYM3oM6N88OTICrxAiA/i57dDcT9+/jwU38TP74fWh/\
-mJm0QJFr7gpzyM1KyKE2HLQugIrE8dh/FxUdyIYcV4CvfYjCVnVIwZl/NlrN/WmrVW/P12LNVZsWd+\
-Svk76+1ysbeLTZaakpaZlbmuUJMY5pdtkzTQzTG4NPIUeT8t+VMFfpfzIBklpPzXT7/\
-OjY4Ns09tD5SZzw6tfxNkVfPly9Pj5RF9bNKDR6O9/ce7nX37YK+zt/sQOgfu/l4H9h3qjh4/\
-2nVHuwW8Wea30hQvdEqmQWpYU5HP5dwRk6YwnoE7UzMQ96LOFQ3b0J9wioCCYlndTcFohHErXhvLYp\
-zrA8qikpDautavHdVa//fB5uacUZhz22QSXOhG4GNrgkPS1nOqmKLN5xESi8AG+\
-2FB1sLBji2LE4FJPUDKs1uOXU+5om+Spi2a/\
-sdlUB4G4btbAFv6TjzGoR9IlpJZcsElq5RrJUz2vzCw5QVyaQYuju4VBa8oeAkKrq0o+JYp+AZ46+\
-YrbCAEsjzkmvn5g88e7N0eppZJopHPpIZ1k1xWzd0vDh7eHq4tM+lQS0Acb3lkMQPc4h2eIQ/\
-jxFse0Kfmt9hO7TDuhrZIm6vNZHsEODLaYTTymJyAc3vZrJgoXx7xdj4CZsWy2kxXm+\
-lqM11iM51tScWl74qdas49aab9ptdVr7hW3r/0B1iyFmULISl9j+r5v2f3Fpu5W+\
-2Q5jzNk2pC1h1iaI4lO9dhyg6ppQRHKjFNdTTmGbsQQ3NEh7Quj/\
-ZkR0fjdLKST645H2cVkPwJR0feQgVsnDjsSsG9xOZrpibpyiYTIP8ARXb3CQ=="}, 
-                    "ClickToCopyTemplate"]}, {
+                    "OEM6eJztWM1uI0UQjtdjO3a83rAbhOBkjSIQB69Y8qdwCc4k3o202bXc3\
+gWEkLY9U2O3mOkZdfcka96BE1cOvBWc4QF4BKiePzvjrBScIDh4LmNN/X1dXVVfyW5Jrg/\
+o5XHwFqRbke+dcQUiFKCoYgHHz25JVgeBVnANaTxnUrn3ZHVIx/\
+iF1Ehk2yAl2SCR71MxfQbUIaVv3bLcPJly6jP7PHAiD7T5vdy8TEDJ1nAaggT1JgiBb2/\
+LSo96EjLpViYFfwQOQTiwvU0qA/Q/\
+RZ2NIfihhx8ThInjsnzQpxwIeGCrQFyNaQwQRhakImtPBXOuGmfvmnaiRVVZP46UytLQSE+U+\
+P2od9oX7AIhvOmJgKtT7gxABpGwgdR7p8dM+TSUZDNNDBq9xHOC0OA1lBPw6BQc2UpC9CJu64y/\
+KzvGUESQH6PRDUOggnJMvvEi4DNJ/\
+ZhKIGrqgbtWOHv99IJ6EcXMyHo3UoGPV2zn0uo5qEngkEZfAOZWsYs5p12PjbkPXGUJlVULdKVk75n\
+qmU/HQNgPgBmrpRnLra7ErQyZD1KsxU/zy/wLGjatSAh0/BoBA7nfw/\
+xaNHwGbDzRECr94BJjluRWdyQDL1Iwry/vn9MxZy6z4xq2/sLrXu8J6seXWpbrcXp0+VbM33/+\
+yUSH9RMmsGb0mVE+eHpsBV4gxAfx8+uReBQ/fxyJr+PntyPrw/zETaIEC1/\
+yMx5GalbFibBlIXQE1qeOw/i4KG7EsGI8hXtsxpJzKsaMy/ky1m9rzVor/n43luqs2DM/\
+pfyd9Xa52NvFJktNScvMylxXqEkM84u2SRro5gRcGnmKvJ+W/JkCv8t5kIwSUv7zx1/\
+mRse62ae2B8rMZ4fWvw2yqvnq1dnJ8og+Nunh3mj3YH+nc2Af7nZ2dz6HzqF7sNuBA4e6o/\
+29HXe0U8CbZX4zTfFCp2QapIY1Fflczh0xaQrjObgzNQNxL+pc07AN/\
+QmnCCgoltWDFIxGGLfijbEsxrk5oCwqCamta/3GUa17/\
+zzY3JwzCnNui0yCS90IfGxNcEjaek4VU7TxIkJiEdhg3y/\
+IWjjYsWVxIjCpB0h5dsux6ylX9G3StEXTf7kMysMg/P8WwKa+\
+E49x6AeSpWSWXHDJKuVaCZP9JwxseYFcmoGLo3tFwSsKXoKCaysKvmMKvgXeuvkaGwiBLA+5Zj55/\
+NnjvbvD1DJJNPKZ1LBuk8uquX+4/+TucG2aSYdaAuJ4yyOLGeAO7/AceRgn3vKAPjW/\
+wXZqh3E3tEXaXG0m2yPAkdEOo5HH5AScu8tmxUT58oi38hEwK5bVZrraTFeb6RKb6WxLKi591+xUc+\
+5JM+03va56xbXy0ZU/wJK1KFsISek7VM//\
+PXu42Mzdaoc052meVBOy7hBDcyzZvglTdkgtJThSiWmqozHP2IUYmiM6pHV1tCc7Ohqnk5V8csP5OK\
+uA5E84OvIWKmD91GHXCh4mNl8xNUlXNpkA+RtNmfcL"}, "ClickToCopyTemplate"]}, {
                     "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
                     TemplateBox[{
                     TagBox[
@@ -9556,84 +9745,84 @@ svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
                     DefaultBaseStyle -> {Background -> None}, 
                     BaselinePosition -> Baseline, Method -> "Preemptive"], 
                     "]"}], Short[#, 0.75]& ], 
-                    "OEM6eJztHGtsHMX5zuc7v50HKVV5XjduCy2OndiJE6RyZ59fUfM4vA6vJ\
-OC9uzl78d7uZWbP9qUScgutRKFpWqBQWoJpC6L8qACpUqCAHdGKIlRa0UDT0oJDeEUpSVTxCIiWzsz\
-u7M7u3fkujkmodKPIm9n5Zr73zLfft3tJL6oekMa7tAmAkn60ZL2qA5iGQJd0WVPx7aQXBQY0ApCsR\
-JUbZKQnK1BgUBrGd8TGAYC0DIyDzbHrQVwX68RMKiXBbD+\
-QEqJ3a9KHFndnVSklxzdqiYwCyCoV1io+\
-EeiocTCbBgjoQ1oaqE1NyN8rKQiw0WVsFKRiICFiqkBTk+\
-gfwOtnMUzdIEilFXzTINRY2IcWRSUViEDBJGnQibNyAJPBkPhRVR+\
-UE87J7FpFFiFDAVTTldF1Jo1akyNj3XN6e6JQHsMkDPVCTdV71ASTiVjT29Ml6ykpjcTFpmDwpM2YT\
-wAJ8YSUbqBIWZBAjQaK3owaJ4IvJJ3KQZgBFhu1nek0kKCkxgGq3KSp9khNl4SAqGcVkPS4eK/\
-pGZOUjIQlg2o6M7qWwpqOW6OBjUAf0RJibRQCLFtdHuMW7VTkYTUFVJ0JFAUigBgMu9qg61PSMBDln\
-QBLrMqUmDXLgdc/KKcAgh7a6sPWHTyxPpKBEC98BSYYiA29WL4RKd0P5OERQoI/\
-qo1jnF60rDOGNCWjAx4eNWyUhlU5KcepKUc+wTqtpiIxNFfXB6X0iBxHpLvEFJIX1Qzie6MqQAh+\
-c9mv+w7uTIQs88G+0ivFQa8GU9Y9vOhAX1dEUzQIp58i7WgIttI2G4JfoO3ZEJHC5rQUl/\
-Wsyelxsmxjr6woIIHJHgOch+3zVPh9ngqPx2v/K3Av4L5n3G4gt70+H+65/rq6FsrlFYEKStiUHMZ/\
-Zyt+tSbM9bfde+P15Jq+bUalfZhNUThhyTi5qjuaEd8/\
-8MxV28Pu9SwkL7xzGT9ptxKK84t6PEMjPFLWt4gy51tI+PUwkiqDEw/\
-FvGvPL7IGZfvGyPV5z15kcBKknHy8e5ca5uDPe+quUYOoV+OO8cPvd/LzHetjpOdVUCQ3U/Z39f/\
-HBIoaQP09O8n1oxsuoP0VPxJpP/CtgyN83+N5eISH97yQ6nCs99zB1ZSI/\
-x5FJuft5Lrp9v2OvkWk2b/KN7WN70/8pnkbv95E3e+28vjuev17W3l6JpuuXE6uo0/8gfaH+\
-qBA8cZep/3gOR6BFwrrP3rPuXx/8o5Ih8zPZ/Jh6zP5MfzRQ/eN8/TNCo+M8/SzPuOP9Rn/rM/\
-kw9Zj8nPoq2Q/f/QR0g6G4I/vIO2NEPzoQ9IOl+jn+zw+\
-b6XDcfct93n9htVO9lDCfvCiIdhH37mGCuyjixN8P7zr/i1hDn7ysY+vDbvnl8zQMtr2h+\
-D5tP0zBG+/jbRDp87Q5MsHkjxDrM8Inq28aTvPEOszhh3zS2bowxOkvR2CP/\
-spaUdC8Frajp46Q1Mvr6WmNnXiXrovzPa2UQKPX/MuNWU2Pvn7fkA1Ip7dn2+czi+ZobNpezME//\
-ICaa8toMlNHg0PEYJm/n4wQxl66GqqqV9O3oL4/uL7nqS7M4N/8Kurd4Td80tmaM89pGFL+\
-zxtf11Ikzv2SppniPUZwVPC/TLPEOszhh3zS2ZoG23/\
-CsHHHyPtcAjeQNsCmNxs8hOqgfATz0xQgpfcSglsiu2gRxobv6j+XJ0y8NCbQ/\
-nG6fySGVpN2xscQ6toe20BNHRHGz1jZ3cYx0c0tsfQzG/DCb7v2fNvuikw+JnaS68Lu+\
-eXzJCxF7wcgiJth0KmV7106gyFx/vGeIZYnxH88KtdkGeI9RnDjvklM7SVNry5XUYbDjzv/\
-glpC3EO3XecaiB81v10l9u99j3qS57tXiMkM8dnHthOd7nZpQdG843T+\
-afV5Hw2Q4SbSsLNzJgh3sk7T1DqWm++iYp/73sDWpgb3x3ZvyPshj/\
-j1FvWH7yJnhzRvdsoldHEn0TeGzw39veG3fCnNajJS33DLUZk8vU7KbUz3/2jcaDf2k25efDbz9H+\
-zN3PG5EMD3/GqZ+VDl5NqAkeW2FYytM/p1S29h2glhTc/xDtT6CnqU4c8Kf1dM9H/dQNHVSWMwcOE+\
-+deqO9jfYf3vJDY79tuHITuR74x5P05HPAn3nq3weUyiH9NnK9q7FmmPbTHxyhe9Ht715Er/\
-3paYN6Hj5Z5cp71HWiNIjrAyQbEPFatys7J/CzvpV1MhMrXVJ8dBhqGTXhSqz4e6GUcmdbaunNQTk+\
-itx5mM9iHiQPcbkURZZbcA0RKT4CWLrELat6UYdyerO6Xk1ndDYYsDNrPlsPpjWxfKI9wvKJ1cImLM\
-hLg4L4OTNhtl4HqU5V1Yx8pOg79v0pG577X55UnolQ/\
-KLQqeqaSv9oYy2XZyRVlxUwAIYh1jxeVcDkWpkhsVa4aGzlitYVrRcLnIKxyHux7pSsiKmPabpmjVW\
-TMVOIpsYqSE6V0CspkfpIAxa0OgKgrIOENWuZOKKNE8mpw5ERCUpxkkVzi7aGapr4GElMYQVkN4Axo\
-Jin/MHQ3Dpgg4tNweRk7xiEWIVxZFIqskRnXvFfkLTBKrHecmGqSapRkXl3IEbUDRSgAzcti0xaiFp\
-5wytOSm6usgA9eZKaDKtItiJ1GPEmMidW0xv/\
-HBIryRJWfpuQz5lthSC4h0qxdZLbLdnWMXxUimOZOlFhqF2Pl4RvkdANUBybCVm8dLQXCsxhgrbHBJ\
-NmnhoVoOZ0GF4eRX/2La9UrJGKk0fGJf0rnWhK227qNmVSMQA3SnA0Z6wxiufqUQjiMjGAiM/\
-WMl06q+rSBMWdM/VTNgPfoJb+\
-7BrAYrY7RjUkm5UdQ8FePgihZZ0zUo6KKBqadznKHTaV61HlelS5HlWuR5XrUeV6VLkeVa5HzU9D5X\
-pUuR5VrkeV61HlelS5HlWuR5XrUeV6VLketXD1qLpyPapcj/\
-qMVQXK9ahPuR5VlJp64RsgO67BBJqPt7u+RPGbnu69RPQJlwiiX+\
-iVsZyWCRuwWUowmIbaMN6hU1j3GJfNELS3AHEJJvVKWR8RQRq7I8mOIz/\
-2Uag7GfSUxN0SoVuLZ4ivSSclbTdjbAsDwoiup9GlLS3QrC6gFeOaksRMxRUtk1gR11IthnkMgDSpf\
-Ggwa8O2SOtWx9o71rQ1d8TXtTe3t60CzeuSHe3NoCMhJWNrVrclY20tghg/DVjE+\
-n5s9hBvGKNbBjbMR7jLhM1QHpbx5ootUgF49yndmhuElWuDnWkYXNW6qk2Yn2o3YOUgPbglncD/\
-OZ2oq4UtW9Z3l47xy0IpGpkXKUsFGhMkgmP42Dqp/aRKoIfrPLGasp8n1sK82h5YhQ90Es0Z5Zjcz+\
-lMqpBg1fmyCK8VUWTs7UOsGBjTJpqa0PI5YRIySjc1Jc1S35fmXo+\
-WBzF0NQoYpUI8r2ajlkFAw8LAlAYo1TTAIEeVOwrCENUsgmP7pTOoMI66t0nMXtsJoTY+\
-AqSEfSKafMMLv3Pk8r0XvBgyQmhzGUctDc+\
-Pakp22KiYVjrpiHxiIpq1ymoRT8STOzydZwZPI1ena6PtaXLXTyknFHWBnTKA9BHD/UqUdaqbMw+\
-FXCNvT88xYgRff5s+WWzWmtPuNUNzjJjY7FAv7/OKHclHGu2bUUXDjzvqsCPKMkRqaw+\
-LN0nbmyEcBvtpGCwGjM1NrOuWJUUbNgrJjqhUVPAZip88FElWS4xXn7WZKCmejtTZ91jkZqnOGmocI\
-E9peGxASsgZxL0oYTyVGbTnt3QrfKaQGyWITxWUIyyfsaZpqhXz9LXcB+\
-aXWO77rRC8jrZjZecrO98COB9va+fR9kQI3ruHtFdC8MQHpL11Br2xRF+\
-Yr3sujWipNKGjZyJtxvfslC3xRM7v1vyn+/lCA5syiuuCOXGNUSuggF+bExCaIc1GCT/\
-jTyTrXUQ5jfY4c1OPxzXi8fAZOOdcuqt850gox/\
-1t52cgBfDaENMFVy0016bMjTcPN26808XxThfid7o4v7lzGanF5Vwcr3uDy8NNQYhQcW6KW0Bhbopb\
-QGFuiltAXm5qN+\
-NIVpGyvCv5UV2nKqck83cl7BxqMe9iB0HEG6nnsr1L7TfmehRAHtBRzgtyi7pBUsooencGGhlTe3pu\
-xpS+VljpPIMr0Dl9QEsB7K/\
-xQYwLJTWYsn7f4wwG32515yjEMpEcsz5e0Fm41YqHCNWUOYPQRu7czvPhwoIFCvPAeYrhgjPVH5Xgy\
-e3xRW37dIQj1okewQEARh+VEuRct7E53l89y3EYGnWH3DdP7ZdSXQnYAiUGKySqoyERRv/\
-a5ANF46LAel1S+\
-Ne0CzyV8D6wQHEQcv1ADwZdMacuMzTUYyDYIkvJK4hNpeR1TibkKTX7kEeTbiUvNnfPwhBzvLVc0qv\
-JgcszIMOVUqoGNU3R5bT4lT6gB/\
-UREFQcWaKglsR3ZRRkmcqct7jxCjSqK01W9aIuqQkJJsyCqPNF7vWqrGP7lHdSh8YbzBzRaAm6xtJr\
-MKVinh8Lr1ashYyizMulC+4OeSJ340HTuE/3qNz7/ENCBeer+\
-JS1gXJf8feigBiXFJDI9el8lbE8ScDy9zPl72dOkxn8P38/\
-w8Xfrk9T8oQf3PJivelx5KOak9ppRO92ErY5j9XOqmaxkrwpIF5YpLSP4UjNpLQTs1msZ3gIc2LAqH\
-U1i1VXGCeJ6Ke1i2YcgtilVPH8OQukzeJSu1i2QTNewsAs+\
-Uj1q4MV3MbHx3NLbVrseru6RjfwFiktt6wkFNQatPXKNJiqi5BJ5o8C9hRdNLm6Pdm6FrQ3r42tize\
-3d7TFmvH+HW9evXLlqrZkYt3K1jXrbBM1fthPiik5Jlrdk5DzDiw15pB6qnlAIOObq/8B3vmtqg==\
+                    "OEM6eJztHGtsHMX5zuc7v50HKVV5XjduCy1OQpxgQCp39vkVNY/D6/\
+BKAl7fzZ0X7+\
+1eZvZsXyoht0AlCk3TAoXSEkxbEOVHBUiVAgXsiFYUodKKBpqWFhzCK0pJoopHQLR0ZnZnd3bvzrdx\
+TBKkG0XezM43871nvv2+3Uv5UW2/NNapjQOUCqJFa1QdwCwEuqTLmopvp/\
+wo1K8RgFQ1ql4rIz1VhUIDUhrfEZv7AdJyMAE2DF0PErrYIOYyGQnm+\
+4CUFP2bUgG0sCuvShk5sU5L5hRAVqmyVgmIQEfNA/\
+ksQEAf1LJAbWlBwR5JQYCNLmGjIDMEkiKmCrS0iMF+\
+vH4ewzQMgExWwTcNQo2FA2hBXFKBCBRMkgadOKv7MRkMSRDV9EI56ZzMrjVkETIUQnWdOV1n0qg3OT\
+LWPaOnOw7lUUzCYA/\
+UVL1bTTKZiHU93Z2ynpGySFxoCgZP2oD5BJAQT0jpAoqUB0nUbKDoyakJIvhS0qkegDlgsVHfkc0CC\
+UpqAqDq9Zpqj9R1SgiIel4BKZ+L97ruUUnJSVgyqK4jp2sZrOmENRpaB/\
+RhLSnWxyHAstXlUW7RDkVOqxmg6kygKBQDxGDY1QZdk5HSQJS3ASyxGlNi1iwH3uCAnAEI+\
+mhrjFp38MTGWA5CvPAVmGAgNvVg+cakbB+Q08OEhGBcG8M4/\
+WhJxxDSlJwOeHjUtE5Kq3JKTlBTjn2KdVpLRWJorqEXStlhOYFId5EpJD+qG8D3RlSAEPz2kt/\
+07tuWjFjmg32lR0qAHg1mrHt40f7ezpimaBBOPU3aoQhcQdtMBH6JtuciRAobslJC1vMmp0fIss09s\
+qKAJCZ7FHAetttXFQz4qnw+v/2vxL2Q+55xu4nc9gcCuOf66+paKJdWhaooYZNyFP+dqfr1RVGuv/\
+m+G68n1+zt0yrtw3yGwgmLxshV3dqK+P7eZ6/aEnWvZyF58d3L+Ek7lEiCX9TnGxzmkbK+\
+RZQ530LCr4eR1Bic+Cjm7Tt/mTco2z1Kri/4diGDkzDl5JMd29UoB3/W03ePGES9lnCMH/igg5/\
+vWB8jPauKIrmFsr+9778mUNwA6uveRq4f33AO7S/7sUj7oe/sG+b7Pt8jwzy878VMu2O95/\
+etpkT87xAyOV9Fruvv2OPoW0Sa/asCk5v5/vhvWzfz6403/H4Tj+/uN76/iadnouXKpeQ68uQfaX+\
+wFwoU79AbtB8+wyfwQmH9x+49k+9P3Blrl/n5TD5sfSY/hj++//4xnr4Z4dExnn7WZ/\
+yxPuOf9Zl82HpMfg59efbzxx4lbV8E/uRO0t6MwI8/Iu2ARz/\
+f7Qv4qx2Ou3tpwB80rHaimxL2w5cMwT727jVUYB+fn+\
+T70e0PbIxy8BOPf3Jt1D3fM0NLaNsTgWfT9q8IvON20vYfP0MTr+\
+xN8QyxPiN4pvqmLTxDrM8Ydsz3zNBHR0l7JwJ//jPSDkbgtbQdOn6GJl+\
+5mJra5NH76L4w09NGCTxyzXvUlNn4xB/6ANWIeHpfsXE63zNDp9P2VgT+9UXSXp9Hk5s4FB0kBE3/\
+Y1+OMvTw1VRTv5q4FfH9hfc/RXdnBv/Q11dvjbrne2Zo572kYUv7Im1/m0+TO/\
+xqlmeI9RnBk8IDMs8Q6zOGHfM9M7SZtn9H4BOPk3YgAm+\
+gbR5Mbib1KdVA9MlnxynBi26jBLYMbaVHGhs/r/\
+FMnTLw8FuDxcbpfM8MrabtTY6hlbS9Pg8aurONnrEzW43jIz6009DM76JJvu/b+R+\
+6KTD46fpLr4u653tmyNgLXolAkbb9EdOrXj5+\
+hqJjvaM8Q6zPCH7ktU7IM8T6jGHHfM8MbaINb26X0YYDz3t+\
+Stp8nEP3H6EaiJ72AN3ldlz8PvUl3xa/\
+EZKZ49MPbqG73MzivSPFxun8E2pyAZshwk014WZ61BDvxF1HKXUrbrmJin/X+/1alBvfEduzNeqGP+\
+nUW9YfvomeHPFdmymV8eSfRd4bfDf29UTd8Cc0qClKfdOtRmTyzbsotdPf+5NxoN/WRbl56LvP0/\
+70PS8YkQwPf9Kpn5H2XU2oCR9eZljKM7+gVK7o3UstKbznYdofR89QnTjgT+\
+jpXoz6yRvaqSyn9x4g3jv55qo22n9k44+M/bbpyvXkuvefT9GTzwF/8qn/AFAqB/XbyfXu5ro07Wc/\
+PEj3ojveO49e+7JTBvU8fKrGlfdo6EBZkND7STYg5rduV3eM42d9K+\
+tkJlY6pcRIGmo5NelKrAR7oJRxZ1vq6c0BOTGC3HmYUzEPUoS4QopiSy24ppiUGAYsXeKWVaOoQzm7\
+QV2jZnM6GwzZmbWArQfTmlg+0R5h+cRaYT0W5KVhQfyCmTBbo4NMh6pqRj5SDBz+waQNz/\
+2vSCrPRCh+WehQdU2lf7TR5ZfnJFWXFdAP0hBrHq8qYHKtzJBYL5w3euGyFctWnC9wCsYi78G6U/\
+Iipn5I0zVrrJaMmUI0NVZFcqqEXkmJNcaasKDVYQBlHSStWUvEYW2MSE5Nx4YlKCVIFs0t2jqqaeJj\
+JDGFFZBfC0aBYp7y+\
+yKz64ANLjQFU5C9YxBiDcaRy6jIEp15xX9BygarxnorhKklqUZF5t2BGFEXUIAO3LQsMGkhauUNrzw\
+phbnKEvQUSWoyrCLZitQ04k1kVqymN/\
+4lIlaTJaz8NiGfM9sqQXAPebF1ktv1bOsYPi4lsEydqDDU9ic84VsgdAGUwGZCFveO9lyBOUzY9phw\
+ysxToxLUnAjDK6LoU9/yvGKNVR07Mi7pX+\
+1E4227aVifywwBuE6CIwVjzXE8V49DkJCJAcQCtpbp0nlVl8Yp7oKpn7EZBAa07KlrAAvZ7hjXkGxW\
+dgwF+/kghJZ1Tko5KqZoaM7lKHfYVKlHVepRlXpUpR5VqUdV6lGVelSlHjU3DVXqUZV6VKUeValHVe\
+pRlXpUpR5VqUdV6lGVetT81aMaKvWoSj3qFKsKVOpRn3E9qiw1jcK3QH5Mg0k0F293fYkSND3df4EY\
+EC4QxKDQI2M5LRHWYrOUYDgLtTTeoTNY9xiXzRC0twBxESb1SlkfFkEWuyPJjqMg9lGoOxn0eeJukd\
+ClJXLE16RjkrabMbaFXScM63oWXbp8OTSrC2jZmKakMFMJRcsllyW0zHLDPPpBllQ+\
+NJi3YZeX2wDFLZ/p+mJjHzZ1iDeJkY39a+\
+ci0CXCBiinZbyhYitUAN5xvFtwk3DhxeGOLAyvXLGyTZibOtdihSA9vDGbxP85kahrhY0b13R5x/\
+hVQbpk9dCq9ovaWtsTl6xqXdW2ErRekmpf1Qrak1Jq6KLVbamhuZGyWKBxQDI8io+\
+qY9pDagR6oM4Rqyn7OWJdVRKr7XU1+BAnEZxRgin8hM6kCglWbS+\
+P8FoxRcYePsgKgEPaeEsLWjorTFJG2ZaWlFne+\
+8rs69GSIIauRSGjPIjn1a3TcghoWBiY0hClmgYV5HhyRz4YopZFbWyPdAYSxvH2DonT6zsg1MaGgZS\
+0T0GTb3juzQcv33XOSxEjbDaXcdTP8Py4puTTRpW02klH7FMT0YxVSov5Yr7C4akiM3gaudpcG23Pk\
+LtBSjmhqBNskwGkjxXu16Csk9ycuT/iGnlnapYRI+D6+9SxYrPWnHKvGZllxMRmh3dFn1Hs6D3WbN+\
+MKxp+xFHTjsjKEKmtPSzeFG1vRXDoG6ShrxgyNjexoUuWFC1tFI8dkaio4I0dP20okqx6jFGfs5nwF\
+EPHGux7LFqzVGcNNfeTJzM81i8l5RziXo4wnsQM2otbuhUyU8h1EsSnCioQVsBY0zTVqjn6WuFD8ss\
+s3/12BF5H2+GK81Wcbx6cj7e1s2h7MgLv20naqxF49EPS3j6J3ujRF+\
+bqnotjWiZL6Ogez5pRJztlPZ7Ixd2a/1y/WGhgU0ZxnTMrrlFqBRTwG7MCQjOkWSfh5/\
+rxVKOLKKfRHmFu6vO5Rnw+PuvmnEt3lZsPRgrc33Z+\
+BlICrw0xVXLVUnNtytx4i3DjxjtVHu9UKX6nyvNbOJeRWl7O5fG6N7gi3JSEiJTnprwFlOamvAWU5q\
+a8BRTlpn4DjmQVKc+7UhA1dKhyRjJ/S8LOm5bzLnYQxPyxRi7Du9h+\
+S65bAeShHBW8FLegC6SknKJ35aCRJbWnF2ZJ6auE1c4zuAqd0Qu0DMD+\
+mhjAuFBKgxnrNz1OYvDtVneBQiwTKTDrIyWdhVutfIhQS5kzCG3mzu0iHyvMW6AwB5zHGS440/\
+txCR7bHl/Wtk9EOGKd6DEcAGD0cSlJznUbm+Od1dMch6FRayh829R+\
+EdWVdC1RVrBCogYaEmH0r088WDYuCq3RJYV/NbvEUwnvA/MUByHXj/\
+Jg0GWz6jJHQz0Ggi3SS15BbPGS1zmWkMdr9qGIJt1KXmjunqUhZnlT2dPryKHLcyDHlU9qBjRN0eWs\
++LVeoIf1YRBWHFmisJbCd2UUZjnKgje38Qo0qvMmq0ZRl9SkBJNmEdT58vYaVdaxfcrbqEPjDWaWaN\
+SDrrH0mkypmOfH/KsVayGnKHNy6ZK7Q5HI3XjQNO7TParwPv+QUMX5Kj5lbaDC1/\
+r9KCQmJAUkC326WDWsSBKw8s1M5ZuZE2QGn+dvZrj42/\
+U5SpHwg1tebDQ9jnxIc0w7jejfQsI257HaEWoVq8nbAeK5ZapNGI7UTLydmK1iI8NDmBNDRpWrVay5\
+wjhJxCCtXbTiEMQun4pnz1oUbRUX22WytZrx4gVmKUCqX+\
+2s1DY2NlZYZNOGrrfranQDXy5l5eWYBtt+jF/ak4aUAvup7U7KRQcWG3NIgdPcvZHxEdT/AdpIkwA=\
 "}, "ClickToCopyTemplate"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
                     AutoDelete -> False, 
                     GridBoxItemSize -> {
@@ -9668,7 +9857,7 @@ Uj1q4MV3MbHx3NLbVrseru6RjfwFiktt6wkFNQatPXKNJiqi5BJ5o8C9hRdNLm6Pdm6FrQ3r42tize\
              DateString[
               TimeZoneConvert[
                DateObject[
-               3.893243550500545`16.342886561984194*^9, TimeZone -> 0]], {
+               3.893302772174083`16.34289316815976*^9, TimeZone -> 0]], {
               "MonthName", " ", "DayShort", ", ", "Year", " ", "Hour12Short", 
                ":", "Minute", " ", "AMPMLowerCase"}], SingleEvaluation -> 
              True, Evaluator -> "System"], FontSlant -> Italic, FontColor -> 
@@ -9705,7 +9894,7 @@ Uj1q4MV3MbHx3NLbVrseru6RjfwFiktt6wkFNQatPXKNJiqi5BJ5o8C9hRdNLm6Pdm6FrQ3r42tize\
                     BaselinePosition -> Scaled[0.1]], 
                     TemplateBox[{1}, "Spacer1"], 
                     StyleBox[
-                    "2", FontSize -> 14, FontWeight -> Plain, FontColor -> 
+                    "3", FontSize -> 14, FontWeight -> Plain, FontColor -> 
                     GrayLevel[0.25], FontFamily -> "Source Sans Pro", 
                     StripOnInput -> False]}, "RowDefault"], 
                     "\"Potential issues found\""}, 
@@ -9738,7 +9927,7 @@ Uj1q4MV3MbHx3NLbVrseru6RjfwFiktt6wkFNQatPXKNJiqi5BJ5o8C9hRdNLm6Pdm6FrQ3r42tize\
                    Style[
                     RawBoxes["Slot[1]"], "Program", FontWeight -> Medium, 
                     ShowStringCharacters -> True], 
-                   ".\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+                   ".\!\(\*StyleBox[\"\\\" (L384,C51) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"}]}] :> 
@@ -9749,29 +9938,29 @@ Rule[StripOnInput, False]]\)"}]}] :>
                 DefinitionNotebookClient`PackageScope`setHint[
                  "Warning", "Paclet", 
                   DefinitionNotebookClient`$CurrentNotebook, 
-                  "f15c85fd-031b-41dd-949c-204bc71e647a", 56740389, 
+                  "9e8757a0-d7fc-4e11-97f9-313ea0fc5af4", 56740389, 
                   "CodeInspectionFileIssue/UnscopedObjectError", <|
                   "File" -> 
                    "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                   "Editor" -> Automatic, "SourceLineStart" -> 367, 
-                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 367, 
+                   "Editor" -> Automatic, "SourceLineStart" -> 384, 
+                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 384, 
                    "SourceColumnEnd" -> 52, "Message" -> 
                    "Unscoped ``Slot`` error: \
-``Slot[1]``.\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", Rule[FontOpacity, \
+``Slot[1]``.\!\(\*StyleBox[\"\\\" (L384,C51) \\\"\", Rule[FontOpacity, \
 0.65`], Rule[FontSize, Times[0.9`, Inherited]], Rule[PrivateFontOptions, \
 List[Rule[\"OperatorSubstitution\", False]]], Rule[StripOnInput, False]]\)", 
                    "SourceInformation" -> 
                    CodeInspector`InspectionObject[
                     "UnscopedObjectError", 
                     "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{367, 51}, {367, 52}}, 
+                    CodeParser`Source -> {{384, 51}, {384, 52}}, 
                     ConfidenceLevel -> 0.8, "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
                    "Position" -> 
-                   "\!\(\*StyleBox[\"\\\" (L367,C51) \\\"\", \
+                   "\!\(\*StyleBox[\"\\\" (L384,C51) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"|>]; 
@@ -9791,7 +9980,7 @@ Rule[StripOnInput, False]]\)"|>];
                    Style[
                     RawBoxes["Slot[1]"], "Program", FontWeight -> Medium, 
                     ShowStringCharacters -> True], 
-                   ".\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+                   ".\!\(\*StyleBox[\"\\\" (L436,C51) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"}]}] :> 
@@ -9802,29 +9991,82 @@ Rule[StripOnInput, False]]\)"}]}] :>
                 DefinitionNotebookClient`PackageScope`setHint[
                  "Warning", "Paclet", 
                   DefinitionNotebookClient`$CurrentNotebook, 
-                  "5308fbee-3e39-4ef7-802f-3b72c7c40bb8", 56740389, 
+                  "379bc90d-a563-4aea-805f-bbd6c65b1bc7", 56740389, 
                   "CodeInspectionFileIssue/UnscopedObjectError", <|
                   "File" -> 
                    "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                   "Editor" -> Automatic, "SourceLineStart" -> 419, 
-                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 419, 
+                   "Editor" -> Automatic, "SourceLineStart" -> 436, 
+                   "SourceColumnStart" -> 51, "SourceLineEnd" -> 436, 
                    "SourceColumnEnd" -> 52, "Message" -> 
                    "Unscoped ``Slot`` error: \
-``Slot[1]``.\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", Rule[FontOpacity, \
+``Slot[1]``.\!\(\*StyleBox[\"\\\" (L436,C51) \\\"\", Rule[FontOpacity, \
 0.65`], Rule[FontSize, Times[0.9`, Inherited]], Rule[PrivateFontOptions, \
 List[Rule[\"OperatorSubstitution\", False]]], Rule[StripOnInput, False]]\)", 
                    "SourceInformation" -> 
                    CodeInspector`InspectionObject[
                     "UnscopedObjectError", 
                     "Unscoped ``Slot`` error: ``Slot[1]``.", "Error", <|
-                    CodeParser`Source -> {{419, 51}, {419, 52}}, 
+                    CodeParser`Source -> {{436, 51}, {436, 52}}, 
                     ConfidenceLevel -> 0.8, "File" -> 
                     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
-                    "Editor" -> Automatic|>], "Hash" -> 5480396231074411176, 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
                    "Position" -> 
-                   "\!\(\*StyleBox[\"\\\" (L419,C51) \\\"\", \
+                   "\!\(\*StyleBox[\"\\\" (L436,C51) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"|>]; 
+                DefinitionNotebookClient`PackageScope`seekAfter[56740389]; 
+                Null], Row[{
+                 Pane[
+                  RawBoxes[
+                   TemplateBox[{
+                    RGBColor[1., 0.4627450980392157, 0.]}, 
+                    "HintPodIconHint"]], ImageSize -> {10, 10}, 
+                  ImageSizeAction -> "ShrinkToFit", BaselinePosition -> 
+                  Scaled[0.1]], " ", 
+                 Row[{"Unscoped ", 
+                   Style[
+                    RawBoxes["Slot"], "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True], " error: ", 
+                   Style[
+                    RawBoxes["Slot[i]"], "Program", FontWeight -> Medium, 
+                    ShowStringCharacters -> True], 
+                   ".\!\(\*StyleBox[\"\\\" (L462,C49) \\\"\", \
+Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
+Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
+Rule[StripOnInput, False]]\)"}]}] :> 
+              DefinitionNotebookClient`WithCurrentNotebook[
+                EvaluationNotebook[], 
+                DefinitionNotebookClient`LoadDefinitionNotebook[
+                 "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
+                DefinitionNotebookClient`PackageScope`setHint[
+                 "Warning", "Paclet", 
+                  DefinitionNotebookClient`$CurrentNotebook, 
+                  "a375cc07-06d3-4806-aeea-c379fedfc274", 56740389, 
+                  "CodeInspectionFileIssue/UnscopedObjectError", <|
+                  "File" -> 
+                   "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                   "Editor" -> Automatic, "SourceLineStart" -> 462, 
+                   "SourceColumnStart" -> 49, "SourceLineEnd" -> 462, 
+                   "SourceColumnEnd" -> 56, "Message" -> 
+                   "Unscoped ``Slot`` error: \
+``Slot[i]``.\!\(\*StyleBox[\"\\\" (L462,C49) \\\"\", Rule[FontOpacity, \
+0.65`], Rule[FontSize, Times[0.9`, Inherited]], Rule[PrivateFontOptions, \
+List[Rule[\"OperatorSubstitution\", False]]], Rule[StripOnInput, False]]\)", 
+                   "SourceInformation" -> 
+                   CodeInspector`InspectionObject[
+                    "UnscopedObjectError", 
+                    "Unscoped ``Slot`` error: ``Slot[i]``.", "Error", <|
+                    CodeParser`Source -> {{462, 49}, {462, 56}}, 
+                    ConfidenceLevel -> 0.8, "File" -> 
+                    "/Volumes/Macintosh \
+HD/Users/antonov/WL-QuantileRegression-paclet/Kernel/QuantileRegression.wl", 
+                    "Editor" -> Automatic|>], "Hash" -> 5339505698257470506, 
+                   "Position" -> 
+                   "\!\(\*StyleBox[\"\\\" (L462,C49) \\\"\", \
 Rule[FontOpacity, 0.65`], Rule[FontSize, Times[0.9`, Inherited]], \
 Rule[PrivateFontOptions, List[Rule[\"OperatorSubstitution\", False]]], \
 Rule[StripOnInput, False]]\)"|>]; 
@@ -9844,6 +10086,7 @@ Rule[StripOnInput, False]]\)"|>];
                   0.282842712474619}}], 
                  
                  Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                  
                   0.282842712474619, -0.42426406871192845`}, \
 {-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
                   0.42426406871192845`}}]}, ImageSize -> 18, PlotRangePadding -> 
@@ -9891,8 +10134,8 @@ Rule[StripOnInput, False]]\)"|>];
                   Not[
                    FreeQ[
                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "074e497e-4541-4279-a2fe-4c62e4392922"]]]]]], Appearance -> 
-             None, BoxID -> "074e497e-4541-4279-a2fe-4c62e4392922"], 
+                    "3cb9abe1-62c3-4106-a820-166ef783587b"]]]]]], Appearance -> 
+             None, BoxID -> "3cb9abe1-62c3-4106-a820-166ef783587b"], 
             "LinkHand"]}}, Alignment -> {Left, Baseline}], 
         Grid[{{"", 
            Style[
@@ -9992,12 +10235,12 @@ Rule[StripOnInput, False]]\)"|>];
                     TagBox[
                     TemplateBox[{"\"Version\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"1.0.4\"", "SummaryItem"]}]}, {
+                    TagBox["\"1.0.5\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
                      "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"3892\"", "SummaryItem"]}]}, {
+                    TagBox["\"6961\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -10035,31 +10278,31 @@ Rule[StripOnInput, False]]\)"|>];
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                    Short[#, 0.75]& ], 
-                  "OEM6eJztWE9vG0UUj+\
-O1HTuuG9ogBCdrFYE4uIImbQiX4GziNlLTWh63gBBSx7tv7RG7s6uZ2aTmO3DiyoFvBWf4AHwEeLP/\
-7KxTKThB9OC9rLXv32/evPd+\
-T3ZLcmNAL46CNyDdinzvlCsQoQBFFQs4fnZLsjoItIJrSOMZk8pdl9UhHeMXUiORbYOUZJNEvk/\
-F9ClQh5S+c8ty63jKqc/ss8CJPNDm67l5mYCSreE0BAnqdRAC39mRlR71JGTS7UwK/\
-ggcgnBgZ4dUBuh/ijqbQ/\
-BDDz8mCBPHZXm3TzkQ8MBWgbgc0xggjCxIRdaeCOZcNs7eNe1Ei6qyfhQplaWhkZ4o8ftR76Qv2DlC\
-eN0TAVcn3BmADCJhA6n3To6Y8mkoyVaaGDR6gecEocFrKMfg0Sk4spWE6EXc1hl/\
-W3aMoYggP0ajG4ZABeWYfON5wGeS+hGVQNTUA3etcPb6yTn1IoqZkfVupAIfr9jOpdUzUJPAIY2+\
-AMytYudzTrseG3MfuMoSKqsW6ErJ3jPVU5+OgbAfATNWSzOWW12KWxkyH6RYi5/mV/kXNGxakRDo+\
-BUCBnKnh/m1aPgU2HiiIVT6wQXGLMnt7kgGXqRgXl/eOaNjzlxmxzVs/\
-Y3XvdET1I8vtSw34vTo8q2Yf/zys4kO68dMYM3oM6N88OTICrxAiA/i57dDcT9+/jwU38TP74fWh/\
-mJm0QJFr7gpzyM1KyKE2HLQugIrE8dh/FxUdyIYcV4CvfYjCVnVIwZl/NlrN/WmrVW/P12LNVZsWd+\
-Svk76+1ysbeLTZaakpaZlbmuUJMY5pdtkzTQzTG4NPIUeT8t+VMFfpfzIBklpPzXT7/\
-OjY4Ns09tD5SZzw6tfxNkVfPly9Pj5RF9bNKDR6O9/ce7nX37YK+zt/sQOgfu/l4H9h3qjh4/\
-2nVHuwW8Wea30hQvdEqmQWpYU5HP5dwRk6YwnoE7UzMQ96LOFQ3b0J9wioCCYlndTcFohHErXhvLYp\
-zrA8qikpDautavHdVa//fB5uacUZhz22QSXOhG4GNrgkPS1nOqmKLN5xESi8AG+\
-2FB1sLBji2LE4FJPUDKs1uOXU+5om+Spi2a/\
-sdlUB4G4btbAFv6TjzGoR9IlpJZcsElq5RrJUz2vzCw5QVyaQYuju4VBa8oeAkKrq0o+JYp+AZ46+\
-YrbCAEsjzkmvn5g88e7N0eppZJopHPpIZ1k1xWzd0vDh7eHq4tM+lQS0Acb3lkMQPc4h2eIQ/\
-jxFse0Kfmt9hO7TDuhrZIm6vNZHsEODLaYTTymJyAc3vZrJgoXx7xdj4CZsWy2kxXm+\
-lqM11iM51tScWl74qdas49aab9ptdVr7hW3r/0B1iyFmULISl9j+r5v2f3Fpu5W+\
-2Q5jzNk2pC1h1iaI4lO9dhyg6ppQRHKjFNdTTmGbsQQ3NEh7Quj/\
-ZkR0fjdLKST645H2cVkPwJR0feQgVsnDjsSsG9xOZrpibpyiYTIP8ARXb3CQ=="}, 
-                 "ClickToCopyTemplate"]]}, {
+                  "OEM6eJztWM1uI0UQjtdjO3a83rAbhOBkjSIQB69Y8qdwCc4k3o202bXc3gW\
+EkLY9U2O3mOkZdfcka96BE1cOvBWc4QF4BKiePzvjrBScIDh4LmNN/X1dXVVfyW5Jrg/\
+o5XHwFqRbke+dcQUiFKCoYgHHz25JVgeBVnANaTxnUrn3ZHVIx/\
+iF1Ehk2yAl2SCR71MxfQbUIaVv3bLcPJly6jP7PHAiD7T5vdy8TEDJ1nAaggT1JgiBb2/\
+LSo96EjLpViYFfwQOQTiwvU0qA/Q/\
+RZ2NIfihhx8ThInjsnzQpxwIeGCrQFyNaQwQRhakImtPBXOuGmfvmnaiRVVZP46UytLQSE+U+\
+P2od9oX7AIhvOmJgKtT7gxABpGwgdR7p8dM+TSUZDNNDBq9xHOC0OA1lBPw6BQc2UpC9CJu64y/\
+KzvGUESQH6PRDUOggnJMvvEi4DNJ/\
+ZhKIGrqgbtWOHv99IJ6EcXMyHo3UoGPV2zn0uo5qEngkEZfAOZWsYs5p12PjbkPXGUJlVULdKVk75n\
+qmU/HQNgPgBmrpRnLra7ErQyZD1KsxU/zy/wLGjatSAh0/BoBA7nfw/\
+xaNHwGbDzRECr94BJjluRWdyQDL1Iwry/vn9MxZy6z4xq2/sLrXu8J6seXWpbrcXp0+VbM33/+\
+yUSH9RMmsGb0mVE+eHpsBV4gxAfx8+uReBQ/fxyJr+PntyPrw/zETaIEC1/\
+yMx5GalbFibBlIXQE1qeOw/i4KG7EsGI8hXtsxpJzKsaMy/ky1m9rzVor/n43luqs2DM/\
+pfyd9Xa52NvFJktNScvMylxXqEkM84u2SRro5gRcGnmKvJ+W/JkCv8t5kIwSUv7zx1/\
+mRse62ae2B8rMZ4fWvw2yqvnq1dnJ8og+Nunh3mj3YH+nc2Af7nZ2dz6HzqF7sNuBA4e6o/\
+29HXe0U8CbZX4zTfFCp2QapIY1Fflczh0xaQrjObgzNQNxL+pc07AN/\
+QmnCCgoltWDFIxGGLfijbEsxrk5oCwqCamta/3GUa17/\
+zzY3JwzCnNui0yCS90IfGxNcEjaek4VU7TxIkJiEdhg3y/\
+IWjjYsWVxIjCpB0h5dsux6ylX9G3StEXTf7kMysMg/P8WwKa+\
+E49x6AeSpWSWXHDJKuVaCZP9JwxseYFcmoGLo3tFwSsKXoKCaysKvmMKvgXeuvkaGwiBLA+5Zj55/\
+NnjvbvD1DJJNPKZ1LBuk8uquX+4/+TucG2aSYdaAuJ4yyOLGeAO7/AceRgn3vKAPjW/\
+wXZqh3E3tEXaXG0m2yPAkdEOo5HH5AScu8tmxUT58oi38hEwK5bVZrraTFeb6RKb6WxLKi591+xUc+\
+5JM+03va56xbXy0ZU/wJK1KFsISek7VM//\
+PXu42Mzdaoc052meVBOy7hBDcyzZvglTdkgtJThSiWmqozHP2IUYmiM6pHV1tCc7Ohqnk5V8csP5OK\
+uA5E84OvIWKmD91GHXCh4mNl8xNUlXNpkA+RtNmfcL"}, "ClickToCopyTemplate"]]}, {
               "\[FilledVerySmallSquare]", "Resource object:", 
                RawBoxes[
                 TemplateBox[{
@@ -10300,83 +10543,84 @@ svthfJj/YHyY/2F8WPjAzIOFH0p8AQA7u3Ea
                     DefaultBaseStyle -> {Background -> None}, 
                     BaselinePosition -> Baseline, Method -> "Preemptive"], 
                     "]"}], Short[#, 0.75]& ], 
-                  "OEM6eJztHGtsHMX5zuc7v50HKVV5XjduCy2OndiJE6RyZ59fUfM4vA6vJOC\
-9uzl78d7uZWbP9qUScgutRKFpWqBQWoJpC6L8qACpUqCAHdGKIlRa0UDT0oJDeEUpSVTxCIiWzszu7\
-M7u3fkujkmodKPIm9n5Zr73zLfft3tJL6oekMa7tAmAkn60ZL2qA5iGQJd0WVPx7aQXBQY0ApCsRJU\
-bZKQnK1BgUBrGd8TGAYC0DIyDzbHrQVwX68RMKiXBbD+QEqJ3a9KHFndnVSklxzdqiYwCyCoV1io+\
-EeiocTCbBgjoQ1oaqE1NyN8rKQiw0WVsFKRiICFiqkBTk+\
-gfwOtnMUzdIEilFXzTINRY2IcWRSUViEDBJGnQibNyAJPBkPhRVR+\
-UE87J7FpFFiFDAVTTldF1Jo1akyNj3XN6e6JQHsMkDPVCTdV71ASTiVjT29Ml6ykpjcTFpmDwpM2YT\
-wAJ8YSUbqBIWZBAjQaK3owaJ4IvJJ3KQZgBFhu1nek0kKCkxgGq3KSp9khNl4SAqGcVkPS4eK/\
-pGZOUjIQlg2o6M7qWwpqOW6OBjUAf0RJibRQCLFtdHuMW7VTkYTUFVJ0JFAUigBgMu9qg61PSMBDln\
-QBLrMqUmDXLgdc/KKcAgh7a6sPWHTyxPpKBEC98BSYYiA29WL4RKd0P5OERQoI/\
-qo1jnF60rDOGNCWjAx4eNWyUhlU5KcepKUc+wTqtpiIxNFfXB6X0iBxHpLvEFJIX1Qzie6MqQAh+\
-c9mv+w7uTIQs88G+0ivFQa8GU9Y9vOhAX1dEUzQIp58i7WgIttI2G4JfoO3ZEJHC5rQUl/\
-Wsyelxsmxjr6woIIHJHgOch+3zVPh9ngqPx2v/K3Av4L5n3G4gt70+H+65/rq6FsrlFYEKStiUHMZ/\
-Zyt+tSbM9bfde+P15Jq+bUalfZhNUThhyTi5qjuaEd8/\
-8MxV28Pu9SwkL7xzGT9ptxKK84t6PEMjPFLWt4gy51tI+PUwkiqDEw/\
-FvGvPL7IGZfvGyPV5z15kcBKknHy8e5ca5uDPe+quUYOoV+OO8cPvd/LzHetjpOdVUCQ3U/Z39f/\
-HBIoaQP09O8n1oxsuoP0VPxJpP/CtgyN83+N5eISH97yQ6nCs99zB1ZSI/\
-x5FJuft5Lrp9v2OvkWk2b/KN7WN70/8pnkbv95E3e+28vjuev17W3l6JpuuXE6uo0/8gfaH+\
-qBA8cZep/3gOR6BFwrrP3rPuXx/8o5Ih8zPZ/Jh6zP5MfzRQ/eN8/TNCo+M8/SzPuOP9Rn/rM/\
-kw9Zj8nPoq2Q/f/QR0g6G4I/vIO2NEPzoQ9IOl+jn+zw+\
-b6XDcfct93n9htVO9lDCfvCiIdhH37mGCuyjixN8P7zr/i1hDn7ysY+vDbvnl8zQMtr2h+\
-D5tP0zBG+/jbRDp87Q5MsHkjxDrM8Inq28aTvPEOszhh3zS2bowxOkvR2CP/\
-spaUdC8Frajp46Q1Mvr6WmNnXiXrovzPa2UQKPX/MuNWU2Pvn7fkA1Ip7dn2+czi+ZobNpezME//\
-ICaa8toMlNHg0PEYJm/n4wQxl66GqqqV9O3oL4/uL7nqS7M4N/8Kurd4Td80tmaM89pGFL+\
-zxtf11Ikzv2SppniPUZwVPC/TLPEOszhh3zS2ZoG23/\
-CsHHHyPtcAjeQNsCmNxs8hOqgfATz0xQgpfcSglsiu2gRxobv6j+XJ0y8NCbQ/\
-nG6fySGVpN2xscQ6toe20BNHRHGz1jZ3cYx0c0tsfQzG/DCb7v2fNvuikw+JnaS68Lu+\
-eXzJCxF7wcgiJth0KmV7106gyFx/vGeIZYnxH88KtdkGeI9RnDjvklM7SVNry5XUYbDjzv/\
-glpC3EO3XecaiB81v10l9u99j3qS57tXiMkM8dnHthOd7nZpQdG843T+\
-afV5Hw2Q4SbSsLNzJgh3sk7T1DqWm++iYp/73sDWpgb3x3ZvyPshj/\
-j1FvWH7yJnhzRvdsoldHEn0TeGzw39veG3fCnNajJS33DLUZk8vU7KbUz3/2jcaDf2k25efDbz9H+\
-zN3PG5EMD3/GqZ+VDl5NqAkeW2FYytM/p1S29h2glhTc/xDtT6CnqU4c8Kf1dM9H/dQNHVSWMwcOE+\
-+deqO9jfYf3vJDY79tuHITuR74x5P05HPAn3nq3weUyiH9NnK9q7FmmPbTHxyhe9Ht715Er/\
-3paYN6Hj5Z5cp71HWiNIjrAyQbEPFatys7J/CzvpV1MhMrXVJ8dBhqGTXhSqz4e6GUcmdbaunNQTk+\
-itx5mM9iHiQPcbkURZZbcA0RKT4CWLrELat6UYdyerO6Xk1ndDYYsDNrPlsPpjWxfKI9wvKJ1cImLM\
-hLg4L4OTNhtl4HqU5V1Yx8pOg79v0pG577X55UnolQ/\
-KLQqeqaSv9oYy2XZyRVlxUwAIYh1jxeVcDkWpkhsVa4aGzlitYVrRcLnIKxyHux7pSsiKmPabpmjVW\
-TMVOIpsYqSE6V0CspkfpIAxa0OgKgrIOENWuZOKKNE8mpw5ERCUpxkkVzi7aGapr4GElMYQVkN4Axo\
-Jin/MHQ3Dpgg4tNweRk7xiEWIVxZFIqskRnXvFfkLTBKrHecmGqSapRkXl3IEbUDRSgAzcti0xaiFp\
-5wytOSm6usgA9eZKaDKtItiJ1GPEmMidW0xv/\
-HBIryRJWfpuQz5lthSC4h0qxdZLbLdnWMXxUimOZOlFhqF2Pl4RvkdANUBybCVm8dLQXCsxhgrbHBJ\
-NmnhoVoOZ0GF4eRX/2La9UrJGKk0fGJf0rnWhK227qNmVSMQA3SnA0Z6wxiufqUQjiMjGAiM/\
-WMl06q+rSBMWdM/VTNgPfoJb+\
-7BrAYrY7RjUkm5UdQ8FePgihZZ0zUo6KKBqadznKHTaV61HlelS5HlWuR5XrUeV6VLkeVa5HzU9D5X\
-pUuR5VrkeV61HlelS5HlWuR5XrUeV6VLketXD1qLpyPapcj/\
-qMVQXK9ahPuR5VlJp64RsgO67BBJqPt7u+RPGbnu69RPQJlwiiX+\
-iVsZyWCRuwWUowmIbaMN6hU1j3GJfNELS3AHEJJvVKWR8RQRq7I8mOIz/\
-2Uag7GfSUxN0SoVuLZ4ivSSclbTdjbAsDwoiup9GlLS3QrC6gFeOaksRMxRUtk1gR11IthnkMgDSpf\
-Ggwa8O2SOtWx9o71rQ1d8TXtTe3t60CzeuSHe3NoCMhJWNrVrclY20tghg/DVjE+\
-n5s9hBvGKNbBjbMR7jLhM1QHpbx5ootUgF49yndmhuElWuDnWkYXNW6qk2Yn2o3YOUgPbglncD/\
-OZ2oq4UtW9Z3l47xy0IpGpkXKUsFGhMkgmP42Dqp/aRKoIfrPLGasp8n1sK82h5YhQ90Es0Z5Zjcz+\
-lMqpBg1fmyCK8VUWTs7UOsGBjTJpqa0PI5YRIySjc1Jc1S35fmXo+\
-WBzF0NQoYpUI8r2ajlkFAw8LAlAYo1TTAIEeVOwrCENUsgmP7pTOoMI66t0nMXtsJoTY+\
-AqSEfSKafMMLv3Pk8r0XvBgyQmhzGUctDc+\
-Pakp22KiYVjrpiHxiIpq1ymoRT8STOzydZwZPI1ena6PtaXLXTyknFHWBnTKA9BHD/UqUdaqbMw+\
-FXCNvT88xYgRff5s+WWzWmtPuNUNzjJjY7FAv7/OKHclHGu2bUUXDjzvqsCPKMkRqaw+\
-LN0nbmyEcBvtpGCwGjM1NrOuWJUUbNgrJjqhUVPAZip88FElWS4xXn7WZKCmejtTZ91jkZqnOGmocI\
-E9peGxASsgZxL0oYTyVGbTnt3QrfKaQGyWITxWUIyyfsaZpqhXz9LXcB+\
-aXWO77rRC8jrZjZecrO98COB9va+fR9kQI3ruHtFdC8MQHpL11Br2xRF+\
-Yr3sujWipNKGjZyJtxvfslC3xRM7v1vyn+/lCA5syiuuCOXGNUSuggF+bExCaIc1GCT/\
-jTyTrXUQ5jfY4c1OPxzXi8fAZOOdcuqt850gox/\
-1t52cgBfDaENMFVy0016bMjTcPN26808XxThfid7o4v7lzGanF5Vwcr3uDy8NNQYhQcW6KW0Bhbopb\
-QGFuiltAXm5qN+\
-NIVpGyvCv5UV2nKqck83cl7BxqMe9iB0HEG6nnsr1L7TfmehRAHtBRzgtyi7pBUsooencGGhlTe3pu\
-xpS+VljpPIMr0Dl9QEsB7K/\
-xQYwLJTWYsn7f4wwG32515yjEMpEcsz5e0Fm41YqHCNWUOYPQRu7czvPhwoIFCvPAeYrhgjPVH5Xgy\
-e3xRW37dIQj1okewQEARh+VEuRct7E53l89y3EYGnWH3DdP7ZdSXQnYAiUGKySqoyERRv/\
-a5ANF46LAel1S+\
-Ne0CzyV8D6wQHEQcv1ADwZdMacuMzTUYyDYIkvJK4hNpeR1TibkKTX7kEeTbiUvNnfPwhBzvLVc0qv\
-JgcszIMOVUqoGNU3R5bT4lT6gB/\
-UREFQcWaKglsR3ZRRkmcqct7jxCjSqK01W9aIuqQkJJsyCqPNF7vWqrGP7lHdSh8YbzBzRaAm6xtJr\
-MKVinh8Lr1ashYyizMulC+4OeSJ340HTuE/3qNz7/ENCBeer+\
-JS1gXJf8feigBiXFJDI9el8lbE8ScDy9zPl72dOkxn8P38/\
-w8Xfrk9T8oQf3PJivelx5KOak9ppRO92ErY5j9XOqmaxkrwpIF5YpLSP4UjNpLQTs1msZ3gIc2LAqH\
-U1i1VXGCeJ6Ke1i2YcgtilVPH8OQukzeJSu1i2QTNewsAs+\
-Uj1q4MV3MbHx3NLbVrseru6RjfwFiktt6wkFNQatPXKNJiqi5BJ5o8C9hRdNLm6Pdm6FrQ3r42tize\
-3d7TFmvH+HW9evXLlqrZkYt3K1jXrbBM1fthPiik5Jlrdk5DzDiw15pB6qnlAIOObq/8B3vmtqg==\
+                  "OEM6eJztHGtsHMX5zuc7v50HKVV5XjduCy1OQpxgQCp39vkVNY/D6/\
+BKAl7fzZ0X7+\
+1eZvZsXyoht0AlCk3TAoXSEkxbEOVHBUiVAgXsiFYUodKKBpqWFhzCK0pJoopHQLR0ZnZnd3bvzrdx\
+TBKkG0XezM43871nvv2+3Uv5UW2/NNapjQOUCqJFa1QdwCwEuqTLmopvp/\
+wo1K8RgFQ1ql4rIz1VhUIDUhrfEZv7AdJyMAE2DF0PErrYIOYyGQnm+\
+4CUFP2bUgG0sCuvShk5sU5L5hRAVqmyVgmIQEfNA/\
+ksQEAf1LJAbWlBwR5JQYCNLmGjIDMEkiKmCrS0iMF+\
+vH4ewzQMgExWwTcNQo2FA2hBXFKBCBRMkgadOKv7MRkMSRDV9EI56ZzMrjVkETIUQnWdOV1n0qg3OT\
+LWPaOnOw7lUUzCYA/\
+UVL1bTTKZiHU93Z2ynpGySFxoCgZP2oD5BJAQT0jpAoqUB0nUbKDoyakJIvhS0qkegDlgsVHfkc0CC\
+UpqAqDq9Zpqj9R1SgiIel4BKZ+L97ruUUnJSVgyqK4jp2sZrOmENRpaB/\
+RhLSnWxyHAstXlUW7RDkVOqxmg6kygKBQDxGDY1QZdk5HSQJS3ASyxGlNi1iwH3uCAnAEI+\
+mhrjFp38MTGWA5CvPAVmGAgNvVg+cakbB+Q08OEhGBcG8M4/\
+WhJxxDSlJwOeHjUtE5Kq3JKTlBTjn2KdVpLRWJorqEXStlhOYFId5EpJD+qG8D3RlSAEPz2kt/\
+07tuWjFjmg32lR0qAHg1mrHt40f7ezpimaBBOPU3aoQhcQdtMBH6JtuciRAobslJC1vMmp0fIss09s\
+qKAJCZ7FHAetttXFQz4qnw+v/2vxL2Q+55xu4nc9gcCuOf66+paKJdWhaooYZNyFP+dqfr1RVGuv/\
+m+G68n1+zt0yrtw3yGwgmLxshV3dqK+P7eZ6/aEnWvZyF58d3L+Ek7lEiCX9TnGxzmkbK+\
+RZQ530LCr4eR1Bic+Cjm7Tt/mTco2z1Kri/4diGDkzDl5JMd29UoB3/W03ePGES9lnCMH/igg5/\
+vWB8jPauKIrmFsr+9778mUNwA6uveRq4f33AO7S/7sUj7oe/sG+b7Pt8jwzy878VMu2O95/\
+etpkT87xAyOV9Fruvv2OPoW0Sa/asCk5v5/vhvWzfz6403/H4Tj+/uN76/iadnouXKpeQ68uQfaX+\
+wFwoU79AbtB8+wyfwQmH9x+49k+9P3Blrl/n5TD5sfSY/hj++//4xnr4Z4dExnn7WZ/\
+yxPuOf9Zl82HpMfg59efbzxx4lbV8E/uRO0t6MwI8/Iu2ARz/\
+f7Qv4qx2Ou3tpwB80rHaimxL2w5cMwT727jVUYB+fn+\
+T70e0PbIxy8BOPf3Jt1D3fM0NLaNsTgWfT9q8IvON20vYfP0MTr+\
+xN8QyxPiN4pvqmLTxDrM8Ydsz3zNBHR0l7JwJ//jPSDkbgtbQdOn6GJl+\
+5mJra5NH76L4w09NGCTxyzXvUlNn4xB/6ANWIeHpfsXE63zNDp9P2VgT+9UXSXp9Hk5s4FB0kBE3/\
+Y1+OMvTw1VRTv5q4FfH9hfc/RXdnBv/Q11dvjbrne2Zo572kYUv7Im1/m0+TO/\
+xqlmeI9RnBk8IDMs8Q6zOGHfM9M7SZtn9H4BOPk3YgAm+\
+gbR5Mbib1KdVA9MlnxynBi26jBLYMbaVHGhs/r/\
+FMnTLw8FuDxcbpfM8MrabtTY6hlbS9Pg8aurONnrEzW43jIz6009DM76JJvu/b+R+\
+6KTD46fpLr4u653tmyNgLXolAkbb9EdOrXj5+\
+hqJjvaM8Q6zPCH7ktU7IM8T6jGHHfM8MbaINb26X0YYDz3t+\
+Stp8nEP3H6EaiJ72AN3ldlz8PvUl3xa/\
+EZKZ49MPbqG73MzivSPFxun8E2pyAZshwk014WZ61BDvxF1HKXUrbrmJin/X+/1alBvfEduzNeqGP+\
+nUW9YfvomeHPFdmymV8eSfRd4bfDf29UTd8Cc0qClKfdOtRmTyzbsotdPf+5NxoN/WRbl56LvP0/\
+70PS8YkQwPf9Kpn5H2XU2oCR9eZljKM7+gVK7o3UstKbznYdofR89QnTjgT+\
+jpXoz6yRvaqSyn9x4g3jv55qo22n9k44+M/bbpyvXkuvefT9GTzwF/8qn/AFAqB/XbyfXu5ro07Wc/\
+PEj3ojveO49e+7JTBvU8fKrGlfdo6EBZkND7STYg5rduV3eM42d9K+\
+tkJlY6pcRIGmo5NelKrAR7oJRxZ1vq6c0BOTGC3HmYUzEPUoS4QopiSy24ppiUGAYsXeKWVaOoQzm7\
+QV2jZnM6GwzZmbWArQfTmlg+0R5h+cRaYT0W5KVhQfyCmTBbo4NMh6pqRj5SDBz+waQNz/\
+2vSCrPRCh+WehQdU2lf7TR5ZfnJFWXFdAP0hBrHq8qYHKtzJBYL5w3euGyFctWnC9wCsYi78G6U/\
+Iipn5I0zVrrJaMmUI0NVZFcqqEXkmJNcaasKDVYQBlHSStWUvEYW2MSE5Nx4YlKCVIFs0t2jqqaeJj\
+JDGFFZBfC0aBYp7y+\
+yKz64ANLjQFU5C9YxBiDcaRy6jIEp15xX9BygarxnorhKklqUZF5t2BGFEXUIAO3LQsMGkhauUNrzw\
+phbnKEvQUSWoyrCLZitQ04k1kVqymN/\
+4lIlaTJaz8NiGfM9sqQXAPebF1ktv1bOsYPi4lsEydqDDU9ic84VsgdAGUwGZCFveO9lyBOUzY9phw\
+ysxToxLUnAjDK6LoU9/yvGKNVR07Mi7pX+\
+1E4227aVifywwBuE6CIwVjzXE8V49DkJCJAcQCtpbp0nlVl8Yp7oKpn7EZBAa07KlrAAvZ7hjXkGxW\
+dgwF+/kghJZ1Tko5KqZoaM7lKHfYVKlHVepRlXpUpR5VqUdV6lGVelSlHjU3DVXqUZV6VKUeValHVe\
+pRlXpUpR5VqUdV6lGVetT81aMaKvWoSj3qFKsKVOpRn3E9qiw1jcK3QH5Mg0k0F293fYkSND3df4EY\
+EC4QxKDQI2M5LRHWYrOUYDgLtTTeoTNY9xiXzRC0twBxESb1SlkfFkEWuyPJjqMg9lGoOxn0eeJukd\
+ClJXLE16RjkrabMbaFXScM63oWXbp8OTSrC2jZmKakMFMJRcsllyW0zHLDPPpBllQ+\
+NJi3YZeX2wDFLZ/p+mJjHzZ1iDeJkY39a+\
+ci0CXCBiinZbyhYitUAN5xvFtwk3DhxeGOLAyvXLGyTZibOtdihSA9vDGbxP85kahrhY0b13R5x/\
+hVQbpk9dCq9ovaWtsTl6xqXdW2ErRekmpf1Qrak1Jq6KLVbamhuZGyWKBxQDI8io+\
+qY9pDagR6oM4Rqyn7OWJdVRKr7XU1+BAnEZxRgin8hM6kCglWbS+\
+P8FoxRcYePsgKgEPaeEsLWjorTFJG2ZaWlFne+\
+8rs69GSIIauRSGjPIjn1a3TcghoWBiY0hClmgYV5HhyRz4YopZFbWyPdAYSxvH2DonT6zsg1MaGgZS\
+0T0GTb3juzQcv33XOSxEjbDaXcdTP8Py4puTTRpW02klH7FMT0YxVSov5Yr7C4akiM3gaudpcG23Pk\
+LtBSjmhqBNskwGkjxXu16Csk9ycuT/iGnlnapYRI+D6+9SxYrPWnHKvGZllxMRmh3dFn1Hs6D3WbN+\
+MKxp+xFHTjsjKEKmtPSzeFG1vRXDoG6ShrxgyNjexoUuWFC1tFI8dkaio4I0dP20okqx6jFGfs5nwF\
+EPHGux7LFqzVGcNNfeTJzM81i8l5RziXo4wnsQM2otbuhUyU8h1EsSnCioQVsBY0zTVqjn6WuFD8ss\
+s3/12BF5H2+GK81Wcbx6cj7e1s2h7MgLv20naqxF49EPS3j6J3ujRF+\
+bqnotjWiZL6Ogez5pRJztlPZ7Ixd2a/1y/WGhgU0ZxnTMrrlFqBRTwG7MCQjOkWSfh5/\
+rxVKOLKKfRHmFu6vO5Rnw+PuvmnEt3lZsPRgrc33Z+\
+BlICrw0xVXLVUnNtytx4i3DjxjtVHu9UKX6nyvNbOJeRWl7O5fG6N7gi3JSEiJTnprwFlOamvAWU5q\
+a8BRTlpn4DjmQVKc+7UhA1dKhyRjJ/S8LOm5bzLnYQxPyxRi7Du9h+\
+S65bAeShHBW8FLegC6SknKJ35aCRJbWnF2ZJ6auE1c4zuAqd0Qu0DMD+\
+mhjAuFBKgxnrNz1OYvDtVneBQiwTKTDrIyWdhVutfIhQS5kzCG3mzu0iHyvMW6AwB5zHGS440/\
+txCR7bHl/Wtk9EOGKd6DEcAGD0cSlJznUbm+Od1dMch6FRayh829R+\
+EdWVdC1RVrBCogYaEmH0r088WDYuCq3RJYV/NbvEUwnvA/MUByHXj/\
+Jg0GWz6jJHQz0Ggi3SS15BbPGS1zmWkMdr9qGIJt1KXmjunqUhZnlT2dPryKHLcyDHlU9qBjRN0eWs\
++LVeoIf1YRBWHFmisJbCd2UUZjnKgje38Qo0qvMmq0ZRl9SkBJNmEdT58vYaVdaxfcrbqEPjDWaWaN\
+SDrrH0mkypmOfH/KsVayGnKHNy6ZK7Q5HI3XjQNO7TParwPv+QUMX5Kj5lbaDC1/\
+r9KCQmJAUkC326WDWsSBKw8s1M5ZuZE2QGn+dvZrj42/\
+U5SpHwg1tebDQ9jnxIc0w7jejfQsI257HaEWoVq8nbAeK5ZapNGI7UTLydmK1iI8NDmBNDRpWrVay5\
+wjhJxCCtXbTiEMQun4pnz1oUbRUX22WytZrx4gVmKUCqX+\
+2s1DY2NlZYZNOGrrfranQDXy5l5eWYBtt+jF/ak4aUAvup7U7KRQcWG3NIgdPcvZHxEdT/AdpIkwA=\
 "}, "ClickToCopyTemplate"]]}}, Alignment -> Left, 
              ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], FontColor -> 
             GrayLevel[0.5], FontSize -> 12]}}, 
@@ -10389,12 +10633,7 @@ Uj1q4MV3MbHx3NLbVrseru6RjfwFiktt6wkFNQatPXKNJiqi5BJ5o8C9hRdNLm6Pdm6FrQ3r42tize\
      FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> False]], 
    "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
-TaggingRules->{
- "ResourceType" -> "Paclet", "ResourceCreateNotebook" -> True, 
-  "TemplateVersion" -> "2022.09.16", "CreationTimestamp" -> 
-  3.890816733757123`16.342615764195912*^9, "UpdatedTimestamp" -> 
-  3.890816733757168`16.34261576419592*^9, "CompatibilityTest" -> 
-  HoldComplete[
+TaggingRules->{"CompatibilityTest" -> HoldComplete[
     BinaryDeserialize[
      BaseDecode[
      "OEM6eJzVWFtv2zYUri+\
@@ -10423,46 +10662,42 @@ At3gmWuazMuUlU0PcHhSjVBH01nHkK/udCJLwEDmgAxMWAVNPt14WYyWmXlweJsYWF/JOZnK/\
 sS3qvjJ5fCOoLU/EXy0ehgqx/CmuL6Pz9Qh6zwr64bP8nSn6hboEAP362X81KZ2fp4FoF/\
 7oQ5ikkezHpKfcsLNS/K8RfTplXxS0rxX8v54//VoAvRfILkt2/\
 Fu6DuJJG2H9mK2QZ3X1Y8rjKVdsLU11Qbnfn/Mae/TiO1RZHs2bny+6Vwq5Sfi8TnHKi+1+K4NOh"]\
-]], "DefinitionNotebookFramework" -> "DefinitionNotebookClient", 
+]], "CreationTimestamp" -> 3.890816733757123`16.342615764195912*^9, 
+  "DefinitionNotebookFramework" -> "DefinitionNotebookClient", 
+  "ResourceCreateNotebook" -> True, "ResourceType" -> "Paclet", 
   "RuntimeConfiguration" -> {
    "Contexts" -> {"PacletResource`", "PacletResource`DefinitionNotebook`"}, 
     "DefaultContentMethod" -> "Tagged", "HintPods" -> True, "LoadingMethod" -> 
     "Paclet", "PacletName" -> "PacletResource", "SourceID" -> 
-    "92ce7a395baccd06b35bc67811577346991d7e35"}, "ToolsOpen" -> True, 
-  "StatusMessage" -> "", "SubmissionReviewData" -> {"Review" -> False}, 
-  "AutoUpdate" -> True, "TryRealOnly" -> False, 
-  "Openers" -> {
-   "ExampleSection" -> {
-     "1" -> Closed, "2" -> Closed, "3" -> Closed, "4" -> Closed, "5" -> 
-      Closed, "6" -> Closed}, 
-    "ExampleSubsection" -> {
-     "0" -> Closed, "1" -> Closed, "2" -> Closed, "3" -> Closed, "4" -> 
-      Closed, "5" -> Closed, "6" -> Closed, "7" -> Closed, "8" -> Closed, "9" -> 
-      Closed, "10" -> Closed}}, "Paclet" -> "None", 
-  "PacletBuildData" -> {
-   "LastBuiltArchive" -> 
+    "92ce7a395baccd06b35bc67811577346991d7e35"}, 
+  "SubmissionReviewData" -> {"Review" -> False}, "ToolsOpen" -> False, 
+  "UpdatedTimestamp" -> 3.893301597540232`16.34289303713037*^9, 
+  "TemplateVersion" -> "2022.09.16", "StatusMessage" -> "", 
+  "PacletBuildData" -> {"FileHashes" -> ByteArray[CompressedData["
+1:eJwBMgPN/CFib1JiAQAAACUDAAA4Qzp4nKXVW0gUURgHcEqzLLvYElFrRIWW
+l7MbpklZXjZ3JV0v7XHFbiyzu9/sHpqdsTmz7mahaRDdn3qILmSlqPlSQVBP
+ikmEYhfRCCsRoSu9RERFdFmzmm1bx7GeBs7M+f0P53znm9zFCKfmCQ6vB3iJ
+kYjA6428iyPUrc/3EidQ/RYvw0uEAxFcIlAa+ELH23OnIhyFBa/oAHNU14qU
+2lYxAEWVMaILJHNLj+Fm6bUME8LLw9ObeSf49bbVOgdLgygaWSzwIDvx2Zm6
++SWnbAgnKDkUXKOvqG2NgtX8yF7xsKCDIrxKjaVzAa+gxRYN1zX6X6xDeH14
+zQJsYMd4B5QyrsAm4j0eu8BRfbHVYsAGhhIasomf8v3905xN6+UItl0zvD+u
+bRHCOZOK+HVeRr4KOKESQoKeXn3iru68ZZGDBrv8Q+VzEnYjbPqvIAu4/i6O
+28+sDf3z+uLkuFePvwz2oRtpCBv/Kc7yuw5NRApJ6+7psEcnXpkppx1Y6NOm
+JvflIGz4z7SQqKaRbWytRlgmR6UPCvfj734N1ERS+CgMjOhwj9VZ+lj1g0KN
+zdBktQuZlzMn4yndpqTpR0rNsy7MRThRpUeJArcwo25vfMGhAIfUcCwBzkl1
+Pk6BfO48funEve48hNPUkGT0WQQS42QkRlkuMmJvb6d1O8I6NfLvjpKqYOoj
+4M1abb1NpekTiQQ6TnDsUjCJtWR5xYi1EOGV45iVwHE/22fGBAc+p00bsfvK
+UNz4JyRjKvve4ezT9SUtC1YgnKyatLkVwO6YAsvWJTunIJwdHizzSoJIGC7c
+j2hNHvgZTyUHod20cOBkw8FvnRvknEbLx7emz8d4hAsmnyNUgegDRnKDKBEP
+UBDJX5EXl958eT56BytHmps/i5uqa4wIp0wUaeWJJAGVQtFZ+G3iuVZNrIwe
+Ze9s3PfhrD3wGysEkQcuTKdCoxwq++H5OCkYzHIT7fXy3qBVyiNx44J/3i1z
+9fvX7wYrEoNanzwyu5RxcCBt5lkhZFZEU4z3+RlaJs+SR2LHZhUxPGEDy1a+
+y/0DNflJpx9EfgdB/DYDa3CLKg==
+      "]], "LastBuiltArchive" -> 
     "/Volumes/Macintosh \
 HD/Users/antonov/WL-QuantileRegression-paclet/build/AntonAntonov__\
-QuantileRegression-1.0.4.paclet", "FileHashes" -> ByteArray[CompressedData["
-1:eJwB+QIG/SFib1JiAQAAAOwCAAA4Qzp4nKWV3UsUURiHUcpQaElE+1Cp1NZM
-z265WrRB6aIrpuvHHjfKBDnuvjM7Ojuzzsy6mwQWiRdB9Q/0BSWkXaR2kxdR
-mAhpWJlFrSV+pGFId4UaRiuWY+s6rnk1cGbe5+Gc93feyd6BcHoOb3U5gJOI
-xPCcNpejWUa0a/NcjA1EbamLcBLDggC0AKLo+0LDVWWHIhyGeZdghcKw7sS0
-hhZhl2+ljAg0SIX3+gydJR1HjAgnBEbnczbwaCsPaqyUuAwlbiriOZA5vf2S
-dyapUY+wWokjAr3wSqzUKbA+f6tPS1JFqBDeHwxLQwOnQIs0jVy86/lyFGF9
-YJoZKN+JcVYoIbTvEPE5RxXPitoii9mADURkRL9DnM3zDG62NetlBfUkauRC
-3P2dCGetS/G3X7lcHbC8E/xEn9o/2uu7npllkbfbM3xKpa5F2LghkRnoleHo
-mbDcHtw2ECfrpobmvQPoUQbCuf+lMy/l0MhIfrbevqdV4SltEbLt0nZ3bHrq
-QBbChg3a/FTNY+VUQxS/V1ZlevlX+/p/+TJxILAKAxGs9sWcZS6mHxQy9tP4
-42Z8UzS7Hp7SbTp0691M9PT5YwinBMkTGSXc6POz703lFMIoGBzFAGsTNW5W
-ATlpu3Ln6sveHIQzgkEyC08TSMRGJKJMth6vSBn7OuFEWBMMeWmipCswqa4J
-S3Q1VREk0y0wEmhY3lqjwGQsxQmnxywFCCevwnQCy/4Zn4fXaLjOPTyu3zK/
-B+HUNWFLO6YUgEPTMQ8TW1+bVm/5SuAag5TwneHhHTeqET4RGFnmkniBIWyg
-H5EuBzzE4WTBf5q6e8ZrZ9UfkmVPcdPlqDMh8zTCJ9fv4etAcAOR7CBIjANE
-EJgVyrL4a8mtMVPLlHOa9rmW7y90CMcVgMABG2io/JPawtGQRlXs49BoGSKv
-bC0hVhakfI7i/apKW0eyd7/xELlKXolcrDIRjqFAlJRvifr627bJB9M1vwFg
-av9IUEZsOQ==
-      "]]}},
+QuantileRegression-1.0.5.paclet"}, "TryRealOnly" -> False, "AutoUpdate" -> 
+  True},
 CreateCellID->True,
 DynamicEvaluationTimeout->60,
 FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
@@ -10787,7 +11022,6 @@ VX/aMEEQzrerjFhhelYAzofFB3r8AgApYdcE
                     15.75, 17.25}, {15.75, 5.25}, {6.75, 5.25}, {6.75, 
                     17.25}, {8.25, 17.25}, {8.25, 18.}}, {{9.75, 17.25}, {
                     12.75, 17.25}, {12.75, 16.5}, {9.75, 16.5}}}], 
-                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{8.25, 
@@ -10843,6 +11077,7 @@ VX/aMEEQzrerjFhhelYAzofFB3r8AgApYdcE
                     15.75, 17.25}, {15.75, 5.25}, {6.75, 5.25}, {6.75, 
                     17.25}, {8.25, 17.25}, {8.25, 18.}}, {{9.75, 17.25}, {
                     12.75, 17.25}, {12.75, 16.5}, {9.75, 16.5}}}], 
+                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{8.25, 
@@ -12667,6 +12902,7 @@ h/Fh4QMzDxZ+6PEFAOibv7E=
                 FaceForm[{
                   RGBColor[0.6902, 0.58824, 0.81176], 
                   Opacity[1.]}], 
+                
                 FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{120.87,
                   350.62}, {120.8, 281.08}, {60.68, 315.87}, {120.87, 
                  350.62}}}]}, {
@@ -13171,17 +13407,16 @@ dUs5PEh+6Sx+hd/B9HrmkqVGkvD4AQCmgKFd
          StyleBox[{
            
            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 
-             1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
-             0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{
-             0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
-             0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
-             0}}}, {{{5., 12.}, {5., 11.}, {2., 11.}, {2., 12.}}, {{2., 
-             10.}, {2., 9.}, {5., 9.}, {5., 10.}}, {{2., 14.}, {2., 13.}, {5.,
-              13.}, {5., 14.}}, {{2., 8.}, {2., 7.}, {5., 7.}, {5., 8.}}, {{
-             2., 6.}, {2., 5.}, {5., 5.}, {5., 6.}}, {{5., 18.}, {2., 18.}, {
-             2., 17.}, {5., 17.}, {5., 18.}}, {{5., 4.}, {2., 4.}, {2., 3.}, {
-             5., 3.}, {5., 4.}}, {{2., 16.}, {2., 15.}, {5., 15.}, {5., 
-             16.}}}]}, 
+             1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0},
+              {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 
+             2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {
+             0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{5., 
+             12.}, {5., 11.}, {2., 11.}, {2., 12.}}, {{2., 10.}, {2., 9.}, {
+             5., 9.}, {5., 10.}}, {{2., 14.}, {2., 13.}, {5., 13.}, {5., 
+             14.}}, {{2., 8.}, {2., 7.}, {5., 7.}, {5., 8.}}, {{2., 6.}, {2., 
+             5.}, {5., 5.}, {5., 6.}}, {{5., 18.}, {2., 18.}, {2., 17.}, {5., 
+             17.}, {5., 18.}}, {{5., 4.}, {2., 4.}, {2., 3.}, {5., 3.}, {5., 
+             4.}}, {{2., 16.}, {2., 15.}, {5., 15.}, {5., 16.}}}]}, 
           FaceForm[
            RGBColor[0.86667, 0.066667, 0.]]], 
          StyleBox[{
@@ -16019,7 +16254,8 @@ FpG1n6WfSeLb27c2Volz+/dhBxtxrIPL2Ar/oQtZg16JsQ879Gyxx3vEuygx
              0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 255}, {255, 255, 
              255, 255}}}], "Byte", ColorSpace -> "RGB", 
             ImageResolution -> {72, 72}, Interleaving -> True], "Pressed" -> 
-          Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 0, 0, 
+          Image[
+           RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 0, 0, 
              255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 0, 0}, {0, 
              0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 255}, {255, 255, 
              255, 255}}}], "Byte", ColorSpace -> "RGB", 
@@ -17246,9 +17482,9 @@ RefreshNotebookPacletFiles[RSNB`nbo, RSNB`cell]]]],
                     DefinitionNotebookClient`ButtonCodeID[
                     341138948110023950]], 
                     DefinitionNotebookClient`$ButtonsDisabled = False; Null]; 
-                    Null]]]], CurrentValue[
-                    RSNB`cell, {TaggingRules, "Refreshing"}] = False]], 
-                    Appearance -> None, Enabled -> Dynamic[
+                    Null]]]], 
+                    CurrentValue[RSNB`cell, {TaggingRules, "Refreshing"}] = 
+                    False]], Appearance -> None, Enabled -> Dynamic[
                     Not[
                     CurrentValue[
                     EvaluationCell[], {TaggingRules, "Refreshing"}]]], 
@@ -18102,6 +18338,7 @@ GRPf1sw3cDj8VSOm/5G9w5vAHXKt3IZQ/0HDoQHBFwFFwBcEHxR9zQlGcP3o
              1, 0}, {0, 1, 0}}}, {{{17.125, 14.139}, {17.125, 19.86}, {16.875,
               19.86}, {16.875, 14.139}, {17., 13.92}, {21.952, 11.843}, {
              22.049, 12.074}}}], 
+            
             FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
              1, 0}, {0, 1, 0}}}, {{{7.125, 14.139}, {7.125, 19.86}, {6.875, 
              19.86}, {6.875, 14.139}, {1.952, 12.074}, {2.048, 11.843}, {7., 

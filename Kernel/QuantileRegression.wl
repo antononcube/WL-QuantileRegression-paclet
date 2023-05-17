@@ -49,15 +49,21 @@ QuantileRegressionFit::"nargs" = "Four arguments are expected.";
 
 Clear[QuantileRegressionFit];
 
+IndexedVariableQ[x_] := MatchQ[x, _Symbol[_Integer]];
+
+VariableQ[x_] := TrueQ[Head[x] === Symbol] || IndexedVariableQ[x];
+
+VariablesSpecQ[spec_] := MatchQ[spec, (_?VariableQ | { _?VariableQ ..})];
+
 Options[QuantileRegressionFit] = {Method -> LinearProgramming};
 
-QuantileRegressionFit[data_?VectorQ, funcs_, varSpec : (_?AtomQ | {_?AtomQ..}), probs_, opts : OptionsPattern[]] :=
+QuantileRegressionFit[data_?VectorQ, funcs_, varSpec_?VariablesSpecQ, probs_, opts : OptionsPattern[]] :=
     QuantileRegressionFit[ Transpose[{ Range[Length[data]], data}], funcs, varSpec, probs, opts];
 
 QuantileRegressionFit[data : (_TimeSeries | _TemporalData), funcs_, varSpec : (_?AtomQ | {_?AtomQ..}), probs_, opts : OptionsPattern[]] :=
     QuantileRegressionFit[ QuantityMagnitude[data["Path"]], funcs, varSpec, probs, opts];
 
-QuantileRegressionFit[data_, funcs_, varSpec : (_?AtomQ | {_?AtomQ..}), probsArg_, opts : OptionsPattern[]] :=
+QuantileRegressionFit[data_, funcs_, varSpec_?VariablesSpecQ, probsArg_, opts : OptionsPattern[]] :=
     Block[{mOptVal, vars, probs = Flatten @ List @ probsArg},
 
       vars = If[AtomQ[varSpec], {varSpec}, varSpec];
@@ -71,7 +77,7 @@ QuantileRegressionFit[data_, funcs_, varSpec : (_?AtomQ | {_?AtomQ..}), probsArg
         Length[funcs] < 1,
         Message[QuantileRegressionFit::"fvlen"]; Return[{}],
 
-        Not @ Apply[And, TrueQ[Head[#] === Symbol]& /@ vars],
+        Not @ Apply[And, VariableQ /@ vars],
         Message[QuantileRegressionFit::"nvar"]; Return[{}],
 
         ! VectorQ[probs, NumericQ[#] && 0 <= # <= 1 &],
@@ -112,7 +118,7 @@ QuantileRegressionFit[___] :=
 
 Clear[LPQuantileRegressionFit];
 
-LPQuantileRegressionFit[dataArg_?MatrixQ, funcs_, vars : {_Symbol..}, probs : {_?NumberQ ..}, opts : OptionsPattern[]] :=
+LPQuantileRegressionFit[dataArg_?MatrixQ, funcs_, vars : {_?VariableQ..}, probs : {_?NumberQ ..}, opts : OptionsPattern[]] :=
     Block[{data = dataArg, yMedian = 0, yFactor = 1, yShift = 0, mat, n = Dimensions[dataArg][[1]], pfuncs, c, t, qrSolutions},
       If[Min[data[[All, -1]]] < 0,
         yMedian = Median[data[[All, -1]]];
@@ -308,6 +314,17 @@ QuantileRegression[data_, knots_, probsArg_, opts : OptionsPattern[]] :=
         !( IntegerQ[intOrdOptVal] && intOrdOptVal >= 0 ),
         Message[QuantileRegression::"norder"]; Return[{}],
 
+        TrueQ[mOptVal === LinearProgramming] && Dimensions[data][[2]] > 2,
+        LPNURBSQuantileRegression[data, knots, probs,
+          FilterRules[{opts}, Join[Options[NURBSBasis], Options[QuantileRegressionFit]]]
+        ],
+
+        ListQ[mOptVal] && TrueQ[mOptVal[[1]] === LinearProgramming] && Dimensions[data][[2]] > 2,
+        LPNURBSQuantileRegression[data, knots, probs,
+          Rest[mOptVal],
+          FilterRules[{opts}, Join[Options[NURBSBasis], Options[QuantileRegressionFit]]]
+        ],
+
         TrueQ[mOptVal === LinearProgramming],
         LPSplineQuantileRegression[data, knots, intOrdOptVal, probs],
 
@@ -433,6 +450,18 @@ MinimizeSplineQuantileRegression[methodFunc_, dataArg_?MatrixQ, knotsArg : {_?Nu
       Table[ With[{f = pfuncs[[All, 1]] . (bvars /. qrSolutions[[i, 2]])}, f &], {i, 1, Length[probs]}]
     ] /; order > 0;
 
+
+Clear[LPNURBSQuantileRegression];
+
+LPNURBSQuantileRegression[data_?MatrixQ, nPieces : (_Integer | {_Integer..}), probs : {_?NumberQ ..}, opts : OptionsPattern[]] :=
+    Module[{basis, vars, funcs, x, opts2},
+      basis = NURBSBasis[data[[All, 1 ;; -2]], nPieces, FilterRules[{opts}, Options[NURBSBasis]]];
+      vars = Array[x, Dimensions[data][[2]] - 1];
+      opts2 = Sequence @@ FilterRules[{opts}, Options[QuantileRegressionFit]];
+      funcs = QuantileRegressionFit[data, Through[Values[basis][Sequence @@ vars]], vars, probs, opts2];
+      funcs = ReplaceAll[funcs, x[i_Integer] :> Slot[i]];
+      funcs = With[{f=#}, f&] & /@ funcs
+    ] /; Dimensions[data][[2]] > 2;
 
 (**************************************************************)
 (* QuantileEnvelope                                           *)

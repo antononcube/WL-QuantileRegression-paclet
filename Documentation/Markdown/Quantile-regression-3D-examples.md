@@ -21,7 +21,7 @@ The QR examples demonstrate using:
 
 **Remark:** A version of this notebook is a technical note in the paclet ["AntonAntonov/QuantileRegression"](https://resources.wolframcloud.com/PacletRepository/resources/AntonAntonov/QuantileRegression/), [AAp1].
 
-![0jsvdcl9qkyre](../Diagrams/Quantile-regression-3D-examples/0jsvdcl9qkyre.png)
+![0jsvdcl9qkyre](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0jsvdcl9qkyre.png)
 
 ------ 
 
@@ -56,7 +56,7 @@ QRPlot3D[data, funcs, RegionFunction -> Function[{x, y}, RegionMember[reg, {x, y
 
 ```
 
-![0v91aa1kds5qd](../Diagrams/Quantile-regression-3D-examples/0v91aa1kds5qd.png)
+![0v91aa1kds5qd](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0v91aa1kds5qd.png)
 
 ------ 
 
@@ -79,7 +79,7 @@ Dimensions[data]
 ListPointPlot3D[data, PlotRange -> All, PlotLabel -> "Noisy wave data", BoxRatios -> {1, 1, 2/3}, ImageSize -> Medium]
 ```
 
-![02j0iws4gln7f](../Diagrams/Quantile-regression-3D-examples/02j0iws4gln7f.png)
+![02j0iws4gln7f](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/02j0iws4gln7f.png)
 
 Data summary:
 
@@ -87,7 +87,7 @@ Data summary:
 ResourceFunction["RecordsSummary"][data]
 ```
 
-![0a1smh8l7wt2l](../Diagrams/Quantile-regression-3D-examples/0a1smh8l7wt2l.png)
+![0a1smh8l7wt2l](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0a1smh8l7wt2l.png)
 
 Compute Quantile regression for probability 0.5 using a grid of `7*4` NURBS basis functions:
 
@@ -105,7 +105,7 @@ Plot the obtained function and data:
 QRPlot3D[data, <|0.5 -> First[funcs]|>]
 ```
 
-![1f8t1q0hl5h41](../Diagrams/Quantile-regression-3D-examples/1f8t1q0hl5h41.png)
+![1f8t1q0hl5h41](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/1f8t1q0hl5h41.png)
 
 Quantile regression for probabilities 0.1 and 0.9:
 
@@ -124,7 +124,7 @@ AbsoluteTiming[
 QRPlot3D[data, funcs]
 ```
 
-![0cv8341ro0uh9](../Diagrams/Quantile-regression-3D-examples/0cv8341ro0uh9.png)
+![0cv8341ro0uh9](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0cv8341ro0uh9.png)
 
 Count the number of points under each surface:
 
@@ -167,7 +167,7 @@ Dimensions[data]
 ListPointPlot3D[data, PlotRange -> All, PlotLabel -> "Square sombrero data", BoxRatios -> {1, 1, 1/1.5}, ImageSize -> Medium]
 ```
 
-![05prs9945g8ut](../Diagrams/Quantile-regression-3D-examples/05prs9945g8ut.png)
+![05prs9945g8ut](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/05prs9945g8ut.png)
 
 Data summary:
 
@@ -175,7 +175,7 @@ Data summary:
 ResourceFunction["RecordsSummary"][data]
 ```
 
-![01uldvdrnv1ms](../Diagrams/Quantile-regression-3D-examples/01uldvdrnv1ms.png)
+![01uldvdrnv1ms](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/01uldvdrnv1ms.png)
 
 NURBS basis of `12*12` functions:
 
@@ -195,7 +195,7 @@ AbsoluteTiming[
  ]
 ```
 
-![1nfo6woxheuyi](../Diagrams/Quantile-regression-3D-examples/1nfo6woxheuyi.png)
+![1nfo6woxheuyi](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/1nfo6woxheuyi.png)
 
 ```
 (*{6.53867, Null}*)
@@ -207,7 +207,7 @@ Plot functions and data:
 QRPlot3D[data, ToPureFunctions[funcs, {x, y}], ColorFunction -> (Lighter[Blue] &), PlotLegends -> SwatchLegend[{Lighter[Blue]}, Keys[funcs]], Exclusions -> None]
 ```
 
-![0r0hf9eso48k0](../Diagrams/Quantile-regression-3D-examples/0r0hf9eso48k0.png)
+![0r0hf9eso48k0](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0r0hf9eso48k0.png)
 
 ------ 
 
@@ -217,7 +217,7 @@ In this section we demonstrate the use of custom made basis functions.
 
 Define a pyramid basis function:
 
-![07fp09l6v901b](../Diagrams/Quantile-regression-3D-examples/07fp09l6v901b.png)
+![07fp09l6v901b](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/07fp09l6v901b.png)
 
 Here is a plot of a basis function:
 
@@ -225,7 +225,7 @@ Here is a plot of a basis function:
 Plot3D[PyramidBasisFunc[{0, 0}, {x, y}], {x, -1.5, 1.5}, {y, -1.5, 1.5}, PlotRange -> All, ImageSize -> Medium]
 ```
 
-![0u466o4h1w930](../Diagrams/Quantile-regression-3D-examples/0u466o4h1w930.png)
+![0u466o4h1w930](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0u466o4h1w930.png)
 
 Make a basis for the sombrero data:
 
@@ -255,7 +255,7 @@ Plot data and regression quantiles together:
 QRPlot3D[data, ToPureFunctions[funcs], ColorFunction -> (Lighter[Blue] &), Mesh -> True, PlotLegends -> SwatchLegend[{Lighter[Blue]}, Keys[funcs]], Exclusions -> None]
 ```
 
-![0d53u1xiop4c9](../Diagrams/Quantile-regression-3D-examples/0d53u1xiop4c9.png)
+![0d53u1xiop4c9](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0d53u1xiop4c9.png)
 
 ------ 
 
@@ -284,7 +284,7 @@ data2 = Select[data, #[[1]] <= 0.5*#[[2]] &];
 ListPointPlot3D[data2, PlotLabel -> "Partial sombrero data", BoxRatios -> {1, 1, 2/3}, ImageSize -> Medium]
 ```
 
-![1tabu951donl8](../Diagrams/Quantile-regression-3D-examples/1tabu951donl8.png)
+![1tabu951donl8](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/1tabu951donl8.png)
 
 Regression quantiles:
 
@@ -303,7 +303,7 @@ Plot data and regression quantiles together:
 QRPlot3D[data2, funcs]
 ```
 
-![15k2lwvoyo9jx](../Diagrams/Quantile-regression-3D-examples/15k2lwvoyo9jx.png)
+![15k2lwvoyo9jx](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/15k2lwvoyo9jx.png)
 
 Create a region object for the convex hull of the data points:
 
@@ -311,7 +311,7 @@ Create a region object for the convex hull of the data points:
 reg = ConvexHullRegion[data2[[All, 1 ;; 2]]]
 ```
 
-![0e0do4t5knu03](../Diagrams/Quantile-regression-3D-examples/0e0do4t5knu03.png)
+![0e0do4t5knu03](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0e0do4t5knu03.png)
 
 The plot data and regression quantiles over the region above:
 
@@ -319,7 +319,7 @@ The plot data and regression quantiles over the region above:
 QRPlot3D[data2, funcs, RegionFunction -> Function[{x, y}, RegionMember[reg, {x, y}]]]
 ```
 
-![0eqieqqzjjm8y](../Diagrams/Quantile-regression-3D-examples/0eqieqqzjjm8y.png)
+![0eqieqqzjjm8y](https://raw.githubusercontent.com/antononcube/WL-QuantileRegression-paclet/main/Documentation/Diagrams/Quantile-regression-3D-examples/0eqieqqzjjm8y.png)
 
 Count the number of points under each surface:
 
